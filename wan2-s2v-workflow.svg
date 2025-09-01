@@ -1,0 +1,181 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1000" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="500" y="30" font-family="Arial" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Wan2.2-S2V: 写真と音声から映画級アバター生成
+  </text>
+  
+  <!-- 入力部分 -->
+  <g transform="translate(50,70)">
+    <!-- 写真入力 -->
+    <rect x="0" y="0" width="180" height="120" fill="#e8f4fd" stroke="#3498db" stroke-width="2" rx="10"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#3498db">入力: ポートレート写真</text>
+    <rect x="20" y="35" width="140" height="90" fill="#bdc3c7" stroke="#95a5a6" stroke-width="1" rx="5"/>
+    <circle cx="90" cy="65" r="15" fill="#34495e"/>
+    <rect x="65" y="85" width="50" height="30" fill="#34495e" rx="5"/>
+    <text x="90" y="145" font-family="Arial" font-size="11" text-anchor="middle" fill="#7f8c8d">1枚の静止画</text>
+    
+    <!-- 音声入力 -->
+    <rect x="220" y="0" width="180" height="120" fill="#e8f6e8" stroke="#27ae60" stroke-width="2" rx="10"/>
+    <text x="310" y="25" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#27ae60">入力: 音声データ</text>
+    <!-- 音波の表現 -->
+    <path d="M240 60 Q250 40 260 60 T280 60 T300 60 T320 60 T340 60 T360 60 T380 60" stroke="#27ae60" stroke-width="3" fill="none"/>
+    <path d="M240 80 Q250 100 260 80 T280 80 T300 80 T320 80 T340 80 T360 80 T380 80" stroke="#27ae60" stroke-width="3" fill="none"/>
+    <path d="M240 70 Q250 50 260 70 T280 70 T300 70 T320 70 T340 70 T360 70 T380 70" stroke="#27ae60" stroke-width="2" fill="none"/>
+    <text x="310" y="145" font-family="Arial" font-size="11" text-anchor="middle" fill="#7f8c8d">会話・歌声・その他</text>
+  </g>
+  
+  <!-- 処理フロー -->
+  <g transform="translate(50,220)">
+    <rect width="900" height="180" fill="#fef9e7" stroke="#f39c12" stroke-width="2" rx="15"/>
+    <text x="450" y="30" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#e67e22">
+      Wan2.2-S2V Processing Pipeline
+    </text>
+    
+    <!-- ステップ1: 特徴抽出 -->
+    <g transform="translate(30,50)">
+      <rect width="150" height="100" fill="#d5dbdb" stroke="#85929e" stroke-width="1" rx="8"/>
+      <text x="75" y="20" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">特徴抽出</text>
+      <text x="75" y="35" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・顔特徴量解析</text>
+      <text x="75" y="50" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・音声スペクトログラム</text>
+      <text x="75" y="65" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・音韻情報抽出</text>
+      <text x="75" y="80" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・感情分析</text>
+    </g>
+    
+    <!-- ステップ2: 動作生成 -->
+    <g transform="translate(220,50)">
+      <rect width="150" height="100" fill="#fadbd8" stroke="#e74c3c" stroke-width="1" rx="8"/>
+      <text x="75" y="20" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#c0392b">動作生成</text>
+      <text x="75" y="35" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・口元同期</text>
+      <text x="75" y="50" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・表情生成</text>
+      <text x="75" y="65" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・頭部動作</text>
+      <text x="75" y="80" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・全身動作</text>
+    </g>
+    
+    <!-- ステップ3: フレーム処理 -->
+    <g transform="translate(410,50)">
+      <rect width="150" height="100" fill="#d4edda" stroke="#28a745" stroke-width="1" rx="8"/>
+      <text x="75" y="20" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#155724">フレーム処理</text>
+      <text x="75" y="35" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・過去フレーム圧縮</text>
+      <text x="75" y="50" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・潜在表現変換</text>
+      <text x="75" y="65" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・動作の一貫性保持</text>
+      <text x="75" y="80" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・長尺対応</text>
+    </g>
+    
+    <!-- ステップ4: 品質最適化 -->
+    <g transform="translate(600,50)">
+      <rect width="150" height="100" fill="#e2e3f0" stroke="#6f42c1" stroke-width="1" rx="8"/>
+      <text x="75" y="20" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#6f42c1">品質最適化</text>
+      <text x="75" y="35" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・多解像度対応</text>
+      <text x="75" y="50" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・480p/720p</text>
+      <text x="75" y="65" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・ノイズ除去</text>
+      <text x="75" y="80" font-family="Arial" font-size="10" text-anchor="middle" fill="#2c3e50">・品質調整</text>
+    </g>
+    
+    <!-- 矢印 -->
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#e67e22"/>
+      </marker>
+    </defs>
+    
+    <line x1="180" y1="100" x2="210" y2="100" stroke="#e67e22" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="370" y1="100" x2="400" y2="100" stroke="#e67e22" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="560" y1="100" x2="590" y2="100" stroke="#e67e22" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- 出力結果 -->
+  <g transform="translate(50,430)">
+    <text x="450" y="20" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      生成される映像コンテンツ
+    </text>
+    
+    <!-- 出力例1: トーキングヘッド -->
+    <g transform="translate(50,40)">
+      <rect width="200" height="120" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+      <text x="100" y="20" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#856404">トーキングヘッド</text>
+      <rect x="20" y="30" width="160" height="70" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5"/>
+      <circle cx="100" cy="50" r="12" fill="#6c757d"/>
+      <rect x="80" y="65" width="40" height="20" fill="#6c757d" rx="3"/>
+      <text x="100" y="110" font-family="Arial" font-size="10" text-anchor="middle" fill="#6c757d">リップシンク精度</text>
+    </g>
+    
+    <!-- 出力例2: 全身動作 -->
+    <g transform="translate(280,40)">
+      <rect width="200" height="120" fill="#d1ecf1" stroke="#17a2b8" stroke-width="2" rx="10"/>
+      <text x="100" y="20" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#0c5460">全身動作映像</text>
+      <rect x="20" y="30" width="160" height="70" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5"/>
+      <circle cx="100" cy="45" r="8" fill="#6c757d"/>
+      <rect x="85" y="55" width="30" height="35" fill="#6c757d" rx="3"/>
+      <rect x="90" y="90" width="8" height="15" fill="#6c757d"/>
+      <rect x="102" y="90" width="8" height="15" fill="#6c757d"/>
+      <text x="100" y="110" font-family="Arial" font-size="10" text-anchor="middle" fill="#6c757d">歌いながら歩行</text>
+    </g>
+    
+    <!-- 出力例3: 複雑なシーン -->
+    <g transform="translate(510,40)">
+      <rect width="200" height="120" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="10"/>
+      <text x="100" y="20" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#155724">複雑環境対応</text>
+      <rect x="20" y="30" width="160" height="70" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5"/>
+      <circle cx="80" cy="50" r="8" fill="#6c757d"/>
+      <rect x="68" y="60" width="24" height="25" fill="#6c757d" rx="2"/>
+      <rect x="120" y="40" width="40" height="8" fill="#adb5bd" rx="2"/>
+      <text x="140" y="52" font-family="Arial" font-size="8" fill="#6c757d">背景動作</text>
+      <text x="100" y="110" font-family="Arial" font-size="10" text-anchor="middle" fill="#6c757d">環境相互作用</text>
+    </g>
+    
+    <!-- 出力例4: 多解像度 -->
+    <g transform="translate(740,40)">
+      <rect width="160" height="120" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="10"/>
+      <text x="80" y="20" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#721c24">多解像度出力</text>
+      <rect x="15" y="30" width="60" height="40" fill="#e9ecef" stroke="#6c757d" stroke-width="1" rx="3"/>
+      <text x="45" y="52" font-family="Arial" font-size="8" text-anchor="middle" fill="#6c757d">480p</text>
+      <rect x="85" y="30" width="60" height="40" fill="#e9ecef" stroke="#6c757d" stroke-width="1" rx="3"/>
+      <text x="115" y="52" font-family="Arial" font-size="8" text-anchor="middle" fill="#6c757d">720p</text>
+      <text x="80" y="85" font-family="Arial" font-size="10" text-anchor="middle" fill="#6c757d">SNS〜映画制作</text>
+      <text x="80" y="110" font-family="Arial" font-size="10" text-anchor="middle" fill="#6c757d">柔軟対応</text>
+    </g>
+  </g>
+  
+  <!-- 下部の応用分野 -->
+  <g transform="translate(50,580)">
+    <rect width="900" height="80" fill="#e9ecef" stroke="#6c757d" stroke-width="1" rx="10"/>
+    <text x="450" y="25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#495057">
+      応用分野と可能性
+    </text>
+    
+    <g transform="translate(80,35)">
+      <rect x="0" y="0" width="120" height="35" fill="#007bff" rx="5"/>
+      <text x="60" y="22" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="white">SNSコンテンツ</text>
+    </g>
+    
+    <g transform="translate(220,35)">
+      <rect x="0" y="0" width="100" height="35" fill="#28a745" rx="5"/>
+      <text x="50" y="22" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="white">教育・研修</text>
+    </g>
+    
+    <g transform="translate(340,35)">
+      <rect x="0" y="0" width="100" height="35" fill="#ffc107" rx="5"/>
+      <text x="50" y="15" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#212529">広告・</text>
+      <text x="50" y="27" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="#212529">プロモーション</text>
+    </g>
+    
+    <g transform="translate(460,35)">
+      <rect x="0" y="0" width="100" height="35" fill="#6f42c1" rx="5"/>
+      <text x="50" y="22" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="white">映画・ドラマ</text>
+    </g>
+    
+    <g transform="translate(580,35)">
+      <rect x="0" y="0" width="100" height="35" fill="#20c997" rx="5"/>
+      <text x="50" y="22" font-family="Arial" font-size="11" font-weight="bold" text-anchor="middle" fill="white">メタバース</text>
+    </g>
+    
+    <g transform="translate(700,35)">
+      <rect x="0" y="0" width="100" height="35" fill="#fd7e14" rx="5"/>
+      <text x="50" y="15" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">医療・福祉</text>
+      <text x="50" y="27" font-family="Arial" font-size="10" font-weight="bold" text-anchor="middle" fill="white">支援技術</text>
+    </g>
+  </g>
+</svg>
