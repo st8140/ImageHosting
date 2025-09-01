@@ -1,0 +1,131 @@
+<svg viewBox="0 0 900 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="30" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Microsoft AI戦略: MAI-Voice-1 + MAI-1による音声・テキスト統合
+  </text>
+  
+  <!-- AI for Everyone ビジョン -->
+  <rect x="350" y="50" width="200" height="40" fill="#3498db" rx="20"/>
+  <text x="450" y="75" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    AI for Everyone
+  </text>
+  
+  <!-- 左側: MAI-Voice-1 -->
+  <g transform="translate(50,120)">
+    <rect width="350" height="180" fill="#e8f5e8" stroke="#27ae60" stroke-width="2" rx="10"/>
+    <text x="175" y="25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#27ae60">
+      MAI-Voice-1（音声生成モデル）
+    </text>
+    
+    <!-- 特徴 -->
+    <circle cx="30" cy="55" r="8" fill="#27ae60"/>
+    <text x="50" y="60" font-family="Arial" font-size="12" fill="#2c3e50">超高速: 1分の音声を1秒未満で生成</text>
+    
+    <circle cx="30" cy="80" r="8" fill="#27ae60"/>
+    <text x="50" y="85" font-family="Arial" font-size="12" fill="#2c3e50">高表現力: 自然な音声・表情豊か</text>
+    
+    <circle cx="30" cy="105" r="8" fill="#27ae60"/>
+    <text x="50" y="110" font-family="Arial" font-size="12" fill="#2c3e50">単一GPU実行で効率的</text>
+    
+    <!-- 応用例 -->
+    <text x="175" y="140" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#27ae60">
+      応用分野
+    </text>
+    <rect x="20" y="150" width="60" height="25" fill="#2ecc71" rx="5"/>
+    <text x="50" y="167" font-family="Arial" font-size="10" text-anchor="middle" fill="white">Copilot Daily</text>
+    
+    <rect x="90" y="150" width="60" height="25" fill="#2ecc71" rx="5"/>
+    <text x="120" y="167" font-family="Arial" font-size="10" text-anchor="middle" fill="white">Podcasts</text>
+    
+    <rect x="160" y="150" width="80" height="25" fill="#2ecc71" rx="5"/>
+    <text x="200" y="167" font-family="Arial" font-size="10" text-anchor="middle" fill="white">ストーリーテリング</text>
+    
+    <rect x="250" y="150" width="80" height="25" fill="#2ecc71" rx="5"/>
+    <text x="290" y="167" font-family="Arial" font-size="10" text-anchor="middle" fill="white">瞑想ガイド</text>
+  </g>
+  
+  <!-- 右側: MAI-1-preview -->
+  <g transform="translate(500,120)">
+    <rect width="350" height="180" fill="#ffe8e8" stroke="#e74c3c" stroke-width="2" rx="10"/>
+    <text x="175" y="25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#e74c3c">
+      MAI-1-preview（テキストモデル）
+    </text>
+    
+    <!-- 特徴 -->
+    <circle cx="30" cy="55" r="8" fill="#e74c3c"/>
+    <text x="50" y="60" font-family="Arial" font-size="12" fill="#2c3e50">1.5万基のH100で訓練</text>
+    
+    <circle cx="30" cy="80" r="8" fill="#e74c3c"/>
+    <text x="50" y="85" font-family="Arial" font-size="12" fill="#2c3e50">Mixture-of-Experts（MoE）アーキテクチャ</text>
+    
+    <circle cx="30" cy="105" r="8" fill="#e74c3c"/>
+    <text x="50" y="110" font-family="Arial" font-size="12" fill="#2c3e50">指示追従・日常的問い合わせに最適化</text>
+    
+    <!-- 評価・導入 -->
+    <text x="175" y="140" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#e74c3c">
+      評価・導入
+    </text>
+    <rect x="50" y="150" width="80" height="25" fill="#e67e22" rx="5"/>
+    <text x="90" y="167" font-family="Arial" font-size="10" text-anchor="middle" fill="white">LMArena評価</text>
+    
+    <rect x="140" y="150" width="120" height="25" fill="#e67e22" rx="5"/>
+    <text x="200" y="167" font-family="Arial" font-size="10" text-anchor="middle" fill="white">Copilot段階的導入</text>
+  </g>
+  
+  <!-- 中央の統合戦略 -->
+  <g transform="translate(400,330)">
+    <rect width="100" height="60" fill="#9b59b6" rx="10"/>
+    <text x="50" y="35" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+      専門モデル
+    </text>
+    <text x="50" y="50" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+      オーケストレーション
+    </text>
+  </g>
+  
+  <!-- 矢印 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <line x1="400" y1="240" x2="430" y2="330" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="240" x2="470" y2="330" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 下部の価値提供 -->
+  <g transform="translate(50,420)">
+    <rect width="800" height="140" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1" rx="10"/>
+    <text x="400" y="25" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      企業・開発者への価値提供
+    </text>
+    
+    <!-- 3つの価値 -->
+    <g transform="translate(60,40)">
+      <rect width="200" height="80" fill="#3498db" rx="8"/>
+      <text x="100" y="20" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="white">音声UI革新</text>
+      <text x="100" y="35" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・レイテンシ大幅削減</text>
+      <text x="100" y="48" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・自然な音声体験</text>
+      <text x="100" y="61" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・コンテンツ制作加速</text>
+    </g>
+    
+    <g transform="translate(300,40)">
+      <rect width="200" height="80" fill="#e74c3c" rx="8"/>
+      <text x="100" y="20" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="white">運用最適化</text>
+      <text x="100" y="35" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・コスト効率化</text>
+      <text x="100" y="48" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・品質・速度両立</text>
+      <text x="100" y="61" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・柔軟なモデル選択</text>
+    </g>
+    
+    <g transform="translate(540,40)">
+      <rect width="200" height="80" fill="#27ae60" rx="8"/>
+      <text x="100" y="20" font-family="Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="white">次世代インフラ</text>
+      <text x="100" y="35" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・GB200クラスタ</text>
+      <text x="100" y="48" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・少数精鋭組織</text>
+      <text x="100" y="61" font-family="Arial" font-size="11" text-anchor="middle" fill="white">・高速開発サイクル</text>
+    </g>
+  </g>
+</svg>
