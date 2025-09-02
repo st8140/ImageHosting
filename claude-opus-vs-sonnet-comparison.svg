@@ -1,0 +1,159 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="opusGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sonnetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f2937;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#374151;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="#f9fafb"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="80" fill="url(#headerGrad)"/>
+  <text x="600" y="45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">Claude Opus 4.1 vs Sonnet 4 完全比較</text>
+  
+  <!-- Left side: Opus 4.1 -->
+  <rect x="50" y="100" width="530" height="750" rx="20" fill="url(#opusGrad)" opacity="0.1" stroke="#8b5cf6" stroke-width="2"/>
+  
+  <!-- Opus Header -->
+  <rect x="70" y="120" width="490" height="60" rx="10" fill="url(#opusGrad)"/>
+  <text x="315" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Claude Opus 4.1</text>
+  <text x="315" y="172" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">"深い推論"モデル</text>
+  
+  <!-- Opus Features -->
+  <text x="90" y="210" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📊 基本スペック</text>
+  <text x="90" y="235" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">リリース: 2025年8月5日</text>
+  <text x="90" y="255" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">コンテキスト: 200K トークン</text>
+  <text x="90" y="275" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">出力上限: 32K トークン</text>
+  <text x="90" y="295" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">価格: 入力$15/M, 出力$75/M</text>
+  
+  <text x="90" y="330" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">⚡ 強化ポイント</text>
+  <circle cx="105" cy="355" r="4" fill="#8b5cf6"/>
+  <text x="120" y="360" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">SWE-bench Verified: 74.5% (向上)</text>
+  <circle cx="105" cy="375" r="4" fill="#8b5cf6"/>
+  <text x="120" y="380" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">Extended Thinking機能</text>
+  <circle cx="105" cy="395" r="4" fill="#8b5cf6"/>
+  <text x="120" y="400" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">エージェントタスク精度向上</text>
+  <circle cx="105" cy="415" r="4" fill="#8b5cf6"/>
+  <text x="120" y="420" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">予算管理可能</text>
+  
+  <text x="90" y="455" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🎯 適用分野</text>
+  <rect x="90" y="470" width="200" height="25" rx="12" fill="#ddd6fe"/>
+  <text x="190" y="487" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">複雑なコード改修</text>
+  <rect x="310" y="470" width="200" height="25" rx="12" fill="#ddd6fe"/>
+  <text x="410" y="487" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">研究・分析</text>
+  <rect x="90" y="505" width="200" height="25" rx="12" fill="#ddd6fe"/>
+  <text x="190" y="522" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">エージェント開発</text>
+  <rect x="310" y="505" width="200" height="25" rx="12" fill="#ddd6fe"/>
+  <text x="410" y="522" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">戦略立案</text>
+  
+  <!-- Performance Chart -->
+  <text x="90" y="565" fill="#6366f1" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📈 性能指標</text>
+  <rect x="90" y="580" width="420" height="140" rx="10" fill="white" stroke="#e5e7eb"/>
+  
+  <!-- SWE-bench comparison -->
+  <text x="110" y="600" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">SWE-bench Verified スコア</text>
+  <rect x="110" y="610" width="350" height="20" rx="10" fill="#f3f4f6"/>
+  <rect x="110" y="610" width="261" height="20" rx="10" fill="url(#opusGrad)"/>
+  <text x="395" y="624" fill="#6366f1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">74.5%</text>
+  
+  <!-- Thinking capability -->
+  <text x="110" y="650" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">推論の深さ</text>
+  <rect x="110" y="660" width="350" height="20" rx="10" fill="#f3f4f6"/>
+  <rect x="110" y="660" width="315" height="20" rx="10" fill="url(#opusGrad)"/>
+  <text x="395" y="674" fill="#6366f1" font-family="Arial, sans-serif" font-size="12" font-weight="bold">90%</text>
+  
+  <!-- Cost efficiency -->
+  <text x="110" y="690" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">コスト効率</text>
+  <rect x="110" y="700" width="350" height="20" rx="10" fill="#f3f4f6"/>
+  <rect x="110" y="700" width="70" height="20" rx="10" fill="#dc2626"/>
+  <text x="395" y="714" fill="#dc2626" font-family="Arial, sans-serif" font-size="12" font-weight="bold">20%</text>
+  
+  <!-- Opus Summary -->
+  <rect x="70" y="750" width="490" height="80" rx="10" fill="#f8faff" stroke="#8b5cf6"/>
+  <text x="315" y="775" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="14" font-weight="bold">💡 選択指針</text>
+  <text x="315" y="795" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="12">複雑なロジック・長時間推論が必要</text>
+  <text x="315" y="810" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="12">精度最優先・コストは二の次</text>
+  <text x="315" y="825" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="12">プロフェッショナル向け高度利用</text>
+  
+  <!-- Right side: Sonnet 4 -->
+  <rect x="620" y="100" width="530" height="750" rx="20" fill="url(#sonnetGrad)" opacity="0.1" stroke="#10b981" stroke-width="2"/>
+  
+  <!-- Sonnet Header -->
+  <rect x="640" y="120" width="490" height="60" rx="10" fill="url(#sonnetGrad)"/>
+  <text x="885" y="155" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Claude Sonnet 4</text>
+  <text x="885" y="172" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">"高速コスパ"モデル</text>
+  
+  <!-- Sonnet Features -->
+  <text x="660" y="210" fill="#059669" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📊 基本スペック</text>
+  <text x="660" y="235" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">リリース: 2025年5月22日</text>
+  <text x="660" y="255" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">コンテキスト: 200K→1M トークン(β)</text>
+  <text x="660" y="275" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">出力上限: 64K トークン</text>
+  <text x="660" y="295" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">価格: 入力$3/M, 出力$15/M</text>
+  
+  <text x="660" y="330" fill="#059669" font-family="Arial, sans-serif" font-size="16" font-weight="bold">⚡ 強化ポイント</text>
+  <circle cx="675" cy="355" r="4" fill="#10b981"/>
+  <text x="690" y="360" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">SWE-bench: 72.7% (高水準維持)</text>
+  <circle cx="675" cy="375" r="4" fill="#10b981"/>
+  <text x="690" y="380" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">1M トークン長コンテキスト</text>
+  <circle cx="675" cy="395" r="4" fill="#10b981"/>
+  <text x="690" y="400" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">高速応答・低遅延</text>
+  <circle cx="675" cy="415" r="4" fill="#10b981"/>
+  <text x="690" y="420" fill="#1f2937" font-family="Arial, sans-serif" font-size="13">無料プラン対応</text>
+  
+  <text x="660" y="455" fill="#059669" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🎯 適用分野</text>
+  <rect x="660" y="470" width="200" height="25" rx="12" fill="#d1fae5"/>
+  <text x="760" y="487" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">チャットボット</text>
+  <rect x="880" y="470" width="200" height="25" rx="12" fill="#d1fae5"/>
+  <text x="980" y="487" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">大量処理</text>
+  <rect x="660" y="505" width="200" height="25" rx="12" fill="#d1fae5"/>
+  <text x="760" y="522" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">文書要約</text>
+  <rect x="880" y="505" width="200" height="25" rx="12" fill="#d1fae5"/>
+  <text x="980" y="522" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">軽量コーディング</text>
+  
+  <!-- Performance Chart -->
+  <text x="660" y="565" fill="#059669" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📈 性能指標</text>
+  <rect x="660" y="580" width="420" height="140" rx="10" fill="white" stroke="#e5e7eb"/>
+  
+  <!-- SWE-bench comparison -->
+  <text x="680" y="600" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">SWE-bench Verified スコア</text>
+  <rect x="680" y="610" width="350" height="20" rx="10" fill="#f3f4f6"/>
+  <rect x="680" y="610" width="255" height="20" rx="10" fill="url(#sonnetGrad)"/>
+  <text x="965" y="624" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">72.7%</text>
+  
+  <!-- Speed -->
+  <text x="680" y="650" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">応答速度</text>
+  <rect x="680" y="660" width="350" height="20" rx="10" fill="#f3f4f6"/>
+  <rect x="680" y="660" width="315" height="20" rx="10" fill="url(#sonnetGrad)"/>
+  <text x="965" y="674" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">90%</text>
+  
+  <!-- Cost efficiency -->
+  <text x="680" y="690" fill="#1f2937" font-family="Arial, sans-serif" font-size="14" font-weight="bold">コスト効率</text>
+  <rect x="680" y="700" width="350" height="20" rx="10" fill="#f3f4f6"/>
+  <rect x="680" y="700" width="280" height="20" rx="10" fill="url(#sonnetGrad)"/>
+  <text x="965" y="714" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">80%</text>
+  
+  <!-- Sonnet Summary -->
+  <rect x="640" y="750" width="490" height="80" rx="10" fill="#f0fdf4" stroke="#10b981"/>
+  <text x="885" y="775" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="14" font-weight="bold">💡 選択指針</text>
+  <text x="885" y="795" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="12">高速応答・大量処理が必要</text>
+  <text x="885" y="810" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="12">コスト重視・頻繁な利用</text>
+  <text x="885" y="825" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="12">一般ユーザー・初心者向け</text>
+  
+  <!-- VS Symbol -->
+  <circle cx="600" cy="475" r="40" fill="white" stroke="#6366f1" stroke-width="3"/>
+  <text x="600" y="485" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="24" font-weight="bold">VS</text>
+  
+  <!-- Bottom comparison table -->
+  <rect x="50" y="870" width="1100" height="20" rx="5" fill="#f3f4f6"/>
+  <text x="600" y="883" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="12" font-weight="bold">💰 価格差: Opus 4.1はSonnet 4の約5倍 | 🚀 用途: 深い推論 vs 高速処理 | 📊 出力: 32K vs 64K</text>
+</svg>
