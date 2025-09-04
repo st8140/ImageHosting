@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gpt5Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gpt4oGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="o1Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="o3Grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffecd2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fcb69f;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- Header -->
+  <rect width="800" height="60" fill="url(#headerGrad)"/>
+  <text x="400" y="35" text-anchor="middle" fill="white" font-size="24" font-weight="bold">ChatGPTモデル比較 2025年版</text>
+  
+  <!-- GPT-5 Section -->
+  <rect x="40" y="80" width="350" height="120" rx="10" fill="url(#gpt5Grad)" opacity="0.9"/>
+  <text x="215" y="105" text-anchor="middle" fill="white" font-size="18" font-weight="bold">GPT-5 (統合モデル)</text>
+  <text x="60" y="130" fill="white" font-size="12">✦ 軽量↔思考モデル自動切替</text>
+  <text x="60" y="145" fill="white" font-size="12">✦ 40万トークン対応</text>
+  <text x="60" y="160" fill="white" font-size="12">✦ マルチモーダル対応</text>
+  <text x="60" y="175" fill="white" font-size="12">活用例：戦略分析・コード生成・長文処理</text>
+  
+  <!-- GPT-4o Section -->
+  <rect x="410" y="80" width="350" height="120" rx="10" fill="url(#gpt4oGrad)" opacity="0.9"/>
+  <text x="585" y="105" text-anchor="middle" fill="white" font-size="18" font-weight="bold">GPT-4o (汎用モデル)</text>
+  <text x="430" y="130" fill="white" font-size="12">✦ 高速・高精度</text>
+  <text x="430" y="145" fill="white" font-size="12">✦ テキスト・画像・音声対応</text>
+  <text x="430" y="160" fill="white" font-size="12">✦ 無料プランでも利用可</text>
+  <text x="430" y="175" fill="white" font-size="12">活用例：議事録要約・メール作成・文書生成</text>
+  
+  <!-- O1 Series Section -->
+  <rect x="40" y="220" width="350" height="140" rx="10" fill="url(#o1Grad)" opacity="0.9"/>
+  <text x="215" y="245" text-anchor="middle" fill="#2563eb" font-size="18" font-weight="bold">o1シリーズ (推論特化)</text>
+  <text x="60" y="270" fill="#2563eb" font-size="12">• o1: 軽い推論・高速</text>
+  <text x="60" y="285" fill="#2563eb" font-size="12">• o1-pro: 高度な推論・深い分析</text>
+  <text x="60" y="300" fill="#2563eb" font-size="12">• 文系タスク向け</text>
+  <text x="60" y="325" fill="#2563eb" font-size="12">活用例：レポート要約・調査メモ</text>
+  <text x="60" y="340" fill="#2563eb" font-size="12">　　　　経営戦略・意思決定支援</text>
+  
+  <!-- O3/O4 Series Section -->
+  <rect x="410" y="220" width="350" height="140" rx="10" fill="url(#o3Grad)" opacity="0.9"/>
+  <text x="585" y="245" text-anchor="middle" fill="#dc2626" font-size="18" font-weight="bold">o3/o4シリーズ (専門特化)</text>
+  <text x="430" y="270" fill="#dc2626" font-size="12">• o3: マルチステップ推論</text>
+  <text x="430" y="285" fill="#dc2626" font-size="12">• o3-mini: 市場分析・トレンド予測</text>
+  <text x="430" y="300" fill="#dc2626" font-size="12">• o4-mini: 軽量・高速・低コスト</text>
+  <text x="430" y="325" fill="#dc2626" font-size="12">活用例：データ分析・プログラミング</text>
+  <text x="430" y="340" fill="#dc2626" font-size="12">　　　　数式処理・研究補助</text>
+  
+  <!-- Speed vs Accuracy Chart -->
+  <text x="400" y="395" text-anchor="middle" fill="#374151" font-size="16" font-weight="bold">処理速度 vs 精度</text>
+  
+  <!-- Chart axes -->
+  <line x1="100" y1="520" x2="700" y2="520" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="100" y1="420" x2="100" y2="520" stroke="#9ca3af" stroke-width="2"/>
+  
+  <!-- Chart labels -->
+  <text x="400" y="540" text-anchor="middle" fill="#6b7280" font-size="12">処理速度 →</text>
+  <text x="80" y="470" text-anchor="middle" fill="#6b7280" font-size="12" transform="rotate(-90 80 470)">精度 →</text>
+  
+  <!-- Model points on chart -->
+  <circle cx="200" cy="440" r="8" fill="#f59e0b"/>
+  <text x="200" y="430" text-anchor="middle" fill="#374151" font-size="10">o1</text>
+  
+  <circle cx="350" cy="480" r="8" fill="#10b981"/>
+  <text x="350" y="470" text-anchor="middle" fill="#374151" font-size="10">GPT-4o</text>
+  
+  <circle cx="500" cy="450" r="8" fill="#8b5cf6"/>
+  <text x="500" y="440" text-anchor="middle" fill="#374151" font-size="10">GPT-5</text>
+  
+  <circle cx="600" cy="430" r="8" fill="#ef4444"/>
+  <text x="600" y="420" text-anchor="middle" fill="#374151" font-size="10">o1-pro</text>
+  
+  <circle cx="250" cy="490" r="8" fill="#06b6d4"/>
+  <text x="250" y="510" text-anchor="middle" fill="#374151" font-size="10">o4-mini</text>
+  
+  <!-- Legend -->
+  <text x="40" y="575" fill="#374151" font-size="12" font-weight="bold">選択のポイント:</text>
+  <text x="180" y="575" fill="#374151" font-size="12">速度重視→o4-mini, GPT-4o</text>
+  <text x="380" y="575" fill="#374151" font-size="12">精度重視→o1-pro, o3</text>
+  <text x="580" y="575" fill="#374151" font-size="12">バランス→GPT-5</text>
+</svg>
