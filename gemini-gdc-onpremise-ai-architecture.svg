@@ -1,0 +1,160 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a365d"/>
+      <stop offset="50%" stop-color="#2d5aa0"/>
+      <stop offset="100%" stop-color="#4285f4"/>
+    </linearGradient>
+    <linearGradient id="cloudGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f7ff"/>
+    </linearGradient>
+    <linearGradient id="secureGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+      <feColorMatrix values="1 0 0 0 0.26 0 1 0 0 0.52 0 0 1 0 0.96 0 0 0 1 0"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" fill="white" font-size="26" font-weight="bold" font-family="Arial, sans-serif">
+    Gemini × Google Distributed Cloud
+  </text>
+  <text x="600" y="65" text-anchor="middle" fill="#e2e8f0" font-size="18" font-family="Arial, sans-serif">
+    オンプレAIの決定版："閉じたクラウド"の現実
+  </text>
+  
+  <!-- Main Architecture -->
+  <!-- On-Premise Environment -->
+  <rect x="50" y="100" width="500" height="650" rx="15" fill="url(#secureGradient)" stroke="#0f766e" stroke-width="3" filter="url(#shadow)"/>
+  <text x="300" y="130" text-anchor="middle" fill="white" font-size="18" font-weight="bold">オンプレミス環境</text>
+  <text x="300" y="150" text-anchor="middle" fill="#a7f3d0" font-size="12">データ主権・規制対応・Air-gapped運用</text>
+  
+  <!-- GDC Core -->
+  <rect x="80" y="170" width="440" height="120" rx="10" fill="white" stroke="#14b8a6" stroke-width="2" opacity="0.95"/>
+  <text x="300" y="195" text-anchor="middle" fill="#0f766e" font-size="16" font-weight="bold">Google Distributed Cloud (GDC)</text>
+  
+  <!-- Connected/Air-gapped modes -->
+  <rect x="100" y="210" width="180" height="60" rx="5" fill="#f0fdf4" stroke="#22c55e" stroke-width="1"/>
+  <text x="190" y="230" text-anchor="middle" fill="#166534" font-size="12" font-weight="bold">Connected モード</text>
+  <text x="190" y="245" text-anchor="middle" fill="#166534" font-size="10">クラウド連携</text>
+  <text x="190" y="258" text-anchor="middle" fill="#166534" font-size="10">管理簡素化</text>
+  
+  <rect x="300" y="210" width="180" height="60" rx="5" fill="#fef2f2" stroke="#ef4444" stroke-width="1"/>
+  <text x="390" y="230" text-anchor="middle" fill="#991b1b" font-size="12" font-weight="bold">Air-gapped モード</text>
+  <text x="390" y="245" text-anchor="middle" fill="#991b1b" font-size="10">完全物理分離</text>
+  <text x="390" y="258" text-anchor="middle" fill="#991b1b" font-size="10">最高セキュリティ</text>
+  
+  <!-- Gemini Layer -->
+  <rect x="80" y="310" width="440" height="100" rx="10" fill="url(#cloudGradient)" stroke="#4285f4" stroke-width="2"/>
+  <circle cx="150" cy="360" r="25" fill="#4285f4" filter="url(#glow)"/>
+  <text x="150" y="368" text-anchor="middle" fill="white" font-size="14" font-weight="bold">Gemini</text>
+  
+  <text x="220" y="340" fill="#1e40af" font-size="14" font-weight="bold">Gemini AI モデル</text>
+  <text x="220" y="358" fill="#1e40af" font-size="11">• マルチモーダル対応（テキスト・画像・音声・動画）</text>
+  <text x="220" y="373" fill="#1e40af" font-size="11">• 100万トークン長文脈処理</text>
+  <text x="220" y="388" fill="#1e40af" font-size="11">• 100言語以上対応</text>
+  <text x="220" y="403" fill="#1e40af" font-size="11">• 推論・要約・生成・分析</text>
+  
+  <!-- Hardware Layer -->
+  <rect x="80" y="430" width="440" height="80" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+  <text x="300" y="455" text-anchor="middle" fill="#334155" font-size="14" font-weight="bold">NVIDIA Blackwell × DGX/HGX Hardware</text>
+  <text x="120" y="475" fill="#475569" font-size="11">• DGX B200 / HGX B200システム</text>
+  <text x="120" y="490" fill="#475569" font-size="11">• Confidential Computing対応</text>
+  <text x="350" y="475" fill="#475569" font-size="11">• 単一ノード〜数百ラック対応</text>
+  <text x="350" y="490" fill="#475569" font-size="11">• 業界最高クラス性能</text>
+  
+  <!-- Vertex AI Services -->
+  <rect x="80" y="530" width="440" height="100" rx="10" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+  <text x="300" y="555" text-anchor="middle" fill="#c2410c" font-size="14" font-weight="bold">Vertex AI on GDC</text>
+  <text x="120" y="575" fill="#ea580c" font-size="11">• 事前学習APIセット</text>
+  <text x="120" y="590" fill="#ea580c" font-size="11">• AutoML カスタムモデル</text>
+  <text x="120" y="605" fill="#ea580c" font-size="11">• MLOps LLMOps</text>
+  <text x="350" y="575" fill="#ea580c" font-size="11">• RAGベースの検索・生成</text>
+  <text x="350" y="590" fill="#ea580c" font-size="11">• API管理とガバナンス</text>
+  <text x="350" y="605" fill="#ea580c" font-size="11">• ベクトルDB 埋め込み</text>
+  
+  <!-- Enterprise Integration -->
+  <rect x="80" y="650" width="440" height="80" rx="10" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="2"/>
+  <text x="300" y="675" text-anchor="middle" fill="#0369a1" font-size="14" font-weight="bold">エンタープライズ統合</text>
+  <text x="120" y="695" fill="#0284c7" font-size="11">• Google Agentspace検索</text>
+  <text x="120" y="710" fill="#0284c7" font-size="11">• 権限ベースアクセス制御</text>
+  <text x="350" y="695" fill="#0284c7" font-size="11">• 既存システム連携API</text>
+  <text x="350" y="710" fill="#0284c7" font-size="11">• 監査・ログ・コンプライアンス</text>
+  
+  <!-- Cloud Environment -->
+  <rect x="650" y="100" width="500" height="650" rx="15" fill="url(#cloudGradient)" stroke="#4285f4" stroke-width="3" filter="url(#shadow)"/>
+  <text x="900" y="130" text-anchor="middle" fill="#1e40af" font-size="18" font-weight="bold">従来のクラウドAI</text>
+  <text x="900" y="150" text-anchor="middle" fill="#3b82f6" font-size="12">データ移送・外部処理</text>
+  
+  <!-- Data Flow Comparison -->
+  <!-- Traditional Flow -->
+  <rect x="680" y="180" width="440" height="100" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+  <text x="900" y="205" text-anchor="middle" fill="#dc2626" font-size="14" font-weight="bold">従来の課題</text>
+  <text x="700" y="225" fill="#dc2626" font-size="12">❌ データ移送によるセキュリティリスク</text>
+  <text x="700" y="240" fill="#dc2626" font-size="12">❌ 規制・コンプライアンス違反の可能性</text>
+  <text x="700" y="255" fill="#dc2626" font-size="12">❌ ネットワーク遅延による性能劣化</text>
+  <text x="700" y="270" fill="#dc2626" font-size="12">❌ データ主権要件への非対応</text>
+  
+  <!-- GDC Benefits -->
+  <rect x="680" y="300" width="440" height="120" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="900" y="325" text-anchor="middle" fill="#16a34a" font-size="14" font-weight="bold">GDCの利点</text>
+  <text x="700" y="345" fill="#16a34a" font-size="12">✅ データを社内に留めて最先端AI利用</text>
+  <text x="700" y="360" fill="#16a34a" font-size="12">✅ 規制産業でも安心して導入可能</text>
+  <text x="700" y="375" fill="#16a34a" font-size="12">✅ 低遅延・高性能な現場対応</text>
+  <text x="700" y="390" fill="#16a34a" font-size="12">✅ クラウド級の運用体験をオンプレで</text>
+  <text x="700" y="405" fill="#16a34a" font-size="12">✅ Air-gapped環境でも完全動作</text>
+  
+  <!-- Use Cases -->
+  <rect x="680" y="440" width="440" height="140" rx="10" fill="#fefce8" stroke="#eab308" stroke-width="2"/>
+  <text x="900" y="465" text-anchor="middle" fill="#a16207" font-size="14" font-weight="bold">代表的ユースケース</text>
+  
+  <text x="700" y="485" fill="#a16207" font-size="12" font-weight="bold">🏦 金融・規制産業</text>
+  <text x="710" y="500" fill="#a16207" font-size="10">監査書類・約款の高速解析・要約</text>
+  
+  <text x="700" y="520" fill="#a16207" font-size="12" font-weight="bold">🏛️ 公共・行政機関</text>
+  <text x="710" y="535" fill="#a16207" font-size="10">マルチモーダル情報統合・職員支援</text>
+  
+  <text x="700" y="555" fill="#a16207" font-size="12" font-weight="bold">🏭 製造・現場オペレーション</text>
+  <text x="710" y="570" fill="#a16207" font-size="10">点検動画解析・設計書要約・自動化</text>
+  
+  <!-- Implementation Timeline -->
+  <rect x="680" y="600" width="440" height="130" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+  <text x="900" y="625" text-anchor="middle" fill="#7c3aed" font-size="14" font-weight="bold">90日導入ロードマップ</text>
+  
+  <text x="700" y="645" fill="#7c3aed" font-size="11">Phase 1 (30日): データ棚卸・セキュリティモデル定義</text>
+  <text x="700" y="660" fill="#7c3aed" font-size="11">Phase 2 (60日): GDC基盤確保・RAG構成構築</text>
+  <text x="700" y="675" fill="#7c3aed" font-size="11">Phase 3 (90日): 業務接続・評価・本番設計</text>
+  
+  <text x="700" y="700" fill="#7c3aed" font-size="10">2025年Q3: パブリックプレビュー開始予定</text>
+  <text x="700" y="715" fill="#7c3aed" font-size="10">目標: PoCから本番稼働への確実な移行</text>
+  
+  <!-- Arrows showing data flow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#16a34a"/>
+    </marker>
+  </defs>
+  
+  <!-- Data stays local arrow -->
+  <path d="M 300 760 Q 300 800 300 840" stroke="#16a34a" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="320" y="800" fill="#16a34a" font-size="12" font-weight="bold">データは社内に留まる</text>
+  
+  <!-- AI power arrow -->
+  <path d="M 520 400 Q 580 400 640 400" stroke="#4285f4" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="580" y="385" text-anchor="middle" fill="#4285f4" font-size="12" font-weight="bold">最先端AI能力</text>
+  
+  <!-- Footer -->
+  <text x="600" y="870" text-anchor="middle" fill="white" font-size="14" font-weight="bold">
+    「データを動かさず、価値を動かす」- 規制産業にも適用可能な次世代AI基盤
+  </text>
+</svg>
