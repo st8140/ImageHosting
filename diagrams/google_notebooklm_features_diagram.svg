@@ -1,0 +1,145 @@
+<svg width="900" height="700" viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#1a73e8">Google NotebookLM の進化</text>
+  <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#5f6368">AIポッドキャスト・動画生成機能の新アップデート</text>
+  
+  <!-- NotebookLMロゴエリア -->
+  <rect x="350" y="80" width="200" height="50" rx="25" fill="#1a73e8" stroke="#1557b0" stroke-width="2"/>
+  <text x="450" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">📚 NotebookLM</text>
+  <text x="450" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">AI調査アシスタント</text>
+  
+  <!-- 入力ソース（上部） -->
+  <g>
+    <text x="450" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">📄 入力ソース</text>
+    
+    <!-- ドキュメント種類 -->
+    <rect x="200" y="180" width="80" height="60" rx="8" fill="#e8f0fe" stroke="#1a73e8"/>
+    <text x="240" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1a73e8">📄 PDF</text>
+    <text x="240" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1a73e8">文書</text>
+    <text x="240" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1a73e8">資料</text>
+    
+    <rect x="300" y="180" width="80" height="60" rx="8" fill="#fce8e6" stroke="#ea4335"/>
+    <text x="340" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ea4335">🖼️ 画像</text>
+    <text x="340" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ea4335">チャート</text>
+    <text x="340" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ea4335">図表</text>
+    
+    <rect x="400" y="180" width="100" height="60" rx="8" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="450" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34a853">📊 データ</text>
+    <text x="450" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34a853">スプレッドシート</text>
+    <text x="450" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#34a853">研究資料</text>
+    
+    <rect x="520" y="180" width="80" height="60" rx="8" fill="#fef7e0" stroke="#fbbc04"/>
+    <text x="560" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f9ab00">📝 テキスト</text>
+    <text x="560" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f9ab00">ノート</text>
+    <text x="560" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f9ab00">レポート</text>
+    
+    <rect x="620" y="180" width="80" height="60" rx="8" fill="#f3e8ff" stroke="#9333ea"/>
+    <text x="660" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9333ea">🎥 動画</text>
+    <text x="660" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9333ea">プレゼン</text>
+    <text x="660" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#9333ea">録画</text>
+  </g>
+  
+  <!-- 矢印（下向き） -->
+  <path d="M 450 250 L 450 280" stroke="#5f6368" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 新機能エリア -->
+  <g>
+    <!-- Audio Overviews（左側） -->
+    <rect x="50" y="300" width="380" height="320" rx="15" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+    <text x="240" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a73e8">🎙️ Audio Overviews (AIポッドキャスト)</text>
+    
+    <!-- 4つのフォーマット -->
+    <g>
+      <!-- Deep Dive -->
+      <rect x="70" y="350" width="160" height="60" rx="10" fill="#4285f4" stroke="#1557b0"/>
+      <text x="150" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Deep Dive (詳細)</text>
+      <text x="150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">深掘り対話形式</text>
+      <text x="150" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">質問を投げかけて解説</text>
+      
+      <!-- Brief -->
+      <rect x="250" y="350" width="160" height="60" rx="10" fill="#34a853" stroke="#137333"/>
+      <text x="330" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Brief (概要)</text>
+      <text x="330" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">素早く核心を把握</text>
+      <text x="330" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">一口サイズの概要</text>
+      
+      <!-- Critique -->
+      <rect x="70" y="420" width="160" height="60" rx="10" fill="#ea4335" stroke="#d33b2c"/>
+      <text x="150" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Critique (評論)</text>
+      <text x="150" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">建設的なフィードバック</text>
+      <text x="150" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">内容改善に役立つ</text>
+      
+      <!-- Debate -->
+      <rect x="250" y="420" width="160" height="60" rx="10" fill="#fbbc04" stroke="#f9ab00"/>
+      <text x="330" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Debate (議論)</text>
+      <text x="330" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">異なる視点から議論</text>
+      <text x="330" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">多角的な検討</text>
+    </g>
+    
+    <!-- カスタマイズ機能 -->
+    <rect x="70" y="500" width="340" height="40" rx="8" fill="#fff3cd" stroke="#856404"/>
+    <text x="240" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#856404">✨ カスタマイズ機能</text>
+    <text x="240" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#856404">長さ調整 | 新しいAI音声 | トーン設定</text>
+    
+    <!-- 多言語対応 -->
+    <rect x="70" y="550" width="340" height="40" rx="8" fill="#d1ecf1" stroke="#0c5460"/>
+    <text x="240" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#0c5460">🌐 多言語対応（日本語含む）</text>
+    <text x="240" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#0c5460">全言語で2025年9月上旬から利用可能</text>
+  </g>
+  
+  <!-- Video Overviews（右側） -->
+  <g>
+    <rect x="470" y="300" width="380" height="200" rx="15" fill="#fce8e6" stroke="#ea4335" stroke-width="2"/>
+    <text x="660" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ea4335">🎥 Video Overviews (動画解説)</text>
+    
+    <rect x="490" y="350" width="340" height="60" rx="10" fill="#ffffff" stroke="#ea4335"/>
+    <text x="660" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ea4335">📊 マルチメディアコンテンツを</text>
+    <text x="660" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ea4335">ビジュアルプレゼンテーションに変換</text>
+    <text x="660" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5f6368">PDF・画像・データを動画で解説</text>
+    
+    <rect x="490" y="420" width="340" height="60" rx="10" fill="#fff3cd" stroke="#856404"/>
+    <text x="660" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">🇯🇵 日本語対応完了！</text>
+    <text x="660" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#856404">ワンクリックで高品質な動画解説を生成</text>
+    <text x="660" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#5f6368">複雑な資料も分かりやすく視覚化</text>
+  </g>
+  
+  <!-- その他の機能（右下） -->
+  <g>
+    <rect x="470" y="520" width="380" height="100" rx="15" fill="#e6f4ea" stroke="#34a853" stroke-width="2"/>
+    <text x="660" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#34a853">📱 その他のアップデート</text>
+    
+    <text x="490" y="565" font-family="Arial, sans-serif" font-size="11" fill="#137333">• 注目のノートブックへのアクセス</text>
+    <text x="490" y="580" font-family="Arial, sans-serif" font-size="11" fill="#137333">• Android・iOS モバイルアプリ (2025年5月リリース)</text>
+    <text x="490" y="595" font-family="Arial, sans-serif" font-size="11" fill="#137333">• 著名な研究者・出版物のノートブック利用可能</text>
+    <text x="490" y="610" font-family="Arial, sans-serif" font-size="11" fill="#137333">• 外出先でも手軽に情報分析・調査が可能</text>
+  </g>
+  
+  <!-- 利用シーン（下部） -->
+  <g>
+    <text x="450" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124">👥 主な利用者・用途</text>
+    
+    <rect x="100" y="665" width="120" height="25" rx="12" fill="#e8f0fe" stroke="#1a73e8"/>
+    <text x="160" y="682" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1a73e8">🎓 研究者・学生</text>
+    
+    <rect x="240" y="665" width="120" height="25" rx="12" fill="#fce8e6" stroke="#ea4335"/>
+    <text x="300" y="682" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ea4335">⚖️ 法律専門家</text>
+    
+    <rect x="380" y="665" width="140" height="25" rx="12" fill="#e6f4ea" stroke="#34a853"/>
+    <text x="450" y="682" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#34a853">📊 ビジネスアナリスト</text>
+    
+    <rect x="540" y="665" width="120" height="25" rx="12" fill="#fef7e0" stroke="#fbbc04"/>
+    <text x="600" y="682" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f9ab00">📝 コンテンツ作成者</text>
+    
+    <rect x="680" y="665" width="120" height="25" rx="12" fill="#f3e8ff" stroke="#9333ea"/>
+    <text x="740" y="682" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9333ea">🏢 企業研修担当</text>
+  </g>
+  
+  <!-- 矢印の定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#5f6368"/>
+    </marker>
+  </defs>
+</svg>
