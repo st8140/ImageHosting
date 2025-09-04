@@ -1,0 +1,113 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">ChatGPTのデータ利用方針</text>
+  
+  <!-- 無料プラン（左側） -->
+  <g>
+    <!-- 無料プランボックス -->
+    <rect x="50" y="80" width="300" height="350" rx="10" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+    <text x="200" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d3436">ChatGPT 無料プラン</text>
+    
+    <!-- ユーザーアイコン -->
+    <circle cx="120" cy="150" r="20" fill="#74b9ff"/>
+    <text x="120" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">👤</text>
+    
+    <!-- 入力データ -->
+    <rect x="70" y="190" width="100" height="40" rx="5" fill="#ffffff" stroke="#636e72"/>
+    <text x="120" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3436">入力データ</text>
+    <text x="120" y="222" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3436">（テキスト）</text>
+    
+    <!-- 矢印（下向き） -->
+    <path d="M 120 240 L 120 270" stroke="#e17055" stroke-width="3" marker-end="url(#arrowhead-red)"/>
+    
+    <!-- 学習利用 -->
+    <rect x="70" y="280" width="100" height="60" rx="5" fill="#fab1a0" stroke="#e17055" stroke-width="2"/>
+    <text x="120" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3436">学習に使用</text>
+    <text x="120" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">⚠️ デフォルト</text>
+    <text x="120" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">で有効</text>
+    
+    <!-- オプション -->
+    <rect x="200" y="280" width="120" height="40" rx="5" fill="#a29bfe" stroke="#6c5ce7"/>
+    <text x="260" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">一時チャット</text>
+    <text x="260" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">（30日で削除）</text>
+    
+    <!-- 注意書き -->
+    <text x="200" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#e17055">⚠️ 機密情報の入力は非推奨</text>
+    <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#636e72">個人情報・業務データは避ける</text>
+  </g>
+  
+  <!-- 有料プラン（右側） -->
+  <g>
+    <!-- 有料プランボックス -->
+    <rect x="450" y="80" width="300" height="350" rx="10" fill="#d1f2eb" stroke="#00b894" stroke-width="2"/>
+    <text x="600" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2d3436">ChatGPT 有料プラン</text>
+    <text x="600" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#636e72">（Plus / Team / Enterprise）</text>
+    
+    <!-- ユーザーアイコン -->
+    <circle cx="520" cy="160" r="20" fill="#00b894"/>
+    <text x="520" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">👤</text>
+    <text x="520" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">💳</text>
+    
+    <!-- 入力データ -->
+    <rect x="470" y="200" width="100" height="40" rx="5" fill="#ffffff" stroke="#636e72"/>
+    <text x="520" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3436">入力データ</text>
+    <text x="520" y="232" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3436">（テキスト）</text>
+    
+    <!-- 矢印（下向き） -->
+    <path d="M 520 250 L 520 280" stroke="#00b894" stroke-width="3" marker-end="url(#arrowhead-green)"/>
+    
+    <!-- 保護された状態 -->
+    <rect x="470" y="290" width="100" height="60" rx="5" fill="#81ecec" stroke="#00cec9" stroke-width="2"/>
+    <text x="520" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2d3436">学習に使用</text>
+    <text x="520" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">🔒 されない</text>
+    <text x="520" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">（デフォルト）</text>
+    
+    <!-- プラン別詳細 -->
+    <g>
+      <!-- Plus -->
+      <rect x="590" y="200" width="140" height="30" rx="5" fill="#74b9ff" stroke="#0984e3"/>
+      <text x="660" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Plus: オプトアウト可能</text>
+      
+      <!-- Team/Enterprise -->
+      <rect x="590" y="240" width="140" height="40" rx="5" fill="#6c5ce7" stroke="#5f3dc4"/>
+      <text x="660" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Team/Enterprise:</text>
+      <text x="660" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">デフォルトで保護</text>
+    </g>
+    
+    <!-- 安全マーク -->
+    <text x="600" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#00b894">✅ 機密情報の利用に適している</text>
+    <text x="600" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#636e72">業務データ・個人情報も安全</text>
+  </g>
+  
+  <!-- API（下部） -->
+  <g>
+    <rect x="300" y="470" width="200" height="80" rx="10" fill="#e8f4f8" stroke="#3498db" stroke-width="2"/>
+    <text x="400" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">OpenAI API</text>
+    <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#3498db">📊 データは学習に使用されない</text>
+    <text x="400" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#636e72">（プラン問わず保護される）</text>
+  </g>
+  
+  <!-- 矢印の定義 -->
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e17055"/>
+    </marker>
+    <marker id="arrowhead-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00b894"/>
+    </marker>
+  </defs>
+  
+  <!-- 凡例 -->
+  <g>
+    <text x="50" y="580" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">凡例:</text>
+    <rect x="100" y="570" width="15" height="15" fill="#fab1a0"/>
+    <text x="120" y="582" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">学習に使用される</text>
+    <rect x="250" y="570" width="15" height="15" fill="#81ecec"/>
+    <text x="270" y="582" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">学習に使用されない</text>
+    <rect x="400" y="570" width="15" height="15" fill="#a29bfe"/>
+    <text x="420" y="582" font-family="Arial, sans-serif" font-size="10" fill="#2d3436">一時的なオプション</text>
+  </g>
+</svg>
