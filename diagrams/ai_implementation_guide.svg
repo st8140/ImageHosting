@@ -1,0 +1,156 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976d2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388e3c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f57c00;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">生成AI導入成功の8ステップ フレームワーク</text>
+  
+  <!-- Central Circle -->
+  <circle cx="400" cy="300" r="80" fill="url(#blueGradient)" filter="url(#shadow)"/>
+  <text x="400" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">小さく始め</text>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">大きく育てる</text>
+  
+  <!-- Step 1: Business Selection -->
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="120" height="60" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="8" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1976d2">1. 業務絞込み</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">反復性×</text>
+    <text x="60" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">判断難易度</text>
+  </g>
+  
+  <!-- Step 2: KPI Design -->
+  <g transform="translate(580, 100)">
+    <rect x="0" y="0" width="120" height="60" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="8" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#388e3c">2. KPI設計</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">効果見える化</text>
+    <text x="60" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">ダッシュボード</text>
+  </g>
+  
+  <!-- Step 3: Security -->
+  <g transform="translate(100, 500)">
+    <rect x="0" y="0" width="120" height="60" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="8" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f57c00">3. 安全設計</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">入力基準</text>
+    <text x="60" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">RAG・ログ</text>
+  </g>
+  
+  <!-- Step 4: 90-day plan -->
+  <g transform="translate(580, 500)">
+    <rect x="0" y="0" width="120" height="60" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7b1fa2">4. 90日計画</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">PoC→本番</text>
+    <text x="60" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">→横展開</text>
+  </g>
+  
+  <!-- Timeline at bottom -->
+  <g transform="translate(50, 250)">
+    <!-- Day 1-30 -->
+    <rect x="0" y="0" width="100" height="40" fill="#e1f5fe" stroke="#01579b" stroke-width="1" rx="5"/>
+    <text x="50" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#01579b">Day 1-30</text>
+    <text x="50" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">PoC</text>
+    
+    <!-- Arrow -->
+    <path d="M 105 20 L 125 20 M 120 15 L 125 20 L 120 25" stroke="#666" stroke-width="2" fill="none"/>
+    
+    <!-- Day 31-60 -->
+    <rect x="130" y="0" width="100" height="40" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" rx="5"/>
+    <text x="180" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2e7d32">Day 31-60</text>
+    <text x="180" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">小規模本番</text>
+    
+    <!-- Arrow -->
+    <path d="M 235 20 L 255 20 M 250 15 L 255 20 L 250 25" stroke="#666" stroke-width="2" fill="none"/>
+    
+    <!-- Day 61-90 -->
+    <rect x="260" y="0" width="100" height="40" fill="#fff8e1" stroke="#e65100" stroke-width="1" rx="5"/>
+    <text x="310" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#e65100">Day 61-90</text>
+    <text x="310" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">横展開準備</text>
+  </g>
+  
+  <!-- Step 5: Team Structure -->
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="150" height="50" fill="#fce4ec" stroke="#c2185b" stroke-width="2" rx="8"/>
+    <text x="75" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c2185b">5. 体制・役割明確化</text>
+    <text x="75" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">RACIモデル適用</text>
+    <text x="75" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">責任・実行・相談・報告</text>
+  </g>
+  
+  <!-- Step 6: Communication -->
+  <g transform="translate(600, 350)">
+    <rect x="0" y="0" width="150" height="50" fill="#e0f2f1" stroke="#00695c" stroke-width="2" rx="8"/>
+    <text x="75" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#00695c">6. 教育・サポート</text>
+    <text x="75" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">30分研修</text>
+    <text x="75" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">相談窓口設置</text>
+  </g>
+  
+  <!-- Step 7: Vendor Selection -->
+  <g transform="translate(250, 450)">
+    <rect x="0" y="0" width="120" height="50" fill="#f1f8e9" stroke="#558b2f" stroke-width="2" rx="8"/>
+    <text x="60" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#558b2f">7. ベンダー選定</text>
+    <text x="60" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">ハイブリッド前提</text>
+    <text x="60" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">カナリアリリース</text>
+  </g>
+  
+  <!-- Step 8: Continuous Improvement -->
+  <g transform="translate(430, 450)">
+    <rect x="0" y="0" width="120" height="50" fill="#fdf2e5" stroke="#e65100" stroke-width="2" rx="8"/>
+    <text x="60" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e65100">8. 継続改善</text>
+    <text x="60" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">使いながら育てる</text>
+    <text x="60" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">四半期テンプレ更新</text>
+  </g>
+  
+  <!-- Key Metrics Box -->
+  <g transform="translate(250, 80)">
+    <rect x="0" y="0" width="300" height="80" fill="#f5f5f5" stroke="#999" stroke-width="1" rx="8"/>
+    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">重要KPI</text>
+    
+    <g transform="translate(20, 30)">
+      <circle cx="5" cy="5" r="3" fill="#2196f3"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="10" fill="#666">時間削減率・一次解決率</text>
+    </g>
+    
+    <g transform="translate(150, 30)">
+      <circle cx="5" cy="5" r="3" fill="#4caf50"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="10" fill="#666">アクティブユーザー率</text>
+    </g>
+    
+    <g transform="translate(20, 50)">
+      <circle cx="5" cy="5" r="3" fill="#ff9800"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="10" fill="#666">出典提示率・応答速度</text>
+    </g>
+    
+    <g transform="translate(150, 50)">
+      <circle cx="5" cy="5" r="3" fill="#9c27b0"/>
+      <text x="15" y="9" font-family="Arial, sans-serif" font-size="10" fill="#666">1件あたりコスト</text>
+    </g>
+  </g>
+  
+  <!-- Connection lines from center to steps -->
+  <path d="M 330 250 L 160 160" stroke="#ddd" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 470 250 L 640 160" stroke="#ddd" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 330 350 L 160 520" stroke="#ddd" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 470 350 L 640 520" stroke="#ddd" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Success Factor -->
+  <g transform="translate(300, 550)">
+    <text x="100" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">成功の鍵</text>
+    <text x="100" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">「現場に落とし込む仕組み」の設計力</text>
+  </g>
+</svg>
