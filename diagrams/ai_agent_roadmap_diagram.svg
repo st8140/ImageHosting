@@ -1,0 +1,167 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="700" fill="#f5f7fa"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="40" text-anchor="middle" font-size="26" font-weight="bold" fill="#2c3e50">
+    失敗しないAIエージェント導入：90日ロードマップ
+  </text>
+  
+  <!-- 3つのフェーズ -->
+  <!-- フェーズ1: PoC設計と小規模検証 (Day 1-30) -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="240" height="180" fill="#3498db" rx="15" opacity="0.9"/>
+    <text x="120" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="white">
+      フェーズ1: Day 1-30
+    </text>
+    <text x="120" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="white">
+      PoC設計と小規模検証
+    </text>
+    
+    <!-- フェーズ1の要素 -->
+    <circle cx="40" cy="80" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="85" text-anchor="middle" font-size="12" font-weight="bold" fill="#3498db">1</text>
+    <text x="65" y="75" font-size="11" fill="white">業務選定と</text>
+    <text x="65" y="88" font-size="11" fill="white">スコープ明確化</text>
+    
+    <circle cx="40" cy="120" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#3498db">2</text>
+    <text x="65" y="115" font-size="11" fill="white">評価指標の設定</text>
+    <text x="65" y="128" font-size="11" fill="white">(KPI定義)</text>
+    
+    <circle cx="40" cy="160" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#3498db">3</text>
+    <text x="65" y="155" font-size="11" fill="white">技術基盤の</text>
+    <text x="65" y="168" font-size="11" fill="white">初期構築</text>
+  </g>
+  
+  <!-- フェーズ2: 小規模本番と利用拡大 (Day 31-60) -->
+  <g transform="translate(330, 80)">
+    <rect x="0" y="0" width="240" height="180" fill="#e67e22" rx="15" opacity="0.9"/>
+    <text x="120" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="white">
+      フェーズ2: Day 31-60
+    </text>
+    <text x="120" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="white">
+      小規模本番と利用拡大
+    </text>
+    
+    <!-- フェーズ2の要素 -->
+    <circle cx="40" cy="80" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="85" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">4</text>
+    <text x="65" y="75" font-size="11" fill="white">実運用想定の</text>
+    <text x="65" y="88" font-size="11" fill="white">利用テスト</text>
+    
+    <circle cx="40" cy="120" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">5</text>
+    <text x="65" y="115" font-size="11" fill="white">セキュリティと</text>
+    <text x="65" y="128" font-size="11" fill="white">ガバナンス強化</text>
+    
+    <circle cx="40" cy="160" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#e67e22">6</text>
+    <text x="65" y="155" font-size="11" fill="white">ナレッジ管理</text>
+    <text x="65" y="168" font-size="11" fill="white">仕組みづくり</text>
+  </g>
+  
+  <!-- フェーズ3: 横展開と定着化 (Day 61-90) -->
+  <g transform="translate(610, 80)">
+    <rect x="0" y="0" width="240" height="180" fill="#27ae60" rx="15" opacity="0.9"/>
+    <text x="120" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="white">
+      フェーズ3: Day 61-90
+    </text>
+    <text x="120" y="45" text-anchor="middle" font-size="14" font-weight="bold" fill="white">
+      横展開と定着化
+    </text>
+    
+    <!-- フェーズ3の要素 -->
+    <circle cx="40" cy="80" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="85" text-anchor="middle" font-size="12" font-weight="bold" fill="#27ae60">7</text>
+    <text x="65" y="75" font-size="11" fill="white">成果の見える化</text>
+    <text x="65" y="88" font-size="11" fill="white">経営報告</text>
+    
+    <circle cx="40" cy="120" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="125" text-anchor="middle" font-size="12" font-weight="bold" fill="#27ae60">8</text>
+    <text x="65" y="115" font-size="11" fill="white">全社展開基盤</text>
+    <text x="65" y="128" font-size="11" fill="white">強化</text>
+    
+    <circle cx="40" cy="160" r="15" fill="white" opacity="0.9"/>
+    <text x="40" y="165" text-anchor="middle" font-size="12" font-weight="bold" fill="#27ae60">9</text>
+    <text x="65" y="155" font-size="11" fill="white">教育とリテラシー</text>
+    <text x="65" y="168" font-size="11" fill="white">向上</text>
+  </g>
+  
+  <!-- フェーズ間の矢印 -->
+  <path d="M 295 170 L 325 170" stroke="#34495e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 575 170 L 605 170" stroke="#34495e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 継続改善サイクル -->
+  <g transform="translate(350, 300)">
+    <rect x="0" y="0" width="200" height="60" fill="#9b59b6" rx="10" opacity="0.9"/>
+    <text x="100" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="white">継続改善サイクル</text>
+    <text x="100" y="45" text-anchor="middle" font-size="12" fill="white">四半期レビュー・KPI測定</text>
+  </g>
+  
+  <!-- よくある失敗と回避策 -->
+  <text x="450" y="400" text-anchor="middle" font-size="20" font-weight="bold" fill="#2c3e50">よくある失敗と回避策</text>
+  
+  <!-- 失敗例1 -->
+  <g transform="translate(80, 420)">
+    <rect x="0" y="0" width="220" height="80" fill="#e74c3c" rx="10" opacity="0.8"/>
+    <text x="110" y="20" text-anchor="middle" font-size="14" font-weight="bold" fill="white">❌ PoCが終わらない</text>
+    <text x="10" y="40" font-size="11" fill="white">→ 最初にKPIを設定し、</text>
+    <text x="10" y="55" font-size="11" fill="white">期限を区切って判断</text>
+    <text x="10" y="70" font-size="11" fill="white">することが重要</text>
+  </g>
+  
+  <!-- 失敗例2 -->
+  <g transform="translate(340, 420)">
+    <rect x="0" y="0" width="220" height="80" fill="#e74c3c" rx="10" opacity="0.8"/>
+    <text x="110" y="20" text-anchor="middle" font-size="14" font-weight="bold" fill="white">❌ スケール時のトラブル</text>
+    <text x="10" y="40" font-size="11" fill="white">→ 小規模本番段階で</text>
+    <text x="10" y="55" font-size="11" fill="white">セキュリティ・権限設計を</text>
+    <text x="10" y="70" font-size="11" fill="white">事前に済ませておく</text>
+  </g>
+  
+  <!-- 失敗例3 -->
+  <g transform="translate(600, 420)">
+    <rect x="0" y="0" width="220" height="80" fill="#e74c3c" rx="10" opacity="0.8"/>
+    <text x="110" y="20" text-anchor="middle" font-size="14" font-weight="bold" fill="white">❌ 現場に浸透しない</text>
+    <text x="10" y="40" font-size="11" fill="white">→ 成果を数値で示し、</text>
+    <text x="10" y="55" font-size="11" fill="white">現場の声を反映させながら</text>
+    <text x="10" y="70" font-size="11" fill="white">改善を継続する</text>
+  </g>
+  
+  <!-- 成功のポイント -->
+  <g transform="translate(200, 540)">
+    <rect x="0" y="0" width="500" height="120" fill="#f39c12" rx="15" opacity="0.9"/>
+    <text x="250" y="25" text-anchor="middle" font-size="18" font-weight="bold" fill="white">成功のポイント</text>
+    
+    <g transform="translate(20, 40)">
+      <circle cx="15" cy="15" r="8" fill="white"/>
+      <text x="15" y="20" text-anchor="middle" font-size="10" font-weight="bold" fill="#f39c12">✓</text>
+      <text x="35" y="12" font-size="13" fill="white">小さく始めて成果を測定</text>
+      <text x="35" y="28" font-size="13" fill="white">改善しながら段階的に拡大</text>
+    </g>
+    
+    <g transform="translate(260, 40)">
+      <circle cx="15" cy="15" r="8" fill="white"/>
+      <text x="15" y="20" text-anchor="middle" font-size="10" font-weight="bold" fill="#f39c12">✓</text>
+      <text x="35" y="12" font-size="13" fill="white">評価軸とセキュリティを</text>
+      <text x="35" y="28" font-size="13" fill="white">PoCの段階から意識</text>
+    </g>
+    
+    <g transform="translate(130, 75)">
+      <circle cx="15" cy="15" r="8" fill="white"/>
+      <text x="15" y="20" text-anchor="middle" font-size="10" font-weight="bold" fill="#f39c12">✓</text>
+      <text x="35" y="12" font-size="13" fill="white">現場のフィードバックを重視し</text>
+      <text x="35" y="28" font-size="13" fill="white">継続的な改善サイクルを構築</text>
+    </g>
+  </g>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e" />
+    </marker>
+  </defs>
+</svg>
