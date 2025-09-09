@@ -1,0 +1,170 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="700" fill="#f0f9ff"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#1e40af">
+    ToyTalk：3分で話せるキャラクター作成完全ガイド
+  </text>
+  
+  <!-- ToyTalkロゴ風エリア -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="350" height="80" fill="#3b82f6" rx="15" opacity="0.9"/>
+    <text x="175" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="white">
+      ToyTalk - 音声AIサービス
+    </text>
+    <text x="20" y="50" font-size="12" fill="white">✓ 専用アプリ不要　✓ ブラウザで完結　✓ 技術知識不要</text>
+    <text x="20" y="65" font-size="12" fill="white">✓ 直感的操作　✓ 無料ベータ版　✓ 3分で完成</text>
+  </g>
+  
+  <!-- 対象ユーザー -->
+  <g transform="translate(450, 60)">
+    <rect x="0" y="0" width="400" height="80" fill="#10b981" rx="15" opacity="0.8"/>
+    <text x="200" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="white">対象ユーザー</text>
+    <text x="10" y="45" font-size="11" fill="white">イラストレーター・漫画家・ゲーム制作者・小説家</text>
+    <text x="10" y="60" font-size="11" fill="white">配信者・動画クリエイター・キャラクターと話したい人</text>
+  </g>
+  
+  <!-- 10ステップのキャラ作成フロー -->
+  <text x="450" y="180" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e40af">10ステップでキャラクター作成</text>
+  
+  <!-- ステップ1-2 -->
+  <g transform="translate(50, 200)">
+    <circle cx="40" cy="40" r="25" fill="#ef4444" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">1</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">カテゴリー</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">カテゴリー選択</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">友人・相談・創作支援など</text>
+  </g>
+  
+  <g transform="translate(200, 200)">
+    <circle cx="40" cy="40" r="25" fill="#f59e0b" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">2</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">設定</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">キャラクター設定</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">最大1000文字で詳細設定</text>
+  </g>
+  
+  <!-- ステップ3-4 -->
+  <g transform="translate(350, 200)">
+    <circle cx="40" cy="40" r="25" fill="#10b981" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">3</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">基本</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">基本情報設定</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">名前・肩書き・性格・声</text>
+  </g>
+  
+  <g transform="translate(500, 200)">
+    <circle cx="40" cy="40" r="25" fill="#3b82f6" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">4</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">話し方</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">話し方設定</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">口調・印象の調整</text>
+  </g>
+  
+  <!-- ステップ5-6 -->
+  <g transform="translate(650, 200)">
+    <circle cx="40" cy="40" r="25" fill="#8b5cf6" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">5</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">背景</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">バックストーリー</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">AI自動生成＋カスタマイズ</text>
+  </g>
+  
+  <g transform="translate(800, 200)">
+    <circle cx="40" cy="40" r="25" fill="#ec4899" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">6</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">振舞い</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">AI振る舞い設定</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">反応パターンの調整</text>
+  </g>
+  
+  <!-- ステップ7-8 -->
+  <g transform="translate(200, 350)">
+    <circle cx="40" cy="40" r="25" fill="#14b8a6" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">7</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">知識</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">固有知識設定</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">専門分野・得意領域</text>
+  </g>
+  
+  <g transform="translate(350, 350)">
+    <circle cx="40" cy="40" r="25" fill="#f97316" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">8</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">画像</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">画像設定</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">AI生成画像or自作画像</text>
+  </g>
+  
+  <!-- ステップ9-10 -->
+  <g transform="translate(500, 350)">
+    <circle cx="40" cy="40" r="25" fill="#6366f1" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">9</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">公開</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">公開設定</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">プライベート or 一般公開</text>
+  </g>
+  
+  <g transform="translate(650, 350)">
+    <circle cx="40" cy="40" r="25" fill="#059669" opacity="0.8"/>
+    <text x="40" y="35" text-anchor="middle" font-size="12" font-weight="bold" fill="white">10</text>
+    <text x="40" y="48" text-anchor="middle" font-size="10" fill="white">完成</text>
+    <text x="40" y="90" text-anchor="middle" font-size="11" fill="#374151">キャラ完成</text>
+    <text x="40" y="105" text-anchor="middle" font-size="10" fill="#6b7280">音声会話スタート！</text>
+  </g>
+  
+  <!-- フロー矢印 -->
+  <path d="M 115 230 Q 130 230 145 230" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 265 230 Q 280 230 295 230" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 415 230 Q 430 230 445 230" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 565 230 Q 580 230 595 230" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 715 230 Q 730 230 745 230" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 下段への接続 -->
+  <path d="M 840 270 Q 840 310 265 380" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 265 380 Q 280 380 295 380" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 415 380 Q 430 380 445 380" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 565 380 Q 580 380 595 380" stroke="#6b7280" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 特徴・メリット -->
+  <g transform="translate(100, 480)">
+    <rect x="0" y="0" width="700" height="100" fill="#dbeafe" rx="15" opacity="0.9"/>
+    <text x="350" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#1e40af">ToyTalkの特徴とメリット</text>
+    
+    <g transform="translate(20, 40)">
+      <circle cx="10" cy="10" r="6" fill="#3b82f6"/>
+      <text x="25" y="8" font-size="12" fill="#374151">わずか3分で完成：最低限の設定で素早くキャラクター作成</text>
+      <text x="25" y="22" font-size="12" fill="#374151">直感的操作：技術的知識不要、ブラウザのみで完結</text>
+    </g>
+    
+    <g transform="translate(350, 40)">
+      <circle cx="10" cy="10" r="6" fill="#10b981"/>
+      <text x="25" y="8" font-size="12" fill="#374151">柔軟な設定：凝りたい場合は詳細カスタマイズも可能</text>
+      <text x="25" y="22" font-size="12" fill="#374151">AI支援：自動生成されたデフォルト設定をベースに編集</text>
+    </g>
+    
+    <g transform="translate(185, 65)">
+      <circle cx="10" cy="10" r="6" fill="#f59e0b"/>
+      <text x="25" y="8" font-size="12" fill="#374151">音声会話：実際にキャラクターと音声で2分間会話可能</text>
+      <text x="25" y="22" font-size="12" fill="#374151">記憶機能：前回の会話を覚えているため連続会話も可能</text>
+    </g>
+  </g>
+  
+  <!-- 利用シーン -->
+  <g transform="translate(150, 600)">
+    <rect x="0" y="0" width="600" height="80" fill="#f3e8ff" rx="15" opacity="0.9"/>
+    <text x="300" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#7c3aed">活用シーン</text>
+    <text x="20" y="45" font-size="12" fill="#374151">• 創作活動：イラスト・漫画・小説キャラクターに命を吹き込む</text>
+    <text x="20" y="60" font-size="12" fill="#374151">• コンテンツ制作：ゲーム・動画・配信での表現力向上</text>
+    <text x="320" y="45" font-size="12" fill="#374151">• 個人利用：自分だけのAIキャラクターとの会話体験</text>
+    <text x="320" y="60" font-size="12" fill="#374151">• 一般公開：キャラクターを世界中に向けて発信</text>
+  </g>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" 
+     refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6b7280" />
+    </marker>
+  </defs>
+</svg>
