@@ -1,0 +1,123 @@
+<svg viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="650" fill="#fafafa"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#2d3748">
+    AIハルシネーション：正解至上主義から脱却する新しい評価設計
+  </text>
+  
+  <!-- 問題の本質 -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="350" height="120" fill="#fed7d7" rx="15" opacity="0.9"/>
+    <text x="175" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#c53030">
+      ハルシネーションの問題
+    </text>
+    <text x="20" y="50" font-size="12" fill="#742a2a">• 自信満々の間違い：もっともらしい嘘を生成</text>
+    <text x="20" y="68" font-size="12" fill="#742a2a">• 「知らない」と言わず推測してしまう</text>
+    <text x="20" y="86" font-size="12" fill="#742a2a">• 誤情報の連鎖：報告書・FAQ・自動応答に影響</text>
+    <text x="20" y="104" font-size="12" fill="#742a2a">• ビジネスリスク：クレーム・法的問題・信頼失墜</text>
+  </g>
+  
+  <!-- 従来の評価方法の問題 -->
+  <g transform="translate(450, 60)">
+    <rect x="0" y="0" width="400" height="120" fill="#feebc8" rx="15" opacity="0.9"/>
+    <text x="200" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#c05621">
+      従来の評価方法の問題点
+    </text>
+    <text x="20" y="50" font-size="12" fill="#9c4221">• 正答率のみを重視：精度偏重のスコアボード</text>
+    <text x="20" y="68" font-size="12" fill="#9c4221">• 「わからない」はゼロ点：保留にペナルティ</text>
+    <text x="20" y="86" font-size="12" fill="#9c4221">• 推測を奨励：当てずっぽうが有利な構造</text>
+    <text x="20" y="104" font-size="12" fill="#9c4221">• 誤答のリスクを軽視：致命的ミスの見逃し</text>
+  </g>
+  
+  <!-- 比較例 -->
+  <text x="450" y="220" text-anchor="middle" font-size="18" font-weight="bold" fill="#2d3748">評価例：AモデルとBモデルの比較</text>
+  
+  <!-- Aモデル -->
+  <g transform="translate(150, 240)">
+    <rect x="0" y="0" width="200" height="100" fill="#bee3f8" rx="10" opacity="0.9"/>
+    <text x="100" y="20" text-anchor="middle" font-size="14" font-weight="bold" fill="#2b6cb0">Aモデル（従来評価で高得点）</text>
+    <text x="20" y="40" font-size="12" fill="#2c5282">正答率：24%</text>
+    <text x="20" y="55" font-size="12" fill="#2c5282">誤答率：75%</text>
+    <text x="20" y="70" font-size="12" fill="#2c5282">保留率：1%</text>
+    <text x="20" y="90" font-size="11" fill="#1a365d">→ 高い正答率だが誤答も多い</text>
+  </g>
+  
+  <!-- Bモデル -->
+  <g transform="translate(550, 240)">
+    <rect x="0" y="0" width="200" height="100" fill="#c6f6d5" rx="10" opacity="0.9"/>
+    <text x="100" y="20" text-anchor="middle" font-size="14" font-weight="bold" fill="#25855a">Bモデル（安全性重視）</text>
+    <text x="20" y="40" font-size="12" fill="#276749">正答率：22%</text>
+    <text x="20" y="55" font-size="12" fill="#276749">誤答率：26%</text>
+    <text x="20" y="70" font-size="12" fill="#276749">保留率：52%</text>
+    <text x="20" y="90" font-size="11" fill="#1c4532">→ 安全に「わからない」と言える</text>
+  </g>
+  
+  <!-- 矢印と説明 -->
+  <path d="M 350 290 Q 400 280 550 290" stroke="#e53e3e" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="450" y="270" text-anchor="middle" font-size="12" font-weight="bold" fill="#e53e3e">企業利用では誤答の少ないBが安全</text>
+  
+  <!-- 新しい評価設計 -->
+  <text x="450" y="390" text-anchor="middle" font-size="18" font-weight="bold" fill="#2d3748">新しい評価設計の提案</text>
+  
+  <!-- 評価指標の変更 -->
+  <g transform="translate(100, 410)">
+    <rect x="0" y="0" width="300" height="140" fill="#e6fffa" rx="15" opacity="0.9"/>
+    <text x="150" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#234e52">評価指標の見直し</text>
+    
+    <g transform="translate(20, 40)">
+      <circle cx="8" cy="8" r="5" fill="#38b2ac"/>
+      <text x="20" y="6" font-size="11" fill="#285e61">主要KPI追加</text>
+      <text x="30" y="18" font-size="10" fill="#285e61">・誤答率（致命的エラー率）</text>
+      <text x="30" y="30" font-size="10" fill="#285e61">・保留率（適切な不確実性表明）</text>
+      <text x="30" y="42" font-size="10" fill="#285e61">・キャリブレーション誤差</text>
+    </g>
+    
+    <g transform="translate(20, 85)">
+      <circle cx="8" cy="8" r="5" fill="#38b2ac"/>
+      <text x="20" y="6" font-size="11" fill="#285e61">スコア設計変更</text>
+      <text x="30" y="18" font-size="10" fill="#285e61">・不確実性表明に部分点</text>
+      <text x="30" y="30" font-size="10" fill="#285e61">・確信的誤答に強いペナルティ</text>
+      <text x="30" y="42" font-size="10" fill="#285e61">・正確さ × 誠実さの同時最適化</text>
+    </g>
+  </g>
+  
+  <!-- 実務的対策 -->
+  <g transform="translate(500, 410)">
+    <rect x="0" y="0" width="300" height="140" fill="#f0fff4" rx="15" opacity="0.9"/>
+    <text x="150" y="25" text-anchor="middle" font-size="14" font-weight="bold" fill="#276749">企業導入の実務対策</text>
+    
+    <g transform="translate(20, 40)">
+      <circle cx="8" cy="8" r="5" fill="#48bb78"/>
+      <text x="20" y="6" font-size="11" fill="#2f855a">運用設計</text>
+      <text x="30" y="18" font-size="10" fill="#2f855a">・未確認情報の根拠提示義務化</text>
+      <text x="30" y="30" font-size="10" fill="#2f855a">・信頼度表示・追質問ボタン</text>
+      <text x="30" y="42" font-size="10" fill="#2f855a">・重大度別SLA設定</text>
+    </g>
+    
+    <g transform="translate(20, 85)">
+      <circle cx="8" cy="8" r="5" fill="#48bb78"/>
+      <text x="20" y="6" font-size="11" fill="#2f855a">調達・評価基準</text>
+      <text x="30" y="18" font-size="10" fill="#2f855a">・不確実性指標の合格ライン</text>
+      <text x="30" y="30" font-size="10" fill="#2f855a">・「謙虚さ」を測るKPI</text>
+      <text x="30" y="42" font-size="10" fill="#2f855a">・精度単独評価からの脱却</text>
+    </g>
+  </g>
+  
+  <!-- 根本原因と対策 -->
+  <g transform="translate(150, 570)">
+    <rect x="0" y="0" width="600" height="60" fill="#faf5ff" rx="15" opacity="0.9"/>
+    <text x="300" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#6b46c1">根本原因と解決の方向性</text>
+    <text x="20" y="45" font-size="12" fill="#553c9a">次単語予測の限界：低頻度事実は推定困難 → 不確実性の適切な表明が重要</text>
+    <text x="20" y="58" font-size="12" fill="#553c9a">評価文化の問題：推測奨励 → 「正確さ」と「誠実さ」の同時最適化</text>
+  </g>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e53e3e" />
+    </marker>
+  </defs>
+</svg>
