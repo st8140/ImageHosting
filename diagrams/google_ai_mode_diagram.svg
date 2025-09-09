@@ -1,0 +1,139 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a73e8;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f57c00;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#333">Google検索の進化：「調べる」から「行動する」へ</text>
+  
+  <!-- Traditional Search Section -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="300" height="200" fill="#e8f0fe" stroke="#4285f4" stroke-width="2" rx="10" filter="url(#shadow)"/>
+    <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a73e8">従来の検索</text>
+    
+    <!-- Search Box -->
+    <rect x="20" y="40" width="260" height="30" fill="white" stroke="#ddd" stroke-width="1" rx="15"/>
+    <text x="30" y="59" font-family="Arial, sans-serif" font-size="12" fill="#666">レストラン 予約</text>
+    
+    <!-- Arrow Down -->
+    <path d="M 150 85 L 150 100 M 145 95 L 150 100 L 155 95" stroke="#666" stroke-width="2" fill="none"/>
+    
+    <!-- Results -->
+    <rect x="20" y="110" width="260" height="15" fill="#f1f3f4" rx="3"/>
+    <text x="25" y="122" font-family="Arial, sans-serif" font-size="10" fill="#666">レストラン検索サイト A</text>
+    
+    <rect x="20" y="130" width="260" height="15" fill="#f1f3f4" rx="3"/>
+    <text x="25" y="142" font-family="Arial, sans-serif" font-size="10" fill="#666">レストラン検索サイト B</text>
+    
+    <rect x="20" y="150" width="260" height="15" fill="#f1f3f4" rx="3"/>
+    <text x="25" y="162" font-family="Arial, sans-serif" font-size="10" fill="#666">グルメ情報サイト C</text>
+    
+    <text x="150" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">ユーザーが自分で選択・比較・予約</text>
+  </g>
+  
+  <!-- Arrow between sections -->
+  <g transform="translate(380, 150)">
+    <path d="M 0 0 L 40 0 M 35 -5 L 40 0 L 35 5" stroke="#ff9800" stroke-width="3" fill="none"/>
+    <text x="20" y="-10" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff9800">AI進化</text>
+  </g>
+  
+  <!-- AI Mode Section -->
+  <g transform="translate(450, 80)">
+    <rect x="0" y="0" width="300" height="200" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="10" filter="url(#shadow)"/>
+    <text x="150" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f57c00">Google AIモード</text>
+    
+    <!-- AI Search Box -->
+    <rect x="20" y="40" width="260" height="30" fill="white" stroke="#ff9800" stroke-width="1" rx="15"/>
+    <text x="30" y="59" font-family="Arial, sans-serif" font-size="12" fill="#666">金曜日に同僚3人とイタリアン</text>
+    
+    <!-- AI Processing -->
+    <circle cx="150" cy="95" r="12" fill="url(#orangeGradient)"/>
+    <text x="150" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">AI</text>
+    
+    <!-- Direct Action -->
+    <rect x="20" y="120" width="120" height="25" fill="#e8f5e8" stroke="#34a853" stroke-width="1" rx="5"/>
+    <text x="80" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#34a853">レストラン提案</text>
+    
+    <rect x="160" y="120" width="120" height="25" fill="#fce8e6" stroke="#ea4335" stroke-width="1" rx="5"/>
+    <text x="220" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#ea4335">直接予約</text>
+    
+    <text x="150" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">AIが代行して行動まで完了</text>
+    <text x="150" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">+ パーソナライズ + 共有機能</text>
+  </g>
+  
+  <!-- Key Features Section -->
+  <g transform="translate(50, 320)">
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">AIモードの主要機能</text>
+    
+    <!-- Feature 1: Agent -->
+    <g transform="translate(0, 40)">
+      <circle cx="15" cy="15" r="12" fill="url(#blueGradient)"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">1</text>
+      <text x="40" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">エージェント機能</text>
+      <text x="40" y="35" font-family="Arial, sans-serif" font-size="12" fill="#666">OpenTable、Resy等と連携し予約代行</text>
+    </g>
+    
+    <!-- Feature 2: Personalization -->
+    <g transform="translate(0, 80)">
+      <circle cx="15" cy="15" r="12" fill="url(#blueGradient)"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">2</text>
+      <text x="40" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">パーソナライズ</text>
+      <text x="40" y="35" font-family="Arial, sans-serif" font-size="12" fill="#666">過去の行動や嗜好を学習した個別提案</text>
+    </g>
+    
+    <!-- Feature 3: Collaboration -->
+    <g transform="translate(0, 120)">
+      <circle cx="15" cy="15" r="12" fill="url(#blueGradient)"/>
+      <text x="15" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">3</text>
+      <text x="40" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">コラボレーション</text>
+      <text x="40" y="35" font-family="Arial, sans-serif" font-size="12" fill="#666">検索結果を共有し共同で計画策定</text>
+    </g>
+  </g>
+  
+  <!-- Business Impact Section -->
+  <g transform="translate(400, 320)">
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#333">ビジネスへの影響</text>
+    
+    <!-- Time Saving -->
+    <g transform="translate(0, 40)">
+      <rect x="0" y="0" width="30" height="20" fill="#34a853" rx="3"/>
+      <text x="15" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">時短</text>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="12" fill="#666">情報収集から行動まで一元化</text>
+    </g>
+    
+    <!-- Decision Quality -->
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="30" height="20" fill="#4285f4" rx="3"/>
+      <text x="15" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">精度</text>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="12" fill="#666">個人最適化された意思決定支援</text>
+    </g>
+    
+    <!-- Efficiency -->
+    <g transform="translate(0, 100)">
+      <rect x="0" y="0" width="30" height="20" fill="#ea4335" rx="3"/>
+      <text x="15" y="13" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">効率</text>
+      <text x="40" y="15" font-family="Arial, sans-serif" font-size="12" fill="#666">チーム作業の協調性向上</text>
+    </g>
+  </g>
+  
+  <!-- Global Expansion -->
+  <g transform="translate(150, 480)">
+    <rect x="0" y="0" width="500" height="80" fill="#f1f3f4" stroke="#9aa0a6" stroke-width="1" rx="10"/>
+    <text x="250" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">世界展開状況</text>
+    <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">180以上の国・地域に展開中（2025年9月時点）</text>
+    <text x="250" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">日本語対応は今後予定 - 現在は英語版で利用可能</text>
+  </g>
+</svg>
