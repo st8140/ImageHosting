@@ -1,0 +1,303 @@
+<svg width="900" height="750" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="750" fill="#f7fafc"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">
+    ChatGPTデータ利用ポリシーとセキュリティ対策
+  </text>
+  
+  <!-- 上段：プラン別データ利用状況 -->
+  <g>
+    <text x="450" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">
+      プラン別データ利用状況
+    </text>
+    
+    <!-- 無料プラン -->
+    <rect x="50" y="80" width="250" height="140" fill="#fed7d7" stroke="#e53e3e" stroke-width="2" rx="8"/>
+    <text x="175" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e53e3e">
+      無料プラン（⚠️）
+    </text>
+    <text x="175" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#822727">
+      デフォルトで学習に利用
+    </text>
+    <text x="175" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#822727">
+      機密情報入力は危険
+    </text>
+    <text x="175" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#822727">
+      Temporary Chatのみ例外
+    </text>
+    <text x="175" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#822727">
+      企業利用非推奨
+    </text>
+    <text x="175" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+      （30日後削除、学習なし）
+    </text>
+    
+    <!-- 有料プラン -->
+    <rect x="325" y="80" width="250" height="140" fill="#c6f6d5" stroke="#38a169" stroke-width="2" rx="8"/>
+    <text x="450" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#38a169">
+      Plus/Team/Enterprise（✓）
+    </text>
+    <text x="450" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#276749">
+      デフォルトで学習に使用されない
+    </text>
+    <text x="450" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#276749">
+      オプトアウト機能あり
+    </text>
+    <text x="450" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#276749">
+      セキュリティ契約強化
+    </text>
+    <text x="450" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#276749">
+      企業利用推奨
+    </text>
+    <text x="450" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      DPA/SCC契約可能
+    </text>
+    
+    <!-- API -->
+    <rect x="600" y="80" width="250" height="140" fill="#bee3f8" stroke="#3182ce" stroke-width="2" rx="8"/>
+    <text x="725" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3182ce">
+      API経由（✓✓）
+    </text>
+    <text x="725" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c5282">
+      学習に一切使用されない
+    </text>
+    <text x="725" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c5282">
+      最高レベルのセキュリティ
+    </text>
+    <text x="725" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c5282">
+      監査ログ完備
+    </text>
+    <text x="725" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c5282">
+      企業利用最適
+    </text>
+    <text x="725" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      開発・統合用途に最適
+    </text>
+  </g>
+  
+  <!-- 中段：セキュリティチェックリスト -->
+  <g>
+    <text x="450" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">
+      企業導入時のセキュリティチェックリスト
+    </text>
+    
+    <!-- 技術的対策 -->
+    <rect x="50" y="270" width="200" height="200" fill="#e6fffa" stroke="#319795" stroke-width="1" rx="5"/>
+    <text x="150" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#319795">
+      技術的対策
+    </text>
+    <text x="150" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ Plus/Team以上必須
+    </text>
+    <text x="150" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ SSO + MFA設定
+    </text>
+    <text x="150" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ プロキシ経由接続
+    </text>
+    <text x="150" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ DLP（機密検知）有効化
+    </text>
+    <text x="150" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ 監査ログ取得
+    </text>
+    <text x="150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ 会話履歴最短保持
+    </text>
+    <text x="150" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ 自動削除設定
+    </text>
+    <text x="150" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      ✓ 最小権限付与
+    </text>
+    
+    <!-- 運用的対策 -->
+    <rect x="270" y="270" width="200" height="200" fill="#fef5e7" stroke="#dd6b20" stroke-width="1" rx="5"/>
+    <text x="370" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dd6b20">
+      運用的対策
+    </text>
+    <text x="370" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 入力前3秒チェック
+    </text>
+    <text x="370" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 最小開示テンプレ配布
+    </text>
+    <text x="370" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 具体名は伏字化
+    </text>
+    <text x="370" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 機密利用は事前申請
+    </text>
+    <text x="370" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 低リスク業務から開始
+    </text>
+    <text x="370" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 段階的拡大
+    </text>
+    <text x="370" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 月次点検実施
+    </text>
+    <text x="370" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      ✓ 相談窓口明確化
+    </text>
+    
+    <!-- 契約・法的対策 -->
+    <rect x="490" y="270" width="200" height="200" fill="#edf2f7" stroke="#4a5568" stroke-width="1" rx="5"/>
+    <text x="590" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#4a5568">
+      契約・法的対策
+    </text>
+    <text x="590" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ DPA締結
+    </text>
+    <text x="590" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ SCC合意
+    </text>
+    <text x="590" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ データ保管場所確認
+    </text>
+    <text x="590" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ 再委託先把握
+    </text>
+    <text x="590" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ 監査要件確認
+    </text>
+    <text x="590" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ インシデント対応
+    </text>
+    <text x="590" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ 記録・証跡保存
+    </text>
+    <text x="590" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2d3748">
+      ✓ 定期レビュー
+    </text>
+    
+    <!-- 教育・意識向上 -->
+    <rect x="710" y="270" width="140" height="200" fill="#fed7e2" stroke="#d53f8c" stroke-width="1" rx="5"/>
+    <text x="780" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d53f8c">
+      教育・意識向上
+    </text>
+    <text x="780" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ 15分eラーニング
+    </text>
+    <text x="780" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ 全員受講必須
+    </text>
+    <text x="780" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ OK/NG情報整理
+    </text>
+    <text x="780" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ 定期的な周知
+    </text>
+    <text x="780" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ 事例共有
+    </text>
+    <text x="780" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ ベストプラクティス
+    </text>
+    <text x="780" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ フィードバック
+    </text>
+    <text x="780" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      ✓ 継続改善
+    </text>
+  </g>
+  
+  <!-- 下段：NGデータ例とリスク -->
+  <g>
+    <text x="450" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">
+      入力禁止データ例とリスク評価
+    </text>
+    
+    <!-- 高リスク -->
+    <rect x="50" y="530" width="260" height="140" fill="#fed7d7" stroke="#e53e3e" stroke-width="2" rx="5"/>
+    <text x="180" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e53e3e">
+      高リスク（入力禁止）
+    </text>
+    <text x="180" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+      • 個人情報（氏名、住所、電話）
+    </text>
+    <text x="180" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+      • 顧客ID、契約番号
+    </text>
+    <text x="180" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+      • ソースコード、API キー
+    </text>
+    <text x="180" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+      • 財務数値、売上データ
+    </text>
+    <text x="180" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+      • 機密戦略、未発表情報
+    </text>
+    <text x="180" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+      • パスワード、認証情報
+    </text>
+    <text x="180" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#822727">
+      → 情報漏洩、法的責任、信頼失墜
+    </text>
+    
+    <!-- 中リスク -->
+    <rect x="320" y="530" width="260" height="140" fill="#fef5e7" stroke="#dd6b20" stroke-width="2" rx="5"/>
+    <text x="450" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dd6b20">
+      中リスク（要注意）
+    </text>
+    <text x="450" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 社内用語、業界専門用語
+    </text>
+    <text x="450" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • プロジェクト名、製品名
+    </text>
+    <text x="450" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 組織構造、人事情報
+    </text>
+    <text x="450" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 競合分析、市場データ
+    </text>
+    <text x="450" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 内部手順、ワークフロー
+    </text>
+    <text x="450" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 顧客企業名、取引先名
+    </text>
+    <text x="450" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#744210">
+      → 伏字化・抽象化して利用
+    </text>
+    
+    <!-- 低リスク -->
+    <rect x="590" y="530" width="260" height="140" fill="#c6f6d5" stroke="#38a169" stroke-width="2" rx="5"/>
+    <text x="720" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#38a169">
+      低リスク（利用可能）
+    </text>
+    <text x="720" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 一般的な業務相談
+    </text>
+    <text x="720" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 文章作成・要約
+    </text>
+    <text x="720" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 公開情報の分析
+    </text>
+    <text x="720" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 学習・研修コンテンツ
+    </text>
+    <text x="720" y="630" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • アイデア出し・ブレスト
+    </text>
+    <text x="720" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 社内FAQ、手順書作成
+    </text>
+    <text x="720" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#276749">
+      → 積極的活用でPoC開始
+    </text>
+  </g>
+  
+  <!-- 底辺のまとめ -->
+  <rect x="100" y="690" width="700" height="50" fill="#e2e8f0" rx="5"/>
+  <text x="450" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2d3748">
+    基本方針：Plus/Team以上 + 技術的対策 + 運用ルール + 継続教育
+  </text>
+  <text x="450" y="725" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3748">
+    まずは低リスク業務から始めて段階的に拡大、常に"最小開示"を心がける
+  </text>
+</svg>
