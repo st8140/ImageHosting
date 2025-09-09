@@ -1,0 +1,183 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2196f3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1976d2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4caf50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#388e3c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff9800;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f57c00;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#333">生成AI導入成功事例5選と共通する設計原則</text>
+  
+  <!-- Success Cases Section -->
+  <g transform="translate(50, 60)">
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">成功事例の成果</text>
+    
+    <!-- Case 1: Panasonic -->
+    <g transform="translate(0, 40)">
+      <rect x="0" y="0" width="140" height="50" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="8" filter="url(#shadow)"/>
+      <text x="70" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#1976d2">パナソニック</text>
+      <text x="70" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">18.6万時間/年</text>
+      <text x="70" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">労働時間削減</text>
+    </g>
+    
+    <!-- Case 2: Kirin -->
+    <g transform="translate(0, 100)">
+      <rect x="0" y="0" width="140" height="50" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="8" filter="url(#shadow)"/>
+      <text x="70" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#388e3c">キリン</text>
+      <text x="70" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">3.9万時間/年</text>
+      <text x="70" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">時間創出（マーケ）</text>
+    </g>
+    
+    <!-- Case 3: 7-Eleven -->
+    <g transform="translate(150, 40)">
+      <rect x="0" y="0" width="140" height="50" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="8" filter="url(#shadow)"/>
+      <text x="70" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#f57c00">セブン-イレブン</text>
+      <text x="70" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">発注時間</text>
+      <text x="70" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">40%削減</text>
+    </g>
+    
+    <!-- Case 4: Glico -->
+    <g transform="translate(150, 100)">
+      <rect x="0" y="0" width="140" height="50" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="8" filter="url(#shadow)"/>
+      <text x="70" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7b1fa2">江崎グリコ</text>
+      <text x="70" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">問い合わせ</text>
+      <text x="70" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">31%削減</text>
+    </g>
+    
+    <!-- Case 5: Clorox -->
+    <g transform="translate(300, 70)">
+      <rect x="0" y="0" width="140" height="50" fill="#e0f2f1" stroke="#00695c" stroke-width="2" rx="8" filter="url(#shadow)"/>
+      <text x="70" y="18" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#00695c">Clorox（米）</text>
+      <text x="70" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">実用アイデア</text>
+      <text x="70" y="43" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#666">約30%</text>
+    </g>
+  </g>
+  
+  <!-- Arrow pointing to principles -->
+  <g transform="translate(400, 200)">
+    <path d="M 0 0 L 0 30 M -5 25 L 0 30 L 5 25" stroke="#666" stroke-width="3" fill="none"/>
+    <text x="0" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#666">共通する設計原則</text>
+  </g>
+  
+  <!-- 5 Design Principles -->
+  <g transform="translate(100, 260)">
+    <text x="300" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">成功企業に共通する5つの設計原則</text>
+    
+    <!-- Principle 1: Staged Implementation -->
+    <g transform="translate(0, 40)">
+      <circle cx="20" cy="20" r="15" fill="url(#blueGradient)" filter="url(#shadow)"/>
+      <text x="20" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">1</text>
+      <text x="50" y="15" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333">段階導入</text>
+      <text x="50" y="28" font-family="Arial, sans-serif" font-size="11" fill="#666">PoC → 小規模本番 → 横展開</text>
+      
+      <!-- Timeline -->
+      <g transform="translate(200, 5)">
+        <rect x="0" y="0" width="60" height="15" fill="#e1f5fe" stroke="#01579b" stroke-width="1" rx="3"/>
+        <text x="30" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#01579b">PoC</text>
+        
+        <path d="M 65 7 L 75 7 M 72 4 L 75 7 L 72 10" stroke="#666" stroke-width="1" fill="none"/>
+        
+        <rect x="80" y="0" width="60" height="15" fill="#e8f5e9" stroke="#2e7d32" stroke-width="1" rx="3"/>
+        <text x="110" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#2e7d32">小規模本番</text>
+        
+        <path d="M 145 7 L 155 7 M 152 4 L 155 7 L 152 10" stroke="#666" stroke-width="1" fill="none"/>
+        
+        <rect x="160" y="0" width="60" height="15" fill="#fff8e1" stroke="#e65100" stroke-width="1" rx="3"/>
+        <text x="190" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#e65100">横展開</text>
+      </g>
+    </g>
+    
+    <!-- Principle 2: Two-tier KPI -->
+    <g transform="translate(0, 85)">
+      <circle cx="20" cy="20" r="15" fill="url(#greenGradient)" filter="url(#shadow)"/>
+      <text x="20" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">2</text>
+      <text x="50" y="15" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333">KPIの二階建て</text>
+      <text x="50" y="28" font-family="Arial, sans-serif" font-size="11" fill="#666">業務KPI × 運用KPI</text>
+      
+      <!-- KPI boxes -->
+      <g transform="translate(200, 5)">
+        <rect x="0" y="0" width="80" height="15" fill="#e8f5e9" stroke="#4caf50" stroke-width="1" rx="3"/>
+        <text x="40" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#388e3c">業務KPI</text>
+        
+        <rect x="90" y="0" width="80" height="15" fill="#e3f2fd" stroke="#2196f3" stroke-width="1" rx="3"/>
+        <text x="130" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#1976d2">運用KPI</text>
+      </g>
+    </g>
+    
+    <!-- Principle 3: Security -->
+    <g transform="translate(0, 130)">
+      <circle cx="20" cy="20" r="15" fill="url(#orangeGradient)" filter="url(#shadow)"/>
+      <text x="20" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">3</text>
+      <text x="50" y="15" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333">安全運用の前提化</text>
+      <text x="50" y="28" font-family="Arial, sans-serif" font-size="11" fill="#666">データ分類・権限・ログ</text>
+      
+      <!-- Security elements -->
+      <g transform="translate(200, 5)">
+        <rect x="0" y="0" width="50" height="15" fill="#ffebee" stroke="#f44336" stroke-width="1" rx="3"/>
+        <text x="25" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#c62828">分類</text>
+        
+        <rect x="55" y="0" width="50" height="15" fill="#fff3e0" stroke="#ff9800" stroke-width="1" rx="3"/>
+        <text x="80" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#f57c00">権限</text>
+        
+        <rect x="110" y="0" width="50" height="15" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1" rx="3"/>
+        <text x="135" y="11" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#7b1fa2">ログ</text>
+      </g>
+    </g>
+    
+    <!-- Principle 4: Delegation -->
+    <g transform="translate(0, 175)">
+      <circle cx="20" cy="20" r="15" fill="#9c27b0" filter="url(#shadow)"/>
+      <text x="20" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">4</text>
+      <text x="50" y="15" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333">現場に権限移譲</text>
+      <text x="50" y="28" font-family="Arial, sans-serif" font-size="11" fill="#666">FAQ更新・プロンプト改善</text>
+      
+      <!-- Delegation flow -->
+      <g transform="translate(200, 8)">
+        <circle cx="10" cy="5" r="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="1"/>
+        <text x="10" y="9" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#388e3c">現場</text>
+        
+        <path d="M 20 5 L 40 5 M 37 2 L 40 5 L 37 8" stroke="#666" stroke-width="1" fill="none"/>
+        
+        <circle cx="50" cy="5" r="8" fill="#e3f2fd" stroke="#2196f3" stroke-width="1"/>
+        <text x="50" y="9" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" fill="#1976d2">IT</text>
+      </g>
+    </g>
+    
+    <!-- Principle 5: Learning Culture -->
+    <g transform="translate(0, 220)">
+      <circle cx="20" cy="20" r="15" fill="#00695c" filter="url(#shadow)"/>
+      <text x="20" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">5</text>
+      <text x="50" y="15" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#333">学習文化の制度化</text>
+      <text x="50" y="28" font-family="Arial, sans-serif" font-size="11" fill="#666">失敗 → 改善 → 標準化</text>
+      
+      <!-- Learning cycle -->
+      <g transform="translate(200, 8)">
+        <circle cx="15" cy="5" r="12" fill="none" stroke="#666" stroke-width="2"/>
+        <path d="M 25 2 L 30 5 L 25 8" stroke="#666" stroke-width="2" fill="none"/>
+        <text x="35" y="9" font-family="Arial, sans-serif" font-size="8" fill="#666">継続改善</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Success Formula -->
+  <g transform="translate(150, 520)">
+    <rect x="0" y="0" width="500" height="60" fill="#f1f8e9" stroke="#558b2f" stroke-width="2" rx="10" filter="url(#shadow)"/>
+    <text x="250" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">成功の方程式</text>
+    <text x="250" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">数字で語り、運用で勝つ ＝ 小さく始め、速く学び、着実に広げる</text>
+  </g>
+</svg>
