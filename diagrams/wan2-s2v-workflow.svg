@@ -1,0 +1,414 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1000" height="800" fill="#f8fafc"/>
+  
+  <!-- タイトル -->
+  <text x="500" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1a365d">
+    Wan2.2-S2V：映画級アバター生成技術の全体像
+  </text>
+  
+  <!-- 入力から出力までのワークフロー -->
+  <g>
+    <text x="500" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+      写真と音声から映画品質の動画を生成
+    </text>
+    
+    <!-- 入力部分 -->
+    <g>
+      <!-- 写真入力 -->
+      <rect x="50" y="80" width="150" height="120" fill="#e6fffa" stroke="#319795" stroke-width="2" rx="8"/>
+      <text x="125" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#319795">
+        入力：写真
+      </text>
+      <rect x="70" y="115" width="110" height="70" fill="#81e6d9" rx="4"/>
+      <text x="125" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+        ポートレート
+      </text>
+      <text x="125" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+        バストアップ
+      </text>
+      <text x="125" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+        全身写真
+      </text>
+      
+      <!-- 音声入力 -->
+      <rect x="50" y="220" width="150" height="120" fill="#fef5e7" stroke="#dd6b20" stroke-width="2" rx="8"/>
+      <text x="125" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dd6b20">
+        入力：音声
+      </text>
+      <rect x="70" y="255" width="110" height="70" fill="#fed7aa" rx="4"/>
+      <text x="125" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+        会話音声
+      </text>
+      <text x="125" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+        歌声
+      </text>
+      <text x="125" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+        多言語対応
+      </text>
+    </g>
+    
+    <!-- 処理部分 -->
+    <g>
+      <rect x="300" y="80" width="400" height="260" fill="#edf2f7" stroke="#4a5568" stroke-width="2" rx="8"/>
+      <text x="500" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4a5568">
+        Wan2.2-S2V 処理エンジン
+      </text>
+      
+      <!-- 技術的特徴 -->
+      <g>
+        <!-- フレーム処理技術 -->
+        <rect x="320" y="120" width="180" height="80" fill="#e6fffa" rx="5"/>
+        <text x="410" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#319795">
+          革新的フレーム処理
+        </text>
+        <text x="410" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#234e52">
+          過去フレーム圧縮
+        </text>
+        <text x="410" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#234e52">
+          潜在表現処理
+        </text>
+        <text x="410" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#234e52">
+          長尺動画安定化
+        </text>
+        <text x="410" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#234e52">
+          → 計算コスト削減
+        </text>
+        
+        <!-- 多解像度学習 -->
+        <rect x="520" y="120" width="180" height="80" fill="#fed7e2" rx="5"/>
+        <text x="610" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d53f8c">
+          多解像度学習
+        </text>
+        <text x="610" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#702459">
+          480p / 720p対応
+        </text>
+        <text x="610" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#702459">
+          縦型・横型両対応
+        </text>
+        <text x="610" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#702459">
+          映画・SNS用途
+        </text>
+        <text x="610" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#702459">
+          → 幅広いプラットフォーム
+        </text>
+        
+        <!-- 大規模データセット -->
+        <rect x="320" y="220" width="180" height="80" fill="#fef5e7" rx="5"/>
+        <text x="410" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dd6b20">
+          大規模データ学習
+        </text>
+        <text x="410" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#744210">
+          映画・TV制作データ
+        </text>
+        <text x="410" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#744210">
+          高品質音声・映像
+        </text>
+        <text x="410" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#744210">
+          多様なシーン対応
+        </text>
+        <text x="410" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#744210">
+          → プロ品質実現
+        </text>
+        
+        <!-- Speech-to-Video技術 -->
+        <rect x="520" y="220" width="180" height="80" fill="#e2e8f0" rx="5"/>
+        <text x="610" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4a5568">
+          Speech-to-Video
+        </text>
+        <text x="610" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2d3748">
+          音声同期技術
+        </text>
+        <text x="610" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2d3748">
+          表情・動作生成
+        </text>
+        <text x="610" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2d3748">
+          環境相互作用
+        </text>
+        <text x="610" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2d3748">
+          → 自然な映像表現
+        </text>
+      </g>
+    </g>
+    
+    <!-- 出力部分 -->
+    <g>
+      <rect x="800" y="80" width="150" height="260" fill="#c6f6d5" stroke="#38a169" stroke-width="2" rx="8"/>
+      <text x="875" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#38a169">
+        出力：映画級動画
+      </text>
+      
+      <!-- 特徴一覧 -->
+      <text x="875" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ 話す・歌う動作
+      </text>
+      <text x="875" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ 歩行・身体動作
+      </text>
+      <text x="875" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ 表情変化
+      </text>
+      <text x="875" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ 環境相互作用
+      </text>
+      <text x="875" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ 長尺対応
+      </text>
+      <text x="875" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ 複数解像度
+      </text>
+      <text x="875" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ 複数構図
+      </text>
+      <text x="875" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        ✓ プロンプト制御
+      </text>
+      
+      <!-- 品質レベル -->
+      <rect x="820" y="250" width="110" height="60" fill="#9ae6b4" rx="5"/>
+      <text x="875" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#276749">
+        映画品質
+      </text>
+      <text x="875" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#276749">
+        プロ制作レベル
+      </text>
+      <text x="875" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#276749">
+        商用利用可能
+      </text>
+    </g>
+    
+    <!-- 矢印 -->
+    <path d="M 210 150 L 290 150" stroke="#2d3748" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 210 290 L 290 290" stroke="#2d3748" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <path d="M 710 210 L 790 210" stroke="#2d3748" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 応用分野 -->
+  <g>
+    <text x="500" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">
+      期待される応用分野
+    </text>
+    
+    <!-- エンターテインメント -->
+    <rect x="50" y="400" width="180" height="160" fill="#fed7e2" stroke="#d53f8c" stroke-width="2" rx="8"/>
+    <text x="140" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d53f8c">
+      エンターテインメント
+    </text>
+    <text x="140" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      • 映画・ドラマ制作
+    </text>
+    <text x="140" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      • SNSコンテンツ
+    </text>
+    <text x="140" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      • ミュージックビデオ
+    </text>
+    <text x="140" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      • ゲーム・アニメ
+    </text>
+    <text x="140" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      • メタバース
+    </text>
+    <text x="140" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      • バーチャルアイドル
+    </text>
+    <text x="140" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#702459">
+      • ライブ配信
+    </text>
+    <text x="140" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#702459">
+      制作コスト大幅削減
+    </text>
+    
+    <!-- ビジネス・広告 -->
+    <rect x="250" y="400" width="180" height="160" fill="#fef5e7" stroke="#dd6b20" stroke-width="2" rx="8"/>
+    <text x="340" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dd6b20">
+      ビジネス・広告
+    </text>
+    <text x="340" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 企業プロモーション
+    </text>
+    <text x="340" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 商品紹介動画
+    </text>
+    <text x="340" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 営業用プレゼン
+    </text>
+    <text x="340" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • CEO/役員メッセージ
+    </text>
+    <text x="340" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • 多言語展開
+    </text>
+    <text x="340" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • インフルエンサー
+    </text>
+    <text x="340" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#744210">
+      • デジタルサイネージ
+    </text>
+    <text x="340" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#744210">
+      迅速な動画制作
+    </text>
+    
+    <!-- 教育・研修 -->
+    <rect x="450" y="400" width="180" height="160" fill="#e6fffa" stroke="#319795" stroke-width="2" rx="8"/>
+    <text x="540" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#319795">
+      教育・研修
+    </text>
+    <text x="540" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      • 歴史人物再現
+    </text>
+    <text x="540" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      • 語学学習アバター
+    </text>
+    <text x="540" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      • オンライン講義
+    </text>
+    <text x="540" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      • 企業研修動画
+    </text>
+    <text x="540" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      • 教材動画制作
+    </text>
+    <text x="540" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      • バーチャル講師
+    </text>
+    <text x="540" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#234e52">
+      • インタラクティブ学習
+    </text>
+    <text x="540" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#234e52">
+      個別化学習支援
+    </text>
+    
+    <!-- 医療・福祉 -->
+    <rect x="650" y="400" width="150" height="160" fill="#bee3f8" stroke="#3182ce" stroke-width="2" rx="8"/>
+    <text x="725" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3182ce">
+      医療・福祉
+    </text>
+    <text x="725" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      • コミュニケーション支援
+    </text>
+    <text x="725" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      • セラピー用アバター
+    </text>
+    <text x="725" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      • 患者説明動画
+    </text>
+    <text x="725" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      • 医療教育
+    </text>
+    <text x="725" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      • リハビリ支援
+    </text>
+    <text x="725" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      • 遠隔診療
+    </text>
+    <text x="725" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c5282">
+      • 心理カウンセリング
+    </text>
+    <text x="725" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#2c5282">
+      アクセス向上
+    </text>
+    
+    <!-- オープンソース化の意義 -->
+    <rect x="820" y="400" width="150" height="160" fill="#c6f6d5" stroke="#38a169" stroke-width="2" rx="8"/>
+    <text x="895" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#38a169">
+      オープンソース化
+    </text>
+    <text x="895" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 690万DL突破
+    </text>
+    <text x="895" y="460" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 技術の民主化
+    </text>
+    <text x="895" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 研究者利用拡大
+    </text>
+    <text x="895" y="490" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • スタートアップ参入
+    </text>
+    <text x="895" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • 個人クリエイター
+    </text>
+    <text x="895" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • イノベーション加速
+    </text>
+    <text x="895" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+      • グローバル普及
+    </text>
+    <text x="895" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#276749">
+      映像制作の未来
+    </text>
+  </g>
+  
+  <!-- 技術的優位性 -->
+  <g>
+    <text x="500" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">
+      従来技術との比較優位性
+    </text>
+    
+    <rect x="100" y="610" width="800" height="120" fill="#f7fafc" stroke="#a0aec0" stroke-width="1" rx="8"/>
+    
+    <g>
+      <!-- 従来技術 -->
+      <text x="200" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e53e3e">
+        従来のトーキングヘッド
+      </text>
+      <text x="200" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+        • 顔部分のみ生成
+      </text>
+      <text x="200" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+        • 短時間制限
+      </text>
+      <text x="200" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+        • 動作が不自然
+      </text>
+      <text x="200" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+        • 背景固定
+      </text>
+      <text x="200" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#822727">
+        • 制作現場で限定利用
+      </text>
+      
+      <!-- VS -->
+      <text x="500" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2d3748">
+        VS
+      </text>
+      
+      <!-- Wan2.2-S2V -->
+      <text x="800" y="635" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#38a169">
+        Wan2.2-S2V
+      </text>
+      <text x="800" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        • 全身動作生成
+      </text>
+      <text x="800" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        • 長尺動画対応
+      </text>
+      <text x="800" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        • 自然な表情・動作
+      </text>
+      <text x="800" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        • 環境相互作用
+      </text>
+      <text x="800" y="710" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#276749">
+        • 映画品質実現
+      </text>
+    </g>
+  </g>
+  
+  <!-- 底辺のまとめ -->
+  <rect x="100" y="750" width="800" height="40" fill="#e2e8f0" rx="8"/>
+  <text x="500" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2d3748">
+    映像制作の新たなスタンダード：写真と声だけで映画級コンテンツを生成
+  </text>
+  <text x="500" y="785" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2d3748">
+    オープンソース化により、プロからアマチュアまで誰でもアクセス可能な「動画制作の民主化」を実現
+  </text>
+  
+  <!-- 矢印マーカー -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2d3748"/>
+    </marker>
+  </defs>
+</svg>
