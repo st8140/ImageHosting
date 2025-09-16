@@ -1,0 +1,101 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">
+    Gazoulab AI画像編集ツール
+  </text>
+  
+  <!-- Central Circle - Gazoulab -->
+  <circle cx="400" cy="250" r="80" fill="#3b82f6" stroke="#1e40af" stroke-width="3"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">
+    Gazoulab
+  </text>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">
+    AI画像編集
+  </text>
+  
+  <!-- Feature Boxes -->
+  <!-- Background Removal -->
+  <rect x="50" y="120" width="140" height="80" rx="8" fill="#10b981" stroke="#059669" stroke-width="2"/>
+  <text x="120" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    背景除去
+  </text>
+  <text x="120" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    ワンクリックで
+  </text>
+  <text x="120" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    背景を削除
+  </text>
+  
+  <!-- Image Enhancement -->
+  <rect x="610" y="120" width="140" height="80" rx="8" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+  <text x="680" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    画質改善
+  </text>
+  <text x="680" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    低解像度画像を
+  </text>
+  <text x="680" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    高画質化
+  </text>
+  
+  <!-- Background Replace -->
+  <rect x="50" y="380" width="140" height="80" rx="8" fill="#8b5cf6" stroke="#7c3aed" stroke-width="2"/>
+  <text x="120" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    背景変更
+  </text>
+  <text x="120" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    新しい背景に
+  </text>
+  <text x="120" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    差し替え
+  </text>
+  
+  <!-- AI Generation -->
+  <rect x="610" y="380" width="140" height="80" rx="8" fill="#ef4444" stroke="#dc2626" stroke-width="2"/>
+  <text x="680" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    AI画像生成
+  </text>
+  <text x="680" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    テキストから
+  </text>
+  <text x="680" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    画像生成
+  </text>
+  
+  <!-- Image Extension -->
+  <rect x="330" y="50" width="140" height="80" rx="8" fill="#06b6d4" stroke="#0891b2" stroke-width="2"/>
+  <text x="400" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+    画像拡張
+  </text>
+  <text x="400" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    画像の余白を
+  </text>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+    自動生成
+  </text>
+  
+  <!-- Connecting Lines -->
+  <line x1="190" y1="160" x2="320" y2="200" stroke="#64748b" stroke-width="2"/>
+  <line x1="610" y1="160" x2="480" y2="200" stroke="#64748b" stroke-width="2"/>
+  <line x1="190" y1="420" x2="320" y2="300" stroke="#64748b" stroke-width="2"/>
+  <line x1="610" y1="420" x2="480" y2="300" stroke="#64748b" stroke-width="2"/>
+  <line x1="400" y1="130" x2="400" y2="170" stroke="#64748b" stroke-width="2"/>
+  
+  <!-- Features List -->
+  <rect x="250" y="480" width="300" height="100" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
+  <text x="400" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#334155">
+    主な特徴
+  </text>
+  <text x="270" y="525" font-family="Arial, sans-serif" font-size="11" fill="#475569">
+    • 無料プランで基本機能利用可能
+  </text>
+  <text x="270" y="545" font-family="Arial, sans-serif" font-size="11" fill="#475569">
+    • ブラウザ上で動作（アプリ不要）
+  </text>
+  <text x="270" y="565" font-family="Arial, sans-serif" font-size="11" fill="#475569">
+    • 初心者からプロまで簡単操作
+  </text>
+</svg>
