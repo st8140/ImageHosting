@@ -1,0 +1,63 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">GPT-5-Codex：AI開発支援ツール</text>
+  
+  <!-- Central Node -->
+  <circle cx="400" cy="300" r="80" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+  <text x="400" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">GPT-5</text>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">Codex</text>
+  
+  <!-- Feature Boxes -->
+  <!-- Top Left: Code Review -->
+  <rect x="100" y="80" width="150" height="80" fill="#e74c3c" rx="10"/>
+  <text x="175" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">コードレビュー</text>
+  <text x="175" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">依存関係考慮</text>
+  <text x="175" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">バグ検出向上</text>
+  
+  <!-- Top Right: Long Tasks -->
+  <rect x="550" y="80" width="150" height="80" fill="#9b59b6" rx="10"/>
+  <text x="625" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">長時間タスク</text>
+  <text x="625" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">数時間継続</text>
+  <text x="625" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">リファクタリング</text>
+  
+  <!-- Left: Frontend Support -->
+  <rect x="50" y="260" width="150" height="80" fill="#f39c12" rx="10"/>
+  <text x="125" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">フロントエンド</text>
+  <text x="125" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">UI改善提案</text>
+  <text x="125" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">スクショ解析</text>
+  
+  <!-- Right: Integration -->
+  <rect x="600" y="260" width="150" height="80" fill="#1abc9c" rx="10"/>
+  <text x="675" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">開発環境統合</text>
+  <text x="675" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">IDEプラグイン</text>
+  <text x="675" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">GitHub連携</text>
+  
+  <!-- Bottom Left: Cost Optimization -->
+  <rect x="100" y="440" width="150" height="80" fill="#27ae60" rx="10"/>
+  <text x="175" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">コスト最適化</text>
+  <text x="175" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">タスク別調整</text>
+  <text x="175" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">効率的運用</text>
+  
+  <!-- Bottom Right: Benefits -->
+  <rect x="550" y="440" width="150" height="80" fill="#34495e" rx="10"/>
+  <text x="625" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">企業メリット</text>
+  <text x="625" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">効率向上</text>
+  <text x="625" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">人材不足対策</text>
+  
+  <!-- Connection Lines -->
+  <line x1="250" y1="120" x2="340" y2="260" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="550" y1="120" x2="460" y2="260" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="200" y1="300" x2="320" y2="300" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="600" y1="300" x2="480" y2="300" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="250" y1="480" x2="340" y2="340" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="550" y1="480" x2="460" y2="340" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Key Features Box -->
+  <rect x="300" y="530" width="200" height="60" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="400" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">主な進化ポイント</text>
+  <text x="400" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">エージェント型コーディング</text>
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">実務レベル対応</text>
+</svg>
