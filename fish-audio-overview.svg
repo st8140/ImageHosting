@@ -1,0 +1,97 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Fish Audio</text>
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495e">自然で高品質なAI音声生成サービス</text>
+  
+  <!-- Central Service Box -->
+  <rect x="300" y="80" width="200" height="80" fill="#3498db" rx="15"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Fish Audio</text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">by Hanabi AI Inc.</text>
+  <text x="400" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Text-to-Speech / ボイスクローン</text>
+  
+  <!-- Main Features -->
+  <!-- Natural Expression -->
+  <rect x="80" y="190" width="140" height="90" fill="#e74c3c" rx="10"/>
+  <text x="150" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">自然な感情表現</text>
+  <text x="150" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">声のトーン</text>
+  <text x="150" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">感情タグ</text>
+  <text x="150" y="261" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">（喜び・迫力等）</text>
+  
+  <!-- Voice Clone -->
+  <rect x="250" y="190" width="140" height="90" fill="#f39c12" rx="10"/>
+  <text x="320" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">高精度</text>
+  <text x="320" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">ボイスクローン</text>
+  <text x="320" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">15-90秒サンプル</text>
+  <text x="320" y="261" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">短時間で再現</text>
+  
+  <!-- Multilingual -->
+  <rect x="420" y="190" width="140" height="90" fill="#27ae60" rx="10"/>
+  <text x="490" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">多言語対応</text>
+  <text x="490" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">日本語・英語</text>
+  <text x="490" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">韓国語・中国語</text>
+  <text x="490" y="261" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">フランス語等</text>
+  
+  <!-- Easy to Use -->
+  <rect x="590" y="190" width="140" height="90" fill="#9b59b6" rx="10"/>
+  <text x="660" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">使いやすさ</text>
+  <text x="660" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">低コスト</text>
+  <text x="660" y="248" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Web UI簡単操作</text>
+  <text x="660" y="261" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">月9.99ドル～</text>
+  
+  <!-- Connection Lines -->
+  <line x1="380" y1="160" x2="150" y2="190" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="400" y1="160" x2="320" y2="190" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="420" y1="160" x2="490" y2="190" stroke="#7f8c8d" stroke-width="2"/>
+  <line x1="440" y1="160" x2="660" y2="190" stroke="#7f8c8d" stroke-width="2"/>
+  
+  <!-- Use Cases -->
+  <rect x="50" y="310" width="700" height="30" fill="#34495e" rx="15"/>
+  <text x="400" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">実用シーン</text>
+  
+  <!-- Use Case Boxes -->
+  <rect x="60" y="360" width="130" height="70" fill="#1abc9c" rx="8"/>
+  <text x="125" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">動画制作</text>
+  <text x="125" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">YouTube</text>
+  <text x="125" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">ナレーション</text>
+  <text x="125" y="419" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">ポッドキャスト</text>
+  
+  <rect x="210" y="360" width="130" height="70" fill="#1abc9c" rx="8"/>
+  <text x="275" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">教育・学習</text>
+  <text x="275" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">オーディオブック</text>
+  <text x="275" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">語学教材</text>
+  <text x="275" y="419" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">発音練習</text>
+  
+  <rect x="360" y="360" width="130" height="70" fill="#1abc9c" rx="8"/>
+  <text x="425" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">ビジネス</text>
+  <text x="425" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">広告</text>
+  <text x="425" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">ブランドボイス</text>
+  <text x="425" y="419" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">プレゼン</text>
+  
+  <rect x="510" y="360" width="130" height="70" fill="#1abc9c" rx="8"/>
+  <text x="575" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">アプリ・ゲーム</text>
+  <text x="575" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">チャットボット</text>
+  <text x="575" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">キャラクター</text>
+  <text x="575" y="419" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">API連携</text>
+  
+  <!-- Technical Background -->
+  <rect x="100" y="460" width="250" height="80" fill="#8e44ad" rx="10"/>
+  <text x="225" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">技術的背景</text>
+  <text x="225" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Fish-Speech モデル</text>
+  <text x="225" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">大規模言語モデル組み合わせ</text>
+  <text x="225" y="531" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Dual Autoregressive構造</text>
+  
+  <!-- Considerations -->
+  <rect x="380" y="460" width="320" height="80" fill="#e67e22" rx="10"/>
+  <text x="540" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">注意点・制約</text>
+  <text x="450" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">サンプル音声の質に依存</text>
+  <text x="630" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">商用利用の制限</text>
+  <text x="450" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">倫理的課題（なりすまし）</text>
+  <text x="630" y="518" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">言語・アクセントの限界</text>
+  
+  <!-- Bottom Summary -->
+  <rect x="150" y="560" width="500" height="30" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="15"/>
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">音声活用の可能性を大きく広げるAIサービス</text>
+</svg>
