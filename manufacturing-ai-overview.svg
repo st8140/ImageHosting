@@ -1,0 +1,105 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#2c3e50">製造業における生成AI活用</text>
+  <text x="400" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#34495e">設計から品質管理まで</text>
+  
+  <!-- Manufacturing Process Flow -->
+  <rect x="50" y="80" width="700" height="40" fill="#3498db" rx="20"/>
+  <text x="400" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">製造プロセス</text>
+  
+  <!-- Process Steps -->
+  <!-- Design -->
+  <rect x="60" y="140" width="150" height="120" fill="#e74c3c" rx="10"/>
+  <text x="135" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">1. 設計工程</text>
+  <text x="135" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">CAD図面自動補完</text>
+  <text x="135" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">設計エラーチェック</text>
+  <text x="135" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">3Dモデル生成</text>
+  <text x="135" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">設計レビュー支援</text>
+  <text x="135" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">→開発スピードアップ</text>
+  
+  <!-- Production -->
+  <rect x="235" y="140" width="150" height="120" fill="#f39c12" rx="10"/>
+  <text x="310" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">2. 生産現場</text>
+  <text x="310" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">マニュアル自動生成</text>
+  <text x="310" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">音声アシスタント</text>
+  <text x="310" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">設備データ解析</text>
+  <text x="310" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">異常兆候検知</text>
+  <text x="310" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">→効率化・予防保全</text>
+  
+  <!-- Quality Control -->
+  <rect x="410" y="140" width="150" height="120" fill="#27ae60" rx="10"/>
+  <text x="485" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3. 品質管理</text>
+  <text x="485" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">不良パターン学習</text>
+  <text x="485" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">外観検査自動化</text>
+  <text x="485" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">品質報告書生成</text>
+  <text x="485" y="230" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">検査員判断支援</text>
+  <text x="485" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">→精度向上・時短</text>
+  
+  <!-- Supply Chain -->
+  <rect x="585" y="140" width="150" height="120" fill="#9b59b6" rx="10"/>
+  <text x="660" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">4. サプライ</text>
+  <text x="660" y="173" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">チェーン</text>
+  <text x="660" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">代替部品提案</text>
+  <text x="660" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">需要予測</text>
+  <text x="660" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">多言語情報共有</text>
+  <text x="660" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">在庫最適化</text>
+  <text x="660" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">→リスク低減</text>
+  
+  <!-- Flow Arrows -->
+  <polygon points="210,200 235,195 235,205" fill="#7f8c8d"/>
+  <polygon points="385,200 410,195 410,205" fill="#7f8c8d"/>
+  <polygon points="560,200 585,195 585,205" fill="#7f8c8d"/>
+  
+  <!-- Key Benefits -->
+  <rect x="100" y="290" width="600" height="80" fill="#34495e" rx="10"/>
+  <text x="400" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">期待される効果</text>
+  <text x="200" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">スピード向上</text>
+  <text x="350" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">精度向上</text>
+  <text x="500" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">コスト削減</text>
+  <text x="650" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">競争優位性</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">開発サイクル短縮</text>
+  <text x="350" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">品質向上</text>
+  <text x="500" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">人件費・材料費</text>
+  <text x="650" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">差別化要因</text>
+  
+  <!-- Challenges -->
+  <rect x="100" y="390" width="600" height="80" fill="#e67e22" rx="10"/>
+  <text x="400" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">導入時の課題</text>
+  <text x="200" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">セキュリティ</text>
+  <text x="350" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">精度検証</text>
+  <text x="500" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">現場教育</text>
+  <text x="650" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">運用体制</text>
+  <text x="200" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">機密データ保護</text>
+  <text x="350" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">人間による確認</text>
+  <text x="500" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">AI理解促進</text>
+  <text x="650" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">継続的改善</text>
+  
+  <!-- Technology Icons -->
+  <circle cx="150" cy="500" r="25" fill="#1abc9c"/>
+  <text x="150" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">IoT</text>
+  
+  <circle cx="250" cy="500" r="25" fill="#1abc9c"/>
+  <text x="250" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">Robot</text>
+  
+  <circle cx="350" cy="500" r="25" fill="#1abc9c"/>
+  <text x="350" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">DX</text>
+  
+  <circle cx="450" cy="500" r="25" fill="#e74c3c"/>
+  <text x="450" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">生成</text>
+  <text x="450" y="512" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="white">AI</text>
+  
+  <circle cx="550" cy="500" r="25" fill="#1abc9c"/>
+  <text x="550" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">CAD</text>
+  
+  <circle cx="650" cy="500" r="25" fill="#1abc9c"/>
+  <text x="650" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="white">Cloud</text>
+  
+  <text x="400" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">製造業DXの新たな潮流</text>
+  
+  <!-- Bottom Summary -->
+  <rect x="150" y="565" width="500" height="25" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="1" rx="5"/>
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">生成AI = 単なる効率化ツールから競争優位性を生む仕組みへ</text>
+</svg>
