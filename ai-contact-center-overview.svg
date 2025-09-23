@@ -1,0 +1,88 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">生成AIコンタクトセンター</text>
+  
+  <!-- Customer Icon -->
+  <circle cx="100" cy="150" r="40" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">顧客</text>
+  <text x="100" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">24時間対応</text>
+  <text x="100" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">多言語</text>
+  
+  <!-- AI System -->
+  <rect x="300" y="100" width="200" height="100" fill="#e74c3c" rx="15"/>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">生成AI</text>
+  <text x="400" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">・文脈理解</text>
+  <text x="400" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">・パーソナライズ</text>
+  <text x="400" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">・ナレッジ検索</text>
+  
+  <!-- Operator -->
+  <circle cx="650" cy="150" r="40" fill="#27ae60" stroke="#229954" stroke-width="3"/>
+  <text x="650" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">オペレー</text>
+  <text x="650" y="162" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white">ター</text>
+  <text x="650" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">高度業務</text>
+  <text x="650" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">に集中</text>
+  
+  <!-- Applications -->
+  <!-- Chatbot -->
+  <rect x="150" y="280" width="120" height="70" fill="#9b59b6" rx="10"/>
+  <text x="210" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">AIチャット</text>
+  <text x="210" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">ボット</text>
+  <text x="210" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">一次対応自動化</text>
+  
+  <!-- Call Assistant -->
+  <rect x="300" y="280" width="120" height="70" fill="#f39c12" rx="10"/>
+  <text x="360" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">AIコール</text>
+  <text x="360" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">アシスタント</text>
+  <text x="360" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">リアルタイム提案</text>
+  
+  <!-- Multilingual -->
+  <rect x="450" y="280" width="120" height="70" fill="#1abc9c" rx="10"/>
+  <text x="510" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">多言語対応</text>
+  <text x="510" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">自然な翻訳</text>
+  <text x="510" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">グローバル対応</text>
+  
+  <!-- Benefits -->
+  <rect x="50" y="420" width="180" height="80" fill="#34495e" rx="10"/>
+  <text x="140" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">従来の課題</text>
+  <text x="140" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・人材不足</text>
+  <text x="140" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・コスト増</text>
+  <text x="140" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・品質のばらつき</text>
+  
+  <rect x="270" y="420" width="180" height="80" fill="#e67e22" rx="10"/>
+  <text x="360" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">生成AIの効果</text>
+  <text x="360" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・即応性向上</text>
+  <text x="360" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・コスト最適化</text>
+  <text x="360" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・一貫性ある回答</text>
+  
+  <rect x="490" y="420" width="180" height="80" fill="#8e44ad" rx="10"/>
+  <text x="580" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">未来の姿</text>
+  <text x="580" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・AIと人の協働</text>
+  <text x="580" y="478" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・顧客体験向上</text>
+  <text x="580" y="491" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">・競争優位性</text>
+  
+  <!-- Connection Lines -->
+  <line x1="140" y1="150" x2="300" y2="150" stroke="#7f8c8d" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="500" y1="150" x2="610" y2="150" stroke="#7f8c8d" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- From AI to applications -->
+  <line x1="350" y1="200" x2="210" y2="280" stroke="#95a5a6" stroke-width="2"/>
+  <line x1="400" y1="200" x2="360" y2="280" stroke="#95a5a6" stroke-width="2"/>
+  <line x1="450" y1="200" x2="510" y2="280" stroke="#95a5a6" stroke-width="2"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d" />
+    </marker>
+  </defs>
+  
+  <!-- Performance Metrics -->
+  <rect x="250" y="530" width="300" height="60" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="400" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">主要成果指標</text>
+  <text x="400" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">AHT短縮 / CSAT向上 / コスト削減</text>
+  <text x="400" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">オペレーター負担軽減</text>
+</svg>
