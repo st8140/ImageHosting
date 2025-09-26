@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  
+  <!-- タイトル -->
+  <rect x="50" y="20" width="1100" height="70" fill="#1e293b" rx="10"/>
+  <text x="600" y="65" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">生成AIを社内浸透させる「使わせる」仕組みづくり</text>
+  
+  <!-- 問題部分（上段） -->
+  <rect x="50" y="120" width="1100" height="180" fill="#fee2e2" stroke="#dc2626" stroke-width="2" rx="10"/>
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#dc2626" text-anchor="middle">🚨 よくある課題：アカウント配布したのに使われない</text>
+  
+  <!-- 課題の3つの理由 -->
+  <rect x="80" y="170" width="300" height="110" fill="#ef4444" rx="8"/>
+  <text x="230" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">1. 利用メリットが</text>
+  <text x="230" y="215" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">伝わらない</text>
+  <text x="230" y="240" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">なぜAIを使うべきか</text>
+  <text x="230" y="255" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">が明確でない</text>
+  <text x="230" y="270" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">具体例が不足</text>
+  
+  <rect x="420" y="170" width="300" height="110" fill="#f59e0b" rx="8"/>
+  <text x="570" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">2. 学習コスト・</text>
+  <text x="570" y="215" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">心理的ハードル</text>
+  <text x="570" y="240" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">難しそう</text>
+  <text x="570" y="255" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">失敗が怖い</text>
+  <text x="570" y="270" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">習熟が必要</text>
+  
+  <rect x="760" y="170" width="300" height="110" fill="#8b5cf6" rx="8"/>
+  <text x="910" y="195" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">3. 業務フロー・</text>
+  <text x="910" y="215" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">評価制度と分離</text>
+  <text x="910" y="240" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">余計な追加作業</text>
+  <text x="910" y="255" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">評価されない</text>
+  <text x="910" y="270" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">モチベーション低下</text>
+  
+  <!-- 解決アプローチ（中央） -->
+  <rect x="250" y="350" width="700" height="80" fill="#10b981" rx="10"/>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white" text-anchor="middle">💡 解決の鍵：「意識せずともAIを活用してしまう導線」</text>
+  <text x="600" y="405" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle">既存業務にAIが組み込まれている状態をつくる</text>
+  
+  <!-- 4つの実践ポイント -->
+  <text x="600" y="470" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b" text-anchor="middle">🔧 社員にAIを「使わせる」4つの実践ポイント</text>
+  
+  <!-- ポイント1 -->
+  <rect x="80" y="500" width="250" height="140" fill="#3b82f6" rx="8"/>
+  <text x="205" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">1. ユースケースの</text>
+  <text x="205" y="545" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">見える化</text>
+  <text x="205" y="570" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• どんな場面で便利か</text>
+  <text x="205" y="590" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 具体例＋数値で紹介</text>
+  <text x="205" y="610" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 身近な業務での効果</text>
+  <text x="205" y="630" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">→ 利用意欲向上</text>
+  
+  <!-- ポイント2 -->
+  <rect x="360" y="500" width="250" height="140" fill="#06b6d4" rx="8"/>
+  <text x="485" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">2. ナレッジ共有</text>
+  <text x="485" y="545" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">基盤の整備</text>
+  <text x="485" y="570" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 良いプロンプト共有</text>
+  <text x="485" y="590" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 社内ポータルに事例</text>
+  <text x="485" y="610" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 効果的な使い方集約</text>
+  <text x="485" y="630" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">→ 学習コスト削減</text>
+  
+  <!-- ポイント3 -->
+  <rect x="640" y="500" width="250" height="140" fill="#84cc16" rx="8"/>
+  <text x="765" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">3. 評価制度</text>
+  <text x="765" y="545" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">との連動</text>
+  <text x="765" y="570" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• AI活用を評価項目に</text>
+  <text x="765" y="590" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 業務改善を評価</text>
+  <text x="765" y="610" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 使うことで評価UP</text>
+  <text x="765" y="630" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">→ モチベーション向上</text>
+  
+  <!-- ポイント4 -->
+  <rect x="920" y="500" width="250" height="140" fill="#ec4899" rx="8"/>
+  <text x="1045" y="525" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">4. コミュニティ</text>
+  <text x="1045" y="545" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">づくり</text>
+  <text x="1045" y="570" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• AIアンバサダー任命</text>
+  <text x="1045" y="590" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 現場同士で助け合い</text>
+  <text x="1045" y="610" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">• 自然なナレッジ拡散</text>
+  <text x="1045" y="630" font-family="Arial, sans-serif" font-size="11" fill="white" text-anchor="middle">→ 持続的浸透</text>
+  
+  <!-- IT担当者の役割 -->
+  <rect x="200" y="680" width="800" height="120" fill="#475569" rx="10"/>
+  <text x="600" y="710" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">👤 IT担当者の役割：技術導入者 ＋ AI文化推進者</text>
+  <text x="600" y="735" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">• 部門ごとのユースケース整理・効果の大きい領域から導入</text>
+  <text x="600" y="755" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">• セキュリティ要件を守りながら使いやすい導線を設計</text>
+  <text x="600" y="775" font-family="Arial, sans-serif" font-size="13" fill="white" text-anchor="middle">• 経営層と現場をつなぎ、AI活用を評価制度に組み込む働きかけ</text>
+  
+  <!-- 結論 -->
+  <rect x="150" y="830" width="900" height="50" fill="#1e40af" rx="10"/>
+  <text x="600" y="860" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">🎯 結論：生成AIは仕組みで浸透する（導入はスタート、利用文化をつくることが重要）</text>
+  
+  <!-- 装飾的な要素 -->
+  <!-- 問題から解決への矢印 -->
+  <polygon points="600,320 590,330 610,330" fill="#10b981"/>
+  <line x1="600" y1="300" x2="600" y2="350" stroke="#10b981" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 解決から実践への矢印 -->
+  <polygon points="600,450 590,460 610,460" fill="#1e293b"/>
+  <line x1="600" y1="430" x2="600" y2="480" stroke="#1e293b" stroke-width="3"/>
+  
+  <!-- 実践からIT担当者への矢印 -->
+  <polygon points="600,670 590,680 610,680" fill="#475569"/>
+  <line x1="600" y1="640" x2="600" y2="680" stroke="#475569" stroke-width="3"/>
+  
+  <!-- 4つのポイントを囲む枠線 -->
+  <rect x="60" y="480" width="1120" height="180" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="5,5" rx="15"/>
+  
+</svg>
