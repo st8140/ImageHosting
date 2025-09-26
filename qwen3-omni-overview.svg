@@ -1,0 +1,163 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">
+    Qwen3-Omni：次世代マルチモーダルAI
+  </text>
+  
+  <!-- Core Features Section -->
+  <g id="core-features">
+    <rect x="50" y="60" width="700" height="120" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+    <text x="400" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1976d2">
+      コア機能
+    </text>
+    
+    <!-- Multimodal -->
+    <g id="multimodal">
+      <rect x="70" y="100" width="150" height="60" fill="#fff" stroke="#4caf50" stroke-width="2" rx="5"/>
+      <text x="145" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4caf50">マルチモーダル</text>
+      <!-- Icons -->
+      <circle cx="120" cy="135" r="8" fill="#4caf50"/>
+      <text x="120" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">T</text>
+      <rect x="135" y="127" width="16" height="16" fill="#4caf50"/>
+      <text x="143" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">I</text>
+      <polygon points="160,127 176,135 160,143" fill="#4caf50"/>
+      <text x="168" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="white">A</text>
+    </g>
+    
+    <!-- High Reasoning -->
+    <g id="reasoning">
+      <rect x="250" y="100" width="150" height="60" fill="#fff" stroke="#ff9800" stroke-width="2" rx="5"/>
+      <text x="325" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#ff9800">高度な推論能力</text>
+      <polygon points="305,130 345,130 330,150 315,150" fill="#ff9800"/>
+      <text x="325" y="142" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">数学</text>
+    </g>
+    
+    <!-- Agent Design -->
+    <g id="agent">
+      <rect x="430" y="100" width="150" height="60" fill="#fff" stroke="#9c27b0" stroke-width="2" rx="5"/>
+      <text x="505" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9c27b0">エージェント設計</text>
+      <circle cx="480" r="12" cy="140" fill="#9c27b0"/>
+      <line x1="492" y1="140" x2="518" y2="140" stroke="#9c27b0" stroke-width="2"/>
+      <circle cx="530" r="12" cy="140" fill="#9c27b0"/>
+    </g>
+    
+    <!-- Open License -->
+    <g id="open">
+      <rect x="610" y="100" width="120" height="60" fill="#fff" stroke="#607d8b" stroke-width="2" rx="5"/>
+      <text x="670" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#607d8b">オープン性</text>
+      <rect x="645" y="130" width="50" height="20" fill="none" stroke="#607d8b" stroke-width="2"/>
+      <text x="670" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#607d8b">研究利用</text>
+    </g>
+  </g>
+  
+  <!-- Technical Strengths -->
+  <g id="tech-strengths">
+    <text x="60" y="220" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">技術的強み</text>
+    
+    <!-- Multimodal Integration -->
+    <g id="multimodal-detail">
+      <rect x="60" y="240" width="220" height="100" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1" rx="8"/>
+      <text x="170" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7b1fa2">マルチモーダル統合</text>
+      <text x="70" y="280" font-family="Arial, sans-serif" font-size="11" fill="#4a148c">• テキスト + 画像 + 音声</text>
+      <text x="70" y="295" font-family="Arial, sans-serif" font-size="11" fill="#4a148c">• 会議録音から資料生成</text>
+      <text x="70" y="310" font-family="Arial, sans-serif" font-size="11" fill="#4a148c">• 一元的データ処理</text>
+      <text x="70" y="325" font-family="Arial, sans-serif" font-size="11" fill="#4a148c">• 複数ツール不要</text>
+    </g>
+    
+    <!-- Advanced Reasoning -->
+    <g id="reasoning-detail">
+      <rect x="300" y="240" width="220" height="100" fill="#fff3e0" stroke="#ff9800" stroke-width="1" rx="8"/>
+      <text x="410" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e65100">高度推論能力</text>
+      <text x="310" y="280" font-family="Arial, sans-serif" font-size="11" fill="#bf360c">• 数学的推論で高スコア</text>
+      <text x="310" y="295" font-family="Arial, sans-serif" font-size="11" fill="#bf360c">• コーディング課題対応</text>
+      <text x="310" y="310" font-family="Arial, sans-serif" font-size="11" fill="#bf360c">• データ分析・レビュー</text>
+      <text x="310" y="325" font-family="Arial, sans-serif" font-size="11" fill="#bf360c">• レポート作成自動化</text>
+    </g>
+    
+    <!-- Agent Extensibility -->
+    <g id="agent-detail">
+      <rect x="540" y="240" width="200" height="100" fill="#e8f5e8" stroke="#4caf50" stroke-width="1" rx="8"/>
+      <text x="640" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2e7d32">エージェント拡張性</text>
+      <text x="550" y="280" font-family="Arial, sans-serif" font-size="11" fill="#1b5e20">• 自律的タスク処理</text>
+      <text x="550" y="295" font-family="Arial, sans-serif" font-size="11" fill="#1b5e20">• 外部API連携</text>
+      <text x="550" y="310" font-family="Arial, sans-serif" font-size="11" fill="#1b5e20">• 業務システム統合</text>
+      <text x="550" y="325" font-family="Arial, sans-serif" font-size="11" fill="#1b5e20">• AIエージェント基盤</text>
+    </g>
+  </g>
+  
+  <!-- Enterprise Benefits -->
+  <g id="benefits">
+    <text x="60" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">企業導入メリット</text>
+    
+    <!-- Data Utilization -->
+    <g id="data-benefit">
+      <rect x="60" y="400" width="220" height="80" fill="#e3f2fd" stroke="#1976d2" stroke-width="1" rx="8"/>
+      <text x="170" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d47a1">社内情報活用加速</text>
+      <text x="70" y="440" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">• 議事録・契約書統合処理</text>
+      <text x="70" y="455" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">• 音声会議自動要約</text>
+      <text x="70" y="470" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">• 図表含むレポート生成</text>
+    </g>
+    
+    <!-- Cost Reduction -->
+    <g id="cost-benefit">
+      <rect x="300" y="400" width="220" height="80" fill="#f3e5f5" stroke="#9c27b0" stroke-width="1" rx="8"/>
+      <text x="410" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#6a1b9a">コスト削減・生産性向上</text>
+      <text x="310" y="440" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• 外部ツール統合費用削減</text>
+      <text x="310" y="455" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• システム連携工数削減</text>
+      <text x="310" y="470" font-family="Arial, sans-serif" font-size="10" fill="#7b1fa2">• 業務スピード大幅向上</text>
+    </g>
+    
+    <!-- Security -->
+    <g id="security-benefit">
+      <rect x="540" y="400" width="200" height="80" fill="#ffebee" stroke="#f44336" stroke-width="1" rx="8"/>
+      <text x="640" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c62828">セキュリティ強化</text>
+      <text x="550" y="440" font-family="Arial, sans-serif" font-size="10" fill="#d32f2f">• オンプレミス運用対応</text>
+      <text x="550" y="455" font-family="Arial, sans-serif" font-size="10" fill="#d32f2f">• データ社外流出防止</text>
+      <text x="550" y="470" font-family="Arial, sans-serif" font-size="10" fill="#d32f2f">• 情報漏洩リスク低減</text>
+    </g>
+  </g>
+  
+  <!-- Model Comparison -->
+  <g id="comparison">
+    <text x="60" y="520" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">他モデルとの比較</text>
+    
+    <!-- GPT-5 -->
+    <g id="gpt5">
+      <rect x="60" y="540" width="200" height="100" fill="#e8f5e8" stroke="#4caf50" stroke-width="1" rx="8"/>
+      <text x="160" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2e7d32">GPT-5</text>
+      <text x="70" y="580" font-family="Arial, sans-serif" font-size="10" fill="#388e3c">強み：自然な文章生成</text>
+      <text x="70" y="595" font-family="Arial, sans-serif" font-size="10" fill="#388e3c">適用：汎用的な言語タスク</text>
+      <text x="70" y="610" font-family="Arial, sans-serif" font-size="10" fill="#388e3c">シーン：提案書作成・問答</text>
+      <text x="70" y="625" font-family="Arial, sans-serif" font-size="10" fill="#388e3c">エコシステム：ChatGPT</text>
+    </g>
+    
+    <!-- Claude 4.1 -->
+    <g id="claude">
+      <rect x="280" y="540" width="200" height="100" fill="#fff3e0" stroke="#ff9800" stroke-width="1" rx="8"/>
+      <text x="380" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e65100">Claude 4.1</text>
+      <text x="290" y="580" font-family="Arial, sans-serif" font-size="10" fill="#f57c00">強み：安全性・長文処理</text>
+      <text x="290" y="595" font-family="Arial, sans-serif" font-size="10" fill="#f57c00">適用：法務・研究分野</text>
+      <text x="290" y="610" font-family="Arial, sans-serif" font-size="10" fill="#f57c00">シーン：契約書レビュー</text>
+      <text x="290" y="625" font-family="Arial, sans-serif" font-size="10" fill="#f57c00">特徴：数十万トークン対応</text>
+    </g>
+    
+    <!-- Qwen3-Omni -->
+    <g id="qwen-comp">
+      <rect x="500" y="540" width="240" height="100" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="8"/>
+      <text x="620" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#0d47a1">Qwen3-Omni</text>
+      <text x="510" y="580" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">強み：マルチモーダル統合</text>
+      <text x="510" y="595" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">適用：業務フロー組込み</text>
+      <text x="510" y="610" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">シーン：顧客サポート自動化</text>
+      <text x="510" y="625" font-family="Arial, sans-serif" font-size="10" fill="#1565c0">特徴：エージェント基盤設計</text>
+    </g>
+  </g>
+  
+  <!-- Use Cases -->
+  <g id="usecases">
+    <text x="60" y="680" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">主要ユースケース：</text>
+    <text x="200" y="680" font-family="Arial, sans-serif" font-size="12" fill="#37474f">顧客サポート統合 | 営業支援自動化 | 教育・研修支援 | 研究開発支援</text>
+  </g>
+</svg>
