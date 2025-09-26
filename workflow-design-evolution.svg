@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1400" height="900" fill="#f8fafc"/>
+  
+  <!-- タイトル -->
+  <rect x="50" y="20" width="1300" height="70" fill="#1e293b" rx="10"/>
+  <text x="700" y="65" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="white" text-anchor="middle">プロンプト設計からワークフロー設計へ：企業で成果を出すAI活用の新常識</text>
+  
+  <!-- 比較表 -->
+  <rect x="50" y="120" width="650" height="320" fill="#fef2f2" stroke="#dc2626" stroke-width="2" rx="10"/>
+  <rect x="720" y="120" width="650" height="320" fill="#ecfdf5" stroke="#16a34a" stroke-width="2" rx="10"/>
+  
+  <!-- プロンプト設計（左側） -->
+  <text x="375" y="150" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#dc2626" text-anchor="middle">従来：プロンプト設計</text>
+  <text x="80" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">視点：</text>
+  <text x="120" y="180" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">個人レベル</text>
+  <text x="80" y="200" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">ゴール：</text>
+  <text x="130" y="200" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">より良い出力を得る</text>
+  
+  <!-- プロンプト設計の課題 -->
+  <rect x="80" y="220" width="580" height="120" fill="#ef4444" rx="8"/>
+  <text x="370" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">❌ 課題・限界</text>
+  <text x="90" y="265" font-family="Arial, sans-serif" font-size="12" fill="white">• 品質のばらつき：人によって異なる結果</text>
+  <text x="90" y="285" font-family="Arial, sans-serif" font-size="12" fill="white">• ブラックボックス化：経験や勘に依存、属人化</text>
+  <text x="90" y="305" font-family="Arial, sans-serif" font-size="12" fill="white">• 再現性の欠如：同じプロンプトでも結果が変わる</text>
+  <text x="90" y="325" font-family="Arial, sans-serif" font-size="12" fill="white">• 説明責任の難しさ：なぜその結果か説明困難</text>
+  
+  <!-- 特徴 -->
+  <text x="80" y="365" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">特徴：</text>
+  <text x="80" y="385" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">• 「どう聞くか」によって結果が変わる</text>
+  <text x="80" y="405" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">• クリエイティブさや表現の工夫が重要</text>
+  <text x="80" y="425" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">• 属人的になりやすく、標準化が困難</text>
+  
+  <!-- ワークフロー設計（右側） -->
+  <text x="1045" y="150" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#16a34a" text-anchor="middle">新常識：ワークフロー設計</text>
+  <text x="750" y="180" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">視点：</text>
+  <text x="790" y="180" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">組織・業務全体</text>
+  <text x="750" y="200" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">ゴール：</text>
+  <text x="800" y="200" font-family="Arial, sans-serif" font-size="14" fill="#1e293b">誰が使っても同じ成果</text>
+  
+  <!-- ワークフロー設計のメリット -->
+  <rect x="750" y="220" width="580" height="120" fill="#16a34a" rx="8"/>
+  <text x="1040" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">✅ 解決・効果</text>
+  <text x="760" y="265" font-family="Arial, sans-serif" font-size="12" fill="white">• 標準化：誰が使っても同じ成果を担保</text>
+  <text x="760" y="285" font-family="Arial, sans-serif" font-size="12" fill="white">• ガバナンス：ログ管理・権限設定で監査対応</text>
+  <text x="760" y="305" font-family="Arial, sans-serif" font-size="12" fill="white">• 拡張性：将来の機能拡張を見越した設計</text>
+  <text x="760" y="325" font-family="Arial, sans-serif" font-size="12" fill="white">• 人との役割分担：責任の所在を明確化</text>
+  
+  <!-- 特徴 -->
+  <text x="750" y="365" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">特徴：</text>
+  <text x="750" y="385" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">• 「どう使うか」を仕組み化する</text>
+  <text x="750" y="405" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">• 組織で再現可能な仕組みに落とし込む</text>
+  <text x="750" y="425" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">• 業務プロセス全体にAIを組み込む設計</text>
+  
+  <!-- 進化の矢印 -->
+  <polygon points="680,280 720,270 720,290" fill="#3b82f6"/>
+  <line x1="680" y1="280" x2="720" y2="280" stroke="#3b82f6" stroke-width="4"/>
+  <text x="700" y="270" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#3b82f6" text-anchor="middle">進化</text>
+  
+  <!-- 具体例セクション -->
+  <rect x="50" y="470" width="1300" height="200" fill="#f1f5f9" stroke="#64748b" stroke-width="2" rx="10"/>
+  <text x="700" y="500" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b" text-anchor="middle">🔧 ワークフロー設計の具体例</text>
+  
+  <!-- 契約書レビュー例 -->
+  <rect x="80" y="520" width="600" height="130" fill="#3b82f6" rx="8"/>
+  <text x="380" y="545" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">契約書レビューワークフロー</text>
+  <text x="90" y="570" font-family="Arial, sans-serif" font-size="13" fill="white">1. 文書をAIが一次チェック</text>
+  <text x="90" y="590" font-family="Arial, sans-serif" font-size="13" fill="white">2. 指摘結果を定型フォーマットでまとめる</text>
+  <text x="90" y="610" font-family="Arial, sans-serif" font-size="13" fill="white">3. 担当者が最終確認し承認フローに回す</text>
+  <text x="90" y="630" font-family="Arial, sans-serif" font-size="13" fill="white">→ 誰が利用しても同じ品質と流れを担保</text>
+  
+  <!-- FAQ応答例 -->
+  <rect x="720" y="520" width="600" height="130" fill="#06b6d4" rx="8"/>
+  <text x="1020" y="545" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">FAQ応答システム</text>
+  <text x="730" y="570" font-family="Arial, sans-serif" font-size="13" fill="white">1. FAQ応答をAIが生成</text>
+  <text x="730" y="590" font-family="Arial, sans-serif" font-size="13" fill="white">2. 信頼度の低い回答は人にエスカレーション</text>
+  <text x="730" y="610" font-family="Arial, sans-serif" font-size="13" fill="white">3. ログを蓄積して精度改善</text>
+  <text x="730" y="630" font-family="Arial, sans-serif" font-size="13" fill="white">→ 継続的改善と品質向上を実現</text>
+  
+  <!-- IT担当者の役割 -->
+  <rect x="200" y="700" width="1000" height="120" fill="#475569" rx="10"/>
+  <text x="700" y="730" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white" text-anchor="middle">👤 IT担当者の新しい役割：AI活用を社内で仕組みに変える設計者</text>
+  <text x="220" y="755" font-family="Arial, sans-serif" font-size="13" fill="white">• ユースケース選定：部門横断で業務課題を洗い出し、AI導入効果の大きい領域を特定</text>
+  <text x="220" y="775" font-family="Arial, sans-serif" font-size="13" fill="white">• 技術選定とセキュリティ設計：クラウドかローカルLLMか、プラットフォーム選択を判断</text>
+  <text x="220" y="795" font-family="Arial, sans-serif" font-size="13" fill="white">• 社内浸透支援：トレーニングやナレッジ共有を仕組み化し、現場の利用定着を後押し</text>
+  
+  <!-- 結論 -->
+  <rect x="150" y="850" width="1100" height="40" fill="#1e40af" rx="10"/>
+  <text x="700" y="875" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">🎯 結論：AI活用は「設計力」で成果が決まる（プロンプトの工夫 → ワークフロー全体の設計へ）</text>
+  
+  <!-- 装飾要素：比較表の境界線 -->
+  <line x1="700" y1="120" x2="700" y2="440" stroke="#64748b" stroke-width="2" stroke-dasharray="10,5"/>
+  
+  <!-- ワークフロー設計の4つのポイント（右上隅） -->
+  <rect x="1050" y="350" width="320" height="90" fill="#f8fafc" stroke="#64748b" stroke-width="1" rx="5"/>
+  <text x="1210" y="370" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b" text-anchor="middle">実践ポイント</text>
+  <text x="1060" y="385" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">1. 標準化　2. ガバナンス</text>
+  <text x="1060" y="400" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">3. 拡張性　4. 人との役割分担</text>
+  <text x="1060" y="415" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">→ 継続的に成果を出せる仕組み</text>
+  <text x="1060" y="430" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">づくりが重要</text>
+  
+</svg>
