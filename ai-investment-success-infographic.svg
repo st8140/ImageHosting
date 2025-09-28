@@ -1,0 +1,137 @@
+<svg viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="1200" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">企業AI投資の成功要因</text>
+  <text x="400" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">なぜ95%が失敗し、5%だけが成功するのか</text>
+  
+  <!-- MIT Statistics Circle -->
+  <circle cx="400" cy="120" r="60" fill="#e74c3c" stroke="#c0392b" stroke-width="3"/>
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">95%</text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">失敗</text>
+  
+  <circle cx="520" cy="120" r="30" fill="#27ae60" stroke="#229954" stroke-width="3"/>
+  <text x="520" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">5%</text>
+  <text x="520" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">成功</text>
+  
+  <!-- Problem Section -->
+  <rect x="50" y="200" width="700" height="120" fill="#ffebee" stroke="#e91e63" stroke-width="2" rx="10"/>
+  <text x="60" y="225" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#c2185b">失敗の原因</text>
+  
+  <!-- Problem items -->
+  <circle cx="80" cy="250" r="4" fill="#e91e63"/>
+  <text x="95" y="255" font-family="Arial, sans-serif" font-size="14" fill="#333">学習ギャップ：業務フローとAIの接続不足</text>
+  
+  <circle cx="80" cy="275" r="4" fill="#e91e63"/>
+  <text x="95" y="280" font-family="Arial, sans-serif" font-size="14" fill="#333">複数機能の並行導入による学習分散</text>
+  
+  <circle cx="80" cy="300" r="4" fill="#e91e63"/>
+  <text x="95" y="305" font-family="Arial, sans-serif" font-size="14" fill="#333">営業偏重でROI測定困難</text>
+  
+  <!-- Strategy Comparison -->
+  <text x="400" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2c3e50">戦略比較</text>
+  
+  <!-- Buy vs Build -->
+  <rect x="80" y="380" width="280" height="80" fill="#e8f5e8" stroke="#4caf50" stroke-width="2" rx="10"/>
+  <text x="90" y="405" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2e7d32">「買って埋め込む」</text>
+  <text x="90" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333">成功率: 67%</text>
+  <text x="90" y="445" font-family="Arial, sans-serif" font-size="12" fill="#666">専業ベンダー製品を活用</text>
+  
+  <rect x="440" y="380" width="280" height="80" fill="#ffebee" stroke="#f44336" stroke-width="2" rx="10"/>
+  <text x="450" y="405" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c62828">フル内製</text>
+  <text x="450" y="425" font-family="Arial, sans-serif" font-size="14" fill="#333">成功率: 33%</text>
+  <text x="450" y="445" font-family="Arial, sans-serif" font-size="12" fill="#666">自社開発・保守コスト大</text>
+  
+  <!-- Focus Area -->
+  <rect x="50" y="490" width="700" height="100" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="10"/>
+  <text x="60" y="515" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1976d2">最適な着手領域</text>
+  
+  <rect x="80" y="530" width="150" height="40" fill="#4caf50" rx="5"/>
+  <text x="155" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">バックオフィス</text>
+  <text x="155" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">ROI明確</text>
+  
+  <text x="260" y="545" font-family="Arial, sans-serif" font-size="14" fill="#333">vs</text>
+  
+  <rect x="300" y="530" width="120" height="40" fill="#ff9800" rx="5"/>
+  <text x="360" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">営業・マーケ</text>
+  <text x="360" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">ROI測定困難</text>
+  
+  <!-- Success Framework -->
+  <text x="400" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2c3e50">成功の7原則</text>
+  
+  <!-- Principle 1 -->
+  <rect x="50" y="660" width="330" height="60" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="10"/>
+  <circle cx="70" cy="680" r="8" fill="#ff9800"/>
+  <text x="70" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">1</text>
+  <text x="85" y="685" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">痛点を一つに絞る</text>
+  <text x="85" y="705" font-family="Arial, sans-serif" font-size="11" fill="#666">バックオフィスから開始</text>
+  
+  <!-- Principle 2 -->
+  <rect x="420" y="660" width="330" height="60" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="10"/>
+  <circle cx="440" cy="680" r="8" fill="#9c27b0"/>
+  <text x="440" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">2</text>
+  <text x="455" y="685" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">買って埋め込む</text>
+  <text x="455" y="705" font-family="Arial, sans-serif" font-size="11" fill="#666">差別化部分のみカスタム</text>
+  
+  <!-- Principle 3 -->
+  <rect x="50" y="740" width="330" height="60" fill="#e8f5e8" stroke="#4caf50" stroke-width="2" rx="10"/>
+  <circle cx="70" cy="760" r="8" fill="#4caf50"/>
+  <text x="70" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">3</text>
+  <text x="85" y="765" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">業務ログを学習資産に</text>
+  <text x="85" y="785" font-family="Arial, sans-serif" font-size="11" fill="#666">継続的改善の仕組み</text>
+  
+  <!-- Principle 4 -->
+  <rect x="420" y="740" width="330" height="60" fill="#e3f2fd" stroke="#2196f3" stroke-width="2" rx="10"/>
+  <circle cx="440" cy="760" r="8" fill="#2196f3"/>
+  <text x="440" y="765" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">4</text>
+  <text x="455" y="765" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">現場主導の運用</text>
+  <text x="455" y="785" font-family="Arial, sans-serif" font-size="11" fill="#666">マネージャーに権限付与</text>
+  
+  <!-- Principle 5 -->
+  <rect x="50" y="820" width="330" height="60" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="10"/>
+  <circle cx="70" cy="840" r="8" fill="#ff9800"/>
+  <text x="70" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">5</text>
+  <text x="85" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">計測と比較の習慣</text>
+  <text x="85" y="865" font-family="Arial, sans-serif" font-size="11" fill="#666">改善の見える化</text>
+  
+  <!-- Principle 6 -->
+  <rect x="420" y="820" width="330" height="60" fill="#ffebee" stroke="#f44336" stroke-width="2" rx="10"/>
+  <circle cx="440" cy="840" r="8" fill="#f44336"/>
+  <text x="440" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">6</text>
+  <text x="455" y="845" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">セキュリティと人材</text>
+  <text x="455" y="865" font-family="Arial, sans-serif" font-size="11" fill="#666">採用・育成への組み込み</text>
+  
+  <!-- Principle 7 -->
+  <rect x="235" y="900" width="330" height="60" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2" rx="10"/>
+  <circle cx="255" cy="920" r="8" fill="#9c27b0"/>
+  <text x="255" y="925" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">7</text>
+  <text x="270" y="925" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">段階的エージェント化</text>
+  <text x="270" y="945" font-family="Arial, sans-serif" font-size="11" fill="#666">提案→限定実行→監査</text>
+  
+  <!-- Future Section -->
+  <rect x="50" y="990" width="700" height="120" fill="#e8f5e8" stroke="#4caf50" stroke-width="2" rx="10"/>
+  <text x="60" y="1015" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2e7d32">次世代エージェント型AIの段階</text>
+  
+  <!-- Agent stages -->
+  <rect x="80" y="1030" width="150" height="30" fill="#81c784" rx="5"/>
+  <text x="155" y="1050" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">1. 提案のみ</text>
+  
+  <polygon points="240,1045 250,1040 250,1050" fill="#666"/>
+  
+  <rect x="270" y="1030" width="150" height="30" fill="#66bb6a" rx="5"/>
+  <text x="345" y="1050" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">2. 限定実行</text>
+  
+  <polygon points="430,1045 440,1040 440,1050" fill="#666"/>
+  
+  <rect x="460" y="1030" width="150" height="30" fill="#4caf50" rx="5"/>
+  <text x="535" y="1050" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">3. 監査</text>
+  
+  <text x="80" y="1085" font-family="Arial, sans-serif" font-size="12" fill="#333">• ロール&amp;権限の設計</text>
+  <text x="280" y="1085" font-family="Arial, sans-serif" font-size="12" fill="#333">• 監査可能な行動ログ</text>
+  <text x="480" y="1085" font-family="Arial, sans-serif" font-size="12" fill="#333">• 自動アクションの安全弁</text>
+  
+  <!-- Bottom Message -->
+  <text x="400" y="1150" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">組織文化がAIの成否を分ける</text>
+  <text x="400" y="1175" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">業務への埋め込み度と学習の仕組み化が鍵</text>
+</svg>
