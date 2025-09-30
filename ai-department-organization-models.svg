@@ -1,0 +1,138 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    AI推進体制の比較：4つのモデル
+  </text>
+  
+  <!-- モデル1: AI専門部門 -->
+  <g id="model1">
+    <rect x="30" y="70" width="360" height="140" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+    <text x="210" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      ① AI専門部門型
+    </text>
+    
+    <text x="50" y="120" font-size="12" font-weight="bold" fill="#2c3e50">メリット</text>
+    <text x="50" y="138" font-size="10" fill="#555">• 全社的な司令塔として機能</text>
+    <text x="50" y="153" font-size="10" fill="#555">• 専門人材を集約・知見蓄積</text>
+    <text x="50" y="168" font-size="10" fill="#555">• ガバナンス統一が容易</text>
+    
+    <text x="220" y="120" font-size="12" font-weight="bold" fill="#e74c3c">課題</text>
+    <text x="220" y="138" font-size="10" fill="#555">• 人材確保困難・コスト高</text>
+    <text x="220" y="153" font-size="10" fill="#555">• 現場との温度差</text>
+    <text x="220" y="168" font-size="10" fill="#555">• サイロ化のリスク</text>
+    
+    <text x="210" y="195" font-size="10" font-style="italic" text-anchor="middle" fill="#666">
+      適合: 大企業・全社横断プロジェクト
+    </text>
+  </g>
+  
+  <!-- モデル2: IT部門主導型 -->
+  <g id="model2">
+    <rect x="410" y="70" width="360" height="140" rx="8" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2"/>
+    <text x="590" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      ② IT部門主導型
+    </text>
+    
+    <text x="430" y="120" font-size="12" font-weight="bold" fill="#2c3e50">メリット</text>
+    <text x="430" y="138" font-size="10" fill="#555">• 既存体制を活用できる</text>
+    <text x="430" y="153" font-size="10" fill="#555">• システム基盤構築が得意</text>
+    <text x="430" y="168" font-size="10" fill="#555">• セキュリティ管理が安定</text>
+    
+    <text x="600" y="120" font-size="12" font-weight="bold" fill="#e74c3c">課題</text>
+    <text x="600" y="138" font-size="10" fill="#555">• 現場ニーズへの対応力不足</text>
+    <text x="600" y="153" font-size="10" fill="#555">• 業務理解が浅い</text>
+    <text x="600" y="168" font-size="10" fill="#555">• イノベーション推進力弱い</text>
+    
+    <text x="590" y="195" font-size="10" font-style="italic" text-anchor="middle" fill="#666">
+      適合: 技術基盤重視・段階的導入
+    </text>
+  </g>
+  
+  <!-- モデル3: 業務部門主導型 -->
+  <g id="model3">
+    <rect x="30" y="230" width="360" height="140" rx="8" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+    <text x="210" y="255" font-size="16" font-weight="bold" text-anchor="middle" fill="#f57c00">
+      ③ 業務部門主導型
+    </text>
+    
+    <text x="50" y="280" font-size="12" font-weight="bold" fill="#2c3e50">メリット</text>
+    <text x="50" y="298" font-size="10" fill="#555">• 現場課題を直接解決</text>
+    <text x="50" y="313" font-size="10" fill="#555">• スピード感のある導入</text>
+    <text x="50" y="328" font-size="10" fill="#555">• 実用的なPoC実施可能</text>
+    
+    <text x="220" y="280" font-size="12" font-weight="bold" fill="#e74c3c">課題</text>
+    <text x="220" y="298" font-size="10" fill="#555">• 全社統制が弱い</text>
+    <text x="220" y="313" font-size="10" fill="#555">• セキュリティルール不徹底</text>
+    <text x="220" y="328" font-size="10" fill="#555">• スケール展開が困難</text>
+    
+    <text x="210" y="355" font-size="10" font-style="italic" text-anchor="middle" fill="#666">
+      適合: 小規模導入・特定業務改善
+    </text>
+  </g>
+  
+  <!-- モデル4: ハイブリッド型（AI CoE） -->
+  <g id="model4">
+    <rect x="410" y="230" width="360" height="140" rx="8" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+    <text x="590" y="255" font-size="16" font-weight="bold" text-anchor="middle" fill="#388e3c">
+      ④ ハイブリッド型（AI CoE）
+    </text>
+    
+    <text x="430" y="280" font-size="12" font-weight="bold" fill="#2c3e50">メリット</text>
+    <text x="430" y="298" font-size="10" fill="#555">• ガバナンスと現場の両立</text>
+    <text x="430" y="313" font-size="10" fill="#555">• ベストプラクティス横展開</text>
+    <text x="430" y="328" font-size="10" fill="#555">• 各部門の知見を結集</text>
+    
+    <text x="600" y="280" font-size="12" font-weight="bold" fill="#e74c3c">課題</text>
+    <text x="600" y="298" font-size="10" fill="#555">• 調整コストが高い</text>
+    <text x="600" y="313" font-size="10" fill="#555">• 権限範囲の曖昧さ</text>
+    <text x="600" y="328" font-size="10" fill="#555">• 初期構築に時間</text>
+    
+    <text x="590" y="355" font-size="10" font-style="italic" text-anchor="middle" fill="#666">
+      適合: 多くの企業で推奨される最適解
+    </text>
+  </g>
+  
+  <!-- AI部門設置時の5つの課題 -->
+  <rect x="30" y="400" width="740" height="220" rx="10" fill="#fff9c4" stroke="#fbc02d" stroke-width="3"/>
+  <text x="400" y="430" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    AI専門部門を設置する際の5つの主要課題
+  </text>
+  
+  <g id="challenges">
+    <circle cx="100" cy="470" r="22" fill="#e74c3c"/>
+    <text x="100" y="477" font-size="16" font-weight="bold" text-anchor="middle" fill="white">1</text>
+    <text x="130" y="475" font-size="11" fill="#2c3e50">人材確保の難しさとコスト増</text>
+    
+    <circle cx="100" cy="515" r="22" fill="#e74c3c"/>
+    <text x="100" y="522" font-size="16" font-weight="bold" text-anchor="middle" fill="white">2</text>
+    <text x="130" y="520" font-size="11" fill="#2c3e50">現場との温度差による"浮いた存在"化</text>
+    
+    <circle cx="100" cy="560" r="22" fill="#e74c3c"/>
+    <text x="100" y="567" font-size="16" font-weight="bold" text-anchor="middle" fill="white">3</text>
+    <text x="130" y="565" font-size="11" fill="#2c3e50">既存部門との役割重複と摩擦</text>
+    
+    <circle cx="430" cy="470" r="22" fill="#e74c3c"/>
+    <text x="430" y="477" font-size="16" font-weight="bold" text-anchor="middle" fill="white">4</text>
+    <text x="460" y="475" font-size="11" fill="#2c3e50">サイロ化による全社浸透の停滞</text>
+    
+    <circle cx="430" cy="515" r="22" fill="#e74c3c"/>
+    <text x="430" y="522" font-size="16" font-weight="bold" text-anchor="middle" fill="white">5</text>
+    <text x="460" y="520" font-size="11" fill="#2c3e50">成果が見えるまでに時間がかかる</text>
+  </g>
+  
+  <text x="400" y="595" font-size="10" font-style="italic" text-anchor="middle" fill="#856404">
+    ⚠ これらの課題を認識し、各社の状況に応じた対策を講じることが成功の鍵
+  </text>
+  
+  <!-- 底部メッセージ -->
+  <rect x="50" y="640" width="700" height="50" rx="8" fill="#263238" stroke="#455a64" stroke-width="2"/>
+  <text x="400" y="665" font-size="13" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    重要：「部門ありき」ではなく「活用ビジョンありき」で推進体制を設計
+  </text>
+  <text x="400" y="682" font-size="10" text-anchor="middle" fill="#b0bec5">
+    自社の規模・文化・目的に合わせて最適なモデルを選択し、段階的に進化させることが成功への道
+  </text>
+</svg>
