@@ -1,0 +1,129 @@
+<svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="650" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    生成AIとRPAの比較と効果的な使い分け
+  </text>
+  
+  <!-- RPA側 -->
+  <g id="rpa-section">
+    <rect x="30" y="70" width="350" height="200" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="3"/>
+    <text x="205" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      RPA（定型業務の自動化）
+    </text>
+    
+    <text x="50" y="130" font-size="13" font-weight="bold" fill="#2c3e50">得意分野</text>
+    <text x="50" y="150" font-size="11" fill="#555">• ルール化可能な定型業務</text>
+    <text x="50" y="167" font-size="11" fill="#555">• データ転記・入力作業</text>
+    <text x="50" y="184" font-size="11" fill="#555">• システム間のデータ連携</text>
+    
+    <text x="50" y="210" font-size="13" font-weight="bold" fill="#27ae60">強み</text>
+    <text x="50" y="230" font-size="11" fill="#555">正確性・処理速度が高い</text>
+    
+    <text x="50" y="252" font-size="13" font-weight="bold" fill="#e74c3c">弱み</text>
+    <text x="50" y="272" font-size="11" fill="#555">例外処理・柔軟性に欠ける</text>
+  </g>
+  
+  <!-- 生成AI側 -->
+  <g id="genai-section">
+    <rect x="420" y="70" width="350" height="200" rx="10" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3"/>
+    <text x="595" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      生成AI（非定型業務の支援）
+    </text>
+    
+    <text x="440" y="130" font-size="13" font-weight="bold" fill="#2c3e50">得意分野</text>
+    <text x="440" y="150" font-size="11" fill="#555">• 非定型・曖昧な業務</text>
+    <text x="440" y="167" font-size="11" fill="#555">• 文章生成・要約</text>
+    <text x="440" y="184" font-size="11" fill="#555">• データ分析・洞察抽出</text>
+    
+    <text x="440" y="210" font-size="13" font-weight="bold" fill="#27ae60">強み</text>
+    <text x="440" y="230" font-size="11" fill="#555">柔軟性・創造性がある</text>
+    
+    <text x="440" y="252" font-size="13" font-weight="bold" fill="#e74c3c">弱み</text>
+    <text x="440" y="272" font-size="11" fill="#555">精度のばらつき・信頼性課題</text>
+  </g>
+  
+  <!-- 中央の矢印 -->
+  <line x1="380" y1="170" x2="420" y2="170" stroke="#95a5a6" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="400" y="163" font-size="11" font-weight="bold" text-anchor="middle" fill="#e67e22">補完関係</text>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#95a5a6"/>
+    </marker>
+  </defs>
+  
+  <!-- 部門別使い分け -->
+  <rect x="30" y="290" width="740" height="180" rx="10" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="400" y="315" font-size="16" font-weight="bold" text-anchor="middle" fill="#f57f17">
+    部門別の使い分け例
+  </text>
+  
+  <g id="department-examples">
+    <circle cx="80" cy="350" r="18" fill="#1976d2"/>
+    <text x="80" y="357" font-size="10" font-weight="bold" text-anchor="middle" fill="white">経理</text>
+    <text x="110" y="345" font-size="10" fill="#555">RPA：請求書入力・支払処理</text>
+    <text x="110" y="360" font-size="10" fill="#555">AI：異常値検知・コスト削減提案</text>
+    
+    <circle cx="80" cy="395" r="18" fill="#7b1fa2"/>
+    <text x="80" y="402" font-size="10" font-weight="bold" text-anchor="middle" fill="white">人事</text>
+    <text x="110" y="390" font-size="10" fill="#555">RPA：勤怠管理・情報更新</text>
+    <text x="110" y="405" font-size="10" fill="#555">AI：アンケート要約・施策提案</text>
+    
+    <circle cx="80" cy="440" r="18" fill="#388e3c"/>
+    <text x="80" y="447" font-size="10" font-weight="bold" text-anchor="middle" fill="white">営業</text>
+    <text x="110" y="435" font-size="10" fill="#555">RPA：CRM登録・メール送信</text>
+    <text x="110" y="450" font-size="10" fill="#555">AI：商談分析・提案文作成</text>
+    
+    <circle cx="430" cy="350" r="18" fill="#d32f2f"/>
+    <text x="430" y="357" font-size="10" font-weight="bold" text-anchor="middle" fill="white">CS</text>
+    <text x="460" y="345" font-size="10" fill="#555">RPA：定型問い合わせ対応</text>
+    <text x="460" y="360" font-size="10" fill="#555">AI：複雑な質問への自然な回答</text>
+  </g>
+  
+  <!-- 統合プロセス例 -->
+  <rect x="30" y="490" width="740" height="140" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="400" y="515" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+    統合プロセス例：レポート作成業務
+  </text>
+  
+  <g id="process-flow">
+    <rect x="50" y="535" width="150" height="65" rx="5" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+    <text x="125" y="553" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">ステップ1：RPA</text>
+    <text x="125" y="570" font-size="9" text-anchor="middle" fill="#555">基幹システムから</text>
+    <text x="125" y="583" font-size="9" text-anchor="middle" fill="#555">データを自動収集</text>
+    
+    <path d="M 200 567 L 230 567" stroke="#666" stroke-width="2" marker-end="url(#arrow2)"/>
+    
+    <rect x="230" y="535" width="150" height="65" rx="5" fill="#e1bee7" stroke="#7b1fa2" stroke-width="2"/>
+    <text x="305" y="553" font-size="11" font-weight="bold" text-anchor="middle" fill="#7b1fa2">ステップ2：生成AI</text>
+    <text x="305" y="570" font-size="9" text-anchor="middle" fill="#555">データを要約し</text>
+    <text x="305" y="583" font-size="9" text-anchor="middle" fill="#555">文章を自動生成</text>
+    
+    <path d="M 380 567 L 410 567" stroke="#666" stroke-width="2" marker-end="url(#arrow2)"/>
+    
+    <rect x="410" y="535" width="150" height="65" rx="5" fill="#bbdefb" stroke="#1976d2" stroke-width="2"/>
+    <text x="485" y="553" font-size="11" font-weight="bold" text-anchor="middle" fill="#1976d2">ステップ3：RPA</text>
+    <text x="485" y="570" font-size="9" text-anchor="middle" fill="#555">フォーマット整形</text>
+    <text x="485" y="583" font-size="9" text-anchor="middle" fill="#555">ファイル保存・共有</text>
+    
+    <path d="M 560 567 L 590 567" stroke="#666" stroke-width="2" marker-end="url(#arrow2)"/>
+    
+    <circle cx="625" cy="567" r="25" fill="#4caf50" stroke="#2e7d32" stroke-width="2"/>
+    <text x="625" y="573" font-size="10" font-weight="bold" text-anchor="middle" fill="white">完成</text>
+  </g>
+  
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部メッセージ -->
+  <rect x="50" y="612" width="700" height="28" rx="5" fill="#263238"/>
+  <text x="400" y="630" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">
+    重要：「どちらか」ではなく「組み合わせ」で最大の効果を発揮
+  </text>
+</svg>
