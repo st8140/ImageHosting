@@ -1,0 +1,160 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    ChatGPT Pulse：AIが先回りして動く時代の仕事術
+  </text>
+  
+  <!-- 従来型 vs Pulse -->
+  <g id="comparison">
+    <rect x="30" y="70" width="340" height="120" rx="8" fill="#ffebee" stroke="#e74c3c" stroke-width="2"/>
+    <text x="200" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="#c62828">
+      従来の生成AI
+    </text>
+    <text x="50" y="120" font-size="12" fill="#555">• ユーザーが質問して初めて応答</text>
+    <text x="50" y="140" font-size="12" fill="#555">• "何を聞くべきか"がボトルネック</text>
+    <text x="50" y="160" font-size="12" fill="#555">• 受動的な情報検索ツール</text>
+    <text x="200" y="180" font-size="11" font-style="italic" text-anchor="middle" fill="#666">
+      "答え待ち"の関係
+    </text>
+    
+    <path d="M 370 130 L 430 130" stroke="#666" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="400" y="125" font-size="12" font-weight="bold" text-anchor="middle" fill="#e67e22">進化</text>
+    
+    <rect x="430" y="70" width="340" height="120" rx="8" fill="#e8f5e9" stroke="#27ae60" stroke-width="2"/>
+    <text x="600" y="95" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+      ChatGPT Pulse
+    </text>
+    <text x="450" y="120" font-size="12" fill="#555">• AIが先回りして提案を届ける</text>
+    <text x="450" y="140" font-size="12" fill="#555">• 朝イチで"今日の論点"に直行</text>
+    <text x="450" y="160" font-size="12" fill="#555">• 能動的なパーソナルアシスタント</text>
+    <text x="600" y="180" font-size="11" font-style="italic" text-anchor="middle" fill="#666">
+      "提案先行"の関係
+    </text>
+  </g>
+  
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Pulseの仕組み -->
+  <rect x="30" y="210" width="740" height="180" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="400" y="235" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    Pulseの仕組み：一日一回の自動リサーチサイクル
+  </text>
+  
+  <g id="pulse-cycle">
+    <!-- 夜 -->
+    <circle cx="120" cy="310" r="45" fill="#5e35b1" stroke="#311b92" stroke-width="2"/>
+    <text x="120" y="305" font-size="14" font-weight="bold" text-anchor="middle" fill="white">夜間</text>
+    <text x="120" y="325" font-size="10" text-anchor="middle" fill="white">非同期で</text>
+    <text x="120" y="340" font-size="10" text-anchor="middle" fill="white">リサーチ</text>
+    
+    <text x="120" y="370" font-size="10" text-anchor="middle" fill="#555">会話履歴・好み</text>
+    <text x="120" y="383" font-size="10" text-anchor="middle" fill="#555">フィードバックを分析</text>
+    
+    <!-- 矢印1 -->
+    <path d="M 165 310 L 230 310" stroke="#1976d2" stroke-width="3" marker-end="url(#arrow2)"/>
+    
+    <!-- 朝 -->
+    <circle cx="280" cy="310" r="45" fill="#f57c00" stroke="#e65100" stroke-width="2"/>
+    <text x="280" y="305" font-size="14" font-weight="bold" text-anchor="middle" fill="white">朝</text>
+    <text x="280" y="325" font-size="10" text-anchor="middle" fill="white">提案を</text>
+    <text x="280" y="340" font-size="10" text-anchor="middle" fill="white">配信</text>
+    
+    <text x="280" y="370" font-size="10" text-anchor="middle" fill="#555">カード形式で</text>
+    <text x="280" y="383" font-size="10" text-anchor="middle" fill="#555">要点を提示</text>
+    
+    <!-- 矢印2 -->
+    <path d="M 325 310 L 390 310" stroke="#1976d2" stroke-width="3" marker-end="url(#arrow2)"/>
+    
+    <!-- 日中 -->
+    <circle cx="440" cy="310" r="45" fill="#388e3c" stroke="#1b5e20" stroke-width="2"/>
+    <text x="440" y="305" font-size="14" font-weight="bold" text-anchor="middle" fill="white">日中</text>
+    <text x="440" y="325" font-size="10" text-anchor="middle" fill="white">行動・</text>
+    <text x="440" y="340" font-size="10" text-anchor="middle" fill="white">フィードバック</text>
+    
+    <text x="440" y="370" font-size="10" text-anchor="middle" fill="#555">👍👎で反応</text>
+    <text x="440" y="383" font-size="10" text-anchor="middle" fill="#555">保存・深掘り</text>
+    
+    <!-- 矢印3 -->
+    <path d="M 485 310 L 550 310" stroke="#1976d2" stroke-width="3" marker-end="url(#arrow2)"/>
+    
+    <!-- 学習 -->
+    <circle cx="600" cy="310" r="45" fill="#d32f2f" stroke="#b71c1c" stroke-width="2"/>
+    <text x="600" y="305" font-size="14" font-weight="bold" text-anchor="middle" fill="white">学習</text>
+    <text x="600" y="325" font-size="10" text-anchor="middle" fill="white">精度向上</text>
+    
+    <text x="600" y="370" font-size="10" text-anchor="middle" fill="#555">好みモデルを</text>
+    <text x="600" y="383" font-size="10" text-anchor="middle" fill="#555">継続的に改善</text>
+    
+    <!-- 戻る矢印 -->
+    <path d="M 600 265 Q 360 230 120 265" stroke="#1976d2" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow2)" fill="none"/>
+    <text x="360" y="225" font-size="10" text-anchor="middle" fill="#1976d2">翌日へ</text>
+  </g>
+  
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#1976d2"/>
+    </marker>
+  </defs>
+  
+  <!-- 活用のコツ -->
+  <rect x="30" y="410" width="740" height="160" rx="10" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="400" y="435" font-size="18" font-weight="bold" text-anchor="middle" fill="#e65100">
+    効果的な活用のコツ
+  </text>
+  
+  <g id="tips">
+    <circle cx="80" cy="475" r="22" fill="#1976d2"/>
+    <text x="80" y="482" font-size="16" font-weight="bold" text-anchor="middle" fill="white">1</text>
+    <text x="110" y="470" font-size="11" fill="#555">明確な指示でキュレーション</text>
+    <text x="110" y="485" font-size="10" fill="#666">「金曜はローカルイベント」など具体的に</text>
+    
+    <circle cx="80" cy="520" r="22" fill="#388e3c"/>
+    <text x="80" y="527" font-size="16" font-weight="bold" text-anchor="middle" fill="white">2</text>
+    <text x="110" y="515" font-size="11" fill="#555">👍👎で積極的にフィードバック</text>
+    <text x="110" y="530" font-size="10" fill="#666">精度向上のために反応を返す</text>
+    
+    <circle cx="420" cy="475" r="22" fill="#7b1fa2"/>
+    <text x="420" y="482" font-size="16" font-weight="bold" text-anchor="middle" fill="white">3</text>
+    <text x="450" y="470" font-size="11" fill="#555">アウトプットの"型"まで指定</text>
+    <text x="450" y="485" font-size="10" fill="#666">「3スライド分の要点」など形式も明示</text>
+    
+    <circle cx="420" cy="520" r="22" fill="#d32f2f"/>
+    <text x="420" y="527" font-size="16" font-weight="bold" text-anchor="middle" fill="white">4</text>
+    <text x="450" y="515" font-size="11" fill="#555">3点ルーチンを確立</text>
+    <text x="450" y="530" font-size="10" fill="#666">朝Pulse→優先度決定→夕フィードバック</text>
+  </g>
+  
+  <text x="400" y="558" font-size="10" font-style="italic" text-anchor="middle" fill="#e65100">
+    ポイント：AIに"基準"を教えることがレバレッジ
+  </text>
+  
+  <!-- 将来展望 -->
+  <rect x="30" y="585" width="740" height="100" rx="10" fill="#e8eaf6" stroke="#3f51b5" stroke-width="2"/>
+  <text x="400" y="610" font-size="16" font-weight="bold" text-anchor="middle" fill="#283593">
+    将来の展望：連携×行動で進捗が自動で積み上がる
+  </text>
+  
+  <g id="future">
+    <rect x="50" y="625" width="220" height="50" rx="5" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+    <text x="160" y="645" font-size="11" font-weight="bold" text-anchor="middle" fill="#283593">カレンダー連携</text>
+    <text x="160" y="662" font-size="9" text-anchor="middle" fill="#555">会議前の論点ブリーフ・</text>
+    <text x="160" y="673" font-size="9" text-anchor="middle" fill="#555">出張先のレストラン候補</text>
+    
+    <rect x="290" y="625" width="220" height="50" rx="5" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+    <text x="400" y="645" font-size="11" font-weight="bold" text-anchor="middle" fill="#283593">メール連携</text>
+    <text x="400" y="662" font-size="9" text-anchor="middle" fill="#555">見逃しがちな連絡の</text>
+    <text x="400" y="673" font-size="9" text-anchor="middle" fill="#555">フォロー案・返信骨子</text>
+    
+    <rect x="530" y="625" width="220" height="50" rx="5" fill="#c5cae9" stroke="#3f51b5" stroke-width="1"/>
+    <text x="640" y="645" font-size="11" font-weight="bold" text-anchor="middle" fill="#283593">外部アプリ連携</text>
+    <text x="640" y="662" font-size="9" text-anchor="middle" fill="#555">適切な瞬間に適切な</text>
+    <text x="640" y="673" font-size="9" text-anchor="middle" fill="#555">下準備が滑り込む</text>
+  </g>
+</svg>
