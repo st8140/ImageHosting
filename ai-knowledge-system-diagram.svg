@@ -1,0 +1,129 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="900" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    社内ナレッジを活かす生成AI運用の全体像
+  </text>
+  
+  <!-- RAG 3-Layer Architecture -->
+  <g id="rag-layers">
+    <text x="400" y="80" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      RAG（Retrieval-Augmented Generation）の3層構造
+    </text>
+    
+    <!-- Layer 1: Data Layer -->
+    <rect x="100" y="100" width="600" height="120" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="8"/>
+    <text x="120" y="130" font-size="16" font-weight="bold" fill="#1976d2">1. データ層（ナレッジベース）</text>
+    <text x="120" y="155" font-size="13" fill="#333">
+      <tspan x="120" dy="0">• 社内文書・議事録・FAQ・製品仕様書</tspan>
+      <tspan x="120" dy="20">• PDF、Word、Slackログなど多様な形式を統合</tspan>
+      <tspan x="120" dy="20">• アクセス権限の設計と情報の整形</tspan>
+    </text>
+    
+    <!-- Arrow 1 -->
+    <path d="M 400 220 L 400 240" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Layer 2: Knowledge Search Layer -->
+    <rect x="100" y="240" width="600" height="120" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="8"/>
+    <text x="120" y="270" font-size="16" font-weight="bold" fill="#f57c00">2. 知識検索層（ベクトルDB）</text>
+    <text x="120" y="295" font-size="13" fill="#333">
+      <tspan x="120" dy="0">• 文脈的に近い情報を検索</tspan>
+      <tspan x="120" dy="20">• 技術: Pinecone, Weaviate, Chroma, FAISS</tspan>
+      <tspan x="120" dy="20">• 「似た意味の文書」を瞬時に呼び出し</tspan>
+    </text>
+    
+    <!-- Arrow 2 -->
+    <path d="M 400 360 L 400 380" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- Layer 3: Generation Layer -->
+    <rect x="100" y="380" width="600" height="120" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+    <text x="120" y="410" font-size="16" font-weight="bold" fill="#7b1fa2">3. 生成層（LLM）</text>
+    <text x="120" y="435" font-size="13" fill="#333">
+      <tspan x="120" dy="0">• GPT-5、Claude 4.1などの最新LLM</tspan>
+      <tspan x="120" dy="20">• 検索結果をもとに自然な日本語で回答</tspan>
+      <tspan x="120" dy="20">• 文脈を踏まえた提案と要約</tspan>
+    </text>
+  </g>
+  
+  <!-- Three Approaches -->
+  <g id="approaches">
+    <text x="400" y="540" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      3つのアプローチ
+    </text>
+    
+    <!-- Approach 1 -->
+    <rect x="50" y="560" width="220" height="140" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="8"/>
+    <text x="160" y="585" font-size="14" font-weight="bold" text-anchor="middle" fill="#388e3c">① FAQ型学習</text>
+    <text x="60" y="610" font-size="12" fill="#333">
+      <tspan x="60" dy="0">• 定型質問への自動回答</tspan>
+      <tspan x="60" dy="18">• 人事・経理・ITサポート</tspan>
+      <tspan x="60" dy="18">• 回答の裏づけを提示</tspan>
+      <tspan x="60" dy="18">• 問い合わせ負担軽減</tspan>
+    </text>
+    
+    <!-- Approach 2 -->
+    <rect x="290" y="560" width="220" height="140" fill="#fff9c4" stroke="#f9a825" stroke-width="2" rx="8"/>
+    <text x="400" y="585" font-size="14" font-weight="bold" text-anchor="middle" fill="#f9a825">② ドキュメント連携型</text>
+    <text x="300" y="610" font-size="12" fill="#333">
+      <tspan x="300" dy="0">• 文書のベクトル化</tspan>
+      <tspan x="300" dy="18">• 文脈理解に基づく検索</tspan>
+      <tspan x="300" dy="18">• 部署間共有の促進</tspan>
+      <tspan x="300" dy="18">• 長文処理と要約</tspan>
+    </text>
+    
+    <!-- Approach 3 -->
+    <rect x="530" y="560" width="220" height="140" fill="#fce4ec" stroke="#c2185b" stroke-width="2" rx="8"/>
+    <text x="640" y="585" font-size="14" font-weight="bold" text-anchor="middle" fill="#c2185b">③ 会話型共有</text>
+    <text x="540" y="610" font-size="12" fill="#333">
+      <tspan x="540" dy="0">• チャット連携</tspan>
+      <tspan x="540" dy="18">• 過去の議論を分析</tspan>
+      <tspan x="540" dy="18">• 決定事項の記憶</tspan>
+      <tspan x="540" dy="18">• 情報重複の削減</tspan>
+    </text>
+  </g>
+  
+  <!-- Implementation Steps -->
+  <g id="steps">
+    <text x="400" y="740" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      導入の3ステップ
+    </text>
+    
+    <g id="step-flow">
+      <!-- Step 1 -->
+      <circle cx="180" cy="800" r="50" fill="#4fc3f7" stroke="#0288d1" stroke-width="2"/>
+      <text x="180" y="795" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Step 1</text>
+      <text x="180" y="815" font-size="11" text-anchor="middle" fill="#fff">データ整備</text>
+      
+      <!-- Arrow -->
+      <path d="M 230 800 L 330 800" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+      
+      <!-- Step 2 -->
+      <circle cx="400" cy="800" r="50" fill="#81c784" stroke="#388e3c" stroke-width="2"/>
+      <text x="400" y="795" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Step 2</text>
+      <text x="400" y="815" font-size="11" text-anchor="middle" fill="#fff">RAG構築</text>
+      
+      <!-- Arrow -->
+      <path d="M 450 800 L 550 800" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+      
+      <!-- Step 3 -->
+      <circle cx="620" cy="800" r="50" fill="#ffb74d" stroke="#f57c00" stroke-width="2"/>
+      <text x="620" y="795" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Step 3</text>
+      <text x="620" y="815" font-size="11" text-anchor="middle" fill="#fff">継続学習</text>
+    </g>
+  </g>
+  
+  <!-- Security Note -->
+  <rect x="100" y="860" width="600" height="30" fill="#ffebee" stroke="#d32f2f" stroke-width="2" rx="5"/>
+  <text x="400" y="881" font-size="13" font-weight="bold" text-anchor="middle" fill="#d32f2f">
+    セキュリティ対策：機密情報のマスキング・アクセスログ記録・ローカルLLM活用
+  </text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
