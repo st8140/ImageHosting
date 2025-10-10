@@ -1,0 +1,198 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f5f5f0"/>
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Claude Sonnet 4.5: 企業向けバランス型AIモデル
+  </text>
+  <g transform="translate(50, 70)">
+    <text x="350" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      4つの進化ポイント
+    </text>
+    <rect x="0" y="20" width="160" height="110" rx="8" fill="#d4a574" opacity="0.9"/>
+    <text x="80" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      推論力・長文処理
+    </text>
+    <text x="80" y="65" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      複雑なシナリオ対応
+    </text>
+    <text x="80" y="80" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      数十万トークン処理
+    </text>
+    <text x="80" y="95" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      文脈の安定保持
+    </text>
+    <text x="80" y="110" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      意思決定支援
+    </text>
+    <rect x="185" y="20" width="160" height="110" rx="8" fill="#b07d62" opacity="0.9"/>
+    <text x="265" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      安全性・ガバナンス
+    </text>
+    <text x="265" y="65" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      憲法AI強化
+    </text>
+    <text x="265" y="80" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      倫理的応答保証
+    </text>
+    <text x="265" y="95" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      情報漏洩防止
+    </text>
+    <text x="265" y="110" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      高リスク領域対応
+    </text>
+    <rect x="370" y="20" width="160" height="110" rx="8" fill="#8b6f47" opacity="0.9"/>
+    <text x="450" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      コスト・性能
+    </text>
+    <text x="450" y="55" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      バランス
+    </text>
+    <text x="450" y="75" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      処理速度向上
+    </text>
+    <text x="450" y="90" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      コスト効率改善
+    </text>
+    <text x="450" y="105" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      大規模展開可能
+    </text>
+    <rect x="555" y="20" width="160" height="110" rx="8" fill="#6d5537" opacity="0.9"/>
+    <text x="635" y="45" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      競合との差別化
+    </text>
+    <text x="635" y="65" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      長期文脈保持
+    </text>
+    <text x="635" y="80" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      深い推論能力
+    </text>
+    <text x="635" y="95" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      複数要件統合
+    </text>
+    <text x="635" y="110" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      リスク分析強化
+    </text>
+  </g>
+  <g transform="translate(50, 220)">
+    <text x="350" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      企業活用シーン
+    </text>
+    <rect x="0" y="20" width="135" height="90" rx="8" fill="#f3e5d8" stroke="#d4a574" stroke-width="2"/>
+    <text x="67.5" y="40" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ナレッジ管理
+    </text>
+    <text x="67.5" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      文書要約・整理
+    </text>
+    <text x="67.5" y="72" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      検索性向上
+    </text>
+    <text x="67.5" y="86" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      知識活用拡大
+    </text>
+    <rect x="150" y="20" width="135" height="90" rx="8" fill="#f3e5d8" stroke="#d4a574" stroke-width="2"/>
+    <text x="217.5" y="40" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      顧客サポート
+    </text>
+    <text x="217.5" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      複雑な問合せ対応
+    </text>
+    <text x="217.5" y="72" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      履歴活用応答
+    </text>
+    <text x="217.5" y="86" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      満足度向上
+    </text>
+    <rect x="300" y="20" width="135" height="90" rx="8" fill="#f3e5d8" stroke="#d4a574" stroke-width="2"/>
+    <text x="367.5" y="40" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      データ分析
+    </text>
+    <text x="367.5" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      トレンド分析
+    </text>
+    <text x="367.5" y="72" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      将来予測示唆
+    </text>
+    <text x="367.5" y="86" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      意思決定支援
+    </text>
+    <rect x="450" y="20" width="135" height="90" rx="8" fill="#f3e5d8" stroke="#d4a574" stroke-width="2"/>
+    <text x="517.5" y="35" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      プロジェクト管理
+    </text>
+    <text x="517.5" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      進行状況整理
+    </text>
+    <text x="517.5" y="72" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      タスク明確化
+    </text>
+    <text x="517.5" y="86" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      部門間調整
+    </text>
+    <rect x="600" y="20" width="135" height="90" rx="8" fill="#f3e5d8" stroke="#d4a574" stroke-width="2"/>
+    <text x="667.5" y="40" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      創造性支援
+    </text>
+    <text x="667.5" y="58" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      アイデア出し
+    </text>
+    <text x="667.5" y="72" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      資料草稿生成
+    </text>
+    <text x="667.5" y="86" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+      新しい働き方
+    </text>
+  </g>
+  <g transform="translate(50, 340)">
+    <text x="350" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      Claudeシリーズの位置づけ
+    </text>
+    <rect x="0" y="20" width="220" height="70" rx="8" fill="#e8d4c0" stroke="#b07d62" stroke-width="2"/>
+    <text x="110" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      Haiku（軽量型）
+    </text>
+    <text x="110" y="58" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">
+      高速・低コスト
+    </text>
+    <text x="110" y="73" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">
+      リアルタイム処理・小規模業務向け
+    </text>
+    <rect x="240" y="20" width="220" height="70" rx="8" fill="#d4a574" stroke="#8b6f47" stroke-width="3"/>
+    <text x="350" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      Sonnet 4.5（バランス型）
+    </text>
+    <text x="350" y="58" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      性能とコストの最適バランス
+    </text>
+    <text x="350" y="73" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      企業導入の中心的選択肢
+    </text>
+    <rect x="480" y="20" width="220" height="70" rx="8" fill="#6d5537" stroke="#4a3922" stroke-width="2"/>
+    <text x="590" y="40" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+      Opus（最高性能）
+    </text>
+    <text x="590" y="58" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      最高性能だがコスト高
+    </text>
+    <text x="590" y="73" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+      研究開発・高度専門領域向け
+    </text>
+  </g>
+  <g transform="translate(50, 440)">
+    <rect x="0" y="0" width="700" height="120" rx="10" fill="#fff9f0" stroke="#d4a574" stroke-width="2"/>
+    <text x="350" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      導入時の注意点
+    </text>
+    <circle cx="25" cy="50" r="6" fill="#b07d62"/>
+    <text x="40" y="55" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      コスト管理: 段階的導入で費用を最適化
+    </text>
+    <circle cx="25" cy="75" r="6" fill="#b07d62"/>
+    <text x="40" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      データガバナンス: 機密情報はオンプレミス環境を検討
+    </text>
+    <circle cx="25" cy="100" r="6" fill="#b07d62"/>
+    <text x="40" y="105" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      人間レビュー: 専門領域では併用体制が必要
+    </text>
+  </g>
+</svg>
