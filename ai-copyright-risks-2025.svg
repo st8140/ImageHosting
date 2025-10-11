@@ -1,0 +1,116 @@
+<svg viewBox="0 0 800 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="900" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">生成AIの著作権リスクと対策</text>
+  
+  <!-- Recent Cases Section -->
+  <text x="50" y="80" font-size="18" font-weight="bold" fill="#2c3e50">最近の事例(2025年)</text>
+  
+  <!-- Case 1: Anthropic -->
+  <rect x="50" y="100" width="340" height="60" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="5"/>
+  <text x="60" y="120" font-size="14" font-weight="bold" fill="#c62828">Anthropic</text>
+  <text x="60" y="140" font-size="12" fill="#333">著者団体と15億ドルで和解</text>
+  <text x="60" y="155" font-size="11" fill="#666">無断学習による訴訟</text>
+  
+  <!-- Case 2: Warner Bros -->
+  <rect x="410" y="100" width="340" height="60" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="5"/>
+  <text x="420" y="120" font-size="14" font-weight="bold" fill="#c62828">Warner Bros</text>
+  <text x="420" y="140" font-size="12" fill="#333">Midjourneyを提訴</text>
+  <text x="420" y="155" font-size="11" fill="#666">キャラクター無断生成</text>
+  
+  <!-- Case 3: Disney -->
+  <rect x="50" y="175" width="340" height="60" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="5"/>
+  <text x="60" y="195" font-size="14" font-weight="bold" fill="#c62828">Disney</text>
+  <text x="60" y="215" font-size="12" fill="#333">Character.AIに警告</text>
+  <text x="60" y="230" font-size="11" fill="#666">キャラクター模倣チャットボット</text>
+  
+  <!-- Case 4: Voice Actors -->
+  <rect x="410" y="175" width="340" height="60" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="5"/>
+  <text x="420" y="195" font-size="14" font-weight="bold" fill="#c62828">声優26名</text>
+  <text x="420" y="215" font-size="12" fill="#333">無断音声生成に抗議</text>
+  <text x="420" y="230" font-size="11" fill="#666">NOMORE無断生成AI運動</text>
+  
+  <!-- Three Risk Types -->
+  <text x="50" y="280" font-size="18" font-weight="bold" fill="#2c3e50">3つの著作権リスク</text>
+  
+  <!-- Risk 1: Training Data -->
+  <circle cx="150" cy="340" r="60" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+  <text x="150" y="330" font-size="14" font-weight="bold" fill="#e65100" text-anchor="middle">学習データ</text>
+  <text x="150" y="350" font-size="12" fill="#333" text-anchor="middle">利用リスク</text>
+  <rect x="70" y="410" width="160" height="50" fill="#fff" stroke="#f57c00" stroke-width="1" rx="3"/>
+  <text x="150" y="430" font-size="11" fill="#333" text-anchor="middle">無断使用された</text>
+  <text x="150" y="445" font-size="11" fill="#333" text-anchor="middle">著作物での訓練</text>
+  
+  <!-- Risk 2: Generated Content -->
+  <circle cx="400" cy="340" r="60" fill="#e3f2fd" stroke="#1976d2" stroke-width="3"/>
+  <text x="400" y="330" font-size="14" font-weight="bold" fill="#0d47a1" text-anchor="middle">生成物</text>
+  <text x="400" y="350" font-size="12" fill="#333" text-anchor="middle">侵害リスク</text>
+  <rect x="320" y="410" width="160" height="50" fill="#fff" stroke="#1976d2" stroke-width="1" rx="3"/>
+  <text x="400" y="430" font-size="11" fill="#333" text-anchor="middle">既存作品との</text>
+  <text x="400" y="445" font-size="11" fill="#333" text-anchor="middle">類似による侵害</text>
+  
+  <!-- Risk 3: Voice/Character -->
+  <circle cx="650" cy="340" r="60" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3"/>
+  <text x="650" y="330" font-size="14" font-weight="bold" fill="#4a148c" text-anchor="middle">音声・人格</text>
+  <text x="650" y="350" font-size="12" fill="#333" text-anchor="middle">模倣リスク</text>
+  <rect x="570" y="410" width="160" height="50" fill="#fff" stroke="#7b1fa2" stroke-width="1" rx="3"/>
+  <text x="650" y="430" font-size="11" fill="#333" text-anchor="middle">肖像権・人格権</text>
+  <text x="650" y="445" font-size="11" fill="#333" text-anchor="middle">の侵害</text>
+  
+  <!-- Guidelines Section -->
+  <text x="50" y="510" font-size="18" font-weight="bold" fill="#2c3e50">企業が取るべき4つのガイドライン</text>
+  
+  <!-- Guideline 1 -->
+  <rect x="50" y="530" width="340" height="80" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5"/>
+  <circle cx="80" cy="555" r="15" fill="#4caf50"/>
+  <text x="80" y="560" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+  <text x="110" y="550" font-size="14" font-weight="bold" fill="#2e7d32">利用ポリシー整備</text>
+  <text x="110" y="570" font-size="11" fill="#333">業務範囲と利用方法を明文化</text>
+  <text x="110" y="585" font-size="11" fill="#666">従業員の独自利用を制御</text>
+  <text x="110" y="600" font-size="11" fill="#666">リスク管理の基盤構築</text>
+  
+  <!-- Guideline 2 -->
+  <rect x="410" y="530" width="340" height="80" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5"/>
+  <circle cx="440" cy="555" r="15" fill="#4caf50"/>
+  <text x="440" y="560" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+  <text x="470" y="550" font-size="14" font-weight="bold" fill="#2e7d32">契約・ライセンス確認</text>
+  <text x="470" y="570" font-size="11" fill="#333">訓練データの透明性確認</text>
+  <text x="470" y="585" font-size="11" fill="#666">商用利用の許可範囲</text>
+  <text x="470" y="600" font-size="11" fill="#666">ベンダー選定時の基準設定</text>
+  
+  <!-- Guideline 3 -->
+  <rect x="50" y="630" width="340" height="80" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5"/>
+  <circle cx="80" cy="655" r="15" fill="#4caf50"/>
+  <text x="80" y="660" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+  <text x="110" y="650" font-size="14" font-weight="bold" fill="#2e7d32">ツール選定基準</text>
+  <text x="110" y="670" font-size="11" fill="#333">著作権対応の明確性</text>
+  <text x="110" y="685" font-size="11" fill="#666">安全性への取り組み公表</text>
+  <text x="110" y="700" font-size="11" fill="#666">精度・コストだけで選ばない</text>
+  
+  <!-- Guideline 4 -->
+  <rect x="410" y="630" width="340" height="80" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="5"/>
+  <circle cx="440" cy="655" r="15" fill="#4caf50"/>
+  <text x="440" y="660" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+  <text x="470" y="650" font-size="14" font-weight="bold" fill="#2e7d32">レビュー体制導入</text>
+  <text x="470" y="670" font-size="11" fill="#333">人間による必須チェック</text>
+  <text x="470" y="685" font-size="11" fill="#666">法務・知財部門との連携</text>
+  <text x="470" y="700" font-size="11" fill="#666">高リスクコンテンツの排除</text>
+  
+  <!-- Impact Section -->
+  <text x="50" y="750" font-size="18" font-weight="bold" fill="#2c3e50">企業への影響</text>
+  
+  <rect x="50" y="770" width="700" height="100" fill="#fff3cd" stroke="#ff9800" stroke-width="2" rx="5"/>
+  <text x="70" y="795" font-size="13" font-weight="bold" fill="#e65100">⚠ 社内利用でも油断は禁物</text>
+  <text x="90" y="815" font-size="11" fill="#333">外部流出時の法的責任</text>
+  
+  <text x="420" y="795" font-size="13" font-weight="bold" fill="#e65100">⚠ 取引先への納品リスク</text>
+  <text x="440" y="815" font-size="11" fill="#333">契約違反・損害賠償の可能性</text>
+  
+  <text x="260" y="840" font-size="13" font-weight="bold" fill="#e65100">⚠ 国際展開時の法制度差</text>
+  <text x="280" y="860" font-size="11" fill="#333">各国で異なる著作権法への対応</text>
+  
+  <!-- Footer -->
+  <text x="400" y="890" font-size="11" fill="#666" text-anchor="middle">安全なAI活用のための仕組み作りが急務</text>
+</svg>
