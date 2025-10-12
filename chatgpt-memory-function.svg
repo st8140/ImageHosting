@@ -1,0 +1,112 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    ChatGPTメモリー機能の進化
+  </text>
+  
+  <!-- 従来の短期記憶 -->
+  <g>
+    <rect x="50" y="80" width="300" height="200" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+    <text x="200" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      従来：短期記憶
+    </text>
+    
+    <!-- セッション1 -->
+    <rect x="70" y="130" width="120" height="60" fill="#fff" stroke="#90caf9" stroke-width="2" rx="5"/>
+    <text x="130" y="150" font-size="12" text-anchor="middle" fill="#424242">セッション1</text>
+    <text x="130" y="170" font-size="11" text-anchor="middle" fill="#757575">会話内容</text>
+    
+    <!-- 矢印 -->
+    <path d="M 130 195 L 130 210" stroke="#f44336" stroke-width="2" marker-end="url(#arrowred)"/>
+    <text x="165" y="208" font-size="11" fill="#f44336">終了で消失</text>
+    
+    <!-- セッション2 -->
+    <rect x="70" y="220" width="120" height="50" fill="#ffebee" stroke="#ef5350" stroke-width="2" rx="5" stroke-dasharray="4"/>
+    <text x="130" y="245" font-size="11" text-anchor="middle" fill="#c62828">記憶なし</text>
+  </g>
+  
+  <!-- 新しい長期記憶 -->
+  <g>
+    <rect x="450" y="80" width="300" height="200" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="10"/>
+    <text x="600" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+      GPT-5：長期記憶
+    </text>
+    
+    <!-- メモリー保存 -->
+    <ellipse cx="600" cy="170" rx="90" ry="50" fill="#fff" stroke="#66bb6a" stroke-width="2"/>
+    <text x="600" y="160" font-size="12" text-anchor="middle" fill="#424242">メモリー</text>
+    <text x="600" y="178" font-size="10" text-anchor="middle" fill="#757575">・職業・好み</text>
+    <text x="600" y="192" font-size="10" text-anchor="middle" fill="#757575">・文体・プロジェクト</text>
+    
+    <!-- 継続的活用 -->
+    <path d="M 520 230 Q 600 260 680 230" fill="none" stroke="#4caf50" stroke-width="2" marker-end="url(#arrowgreen)"/>
+    <text x="600" y="260" font-size="11" text-anchor="middle" fill="#2e7d32">次回会話に活用</text>
+  </g>
+  
+  <!-- 活用シーン -->
+  <g>
+    <rect x="50" y="320" width="340" height="240" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="10"/>
+    <text x="220" y="350" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">
+      活用シーン
+    </text>
+    
+    <!-- 個人利用 -->
+    <g>
+      <circle cx="90" cy="390" r="8" fill="#ff9800"/>
+      <text x="110" y="395" font-size="13" font-weight="bold" fill="#424242">個人利用</text>
+      <text x="110" y="415" font-size="11" fill="#616161">・文体の継続性</text>
+      <text x="110" y="430" font-size="11" fill="#616161">・学習履歴の保持</text>
+      <text x="110" y="445" font-size="11" fill="#616161">・専門用語の記憶</text>
+    </g>
+    
+    <!-- 企業利用 -->
+    <g>
+      <circle cx="90" cy="480" r="8" fill="#ff9800"/>
+      <text x="110" y="485" font-size="13" font-weight="bold" fill="#424242">企業利用</text>
+      <text x="110" y="505" font-size="11" fill="#616161">・社内FAQ高度化</text>
+      <text x="110" y="520" font-size="11" fill="#616161">・ナレッジ共有</text>
+      <text x="110" y="535" font-size="11" fill="#616161">・業務効率化</text>
+    </g>
+  </g>
+  
+  <!-- 注意点 -->
+  <g>
+    <rect x="410" y="320" width="340" height="240" fill="#ffebee" stroke="#d32f2f" stroke-width="2" rx="10"/>
+    <text x="580" y="350" font-size="16" font-weight="bold" text-anchor="middle" fill="#c62828">
+      セキュリティ注意点
+    </text>
+    
+    <!-- 警告アイコン -->
+    <polygon points="580,370 595,395 565,395" fill="#f44336"/>
+    <text x="580" y="392" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">!</text>
+    
+    <!-- 注意事項 -->
+    <text x="440" y="420" font-size="11" fill="#616161">1. 機密情報を含めない運用ルール</text>
+    <text x="440" y="440" font-size="11" fill="#616161">2. メモリー内容の定期確認と削除</text>
+    <text x="440" y="460" font-size="11" fill="#616161">3. 権限管理の徹底</text>
+    
+    <rect x="430" y="480" width="280" height="60" fill="#fff" stroke="#ef5350" stroke-width="1" rx="5"/>
+    <text x="570" y="500" font-size="10" text-anchor="middle" fill="#d32f2f" font-weight="bold">
+      クラウド上での情報保存
+    </text>
+    <text x="570" y="515" font-size="9" text-anchor="middle" fill="#757575">
+      セキュリティポリシーへの
+    </text>
+    <text x="570" y="528" font-size="9" text-anchor="middle" fill="#757575">
+      抵触リスクに注意
+    </text>
+  </g>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowred" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f44336"/>
+    </marker>
+    <marker id="arrowgreen" markerWidth="10" markerHeight="10" refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4caf50"/>
+    </marker>
+  </defs>
+</svg>
