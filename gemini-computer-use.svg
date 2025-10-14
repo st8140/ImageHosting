@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#0f9d58;stop-opacity:0.1" />
+    </linearGradient>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="url(#bg2)"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#202124" text-anchor="middle">
+    Gemini 2.5 Computer Use：AIがWebを操作
+  </text>
+  
+  <!-- 従来のAI -->
+  <g filter="url(#shadow2)">
+    <rect x="50" y="70" width="220" height="100" rx="10" fill="#f8f9fa" stroke="#dadce0" stroke-width="2"/>
+    <text x="160" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#202124" text-anchor="middle">
+      従来の生成AI
+    </text>
+    <text x="160" y="120" font-family="Arial, sans-serif" font-size="13" fill="#5f6368" text-anchor="middle">
+      テキスト生成のみ
+    </text>
+    <text x="160" y="145" font-family="Arial, sans-serif" font-size="13" fill="#5f6368" text-anchor="middle">
+      「書く」AI
+    </text>
+  </g>
+  
+  <!-- 矢印 -->
+  <path d="M 280 120 L 380 120" stroke="#4285f4" stroke-width="3" fill="none" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#4285f4"/>
+    </marker>
+  </defs>
+  <text x="330" y="110" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#4285f4" text-anchor="middle">
+    進化
+  </text>
+  
+  <!-- Gemini Computer Use -->
+  <g filter="url(#shadow2)">
+    <rect x="390" y="70" width="360" height="100" rx="10" fill="#e8f5e9" stroke="#34a853" stroke-width="2"/>
+    <text x="570" y="95" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#137333" text-anchor="middle">
+      Gemini 2.5 Computer Use
+    </text>
+    <text x="570" y="120" font-family="Arial, sans-serif" font-size="13" fill="#137333" text-anchor="middle">
+      Web操作・クリック・入力も自動実行
+    </text>
+    <text x="570" y="145" font-family="Arial, sans-serif" font-size="13" fill="#137333" text-anchor="middle">
+      「動かす」AI
+    </text>
+  </g>
+  
+  <!-- 動作プロセス -->
+  <g filter="url(#shadow2)">
+    <rect x="50" y="200" width="340" height="230" rx="10" fill="#fff" stroke="#4285f4" stroke-width="2"/>
+    <text x="220" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4285f4" text-anchor="middle">
+      動作プロセス
+    </text>
+    
+    <circle cx="80" cy="265" r="18" fill="#4285f4" stroke="#fff" stroke-width="2"/>
+    <text x="80" y="272" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">1</text>
+    <text x="110" y="270" font-family="Arial, sans-serif" font-size="13" fill="#202124">
+      ユーザーからタスク指示
+    </text>
+    
+    <circle cx="80" cy="310" r="18" fill="#34a853" stroke="#fff" stroke-width="2"/>
+    <text x="80" y="317" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">2</text>
+    <text x="110" y="315" font-family="Arial, sans-serif" font-size="13" fill="#202124">
+      画面キャプチャ・履歴を読込
+    </text>
+    
+    <circle cx="80" cy="355" r="18" fill="#fbbc04" stroke="#fff" stroke-width="2"/>
+    <text x="80" y="362" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">3</text>
+    <text x="110" y="360" font-family="Arial, sans-serif" font-size="13" fill="#202124">
+      適切な操作を提案・実行
+    </text>
+    
+    <circle cx="80" cy="400" r="18" fill="#ea4335" stroke="#fff" stroke-width="2"/>
+    <text x="80" y="407" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">4</text>
+    <text x="110" y="405" font-family="Arial, sans-serif" font-size="13" fill="#202124">
+      結果確認し次の行動判断
+    </text>
+  </g>
+  
+  <!-- 実行可能な操作 -->
+  <g filter="url(#shadow2)">
+    <rect x="410" y="200" width="340" height="230" rx="10" fill="#fff" stroke="#34a853" stroke-width="2"/>
+    <text x="580" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#137333" text-anchor="middle">
+      実行可能な操作
+    </text>
+    
+    <rect x="430" y="250" width="300" height="32" rx="5" fill="#e8f5e9"/>
+    <text x="580" y="272" font-family="Arial, sans-serif" font-size="13" fill="#137333" text-anchor="middle">
+      🖱️ クリック・スクロール
+    </text>
+    
+    <rect x="430" y="292" width="300" height="32" rx="5" fill="#e8f5e9"/>
+    <text x="580" y="314" font-family="Arial, sans-serif" font-size="13" fill="#137333" text-anchor="middle">
+      ⌨️ フォーム入力・テキスト記入
+    </text>
+    
+    <rect x="430" y="334" width="300" height="32" rx="5" fill="#e8f5e9"/>
+    <text x="580" y="356" font-family="Arial, sans-serif" font-size="13" fill="#137333" text-anchor="middle">
+      🔍 情報検索・データ取得
+    </text>
+    
+    <rect x="430" y="376" width="300" height="32" rx="5" fill="#e8f5e9"/>
+    <text x="580" y="398" font-family="Arial, sans-serif" font-size="13" fill="#137333" text-anchor="middle">
+      🤖 CAPTCHA突破（画像認識）
+    </text>
+  </g>
+  
+  <!-- 性能評価 -->
+  <g filter="url(#shadow2)">
+    <rect x="50" y="460" width="340" height="110" rx="10" fill="#fff5e1" stroke="#fbbc04" stroke-width="2"/>
+    <text x="220" y="488" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#e37400" text-anchor="middle">
+      🏆 業界トップレベルの性能
+    </text>
+    <text x="70" y="515" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">
+      • Online-Mind2Web: 65.7%（Claude 61.0%、OpenAI 44.3%）
+    </text>
+    <text x="70" y="538" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">
+      • WebVoyager: 79.9%（Claude 69.4%、OpenAI 61.0%）
+    </text>
+    <text x="70" y="560" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">
+      • AndroidWorld: 69.7%（Claude 62.1%）
+    </text>
+  </g>
+  
+  <!-- 安全設計 -->
+  <g filter="url(#shadow2)">
+    <rect x="410" y="460" width="340" height="110" rx="10" fill="#fce8e6" stroke="#ea4335" stroke-width="2"/>
+    <text x="580" y="488" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#c5221f" text-anchor="middle">
+      🔒 多層セキュリティ設計
+    </text>
+    <text x="430" y="515" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">
+      • ステップ単位の安全審査
+    </text>
+    <text x="430" y="538" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">
+      • 重要操作（購入・削除）は確認必須
+    </text>
+    <text x="430" y="560" font-family="Arial, sans-serif" font-size="12" fill="#5f6368">
+      • 禁止行為の自動ブロック
+    </text>
+  </g>
+</svg>
