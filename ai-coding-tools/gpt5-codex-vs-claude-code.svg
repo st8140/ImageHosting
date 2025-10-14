@@ -1,0 +1,93 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    AI コーディングツール比較
+  </text>
+  
+  <!-- GPT-5-Codex セクション -->
+  <g id="gpt5-section">
+    <rect x="50" y="80" width="320" height="440" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+    
+    <!-- GPT-5-Codex タイトル -->
+    <text x="210" y="115" font-size="20" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      GPT-5-Codex
+    </text>
+    <text x="210" y="135" font-size="12" text-anchor="middle" fill="#555">
+      (OpenAI)
+    </text>
+    
+    <!-- アイコン -->
+    <circle cx="210" cy="175" r="30" fill="#1976d2" opacity="0.2"/>
+    <text x="210" y="185" font-size="30" text-anchor="middle">🚀</text>
+    
+    <!-- 特徴リスト -->
+    <text x="70" y="230" font-size="14" font-weight="bold" fill="#1a1a1a">主な特徴：</text>
+    
+    <text x="70" y="255" font-size="12" fill="#333">✓ 思考型エンジニアリング</text>
+    <text x="70" y="275" font-size="12" fill="#333">✓ 複数ファイル横断編集</text>
+    <text x="70" y="295" font-size="12" fill="#333">✓ 高速な実装生成</text>
+    <text x="70" y="315" font-size="12" fill="#333">✓ CI/CD統合対応</text>
+    
+    <!-- 得意分野 -->
+    <rect x="70" y="335" width="260" height="70" fill="#bbdefb" rx="5"/>
+    <text x="200" y="355" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">得意分野</text>
+    <text x="200" y="375" font-size="11" text-anchor="middle" fill="#333">フルスタック開発</text>
+    <text x="200" y="390" font-size="11" text-anchor="middle" fill="#333">自動修正・テスト生成</text>
+    
+    <!-- 向いている用途 -->
+    <rect x="70" y="420" width="260" height="85" fill="#90caf9" rx="5"/>
+    <text x="200" y="440" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">向いている用途</text>
+    <text x="200" y="460" font-size="11" text-anchor="middle" fill="#333">内製ツール開発</text>
+    <text x="200" y="475" font-size="11" text-anchor="middle" fill="#333">Webアプリ構築</text>
+    <text x="200" y="490" font-size="11" text-anchor="middle" fill="#333">運用自動化</text>
+  </g>
+  
+  <!-- Claude Code セクション -->
+  <g id="claude-section">
+    <rect x="430" y="80" width="320" height="440" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="10"/>
+    
+    <!-- Claude Code タイトル -->
+    <text x="590" y="115" font-size="20" font-weight="bold" text-anchor="middle" fill="#388e3c">
+      Claude Code
+    </text>
+    <text x="590" y="135" font-size="12" text-anchor="middle" fill="#555">
+      (Anthropic)
+    </text>
+    
+    <!-- アイコン -->
+    <circle cx="590" cy="175" r="30" fill="#388e3c" opacity="0.2"/>
+    <text x="590" y="185" font-size="30" text-anchor="middle">🛡️</text>
+    
+    <!-- 特徴リスト -->
+    <text x="450" y="230" font-size="14" font-weight="bold" fill="#1a1a1a">主な特徴：</text>
+    
+    <text x="450" y="255" font-size="12" fill="#333">✓ Constitutional AI設計</text>
+    <text x="450" y="275" font-size="12" fill="#333">✓ 長大な文脈理解(200K+)</text>
+    <text x="450" y="295" font-size="12" fill="#333">✓ 安全性重視の出力</text>
+    <text x="450" y="315" font-size="12" fill="#333">✓ 説明可能性が高い</text>
+    
+    <!-- 得意分野 -->
+    <rect x="450" y="335" width="260" height="70" fill="#c8e6c9" rx="5"/>
+    <text x="580" y="355" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">得意分野</text>
+    <text x="580" y="375" font-size="11" text-anchor="middle" fill="#333">仕様理解・コードレビュー</text>
+    <text x="580" y="390" font-size="11" text-anchor="middle" fill="#333">チーム共有・品質保証</text>
+    
+    <!-- 向いている用途 -->
+    <rect x="450" y="420" width="260" height="85" fill="#a5d6a7" rx="5"/>
+    <text x="580" y="440" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">向いている用途</text>
+    <text x="580" y="460" font-size="11" text-anchor="middle" fill="#333">教育・研修</text>
+    <text x="580" y="475" font-size="11" text-anchor="middle" fill="#333">品質保証</text>
+    <text x="580" y="490" font-size="11" text-anchor="middle" fill="#333">リスク管理開発</text>
+  </g>
+  
+  <!-- 中央の協働メッセージ -->
+  <g id="collaboration">
+    <ellipse cx="400" cy="560" rx="200" ry="25" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+    <text x="400" y="565" font-size="14" font-weight="bold" text-anchor="middle" fill="#e65100">
+      協働開発で最大の効果を発揮
+    </text>
+  </g>
+</svg>
