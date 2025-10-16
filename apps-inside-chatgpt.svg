@@ -1,0 +1,113 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Apps inside of ChatGPT - アーキテクチャ
+  </text>
+  
+  <!-- Central ChatGPT Hub -->
+  <circle cx="600" cy="400" r="120" fill="#10a37f" opacity="0.2" stroke="#10a37f" stroke-width="3"/>
+  <circle cx="600" cy="400" r="100" fill="#10a37f" stroke="#0d8b6f" stroke-width="2"/>
+  <text x="600" y="400" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+    ChatGPT
+  </text>
+  <text x="600" y="430" font-size="14" text-anchor="middle" fill="white" opacity="0.9">
+    (MCP基盤)
+  </text>
+  
+  <!-- Partner Apps - 上段 -->
+  <g id="app-figma">
+    <rect x="80" y="100" width="140" height="100" fill="#6c5ce7" rx="8" stroke="#5f3dc4" stroke-width="2"/>
+    <text x="150" y="145" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Figma</text>
+    <text x="150" y="165" font-size="12" text-anchor="middle" fill="white">デザイン・UI</text>
+    <path d="M 200 150 L 480 400" stroke="#6c5ce7" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <g id="app-spotify">
+    <rect x="320" y="80" width="140" height="100" fill="#1db954" rx="8" stroke="#1aa34a" stroke-width="2"/>
+    <text x="390" y="125" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Spotify</text>
+    <text x="390" y="145" font-size="12" text-anchor="middle" fill="white">音楽・プレイリスト</text>
+    <path d="M 390 180 L 520 320" stroke="#1db954" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <g id="app-booking">
+    <rect x="540" y="80" width="140" height="100" fill="#003580" rx="8" stroke="#001f3f" stroke-width="2"/>
+    <text x="610" y="125" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Booking.com</text>
+    <text x="610" y="145" font-size="12" text-anchor="middle" fill="white">旅程・予約</text>
+    <path d="M 610 180 L 610 300" stroke="#003580" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <g id="app-expedia">
+    <rect x="760" y="80" width="140" height="100" fill="#ffc72c" rx="8" stroke="#e6b800" stroke-width="2"/>
+    <text x="830" y="125" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Expedia</text>
+    <text x="830" y="145" font-size="12" text-anchor="middle" fill="#333">旅行検索</text>
+    <path d="M 800 180 L 680 320" stroke="#ffc72c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Partner Apps - 下段 -->
+  <g id="app-zillow">
+    <rect x="80" y="600" width="140" height="100" fill="#0074e4" rx="8" stroke="#0056a8" stroke-width="2"/>
+    <text x="150" y="645" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Zillow</text>
+    <text x="150" y="665" font-size="12" text-anchor="middle" fill="white">不動産検索</text>
+    <path d="M 200 600 L 480 500" stroke="#0074e4" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <g id="app-coursera">
+    <rect x="320" y="600" width="140" height="100" fill="#1f1f1f" rx="8" stroke="#0d0d0d" stroke-width="2"/>
+    <text x="390" y="645" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Coursera</text>
+    <text x="390" y="665" font-size="12" text-anchor="middle" fill="white">教育・学習</text>
+    <path d="M 390 600 L 520 480" stroke="#1f1f1f" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <g id="app-canvas">
+    <rect x="540" y="600" width="140" height="100" fill="#0066cc" rx="8" stroke="#003d7a" stroke-width="2"/>
+    <text x="610" y="645" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Canvas</text>
+    <text x="610" y="665" font-size="12" text-anchor="middle" fill="white">デザイン・制作</text>
+    <path d="M 610 600 L 610 500" stroke="#0066cc" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Feature Boxes -->
+  <g id="features">
+    <!-- Data & Context -->
+    <rect x="950" y="120" width="220" height="140" fill="#fff" stroke="#666" stroke-width="2" rx="8"/>
+    <text x="1060" y="145" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">📊 データ接続</text>
+    <text x="960" y="170" font-size="12" fill="#555">リアルタイムデータ</text>
+    <text x="960" y="190" font-size="12" fill="#555">の取り込み</text>
+    <text x="960" y="210" font-size="12" fill="#555">会話の文脈に</text>
+    <text x="960" y="230" font-size="12" fill="#555">統合</text>
+    
+    <!-- UI Display -->
+    <rect x="950" y="290" width="220" height="140" fill="#fff" stroke="#666" stroke-width="2" rx="8"/>
+    <text x="1060" y="315" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">🎨 UI描画</text>
+    <text x="960" y="340" font-size="12" fill="#555">インタラクティブ</text>
+    <text x="960" y="360" font-size="12" fill="#555">な表示</text>
+    <text x="960" y="380" font-size="12" fill="#555">カード・カルーセル</text>
+    <text x="960" y="400" font-size="12" fill="#555">・全画面表示</text>
+    
+    <!-- Action Execution -->
+    <rect x="950" y="460" width="220" height="140" fill="#fff" stroke="#666" stroke-width="2" rx="8"/>
+    <text x="1060" y="485" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">⚙️ アクション実行</text>
+    <text x="960" y="510" font-size="12" fill="#555">検索・生成・</text>
+    <text x="960" y="530" font-size="12" fill="#555">フィルタ・予約</text>
+    <text x="960" y="550" font-size="12" fill="#555">ChatGPTから</text>
+    <text x="960" y="570" font-size="12" fill="#555">完結</text>
+  </g>
+  
+  <!-- Key Difference Box -->
+  <rect x="30" y="720" width="1140" height="60" fill="#e8f5e9" stroke="#4caf50" stroke-width="2" rx="8"/>
+  <text x="600" y="745" font-size="14" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+    従来のGPTストア：アプリを探して使用 → 新Apps SDK：ChatGPT内でアプリをシームレスに実行
+  </text>
+  <text x="600" y="765" font-size="12" text-anchor="middle" fill="#2e7d32">
+    会話の流れで自動的に関連アプリが呼び出されます
+  </text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
