@@ -1,0 +1,257 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="900" fill="#f5f7fa"/>
+  
+  <!-- タイトル -->
+  <text x="600" y="45" font-size="36" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Claude シリーズ：モデル比較と使い分け
+  </text>
+  
+  <!-- 発表情報 -->
+  <rect x="50" y="60" width="1100" height="50" rx="8" fill="#e8f4fd" stroke="#0066cc" stroke-width="2"/>
+  <text x="600" y="92" font-size="16" font-weight="bold" text-anchor="middle" fill="#0066cc">
+    Haiku 4.5 発表：2025年10月 | コスト3分の1 × 速度2倍以上 | 無料プランから利用可能
+  </text>
+  
+  <!-- 3つのモデル比較 -->
+  <!-- Opus 4.1 -->
+  <g>
+    <rect x="50" y="140" width="330" height="720" rx="12" fill="#fef5e7" stroke="#e67e22" stroke-width="3"/>
+    
+    <rect x="50" y="140" width="330" height="60" rx="12" fill="#e67e22"/>
+    <text x="215" y="180" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+      Opus 4.1
+    </text>
+    
+    <text x="70" y="230" font-size="14" font-weight="bold" fill="#1a1a1a">
+      特徴
+    </text>
+    <text x="70" y="255" font-size="13" fill="#333">
+      最高精度のモデル
+    </text>
+    <text x="70" y="275" font-size="13" fill="#333">
+      複雑な推論に最適
+    </text>
+    <text x="70" y="295" font-size="13" fill="#333">
+      長文処理能力
+    </text>
+    
+    <line x1="70" y1="320" x2="310" y2="320" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="70" y="350" font-size="14" font-weight="bold" fill="#1a1a1a">
+      主な用途
+    </text>
+    <text x="70" y="375" font-size="13" fill="#333">
+      研究・分析
+    </text>
+    <text x="70" y="395" font-size="13" fill="#333">
+      設計・企画
+    </text>
+    <text x="70" y="415" font-size="13" fill="#333">
+      複雑な分析
+    </text>
+    <text x="70" y="435" font-size="13" fill="#333">
+      長文生成
+    </text>
+    <text x="70" y="455" font-size="13" fill="#333">
+      戦略立案
+    </text>
+    
+    <line x1="70" y1="480" x2="310" y2="480" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="70" y="510" font-size="14" font-weight="bold" fill="#1a1a1a">
+      性能指標
+    </text>
+    <text x="70" y="535" font-size="13" fill="#333">
+      推論: 最高
+    </text>
+    <text x="70" y="555" font-size="13" fill="#333">
+      速度: 低速
+    </text>
+    <text x="70" y="575" font-size="13" fill="#333">
+      コスト: 最高
+    </text>
+    
+    <line x1="70" y1="600" x2="310" y2="600" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="70" y="630" font-size="13" font-weight="bold" fill="#1a1a1a">
+      エージェント役割
+    </text>
+    <rect x="70" y="645" width="260" height="100" rx="6" fill="#fff8e1" stroke="#f39c12" stroke-width="1"/>
+    <text x="80" y="665" font-size="13" font-weight="bold" fill="#e67e22">
+      計画・意思決定
+    </text>
+    <text x="80" y="685" font-size="12" fill="#333">
+      戦略立案や複雑な判断を担当。
+    </text>
+    <text x="80" y="705" font-size="12" fill="#333">
+      Sonnet/Haikuを指揮する
+    </text>
+    <text x="80" y="725" font-size="12" fill="#333">
+      メインエージェント
+    </text>
+  </g>
+  
+  <!-- Sonnet 4.5 -->
+  <g>
+    <rect x="435" y="140" width="330" height="720" rx="12" fill="#e8f8f5" stroke="#16a085" stroke-width="3"/>
+    
+    <rect x="435" y="140" width="330" height="60" rx="12" fill="#16a085"/>
+    <text x="600" y="180" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+      Sonnet 4.5
+    </text>
+    
+    <text x="455" y="230" font-size="14" font-weight="bold" fill="#1a1a1a">
+      特徴
+    </text>
+    <text x="455" y="255" font-size="13" fill="#333">
+      バランス型モデル
+    </text>
+    <text x="455" y="275" font-size="13" fill="#333">
+      速度と精度の両立
+    </text>
+    <text x="455" y="295" font-size="13" fill="#333">
+      汎用的な用途
+    </text>
+    
+    <line x1="455" y1="320" x2="695" y2="320" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="455" y="350" font-size="14" font-weight="bold" fill="#1a1a1a">
+      主な用途
+    </text>
+    <text x="455" y="375" font-size="13" fill="#333">
+      企画・提案
+    </text>
+    <text x="455" y="395" font-size="13" fill="#333">
+      文章作成
+    </text>
+    <text x="455" y="415" font-size="13" fill="#333">
+      反復処理の指揮
+    </text>
+    <text x="455" y="435" font-size="13" fill="#333">
+      戦略立案
+    </text>
+    <text x="455" y="455" font-size="13" fill="#333">
+      ワークフロー管理
+    </text>
+    
+    <line x1="455" y1="480" x2="695" y2="480" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="455" y="510" font-size="14" font-weight="bold" fill="#1a1a1a">
+      性能指標
+    </text>
+    <text x="455" y="535" font-size="13" fill="#333">
+      推論: 高
+    </text>
+    <text x="455" y="555" font-size="13" fill="#333">
+      速度: 中速
+    </text>
+    <text x="455" y="575" font-size="13" fill="#333">
+      コスト: 中程度
+    </text>
+    
+    <line x1="455" y1="600" x2="695" y2="600" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="455" y="630" font-size="13" font-weight="bold" fill="#1a1a1a">
+      エージェント役割
+    </text>
+    <rect x="455" y="645" width="260" height="100" rx="6" fill="#d5f4e6" stroke="#16a085" stroke-width="1"/>
+    <text x="465" y="665" font-size="13" font-weight="bold" fill="#16a085">
+      仲介・オーケストレーション
+    </text>
+    <text x="465" y="685" font-size="12" fill="#333">
+      Opusから指示を受け、複雑なタスク
+    </text>
+    <text x="465" y="705" font-size="12" fill="#333">
+      は自身で処理、軽量作業はHaikuに
+    </text>
+    <text x="465" y="725" font-size="12" fill="#333">
+      委譲する仲介エージェント
+    </text>
+  </g>
+  
+  <!-- Haiku 4.5 -->
+  <g>
+    <rect x="820" y="140" width="330" height="720" rx="12" fill="#fdf2e9" stroke="#d35400" stroke-width="3"/>
+    
+    <rect x="820" y="140" width="330" height="60" rx="12" fill="#d35400"/>
+    <text x="985" y="180" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+      Haiku 4.5 NEW
+    </text>
+    
+    <text x="840" y="230" font-size="14" font-weight="bold" fill="#1a1a1a">
+      特徴
+    </text>
+    <text x="840" y="255" font-size="13" fill="#333">
+      軽量・高速モデル
+    </text>
+    <text x="840" y="275" font-size="13" fill="#333">
+      コスト 3分の1
+    </text>
+    <text x="840" y="295" font-size="13" fill="#333">
+      速度 2倍以上
+    </text>
+    
+    <line x1="840" y1="320" x2="1130" y2="320" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="840" y="350" font-size="14" font-weight="bold" fill="#1a1a1a">
+      主な用途
+    </text>
+    <text x="840" y="375" font-size="13" fill="#333">
+      チャットボット
+    </text>
+    <text x="840" y="395" font-size="13" fill="#333">
+      反復処理・実行
+    </text>
+    <text x="840" y="415" font-size="13" fill="#333">
+      コーディング支援
+    </text>
+    <text x="840" y="435" font-size="13" fill="#333">
+      UIエージェント
+    </text>
+    <text x="840" y="455" font-size="13" fill="#333">
+      高速応答処理
+    </text>
+    
+    <line x1="840" y1="480" x2="1130" y2="480" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="840" y="510" font-size="14" font-weight="bold" fill="#1a1a1a">
+      性能指標
+    </text>
+    <text x="840" y="535" font-size="13" fill="#333">
+      推論: 中程度
+    </text>
+    <text x="840" y="555" font-size="13" fill="#333">
+      速度: 最速
+    </text>
+    <text x="840" y="575" font-size="13" fill="#333">
+      コスト: 最安
+    </text>
+    
+    <line x1="840" y1="600" x2="1130" y2="600" stroke="#ddd" stroke-width="1"/>
+    
+    <text x="840" y="630" font-size="13" font-weight="bold" fill="#1a1a1a">
+      エージェント役割
+    </text>
+    <rect x="840" y="645" width="260" height="100" rx="6" fill="#fdebd0" stroke="#d35400" stroke-width="1"/>
+    <text x="850" y="665" font-size="13" font-weight="bold" fill="#d35400">
+      実行・反復エージェント
+    </text>
+    <text x="850" y="685" font-size="12" fill="#333">
+      軽量な実行タスク、高速応答が
+    </text>
+    <text x="850" y="705" font-size="12" fill="#333">
+      求められる作業を担当。
+    </text>
+    <text x="850" y="725" font-size="12" fill="#333">
+      複数並列実行に最適
+    </text>
+  </g>
+  
+  <!-- ベンチマーク比較 -->
+  <g>
+    <text x="600" y="885" font-size="13" text-anchor="middle" fill="#666">
+      ベンチマーク: SWE-Bench Verified - Opus 4.1: 96% | Sonnet 4.5: 90% | Haiku 4.5: 73% (Sonnet 4と同等)
+    </text>
+  </g>
+</svg>
