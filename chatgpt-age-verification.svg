@@ -1,0 +1,153 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1000" height="800" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="500" y="40" font-size="32" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    ChatGPT年齢認証システム図解
+  </text>
+  
+  <!-- 導入時期 -->
+  <rect x="50" y="70" width="900" height="60" rx="8" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+  <text x="500" y="105" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">
+    導入時期: 2025年12月
+  </text>
+  
+  <!-- 左側: 成人ユーザー -->
+  <g>
+    <rect x="50" y="160" width="400" height="600" rx="12" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+    
+    <!-- ヘッダー -->
+    <rect x="50" y="160" width="400" height="50" rx="12" fill="#2e7d32"/>
+    <text x="250" y="195" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+      ✓ 成人ユーザー (18歳以上)
+    </text>
+    
+    <!-- ID認証 -->
+    <circle cx="110" cy="250" r="25" fill="#66bb6a"/>
+    <text x="110" y="258" font-size="28" text-anchor="middle" fill="white">🔐</text>
+    <text x="160" y="258" font-size="16" fill="#1a1a1a" font-weight="bold">本人確認ID</text>
+    
+    <!-- アクセス内容 -->
+    <rect x="70" y="300" width="360" height="150" rx="8" fill="white" stroke="#66bb6a" stroke-width="2"/>
+    <text x="250" y="325" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      アクセス可能なコンテンツ
+    </text>
+    
+    <text x="90" y="360" font-size="14" fill="#333">
+      ✓ 成熟した表現を含むコンテンツ
+    </text>
+    <text x="90" y="385" font-size="14" fill="#333">
+      ✓ 性的・倫理的な話題の討議
+    </text>
+    <text x="90" y="410" font-size="14" fill="#333">
+      ✓ 高度なビジネス・クリエイティブ用途
+    </text>
+    <text x="90" y="435" font-size="14" fill="#333">
+      ✓ カスタマイズされた応答
+    </text>
+    
+    <!-- 企業での利用シーン -->
+    <rect x="70" y="480" width="360" height="260" rx="8" fill="white" stroke="#66bb6a" stroke-width="2"/>
+    <text x="250" y="505" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      企業での活用シーン
+    </text>
+    
+    <text x="90" y="540" font-size="14" fill="#333" font-weight="bold">
+      • マーケティング・営業
+    </text>
+    <text x="110" y="560" font-size="12" fill="#666">
+      クリエイティブな提案文作成
+    </text>
+    
+    <text x="90" y="590" font-size="14" fill="#333" font-weight="bold">
+      • 経営層・幹部職
+    </text>
+    <text x="110" y="610" font-size="12" fill="#666">
+      リスク分析・戦略立案
+    </text>
+    
+    <text x="90" y="640" font-size="14" fill="#333" font-weight="bold">
+      • 法務・コンプライアンス
+    </text>
+    <text x="110" y="660" font-size="12" fill="#666">
+      複雑な契約文書の検討
+    </text>
+    
+    <text x="90" y="690" font-size="14" fill="#333" font-weight="bold">
+      • クリエイティブ部門
+    </text>
+    <text x="110" y="710" font-size="12" fill="#666">
+      表現の自由度が必要な業務
+    </text>
+  </g>
+  
+  <!-- 右側: 未成年ユーザー -->
+  <g>
+    <rect x="500" y="160" width="450" height="600" rx="12" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+    
+    <!-- ヘッダー -->
+    <rect x="500" y="160" width="450" height="50" rx="12" fill="#c62828"/>
+    <text x="725" y="195" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+      🔒 未成年ユーザー (18歳未満)
+    </text>
+    
+    <!-- 安全モード -->
+    <circle cx="560" cy="250" r="25" fill="#ef5350"/>
+    <text x="560" y="258" font-size="28" text-anchor="middle" fill="white">🛡</text>
+    <text x="610" y="258" font-size="16" fill="#1a1a1a" font-weight="bold">セーフモード自動適用</text>
+    
+    <!-- アクセス制限 -->
+    <rect x="520" y="300" width="410" height="150" rx="8" fill="white" stroke="#ef5350" stroke-width="2"/>
+    <text x="725" y="325" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      自動制限されるコンテンツ
+    </text>
+    
+    <text x="540" y="360" font-size="14" fill="#333">
+      ✗ 性的・官能的な表現
+    </text>
+    <text x="540" y="385" font-size="14" fill="#333">
+      ✗ 暴力・自傷に関連するテーマ
+    </text>
+    <text x="540" y="410" font-size="14" fill="#333">
+      ✗ 過度な倫理的リスク
+    </text>
+    <text x="540" y="435" font-size="14" fill="#333">
+      ✗ 誤情報・デマの露出
+    </text>
+    
+    <!-- 教育での活用 -->
+    <rect x="520" y="480" width="410" height="260" rx="8" fill="white" stroke="#ef5350" stroke-width="2"/>
+    <text x="725" y="505" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      安全な学習環境を提供
+    </text>
+    
+    <text x="540" y="540" font-size="14" fill="#333" font-weight="bold">
+      • 教育現場
+    </text>
+    <text x="560" y="560" font-size="12" fill="#666">
+      教員による監視下での利用
+    </text>
+    
+    <text x="540" y="590" font-size="14" fill="#333" font-weight="bold">
+      • 一般職・アルバイト
+    </text>
+    <text x="560" y="610" font-size="12" fill="#666">
+      基本的な業務補助のみ
+    </text>
+    
+    <text x="540" y="640" font-size="14" fill="#333" font-weight="bold">
+      • インターン・研修生
+    </text>
+    <text x="560" y="660" font-size="12" fill="#666">
+      監督付きでの学習機会
+    </text>
+    
+    <text x="540" y="690" font-size="14" fill="#333" font-weight="bold">
+      • 社外関係者
+    </text>
+    <text x="560" y="710" font-size="12" fill="#666">
+      限定的なアクセス権限
+    </text>
+  </g>
+</svg>
