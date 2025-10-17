@@ -1,0 +1,169 @@
+<svg viewBox="0 0 1200 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="900" fill="#f8fafc"/>
+  
+  <!-- タイトル -->
+  <text x="600" y="45" font-size="36" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Apps inside of ChatGPT：統合ワークフロー
+  </text>
+  
+  <!-- サブタイトル -->
+  <rect x="50" y="60" width="1100" height="50" rx="8" fill="#dbeafe" stroke="#0284c7" stroke-width="2"/>
+  <text x="600" y="92" font-size="16" font-weight="bold" text-anchor="middle" fill="#0284c7">
+    DevDay 2025発表：ChatGPT内でアプリが直接動作 | MCP技術基盤 | 会話駆動型ワークフロー実現
+  </text>
+  
+  <!-- 従来型（GPTストア） vs 新型（Apps inside） -->
+  <text x="300" y="150" font-size="18" font-weight="bold" fill="#1a1a1a">
+    従来型：GPTストア
+  </text>
+  
+  <g>
+    <!-- ユーザー -->
+    <circle cx="300" cy="220" r="25" fill="#e5e7eb"/>
+    <text x="300" y="225" font-size="18" text-anchor="middle" fill="#1a1a1a">👤</text>
+    
+    <!-- ストア検索 -->
+    <rect x="200" y="280" width="200" height="50" rx="8" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+    <text x="300" y="315" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ① GPTストアで検索
+    </text>
+    
+    <!-- アプリ選択 -->
+    <rect x="200" y="370" width="200" height="50" rx="8" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+    <text x="300" y="405" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ② アプリを選択
+    </text>
+    
+    <!-- 別ウィンドウで起動 -->
+    <rect x="200" y="460" width="200" height="50" rx="8" fill="#fecaca" stroke="#dc2626" stroke-width="2"/>
+    <text x="300" y="495" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ③ 別窓で実行
+    </text>
+    
+    <!-- 矢印 -->
+    <line x1="300" y1="245" x2="300" y2="280" stroke="#dc2626" stroke-width="2"/>
+    <line x1="300" y1="330" x2="300" y2="370" stroke="#dc2626" stroke-width="2"/>
+    <line x1="300" y1="420" x2="300" y2="460" stroke="#dc2626" stroke-width="2"/>
+  </g>
+  
+  <text x="900" y="150" font-size="18" font-weight="bold" fill="#1a1a1a">
+    新型：Apps inside
+  </text>
+  
+  <g>
+    <!-- ユーザー -->
+    <circle cx="900" cy="220" r="25" fill="#e5e7eb"/>
+    <text x="900" y="225" font-size="18" text-anchor="middle" fill="#1a1a1a">👤</text>
+    
+    <!-- 会話でアプリ呼び出し -->
+    <rect x="800" y="280" width="200" height="50" rx="8" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+    <text x="900" y="315" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ① 会話でアプリ呼び出し
+    </text>
+    
+    <!-- ChatGPT内でUI描画 -->
+    <rect x="800" y="370" width="200" height="50" rx="8" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+    <text x="900" y="405" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ② ChatGPT内UI描画
+    </text>
+    
+    <!-- 操作・アクション -->
+    <rect x="800" y="460" width="200" height="50" rx="8" fill="#bbf7d0" stroke="#16a34a" stroke-width="2"/>
+    <text x="900" y="495" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ③ 操作・結果反映
+    </text>
+    
+    <!-- 矢印 -->
+    <line x1="900" y1="245" x2="900" y2="280" stroke="#16a34a" stroke-width="2"/>
+    <line x1="900" y1="330" x2="900" y2="370" stroke="#16a34a" stroke-width="2"/>
+    <line x1="900" y1="420" x2="900" y2="460" stroke="#16a34a" stroke-width="2"/>
+  </g>
+  
+  <!-- MCP技術基盤 -->
+  <text x="600" y="580" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    MCP（Model Context Protocol）技術基盤
+  </text>
+  
+  <g>
+    <!-- データ取込 -->
+    <rect x="50" y="620" width="250" height="120" rx="8" fill="#fef08a" stroke="#eab308" stroke-width="2"/>
+    <text x="175" y="650" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      リアルタイムデータ取込
+    </text>
+    <text x="70" y="675" font-size="12" fill="#333">
+      Booking/Expedia：最新料金
+    </text>
+    <text x="70" y="695" font-size="12" fill="#333">
+      Zillow：物件情報
+    </text>
+    <text x="70" y="715" font-size="12" fill="#333">
+      Spotify：プレイリスト
+    </text>
+    <text x="70" y="730" font-size="12" fill="#333">
+      Figma：デザイン素材
+    </text>
+    
+    <!-- UI描画 -->
+    <rect x="475" y="620" width="250" height="120" rx="8" fill="#cffafe" stroke="#06b6d4" stroke-width="2"/>
+    <text x="600" y="650" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      インタラクティブUI
+    </text>
+    <text x="495" y="675" font-size="12" fill="#333">
+      カード表示
+    </text>
+    <text x="495" y="695" font-size="12" fill="#333">
+      カルーセル
+    </text>
+    <text x="495" y="715" font-size="12" fill="#333">
+      全画面表示
+    </text>
+    <text x="495" y="730" font-size="12" fill="#333">
+      PiP（浮く動画）
+    </text>
+    
+    <!-- アクション実行 -->
+    <rect x="900" y="620" width="250" height="120" rx="8" fill="#f3e8ff" stroke="#a855f7" stroke-width="2"/>
+    <text x="1025" y="650" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      アクション実行
+    </text>
+    <text x="920" y="675" font-size="12" fill="#333">
+      検索・フィルタ
+    </text>
+    <text x="920" y="695" font-size="12" fill="#333">
+      予約・購入
+    </text>
+    <text x="920" y="715" font-size="12" fill="#333">
+      生成・処理
+    </text>
+    <text x="920" y="730" font-size="12" fill="#333">
+      即チェックアウト対応
+    </text>
+  </g>
+  
+  <!-- 初期パートナー -->
+  <text x="600" y="810" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    初期パートナーエコシステム
+  </text>
+  
+  <text x="100" y="850" font-size="13" fill="#333">
+    Booking.com・Expedia（旅行）
+  </text>
+  <text x="100" y="870" font-size="13" fill="#333">
+    Spotify（音楽）
+  </text>
+  
+  <text x="450" y="850" font-size="13" fill="#333">
+    Figma・Canvas（デザイン）
+  </text>
+  <text x="450" y="870" font-size="13" fill="#333">
+    Coursera（教育）
+  </text>
+  
+  <text x="800" y="850" font-size="13" fill="#333">
+    Zillow（不動産）
+  </text>
+  <text x="800" y="870" font-size="13" fill="#333">
+    コマースアプリ
+  </text>
+</svg>
