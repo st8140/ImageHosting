@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#202124">
+    Google AIモード：検索体験の大転換
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="55" font-size="13" text-anchor="middle" fill="#5f6368">
+    「調べる」から「行動する」時代へ
+  </text>
+  
+  <!-- Main Container -->
+  <rect x="50" y="75" width="700" height="500" fill="#fff" stroke="#4285f4" stroke-width="2" rx="10"/>
+  
+  <!-- Traditional Search vs AI Mode -->
+  <rect x="70" y="95" width="320" height="100" fill="#fef7e0" stroke="#f9ab00" stroke-width="1" rx="5"/>
+  <text x="230" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#e37400">
+    従来の検索
+  </text>
+  <text x="90" y="140" font-size="12" fill="#202124">
+    • リンク一覧を提示
+  </text>
+  <text x="90" y="160" font-size="12" fill="#202124">
+    • ユーザーが自分で比較・選択
+  </text>
+  <text x="90" y="180" font-size="12" fill="#202124">
+    • 情報提供で完結
+  </text>
+  
+  <text x="400" y="145" font-size="20" font-weight="bold" text-anchor="middle" fill="#ea4335">
+    →
+  </text>
+  
+  <rect x="410" y="95" width="320" height="100" fill="#e8f0fe" stroke="#4285f4" stroke-width="1" rx="5"/>
+  <text x="570" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="#1967d2">
+    AIモード
+  </text>
+  <text x="430" y="140" font-size="12" fill="#202124">
+    • AIが最適解を提案
+  </text>
+  <text x="430" y="160" font-size="12" fill="#202124">
+    • 予約・アクションまで直結
+  </text>
+  <text x="430" y="180" font-size="12" fill="#202124">
+    • エージェント的サポート
+  </text>
+  
+  <!-- Key Features -->
+  <rect x="70" y="215" width="320" height="140" fill="#e6f4ea" stroke="#34a853" stroke-width="1" rx="5"/>
+  <text x="230" y="235" font-size="14" font-weight="bold" text-anchor="middle" fill="#188038">
+    主要機能
+  </text>
+  <text x="90" y="260" font-size="12" fill="#202124">
+    • エージェント能力
+  </text>
+  <text x="105" y="280" font-size="11" fill="#5f6368">
+      外部サービス連携（予約など）
+  </text>
+  <text x="90" y="305" font-size="12" fill="#202124">
+    • パーソナライズ
+  </text>
+  <text x="105" y="325" font-size="11" fill="#5f6368">
+      嗜好学習・個別最適化
+  </text>
+  <text x="90" y="345" font-size="12" fill="#202124">
+    • コラボレーション
+  </text>
+  
+  <!-- Integration Partners -->
+  <rect x="410" y="215" width="320" height="140" fill="#fce8e6" stroke="#ea4335" stroke-width="1" rx="5"/>
+  <text x="570" y="235" font-size="14" font-weight="bold" text-anchor="middle" fill="#c5221f">
+    連携サービス
+  </text>
+  <text x="430" y="260" font-size="12" fill="#202124">
+    • OpenTable / Resy
+  </text>
+  <text x="445" y="280" font-size="11" fill="#5f6368">
+      レストラン予約
+  </text>
+  <text x="430" y="305" font-size="12" fill="#202124">
+    • Ticketmaster / StubHub
+  </text>
+  <text x="445" y="325" font-size="11" fill="#5f6368">
+      チケット販売
+  </text>
+  <text x="430" y="345" font-size="12" fill="#202124">
+    • 複数サービス横断比較
+  </text>
+  
+  <!-- Use Cases -->
+  <rect x="70" y="375" width="660" height="85" fill="#f3e8fd" stroke="#a142f4" stroke-width="1" rx="5"/>
+  <text x="400" y="395" font-size="14" font-weight="bold" text-anchor="middle" fill="#7627bb">
+    ビジネス活用シーン
+  </text>
+  <text x="90" y="420" font-size="12" fill="#202124">
+    • 会食予約：「来週金曜に3人でイタリアン」→ 条件に合う店を自動提示・予約
+  </text>
+  <text x="90" y="440" font-size="12" fill="#202124">
+    • 出張計画：複数の交通手段・宿泊施設を横断比較し、最適プランを提案
+  </text>
+  
+  <!-- Global Expansion -->
+  <rect x="70" y="480" width="320" height="75" fill="#e8f0fe" stroke="#4285f4" stroke-width="1" rx="5"/>
+  <text x="230" y="500" font-size="13" font-weight="bold" text-anchor="middle" fill="#1967d2">
+    世界展開
+  </text>
+  <text x="90" y="520" font-size="11" fill="#202124">
+    • 180以上の国・地域で展開
+  </text>
+  <text x="90" y="540" font-size="11" fill="#202124">
+    • 2025年9月: 日本語対応開始
+  </text>
+  
+  <!-- Business Value -->
+  <rect x="410" y="480" width="320" height="75" fill="#e6f4ea" stroke="#34a853" stroke-width="1" rx="5"/>
+  <text x="570" y="500" font-size="13" font-weight="bold" text-anchor="middle" fill="#188038">
+    ビジネス価値
+  </text>
+  <text x="430" y="520" font-size="11" fill="#202124">
+    • 時間短縮：情報収集→行動の時間短縮
+  </text>
+  <text x="430" y="540" font-size="11" fill="#202124">
+    • 質の向上：最適化された意思決定
+  </text>
+</svg>
