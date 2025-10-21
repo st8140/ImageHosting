@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#202124">
+    Gemini 2.5 Pro の全貌
+  </text>
+  
+  <!-- Main Box -->
+  <rect x="50" y="70" width="700" height="500" fill="#fff" stroke="#4285f4" stroke-width="2" rx="10"/>
+  
+  <!-- Section 1: Model Info -->
+  <rect x="70" y="90" width="320" height="140" fill="#e8f0fe" stroke="#4285f4" stroke-width="1" rx="5"/>
+  <text x="230" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="#1967d2">
+    基本情報
+  </text>
+  <text x="90" y="135" font-size="13" fill="#202124">
+    • Gemini 2.0から3ヶ月で登場
+  </text>
+  <text x="90" y="160" font-size="13" fill="#202124">
+    • Googleの最も知的なモデル
+  </text>
+  <text x="90" y="185" font-size="13" fill="#202124">
+    • 優れた推論能力を実現
+  </text>
+  <text x="90" y="210" font-size="13" fill="#202124">
+    • AI技術の新地平を開拓
+  </text>
+  
+  <!-- Section 2: Key Features -->
+  <rect x="410" y="90" width="320" height="140" fill="#fef7e0" stroke="#f9ab00" stroke-width="1" rx="5"/>
+  <text x="570" y="110" font-size="16" font-weight="bold" text-anchor="middle" fill="#e37400">
+    主要機能
+  </text>
+  <text x="430" y="135" font-size="13" fill="#202124">
+    • マルチモーダル対応
+  </text>
+  <text x="430" y="160" font-size="13" fill="#202124">
+    • 100万トークンコンテキスト
+  </text>
+  <text x="430" y="185" font-size="13" fill="#202124">
+    • コードリポジトリ全体理解
+  </text>
+  <text x="430" y="210" font-size="13" fill="#202124">
+    • 高度なコーディング性能
+  </text>
+  
+  <!-- Section 3: Performance -->
+  <rect x="70" y="250" width="320" height="140" fill="#e6f4ea" stroke="#34a853" stroke-width="1" rx="5"/>
+  <text x="230" y="270" font-size="16" font-weight="bold" text-anchor="middle" fill="#188038">
+    ベンチマーク実績
+  </text>
+  <text x="90" y="295" font-size="13" fill="#202124">
+    • GPQA: リーダーシップ
+  </text>
+  <text x="90" y="320" font-size="13" fill="#202124">
+    • AIME 2025: トップスコア
+  </text>
+  <text x="90" y="345" font-size="13" fill="#202124">
+    • 人類の最後の試験: 18.8%
+  </text>
+  <text x="90" y="370" font-size="13" fill="#202124">
+    • コーディング: Gemini 2.0超え
+  </text>
+  
+  <!-- Section 4: Competition -->
+  <rect x="410" y="250" width="320" height="140" fill="#fce8e6" stroke="#ea4335" stroke-width="1" rx="5"/>
+  <text x="570" y="270" font-size="16" font-weight="bold" text-anchor="middle" fill="#c5221f">
+    競合環境
+  </text>
+  <text x="430" y="295" font-size="13" fill="#202124">
+    • OpenAI (o1, o3) との競争
+  </text>
+  <text x="430" y="320" font-size="13" fill="#202124">
+    • DeepSeek-R1 (低コスト実現)
+  </text>
+  <text x="430" y="345" font-size="13" fill="#202124">
+    • オープンソース台頭
+  </text>
+  <text x="430" y="370" font-size="13" fill="#202124">
+    • コスト効率が重要に
+  </text>
+  
+  <!-- Section 5: Applications -->
+  <rect x="70" y="410" width="660" height="140" fill="#f3e8fd" stroke="#a142f4" stroke-width="1" rx="5"/>
+  <text x="400" y="430" font-size="16" font-weight="bold" text-anchor="middle" fill="#7627bb">
+    ビジネス応用分野
+  </text>
+  <text x="90" y="455" font-size="13" fill="#202124">
+    • データドリブン意思決定 • 複雑な問題解決 • 新ビジネスモデル構築
+  </text>
+  <text x="90" y="480" font-size="13" fill="#202124">
+    • ソフトウェア開発支援 • ウェブアプリケーション作成 • エージェント開発
+  </text>
+  <text x="90" y="505" font-size="13" fill="#202124">
+    • マルチモーダルデータ分析 • 研究開発支援 • 大規模コンテンツ生成
+  </text>
+  <text x="90" y="530" font-size="13" fill="#202124">
+    • コード変換・編集 • データセット統合処理 • 高精度推論タスク
+  </text>
+</svg>
