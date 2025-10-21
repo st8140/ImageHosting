@@ -1,0 +1,189 @@
+<svg viewBox="0 0 1200 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1200" height="1000" fill="#fafafa"/>
+  
+  <!-- タイトル -->
+  <text x="600" y="45" font-size="36" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Apps SDK：ChatGPTをAI OS化する技術基盤
+  </text>
+  
+  <!-- サブタイトル -->
+  <rect x="50" y="60" width="1100" height="50" rx="8" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="600" y="92" font-size="16" font-weight="bold" text-anchor="middle" fill="#0284c7">
+    DevDay 2023発表 | MCP標準採用 | ACP（Agentic Commerce Protocol）導入 | 8億ユーザーへリーチ
+  </text>
+  
+  <!-- 中央：Apps SDK コア -->
+  <g>
+    <rect x="400" y="150" width="400" height="150" rx="12" fill="#dbeafe" stroke="#0284c7" stroke-width="3"/>
+    <text x="600" y="190" font-size="24" font-weight="bold" text-anchor="middle" fill="#0284c7">
+      Apps SDK
+    </text>
+    <text x="600" y="220" font-size="14" text-anchor="middle" fill="#1a1a1a">
+      ソフトウェア開発キット
+    </text>
+    <text x="420" y="250" font-size="13" fill="#333">
+      ChatGPT内で外部アプリを実行
+    </text>
+    <text x="420" y="270" font-size="13" fill="#333">
+      AIとの会話でアプリ操作を実現
+    </text>
+    <text x="420" y="290" font-size="13" fill="#333">
+      アプリストア兼実行環境
+    </text>
+  </g>
+  
+  <!-- 左側：技術基盤MCP -->
+  <g>
+    <rect x="50" y="350" width="500" height="280" rx="12" fill="#fef3c7" stroke="#eab308" stroke-width="2"/>
+    <text x="300" y="385" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      技術基盤：MCP（Model Context Protocol）
+    </text>
+    <text x="70" y="415" font-size="12" fill="#666">
+      Anthropic提唱のオープンソース標準
+    </text>
+    
+    <!-- 3つの表示形式 -->
+    <rect x="70" y="440" width="460" height="180" rx="8" fill="white" stroke="#eab308" stroke-width="1"/>
+    
+    <text x="90" y="465" font-size="14" font-weight="bold" fill="#1a1a1a">
+      インライン表示
+    </text>
+    <text x="110" y="485" font-size="12" fill="#333">
+      カード・カルーセル形式でチャット内に情報表示
+    </text>
+    
+    <text x="90" y="520" font-size="14" font-weight="bold" fill="#1a1a1a">
+      全画面表示
+    </text>
+    <text x="110" y="540" font-size="12" fill="#333">
+      マップ・スライドなど詳細情報や高度な操作に活用
+    </text>
+    
+    <text x="90" y="575" font-size="14" font-weight="bold" fill="#1a1a1a">
+      ピクチャ・イン・ピクチャ
+    </text>
+    <text x="110" y="595" font-size="12" fill="#333">
+      動画・ライブ学習など会話継続しながら視覚表示
+    </text>
+  </g>
+  
+  <!-- 右側：ACP収益化 -->
+  <g>
+    <rect x="650" y="350" width="500" height="280" rx="12" fill="#f3e8ff" stroke="#a855f7" stroke-width="2"/>
+    <text x="900" y="385" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      ACP：Agentic Commerce Protocol
+    </text>
+    <text x="670" y="415" font-size="12" fill="#666">
+      ChatGPT内でのアプリ課金・収益化の仕組み
+    </text>
+    
+    <rect x="670" y="440" width="460" height="180" rx="8" fill="white" stroke="#a855f7" stroke-width="1"/>
+    
+    <text x="690" y="465" font-size="14" font-weight="bold" fill="#1a1a1a">
+      収益化機能
+    </text>
+    <text x="710" y="485" font-size="12" fill="#333">
+      アプリ内課金システム
+    </text>
+    <text x="710" y="505" font-size="12" fill="#333">
+      有料アプリ提供
+    </text>
+    <text x="710" y="525" font-size="12" fill="#333">
+      利用料徴収
+    </text>
+    
+    <text x="690" y="560" font-size="14" font-weight="bold" fill="#1a1a1a">
+      開発者メリット
+    </text>
+    <text x="710" y="580" font-size="12" fill="#333">
+      8億ユーザーへ直接リーチ
+    </text>
+    <text x="710" y="600" font-size="12" fill="#333">
+      新たな収益チャンス
+    </text>
+  </g>
+  
+  <!-- 初期パートナー -->
+  <g>
+    <text x="600" y="680" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      初期パートナーと主な利用分野
+    </text>
+    
+    <!-- 教育 -->
+    <rect x="50" y="710" width="260" height="120" rx="8" fill="#ddd6fe" stroke="#7c3aed" stroke-width="2"/>
+    <text x="180" y="740" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      教育・学習
+    </text>
+    <text x="70" y="765" font-size="12" fill="#333">
+      Coursera：講義視聴・AI要約
+    </text>
+    <text x="70" y="785" font-size="12" fill="#333">
+      リアルタイムで内容解説
+    </text>
+    <text x="70" y="805" font-size="12" fill="#333">
+      学習進捗管理
+    </text>
+    
+    <!-- デザイン -->
+    <rect x="330" y="710" width="260" height="120" rx="8" fill="#fecdd3" stroke="#e11d48" stroke-width="2"/>
+    <text x="460" y="740" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      デザイン・クリエイティブ
+    </text>
+    <text x="350" y="765" font-size="12" fill="#333">
+      Canva：テンプレート自動編集
+    </text>
+    <text x="350" y="785" font-size="12" fill="#333">
+      Figma：UIデザイン支援
+    </text>
+    <text x="350" y="805" font-size="12" fill="#333">
+      テキストから視覚化
+    </text>
+    
+    <!-- 不動産・旅行 -->
+    <rect x="610" y="710" width="260" height="120" rx="8" fill="#d1fae5" stroke="#10b981" stroke-width="2"/>
+    <text x="740" y="740" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      不動産・旅行
+    </text>
+    <text x="630" y="765" font-size="12" fill="#333">
+      Zillow：物件検索・地図表示
+    </text>
+    <text x="630" y="785" font-size="12" fill="#333">
+      Booking.com・Expedia
+    </text>
+    <text x="630" y="805" font-size="12" fill="#333">
+      旅程検討・予約
+    </text>
+    
+    <!-- 音楽・EC -->
+    <rect x="890" y="710" width="260" height="120" rx="8" fill="#fed7aa" stroke="#f97316" stroke-width="2"/>
+    <text x="1020" y="740" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      音楽・EC
+    </text>
+    <text x="910" y="765" font-size="12" fill="#333">
+      Spotify：音楽再生
+    </text>
+    <text x="910" y="785" font-size="12" fill="#333">
+      Target・Uber：EC・配送
+    </text>
+    <text x="910" y="805" font-size="12" fill="#333">
+      OpenTable：予約
+    </text>
+  </g>
+  
+  <!-- 安全性・ガイドライン -->
+  <g>
+    <text x="600" y="880" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+      安全性・開発者ガイドライン
+    </text>
+    
+    <rect x="50" y="900" width="1100" height="80" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    
+    <text x="70" y="930" font-size="13" fill="#333">
+      明確で有用な目的 | 予測可能で安定した動作 | 13歳以上にも安全
+    </text>
+    <text x="70" y="955" font-size="13" fill="#333">
+      最小限のデータ取得でプライバシー尊重 | プライバシーポリシー必須 | ユーザー同意取得
+    </text>
+  </g>
+</svg>
