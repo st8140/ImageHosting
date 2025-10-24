@@ -1,0 +1,163 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a2e">
+    企業のAI導入の二極化
+  </text>
+  
+  <!-- 中央の分岐線 -->
+  <line x1="400" y1="80" x2="400" y2="560" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 左側:AI積極導入派 -->
+  <g>
+    <!-- 見出し -->
+    <rect x="50" y="90" width="280" height="50" fill="#4CAF50" rx="5"/>
+    <text x="190" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+      AI積極導入派
+    </text>
+    
+    <!-- 特徴1 -->
+    <rect x="60" y="160" width="260" height="70" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+    <text x="190" y="185" font-size="14" font-weight="bold" text-anchor="middle" fill="#2E7D32">
+      戦略実行の手段
+    </text>
+    <text x="190" y="205" font-size="11" text-anchor="middle" fill="#555">
+      ・全社レベルで活用
+    </text>
+    <text x="190" y="220" font-size="11" text-anchor="middle" fill="#555">
+      ・明確なユースケース定義
+    </text>
+    
+    <!-- 特徴2 -->
+    <rect x="60" y="245" width="260" height="70" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+    <text x="190" y="270" font-size="14" font-weight="bold" text-anchor="middle" fill="#2E7D32">
+      体制整備
+    </text>
+    <text x="190" y="290" font-size="11" text-anchor="middle" fill="#555">
+      ・データガバナンス確立
+    </text>
+    <text x="190" y="305" font-size="11" text-anchor="middle" fill="#555">
+      ・AI責任者(CAIO)設置
+    </text>
+    
+    <!-- 特徴3 -->
+    <rect x="60" y="330" width="260" height="70" fill="#E8F5E9" stroke="#4CAF50" stroke-width="2" rx="5"/>
+    <text x="190" y="355" font-size="14" font-weight="bold" text-anchor="middle" fill="#2E7D32">
+      人材育成
+    </text>
+    <text x="190" y="375" font-size="11" text-anchor="middle" fill="#555">
+      ・AIリテラシー研修
+    </text>
+    <text x="190" y="390" font-size="11" text-anchor="middle" fill="#555">
+      ・プロンプト設計教育
+    </text>
+    
+    <!-- 成果 -->
+    <rect x="60" y="420" width="260" height="60" fill="#1B5E20" rx="5"/>
+    <text x="190" y="440" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+      成果
+    </text>
+    <text x="190" y="460" font-size="11" text-anchor="middle" fill="white">
+      業務効率化・ROI向上
+    </text>
+    <text x="190" y="475" font-size="11" text-anchor="middle" fill="white">
+      競争力強化
+    </text>
+    
+    <!-- 矢印 -->
+    <path d="M 190 480 L 190 510" stroke="#4CAF50" stroke-width="3" fill="none" marker-end="url(#arrowGreen)"/>
+    <text x="190" y="540" font-size="14" font-weight="bold" text-anchor="middle" fill="#1B5E20">
+      ✓ 成長
+    </text>
+  </g>
+  
+  <!-- 右側:AI慎重・禁止派 -->
+  <g>
+    <!-- 見出し -->
+    <rect x="470" y="90" width="280" height="50" fill="#F44336" rx="5"/>
+    <text x="610" y="120" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+      AI慎重・禁止派
+    </text>
+    
+    <!-- 懸念1 -->
+    <rect x="480" y="160" width="260" height="70" fill="#FFEBEE" stroke="#F44336" stroke-width="2" rx="5"/>
+    <text x="610" y="185" font-size="14" font-weight="bold" text-anchor="middle" fill="#C62828">
+      情報漏洩リスク
+    </text>
+    <text x="610" y="205" font-size="11" text-anchor="middle" fill="#555">
+      ・機密情報流出の懸念
+    </text>
+    <text x="610" y="220" font-size="11" text-anchor="middle" fill="#555">
+      ・コンプライアンス違反
+    </text>
+    
+    <!-- 懸念2 -->
+    <rect x="480" y="245" width="260" height="70" fill="#FFEBEE" stroke="#F44336" stroke-width="2" rx="5"/>
+    <text x="610" y="270" font-size="14" font-weight="bold" text-anchor="middle" fill="#C62828">
+      運用体制未整備
+    </text>
+    <text x="610" y="290" font-size="11" text-anchor="middle" fill="#555">
+      ・利用ポリシー未策定
+    </text>
+    <text x="610" y="305" font-size="11" text-anchor="middle" fill="#555">
+      ・ガバナンス不在
+    </text>
+    
+    <!-- 懸念3 -->
+    <rect x="480" y="330" width="260" height="70" fill="#FFEBEE" stroke="#F44336" stroke-width="2" rx="5"/>
+    <text x="610" y="355" font-size="14" font-weight="bold" text-anchor="middle" fill="#C62828">
+      AI特有のリスク
+    </text>
+    <text x="610" y="375" font-size="11" text-anchor="middle" fill="#555">
+      ・正確性の問題
+    </text>
+    <text x="610" y="390" font-size="11" text-anchor="middle" fill="#555">
+      ・著作権問題
+    </text>
+    
+    <!-- リスク -->
+    <rect x="480" y="420" width="260" height="60" fill="#B71C1C" rx="5"/>
+    <text x="610" y="440" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+      潜在的リスク
+    </text>
+    <text x="610" y="460" font-size="11" text-anchor="middle" fill="white">
+      イノベーション停滞
+    </text>
+    <text x="610" y="475" font-size="11" text-anchor="middle" fill="white">
+      競争力低下・人材流出
+    </text>
+    
+    <!-- 矢印 -->
+    <path d="M 610 480 L 610 510" stroke="#F44336" stroke-width="3" fill="none" marker-end="url(#arrowRed)"/>
+    <text x="610" y="540" font-size="14" font-weight="bold" text-anchor="middle" fill="#B71C1C">
+      ⚠ 停滞
+    </text>
+  </g>
+  
+  <!-- 事例:Meta/WhatsApp -->
+  <rect x="250" y="500" width="300" height="80" fill="#FFF3E0" stroke="#FF9800" stroke-width="2" rx="5"/>
+  <text x="400" y="520" font-size="13" font-weight="bold" text-anchor="middle" fill="#E65100">
+    Meta/WhatsApp事例
+  </text>
+  <text x="400" y="540" font-size="10" text-anchor="middle" fill="#555">
+    2026年1月15日より汎用AIチャットボット禁止
+  </text>
+  <text x="400" y="555" font-size="10" text-anchor="middle" fill="#555">
+    → プラットフォーム統制の時代へ
+  </text>
+  <text x="400" y="570" font-size="10" text-anchor="middle" fill="#555">
+    利用可能なのはMeta AI のみ
+  </text>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#4CAF50"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,0 10,5 0,10" fill="#F44336"/>
+    </marker>
+  </defs>
+</svg>
