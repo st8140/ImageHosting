@@ -1,0 +1,146 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#202124">
+    Google AIモードの進化
+  </text>
+  
+  <!-- Traditional Search vs AI Mode -->
+  <g>
+    <!-- Traditional Search Box -->
+    <rect x="50" y="80" width="320" height="220" rx="10" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+    <text x="210" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a73e8">
+      従来の検索
+    </text>
+    
+    <!-- Search Icon -->
+    <circle cx="120" cy="160" r="25" fill="none" stroke="#5f6368" stroke-width="3"/>
+    <line x1="137" y1="177" x2="152" y2="192" stroke="#5f6368" stroke-width="3"/>
+    
+    <text x="210" y="160" font-size="14" fill="#5f6368">検索</text>
+    <text x="210" y="180" font-size="14" fill="#5f6368">↓</text>
+    <text x="210" y="200" font-size="14" fill="#5f6368">リンク一覧</text>
+    <text x="210" y="220" font-size="14" fill="#5f6368">↓</text>
+    <text x="210" y="240" font-size="14" fill="#5f6368">自分で比較・選択</text>
+    <text x="210" y="260" font-size="14" fill="#5f6368">↓</text>
+    <text x="210" y="280" font-size="14" fill="#5f6368">意思決定</text>
+  </g>
+  
+  <!-- Arrow between boxes -->
+  <g>
+    <path d="M 380 190 L 420 190" fill="none" stroke="#34a853" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="400" y="180" text-anchor="middle" font-size="14" fill="#34a853" font-weight="bold">進化</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#34a853"/>
+    </marker>
+  </defs>
+  
+  <!-- AI Mode Box -->
+  <g>
+    <rect x="430" y="80" width="320" height="220" rx="10" fill="#e6f4ea" stroke="#34a853" stroke-width="2"/>
+    <text x="590" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#34a853">
+      AIモード
+    </text>
+    
+    <!-- AI Icon -->
+    <circle cx="500" cy="160" r="25" fill="#34a853"/>
+    <text x="500" y="170" text-anchor="middle" font-size="20" fill="white" font-weight="bold">AI</text>
+    
+    <text x="590" y="160" font-size="14" fill="#137333">質問・依頼</text>
+    <text x="590" y="180" font-size="14" fill="#137333">↓</text>
+    <text x="590" y="200" font-size="14" fill="#137333">AIが理解・提案</text>
+    <text x="590" y="220" font-size="14" fill="#137333">↓</text>
+    <text x="590" y="240" font-size="14" fill="#137333">予約・アクション実行</text>
+    <text x="590" y="260" font-size="14" fill="#137333">↓</text>
+    <text x="590" y="280" font-size="14" fill="#137333">完了</text>
+  </g>
+  
+  <!-- Key Features Section -->
+  <text x="400" y="340" text-anchor="middle" font-size="20" font-weight="bold" fill="#202124">
+    AIモードの3つの特徴
+  </text>
+  
+  <!-- Feature 1: Agent -->
+  <g>
+    <rect x="40" y="360" width="220" height="200" rx="8" fill="#fef7e0" stroke="#f9ab00" stroke-width="2"/>
+    <text x="150" y="385" text-anchor="middle" font-size="16" font-weight="bold" fill="#ea8600">
+      1. エージェント機能
+    </text>
+    <text x="150" y="410" text-anchor="middle" font-size="13" fill="#5f6368">
+      外部サービス連携
+    </text>
+    <text x="150" y="435" text-anchor="middle" font-size="12" fill="#5f6368">
+      • OpenTable
+    </text>
+    <text x="150" y="455" text-anchor="middle" font-size="12" fill="#5f6368">
+      • Resy
+    </text>
+    <text x="150" y="475" text-anchor="middle" font-size="12" fill="#5f6368">
+      • Ticketmaster
+    </text>
+    <text x="150" y="500" text-anchor="middle" font-size="12" fill="#5f6368">
+      予約やチケット購入を
+    </text>
+    <text x="150" y="520" text-anchor="middle" font-size="12" fill="#5f6368">
+      代行実行
+    </text>
+  </g>
+  
+  <!-- Feature 2: Personalization -->
+  <g>
+    <rect x="290" y="360" width="220" height="200" rx="8" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+    <text x="400" y="385" text-anchor="middle" font-size="16" font-weight="bold" fill="#1967d2">
+      2. パーソナライズ
+    </text>
+    <text x="400" y="410" text-anchor="middle" font-size="13" fill="#5f6368">
+      個人の嗜好を学習
+    </text>
+    <text x="400" y="435" text-anchor="middle" font-size="12" fill="#5f6368">
+      • 過去の閲覧履歴
+    </text>
+    <text x="400" y="455" text-anchor="middle" font-size="12" fill="#5f6368">
+      • 地図のチェック情報
+    </text>
+    <text x="400" y="475" text-anchor="middle" font-size="12" fill="#5f6368">
+      • 好みの料理・店舗
+    </text>
+    <text x="400" y="500" text-anchor="middle" font-size="12" fill="#5f6368">
+      ユーザーに合った
+    </text>
+    <text x="400" y="520" text-anchor="middle" font-size="12" fill="#5f6368">
+      結果を提示
+    </text>
+  </g>
+  
+  <!-- Feature 3: Collaboration -->
+  <g>
+    <rect x="540" y="360" width="220" height="200" rx="8" fill="#fce8e6" stroke="#ea4335" stroke-width="2"/>
+    <text x="650" y="385" text-anchor="middle" font-size="16" font-weight="bold" fill="#d93025">
+      3. コラボレーション
+    </text>
+    <text x="650" y="410" text-anchor="middle" font-size="13" fill="#5f6368">
+      検索結果の共有
+    </text>
+    <text x="650" y="435" text-anchor="middle" font-size="12" fill="#5f6368">
+      • リンク共有機能
+    </text>
+    <text x="650" y="455" text-anchor="middle" font-size="12" fill="#5f6368">
+      • 会話の引き継ぎ
+    </text>
+    <text x="650" y="475" text-anchor="middle" font-size="12" fill="#5f6368">
+      • 共同での質問追加
+    </text>
+    <text x="650" y="500" text-anchor="middle" font-size="12" fill="#5f6368">
+      複数人での
+    </text>
+    <text x="650" y="520" text-anchor="middle" font-size="12" fill="#5f6368">
+      意思決定を支援
+    </text>
+  </g>
+</svg>
