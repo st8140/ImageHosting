@@ -1,0 +1,123 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-size="28" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    企業AI導入の第二段階:2つのアプローチ
+  </text>
+  
+  <!-- Left Side: 自社専用モデル -->
+  <g transform="translate(100, 100)">
+    <!-- Box -->
+    <rect width="450" height="600" rx="15" fill="#e3f2fd" stroke="#1976d2" stroke-width="3"/>
+    
+    <!-- Header -->
+    <rect width="450" height="80" rx="15" fill="#1976d2"/>
+    <text x="225" y="45" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+      自社専用モデル
+    </text>
+    <text x="225" y="68" font-size="16" text-anchor="middle" fill="white">
+      (カスタムLLM)
+    </text>
+    
+    <!-- Icon -->
+    <circle cx="225" cy="140" r="35" fill="#42a5f5" stroke="#1565c0" stroke-width="2"/>
+    <text x="225" y="148" font-size="30" text-anchor="middle" fill="white">🏢</text>
+    
+    <!-- Content -->
+    <text x="225" y="210" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      特徴
+    </text>
+    <text x="40" y="240" font-size="14" fill="#424242">• 社内データで最適化</text>
+    <text x="40" y="265" font-size="14" fill="#424242">• 全社横断的に活用</text>
+    <text x="40" y="290" font-size="14" fill="#424242">• 高い柔軟性・拡張性</text>
+    
+    <text x="225" y="330" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      メリット
+    </text>
+    <rect x="20" y="345" width="410" height="80" rx="8" fill="white" opacity="0.9"/>
+    <text x="40" y="365" font-size="13" fill="#424242">✓ セキュリティ: 社内環境で運用</text>
+    <text x="40" y="385" font-size="13" fill="#424242">✓ 再現性: 業務ルール・専門用語対応</text>
+    <text x="40" y="405" font-size="13" fill="#424242">✓ 差別化: 独自知見を反映</text>
+    
+    <text x="225" y="455" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      適用シーン
+    </text>
+    <text x="40" y="480" font-size="14" fill="#424242">• 長期的な全社効率化</text>
+    <text x="40" y="505" font-size="14" fill="#424242">• 複数部署での横断活用</text>
+    <text x="40" y="530" font-size="14" fill="#424242">• 戦略的AI基盤構築</text>
+    
+    <text x="225" y="570" font-size="18" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      代表例
+    </text>
+    <text x="40" y="595" font-size="13" fill="#616161">ChatGPT Enterprise</text>
+    <text x="40" y="615" font-size="13" fill="#616161">富士通 LLM Ops</text>
+    <text x="40" y="635" font-size="13" fill="#616161">Llama 3 RAG構築</text>
+  </g>
+  
+  <!-- Right Side: 特化型モデル -->
+  <g transform="translate(650, 100)">
+    <!-- Box -->
+    <rect width="450" height="600" rx="15" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="3"/>
+    
+    <!-- Header -->
+    <rect width="450" height="80" rx="15" fill="#7b1fa2"/>
+    <text x="225" y="45" font-size="24" font-weight="bold" text-anchor="middle" fill="white">
+      特定用途特化型モデル
+    </text>
+    <text x="225" y="68" font-size="16" text-anchor="middle" fill="white">
+      (専門業務AI)
+    </text>
+    
+    <!-- Icon -->
+    <circle cx="225" cy="140" r="35" fill="#ba68c8" stroke="#6a1b9a" stroke-width="2"/>
+    <text x="225" y="148" font-size="30" text-anchor="middle" fill="white">🎯</text>
+    
+    <!-- Content -->
+    <text x="225" y="210" font-size="18" font-weight="bold" text-anchor="middle" fill="#6a1b9a">
+      特徴
+    </text>
+    <text x="40" y="240" font-size="14" fill="#424242">• 特定業務に特化</text>
+    <text x="40" y="265" font-size="14" fill="#424242">• SaaS形式で提供</text>
+    <text x="40" y="290" font-size="14" fill="#424242">• 即座に導入可能</text>
+    
+    <text x="225" y="330" font-size="18" font-weight="bold" text-anchor="middle" fill="#6a1b9a">
+      メリット
+    </text>
+    <rect x="20" y="345" width="410" height="80" rx="8" fill="white" opacity="0.9"/>
+    <text x="40" y="365" font-size="13" fill="#424242">✓ 即効性: 短期間で成果創出</text>
+    <text x="40" y="385" font-size="13" fill="#424242">✓ 低コスト: 初期投資を抑制</text>
+    <text x="40" y="405" font-size="13" fill="#424242">✓ 専門性: 業務特化で高精度</text>
+    
+    <text x="225" y="455" font-size="18" font-weight="bold" text-anchor="middle" fill="#6a1b9a">
+      適用シーン
+    </text>
+    <text x="40" y="480" font-size="14" fill="#424242">• 特定部門の業務効率化</text>
+    <text x="40" y="505" font-size="14" fill="#424242">• 実証実験・PoC段階</text>
+    <text x="40" y="530" font-size="14" fill="#424242">• 短期ROI重視</text>
+    
+    <text x="225" y="570" font-size="18" font-weight="bold" text-anchor="middle" fill="#6a1b9a">
+      代表例
+    </text>
+    <text x="40" y="595" font-size="13" fill="#616161">Harvey AI (法務)</text>
+    <text x="40" y="615" font-size="13" fill="#616161">Med-PaLM 2 (医療)</text>
+    <text x="40" y="635" font-size="13" fill="#616161">Drift AI (営業)</text>
+  </g>
+  
+  <!-- Center Arrow -->
+  <g transform="translate(575, 400)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#666" stroke-width="2"/>
+    <line x1="30" y1="0" x2="25" y2="-5" stroke="#666" stroke-width="2"/>
+    <line x1="30" y1="0" x2="25" y2="5" stroke="#666" stroke-width="2"/>
+    <text x="-5" y="-10" font-size="14" font-weight="bold" text-anchor="end" fill="#666">or</text>
+    <text x="35" y="20" font-size="12" text-anchor="start" fill="#666">組み合わせて</text>
+    <text x="35" y="35" font-size="12" text-anchor="start" fill="#666">最適化</text>
+  </g>
+  
+  <!-- Bottom Key Message -->
+  <rect x="100" y="730" width="1000" height="50" rx="10" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+  <text x="600" y="758" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">
+    キーワードは「自社適合性」──どう自社に最適化するかが競争力を左右する
+  </text>
+</svg>
