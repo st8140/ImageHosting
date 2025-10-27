@@ -1,0 +1,144 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    GPT-5 vs GPT-4o 徹底比較
+  </text>
+  
+  <!-- GPT-5 Section -->
+  <g>
+    <!-- Background -->
+    <rect x="30" y="70" width="340" height="480" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="30" y="70" width="340" height="50" rx="10" fill="#1976d2"/>
+    <text x="200" y="102" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      GPT-5
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="200" y="145" font-size="14" text-anchor="middle" fill="#424242">
+      高度な推論型モデル
+    </text>
+    
+    <!-- Features -->
+    <text x="50" y="180" font-size="12" font-weight="bold" fill="#1976d2">特徴</text>
+    
+    <circle cx="50" cy="205" r="3" fill="#1976d2"/>
+    <text x="60" y="210" font-size="11" fill="#424242">論理的推論の強化</text>
+    
+    <circle cx="50" cy="230" r="3" fill="#1976d2"/>
+    <text x="60" y="235" font-size="11" fill="#424242">長文処理能力</text>
+    
+    <circle cx="50" cy="255" r="3" fill="#1976d2"/>
+    <text x="60" y="260" font-size="11" fill="#424242">専門性の高い領域で安定</text>
+    
+    <circle cx="50" cy="280" r="3" fill="#1976d2"/>
+    <text x="60" y="285" font-size="11" fill="#424242">企業利用向け設計</text>
+    
+    <!-- Thinking Mode -->
+    <text x="50" y="315" font-size="12" font-weight="bold" fill="#1976d2">思考モード</text>
+    
+    <rect x="50" y="325" width="90" height="25" rx="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+    <text x="95" y="342" font-size="10" text-anchor="middle" fill="#424242">Instant</text>
+    
+    <rect x="150" y="325" width="90" height="25" rx="5" fill="#90caf9" stroke="#1976d2" stroke-width="1"/>
+    <text x="195" y="342" font-size="10" text-anchor="middle" fill="#424242">Auto</text>
+    
+    <rect x="250" y="325" width="90" height="25" rx="5" fill="#64b5f6" stroke="#1976d2" stroke-width="1"/>
+    <text x="295" y="342" font-size="10" text-anchor="middle" fill="#424242">Thinking</text>
+    
+    <!-- Best For -->
+    <text x="50" y="380" font-size="12" font-weight="bold" fill="#1976d2">おすすめ用途</text>
+    
+    <rect x="50" y="390" width="300" height="25" rx="5" fill="white" stroke="#1976d2" stroke-width="1"/>
+    <text x="200" y="407" font-size="10" text-anchor="middle" fill="#424242">契約書・法的文書レビュー</text>
+    
+    <rect x="50" y="420" width="300" height="25" rx="5" fill="white" stroke="#1976d2" stroke-width="1"/>
+    <text x="200" y="437" font-size="10" text-anchor="middle" fill="#424242">経営戦略・市場分析</text>
+    
+    <rect x="50" y="450" width="300" height="25" rx="5" fill="white" stroke="#1976d2" stroke-width="1"/>
+    <text x="200" y="467" font-size="10" text-anchor="middle" fill="#424242">高度なプログラム開発</text>
+    
+    <rect x="50" y="480" width="300" height="25" rx="5" fill="white" stroke="#1976d2" stroke-width="1"/>
+    <text x="200" y="497" font-size="10" text-anchor="middle" fill="#424242">学術研究サポート</text>
+    
+    <!-- Key Point -->
+    <rect x="50" y="515" width="300" height="25" rx="5" fill="#1565c0"/>
+    <text x="200" y="532" font-size="11" font-weight="bold" text-anchor="middle" fill="white">
+      深い思考と正確性重視
+    </text>
+  </g>
+  
+  <!-- GPT-4o Section -->
+  <g>
+    <!-- Background -->
+    <rect x="430" y="70" width="340" height="480" rx="10" fill="#fff3e0" stroke="#f57c00" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect x="430" y="70" width="340" height="50" rx="10" fill="#f57c00"/>
+    <text x="600" y="102" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      GPT-4o
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="600" y="145" font-size="14" text-anchor="middle" fill="#424242">
+      マルチモーダル対応
+    </text>
+    
+    <!-- Features -->
+    <text x="450" y="180" font-size="12" font-weight="bold" fill="#f57c00">特徴</text>
+    
+    <circle cx="450" cy="205" r="3" fill="#f57c00"/>
+    <text x="460" y="210" font-size="11" fill="#424242">リアルタイム性</text>
+    
+    <circle cx="450" cy="230" r="3" fill="#f57c00"/>
+    <text x="460" y="235" font-size="11" fill="#424242">親しみやすい会話スタイル</text>
+    
+    <circle cx="450" cy="255" r="3" fill="#f57c00"/>
+    <text x="460" y="260" font-size="11" fill="#424242">マルチモーダル対応</text>
+    
+    <circle cx="450" cy="280" r="3" fill="#f57c00"/>
+    <text x="460" y="285" font-size="11" fill="#424242">軽量版あり（コスト効率）</text>
+    
+    <!-- Modality -->
+    <text x="450" y="315" font-size="12" font-weight="bold" fill="#f57c00">対応形式</text>
+    
+    <rect x="450" y="325" width="90" height="25" rx="5" fill="#ffe0b2" stroke="#f57c00" stroke-width="1"/>
+    <text x="495" y="342" font-size="10" text-anchor="middle" fill="#424242">テキスト</text>
+    
+    <rect x="550" y="325" width="90" height="25" rx="5" fill="#ffcc80" stroke="#f57c00" stroke-width="1"/>
+    <text x="595" y="342" font-size="10" text-anchor="middle" fill="#424242">音声</text>
+    
+    <rect x="650" y="325" width="90" height="25" rx="5" fill="#ffb74d" stroke="#f57c00" stroke-width="1"/>
+    <text x="695" y="342" font-size="10" text-anchor="middle" fill="#424242">画像</text>
+    
+    <!-- Best For -->
+    <text x="450" y="380" font-size="12" font-weight="bold" fill="#f57c00">おすすめ用途</text>
+    
+    <rect x="450" y="390" width="300" height="25" rx="5" fill="white" stroke="#f57c00" stroke-width="1"/>
+    <text x="600" y="407" font-size="10" text-anchor="middle" fill="#424242">日常会話・Q&A</text>
+    
+    <rect x="450" y="420" width="300" height="25" rx="5" fill="white" stroke="#f57c00" stroke-width="1"/>
+    <text x="600" y="437" font-size="10" text-anchor="middle" fill="#424242">音声アシスタント・翻訳</text>
+    
+    <rect x="450" y="450" width="300" height="25" rx="5" fill="white" stroke="#f57c00" stroke-width="1"/>
+    <text x="600" y="467" font-size="10" text-anchor="middle" fill="#424242">画像解析・プレゼン資料作成</text>
+    
+    <rect x="450" y="480" width="300" height="25" rx="5" fill="white" stroke="#f57c00" stroke-width="1"/>
+    <text x="600" y="497" font-size="10" text-anchor="middle" fill="#424242">多言語コミュニケーション</text>
+    
+    <!-- Key Point -->
+    <rect x="450" y="515" width="300" height="25" rx="5" fill="#e65100"/>
+    <text x="600" y="532" font-size="11" font-weight="bold" text-anchor="middle" fill="white">
+      速さと多様性重視
+    </text>
+  </g>
+  
+  <!-- Bottom Note -->
+  <text x="400" y="575" font-size="12" text-anchor="middle" fill="#757575">
+    💡 用途に応じた使い分けが鍵
+  </text>
+</svg>
