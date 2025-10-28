@@ -1,0 +1,169 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">
+    ChatGPT Apps SDK - プラットフォーム構造
+  </text>
+  
+  <!-- ChatGPT Platform Layer -->
+  <rect x="50" y="80" width="700" height="140" rx="10" fill="#10a37f" opacity="0.1" stroke="#10a37f" stroke-width="2"/>
+  <text x="400" y="105" text-anchor="middle" font-size="18" font-weight="bold" fill="#10a37f">
+    ChatGPT Platform (8億ユーザー)
+  </text>
+  
+  <!-- Conversation Interface -->
+  <rect x="80" y="120" width="200" height="80" rx="8" fill="#ffffff" stroke="#10a37f" stroke-width="2"/>
+  <text x="180" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">
+    対話インターフェース
+  </text>
+  <text x="180" y="170" text-anchor="middle" font-size="11" fill="#666">
+    自然言語での操作
+  </text>
+  <text x="180" y="187" text-anchor="middle" font-size="11" fill="#666">
+    アプリ自動起動
+  </text>
+  
+  <!-- UI Display Options -->
+  <rect x="320" y="120" width="200" height="80" rx="8" fill="#ffffff" stroke="#10a37f" stroke-width="2"/>
+  <text x="420" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">
+    UI表示オプション
+  </text>
+  <text x="420" y="167" text-anchor="middle" font-size="10" fill="#666">
+    • インライン表示
+  </text>
+  <text x="420" y="183" text-anchor="middle" font-size="10" fill="#666">
+    • 全画面表示
+  </text>
+  <text x="420" y="199" text-anchor="middle" font-size="10" fill="#666">
+    • ピクチャインピクチャ
+  </text>
+  
+  <!-- Commerce Protocol -->
+  <rect x="560" y="120" width="160" height="80" rx="8" fill="#ffffff" stroke="#10a37f" stroke-width="2"/>
+  <text x="640" y="145" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">
+    収益化
+  </text>
+  <text x="640" y="170" text-anchor="middle" font-size="11" fill="#666">
+    Agentic
+  </text>
+  <text x="640" y="187" text-anchor="middle" font-size="11" fill="#666">
+    Commerce Protocol
+  </text>
+  
+  <!-- Apps SDK Layer -->
+  <rect x="50" y="250" width="700" height="100" rx="10" fill="#4a9eff" opacity="0.1" stroke="#4a9eff" stroke-width="2"/>
+  <text x="400" y="275" text-anchor="middle" font-size="18" font-weight="bold" fill="#4a9eff">
+    Apps SDK (開発キット)
+  </text>
+  
+  <!-- MCP Foundation -->
+  <rect x="150" y="295" width="500" height="40" rx="8" fill="#ffffff" stroke="#4a9eff" stroke-width="2"/>
+  <text x="400" y="320" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">
+    Model Context Protocol (MCP) 基盤
+  </text>
+  
+  <!-- Arrow from SDK to Apps -->
+  <path d="M 400 350 L 400 380" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Partner Apps -->
+  <text x="400" y="405" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">
+    統合アプリケーション
+  </text>
+  
+  <!-- App Icons Row 1 -->
+  <g>
+    <!-- Canva -->
+    <rect x="70" y="420" width="120" height="70" rx="8" fill="#00c4cc" opacity="0.9"/>
+    <text x="130" y="445" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">
+      Canva
+    </text>
+    <text x="130" y="465" text-anchor="middle" font-size="9" fill="#ffffff">
+      デザイン作成
+    </text>
+    <text x="130" y="480" text-anchor="middle" font-size="9" fill="#ffffff">
+      編集・生成
+    </text>
+    
+    <!-- Spotify -->
+    <rect x="210" y="420" width="120" height="70" rx="8" fill="#1db954" opacity="0.9"/>
+    <text x="270" y="445" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">
+      Spotify
+    </text>
+    <text x="270" y="465" text-anchor="middle" font-size="9" fill="#ffffff">
+      音楽再生
+    </text>
+    <text x="270" y="480" text-anchor="middle" font-size="9" fill="#ffffff">
+      プレイリスト作成
+    </text>
+    
+    <!-- Zillow -->
+    <rect x="350" y="420" width="120" height="70" rx="8" fill="#0074e4" opacity="0.9"/>
+    <text x="410" y="445" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">
+      Zillow
+    </text>
+    <text x="410" y="465" text-anchor="middle" font-size="9" fill="#ffffff">
+      不動産検索
+    </text>
+    <text x="410" y="480" text-anchor="middle" font-size="9" fill="#ffffff">
+      物件表示
+    </text>
+    
+    <!-- Coursera -->
+    <rect x="490" y="420" width="120" height="70" rx="8" fill="#0056d2" opacity="0.9"/>
+    <text x="550" y="445" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">
+      Coursera
+    </text>
+    <text x="550" y="465" text-anchor="middle" font-size="9" fill="#ffffff">
+      オンライン学習
+    </text>
+    <text x="550" y="480" text-anchor="middle" font-size="9" fill="#ffffff">
+      講義再生・要約
+    </text>
+    
+    <!-- Booking.com -->
+    <rect x="630" y="420" width="120" height="70" rx="8" fill="#003580" opacity="0.9"/>
+    <text x="690" y="445" text-anchor="middle" font-size="12" font-weight="bold" fill="#ffffff">
+      Booking
+    </text>
+    <text x="690" y="465" text-anchor="middle" font-size="9" fill="#ffffff">
+      旅行予約
+    </text>
+    <text x="690" y="480" text-anchor="middle" font-size="9" fill="#ffffff">
+      ホテル検索
+    </text>
+  </g>
+  
+  <!-- Key Features -->
+  <text x="400" y="525" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">
+    主要な特徴
+  </text>
+  
+  <text x="200" y="550" text-anchor="middle" font-size="11" fill="#666">
+    ✓ 会話内で完結
+  </text>
+  <text x="400" y="550" text-anchor="middle" font-size="11" fill="#666">
+    ✓ アプリ切替不要
+  </text>
+  <text x="600" y="550" text-anchor="middle" font-size="11" fill="#666">
+    ✓ オープンソース標準
+  </text>
+  
+  <text x="200" y="575" text-anchor="middle" font-size="11" fill="#666">
+    対話的OS構想
+  </text>
+  <text x="400" y="575" text-anchor="middle" font-size="11" fill="#666">
+    8億人のユーザーベース
+  </text>
+  <text x="600" y="575" text-anchor="middle" font-size="11" fill="#666">
+    開発者エコシステム
+  </text>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
