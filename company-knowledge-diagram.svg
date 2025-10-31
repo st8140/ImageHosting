@@ -1,0 +1,110 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Company Knowledge: 社内知識統合プラットフォーム
+  </text>
+  
+  <!-- 中央のChatGPT (GPT-5ベース) -->
+  <circle cx="400" cy="300" r="70" fill="#10a37f" opacity="0.9"/>
+  <text x="400" y="295" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    ChatGPT
+  </text>
+  <text x="400" y="315" font-size="12" text-anchor="middle" fill="white">
+    (GPT-5ベース)
+  </text>
+  
+  <!-- 外部サービス群 -->
+  <!-- Google Drive -->
+  <rect x="100" y="100" width="120" height="60" rx="8" fill="#4285f4" opacity="0.8"/>
+  <text x="160" y="135" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    Google Drive
+  </text>
+  
+  <!-- Slack -->
+  <rect x="280" y="80" width="100" height="60" rx="8" fill="#4a154b" opacity="0.8"/>
+  <text x="330" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    Slack
+  </text>
+  
+  <!-- GitHub -->
+  <rect x="480" y="80" width="100" height="60" rx="8" fill="#24292e" opacity="0.8"/>
+  <text x="530" y="115" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    GitHub
+  </text>
+  
+  <!-- Gmail -->
+  <rect x="620" y="100" width="100" height="60" rx="8" fill="#ea4335" opacity="0.8"/>
+  <text x="670" y="135" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    Gmail
+  </text>
+  
+  <!-- HubSpot -->
+  <rect x="100" y="450" width="120" height="60" rx="8" fill="#ff7a59" opacity="0.8"/>
+  <text x="160" y="485" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    HubSpot
+  </text>
+  
+  <!-- SharePoint -->
+  <rect x="280" y="470" width="120" height="60" rx="8" fill="#0078d4" opacity="0.8"/>
+  <text x="340" y="505" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    SharePoint
+  </text>
+  
+  <!-- Linear -->
+  <rect x="480" y="470" width="100" height="60" rx="8" fill="#5e6ad2" opacity="0.8"/>
+  <text x="530" y="505" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    Linear
+  </text>
+  
+  <!-- 接続線 (上部) -->
+  <line x1="160" y1="160" x2="340" y2="260" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="330" y1="140" x2="365" y2="245" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="530" y1="140" x2="435" y2="245" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="670" y1="160" x2="460" y2="260" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 接続線 (下部) -->
+  <line x1="160" y1="450" x2="340" y2="350" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="340" y1="470" x2="370" y2="360" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="530" y1="470" x2="430" y2="360" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 主要機能ボックス -->
+  <rect x="50" y="260" width="200" height="80" rx="8" fill="white" stroke="#10a37f" stroke-width="2"/>
+  <text x="150" y="285" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    主要機能
+  </text>
+  <text x="150" y="305" font-size="11" text-anchor="middle" fill="#333">
+    ✓ 横断検索
+  </text>
+  <text x="150" y="322" font-size="11" text-anchor="middle" fill="#333">
+    ✓ 引用元表示
+  </text>
+  
+  <!-- セキュリティボックス -->
+  <rect x="550" y="260" width="200" height="80" rx="8" fill="white" stroke="#10a37f" stroke-width="2"/>
+  <text x="650" y="285" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    セキュリティ
+  </text>
+  <text x="650" y="305" font-size="11" text-anchor="middle" fill="#333">
+    ✓ 閲覧権限の尊重
+  </text>
+  <text x="650" y="322" font-size="11" text-anchor="middle" fill="#333">
+    ✓ 学習に不使用
+  </text>
+  
+  <!-- ユースケース例 -->
+  <rect x="250" y="380" width="300" height="50" rx="6" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="400" y="400" font-size="12" text-anchor="middle" fill="#1b5e20">
+    例: 「Q4のパフォーマンスを分析して」
+  </text>
+  <text x="400" y="418" font-size="11" text-anchor="middle" fill="#2e7d32">
+    → 複数サービスから情報を統合して回答
+  </text>
+  
+  <!-- 対象プラン -->
+  <text x="400" y="570" font-size="12" text-anchor="middle" fill="#666">
+    対象: ChatGPT Business / Enterprise / Edu プラン
+  </text>
+</svg>
