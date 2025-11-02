@@ -1,0 +1,345 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000">
+  <!-- Background -->
+  <rect width="1200" height="1000" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="600" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    AIエージェント導入90日ロードマップ
+  </text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="80" x2="1100" y2="80" stroke="#333" stroke-width="3"/>
+  
+  <!-- Phase 1 -->
+  <g id="phase1">
+    <rect x="50" y="100" width="350" height="260" fill="#e3f2fd" stroke="#1976d2" stroke-width="3" rx="10"/>
+    <text x="225" y="130" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      フェーズ1: Day 1-30
+    </text>
+    <text x="225" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1976d2">
+      PoC設計と小規模検証
+    </text>
+    
+    <circle cx="225" cy="80" r="15" fill="#1976d2"/>
+    <text x="225" y="86" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">
+      30
+    </text>
+    
+    <text x="60" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1976d2">
+      重要タスク:
+    </text>
+    <text x="70" y="210" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ① 業務選定とスコープ明確化
+    </text>
+    <text x="80" y="230" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      繰り返しが多くルール明確な業務
+    </text>
+    <text x="70" y="255" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ② PoCの評価指標設定
+    </text>
+    <text x="80" y="275" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      定量指標・定性指標を組み合わせ
+    </text>
+    <text x="70" y="300" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ③ 技術基盤の初期構築
+    </text>
+    <text x="80" y="320" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      閉域環境・限定データソース連携
+    </text>
+    <text x="70" y="345" font-family="Arial, sans-serif" font-size="12" fill="#1976d2">
+      ✓ 小規模プロトタイプ完成
+    </text>
+  </g>
+  
+  <!-- Arrow 1 -->
+  <path d="M 400 230 L 450 230" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 2 -->
+  <g id="phase2">
+    <rect x="450" y="100" width="350" height="260" fill="#fff3e0" stroke="#f57c00" stroke-width="3" rx="10"/>
+    <text x="625" y="130" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#f57c00">
+      フェーズ2: Day 31-60
+    </text>
+    <text x="625" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#f57c00">
+      小規模本番と利用拡大
+    </text>
+    
+    <circle cx="625" cy="80" r="15" fill="#f57c00"/>
+    <text x="625" y="86" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">
+      60
+    </text>
+    
+    <text x="460" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f57c00">
+      重要タスク:
+    </text>
+    <text x="470" y="210" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ④ 実運用を想定した利用テスト
+    </text>
+    <text x="480" y="230" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      対象部署限定・日常業務での使用
+    </text>
+    <text x="470" y="255" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ⑤ セキュリティ・ガバナンス強化
+    </text>
+    <text x="480" y="275" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      データ分類・権限・ログ保存
+    </text>
+    <text x="470" y="300" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ⑥ ナレッジ管理の仕組み化
+    </text>
+    <text x="480" y="320" font-family="Arial, sans-serif" font-size="11" fill="#666">
+      成功プロンプト・失敗事例共有
+    </text>
+    <text x="470" y="345" font-family="Arial, sans-serif" font-size="12" fill="#f57c00">
+      ✓ フィードバック収集・改善
+    </text>
+  </g>
+  
+  <!-- Arrow 2 -->
+  <path d="M 800 230 L 850 230" stroke="#333" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 3 -->
+  <g id="phase3">
+    <rect x="850" y="100" width="300" height="260" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="10"/>
+    <text x="1000" y="130" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#388e3c">
+      フェーズ3: Day 61-90
+    </text>
+    <text x="1000" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#388e3c">
+      横展開と定着化
+    </text>
+    
+    <circle cx="1000" cy="80" r="15" fill="#388e3c"/>
+    <text x="1000" y="86" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#fff">
+      90
+    </text>
+    
+    <text x="860" y="185" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#388e3c">
+      重要タスク:
+    </text>
+    <text x="870" y="210" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ⑦ 成果の見える化
+    </text>
+    <text x="870" y="235" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ⑧ 基盤強化(SSO/SCIM)
+    </text>
+    <text x="870" y="260" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ⑨ 教育・リテラシー向上
+    </text>
+    <text x="870" y="285" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      ⑩ 継続改善の仕組み化
+    </text>
+    <text x="870" y="315" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">
+      ✓ 全社展開準備完了
+    </text>
+    <text x="870" y="340" font-family="Arial, sans-serif" font-size="12" fill="#388e3c">
+      ✓ 業務基盤として確立
+    </text>
+  </g>
+  
+  <!-- Success Factors -->
+  <text x="50" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#d32f2f">
+    成功の鍵
+  </text>
+  <rect x="50" y="425" width="550" height="180" fill="#ffebee" stroke="#d32f2f" stroke-width="2" rx="8"/>
+  
+  <g id="success-keys">
+    <text x="70" y="455" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#d32f2f">
+      段階的拡大
+    </text>
+    <text x="70" y="475" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      小さく始めて成果を測り、改善しながら広げる
+    </text>
+    
+    <text x="70" y="505" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#d32f2f">
+      早期の評価軸確立
+    </text>
+    <text x="70" y="525" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      PoCから明確なKPIとセキュリティ設計を組み込む
+    </text>
+    
+    <text x="70" y="555" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#d32f2f">
+      現場フィードバック重視
+    </text>
+    <text x="70" y="575" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      ユーザーの声を反映し、継続的に改善する
+    </text>
+  </g>
+  
+  <!-- Common Mistakes -->
+  <text x="620" y="410" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#ff6f00">
+    よくある失敗と回避策
+  </text>
+  <rect x="620" y="425" width="530" height="180" fill="#fff3e0" stroke="#ff6f00" stroke-width="2" rx="8"/>
+  
+  <g id="mistakes">
+    <text x="640" y="455" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6f00">
+      ❌ PoCが終わらない
+    </text>
+    <text x="640" y="475" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      → 最初にKPI設定し、期限を区切って判断
+    </text>
+    
+    <text x="640" y="505" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6f00">
+      ❌ スケール時にトラブル
+    </text>
+    <text x="640" y="525" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      → 小規模本番でセキュリティ・権限設計を完了
+    </text>
+    
+    <text x="640" y="555" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ff6f00">
+      ❌ 現場に浸透しない
+    </text>
+    <text x="640" y="575" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      → 成果を数値で示し、現場の声を反映
+    </text>
+  </g>
+  
+  <!-- Target Tasks -->
+  <text x="50" y="645" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#6a1b9a">
+    適した業務タスク例
+  </text>
+  <rect x="50" y="660" width="1100" height="120" fill="#f3e5f5" stroke="#6a1b9a" stroke-width="2" rx="8"/>
+  
+  <g id="tasks">
+    <circle cx="100" cy="700" r="5" fill="#6a1b9a"/>
+    <text x="115" y="705" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      社内FAQ対応
+    </text>
+    
+    <circle cx="100" cy="725" r="5" fill="#6a1b9a"/>
+    <text x="115" y="730" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      議事録要約
+    </text>
+    
+    <circle cx="100" cy="750" r="5" fill="#6a1b9a"/>
+    <text x="115" y="755" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      一次問い合わせ対応
+    </text>
+    
+    <circle cx="350" cy="700" r="5" fill="#6a1b9a"/>
+    <text x="365" y="705" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      コンプライアンスチェック
+    </text>
+    
+    <circle cx="350" cy="725" r="5" fill="#6a1b9a"/>
+    <text x="365" y="730" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      技術文書の要約・検索
+    </text>
+    
+    <circle cx="350" cy="750" r="5" fill="#6a1b9a"/>
+    <text x="365" y="755" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      レポート作成支援
+    </text>
+    
+    <circle cx="650" cy="700" r="5" fill="#6a1b9a"/>
+    <text x="665" y="705" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      データ分析・可視化
+    </text>
+    
+    <circle cx="650" cy="725" r="5" fill="#6a1b9a"/>
+    <text x="665" y="730" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      在庫管理予測
+    </text>
+    
+    <circle cx="650" cy="750" r="5" fill="#6a1b9a"/>
+    <text x="665" y="755" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      診療記録要約
+    </text>
+    
+    <circle cx="900" cy="700" r="5" fill="#6a1b9a"/>
+    <text x="915" y="705" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      品質管理データ分析
+    </text>
+    
+    <circle cx="900" cy="725" r="5" fill="#6a1b9a"/>
+    <text x="915" y="730" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      顧客サポート自動化
+    </text>
+    
+    <circle cx="900" cy="750" r="5" fill="#6a1b9a"/>
+    <text x="915" y="755" font-family="Arial, sans-serif" font-size="13" fill="#333">
+      保守点検最適化
+    </text>
+  </g>
+  
+  <!-- Key Metrics -->
+  <text x="50" y="825" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#00695c">
+    評価指標（KPI）の例
+  </text>
+  <rect x="50" y="840" width="530" height="130" fill="#e0f2f1" stroke="#00695c" stroke-width="2" rx="8"/>
+  
+  <g id="metrics">
+    <text x="70" y="865" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00695c">
+      定量指標
+    </text>
+    <text x="80" y="885" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      • 回答時間短縮率  • 一次解決率  • 工数削減率
+    </text>
+    <text x="80" y="905" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      • 処理件数増加率  • エラー率  • コスト削減額
+    </text>
+    
+    <text x="70" y="935" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#00695c">
+      定性指標
+    </text>
+    <text x="80" y="955" font-family="Arial, sans-serif" font-size="12" fill="#333">
+      • ユーザー満足度  • 利用のしやすさ  • 精度評価
+    </text>
+  </g>
+  
+  <!-- Continuous Improvement -->
+  <rect x="620" y="840" width="530" height="130" fill="#e1f5fe" stroke="#0277bd" stroke-width="2" rx="8"/>
+  <text x="640" y="865" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0277bd">
+    継続改善サイクル
+  </text>
+  
+  <g id="pdca">
+    <circle cx="750" cy="920" r="35" fill="#81d4fa" stroke="#0277bd" stroke-width="2"/>
+    <text x="750" y="915" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">
+      四半期
+    </text>
+    <text x="750" y="930" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">
+      レビュー
+    </text>
+    
+    <path d="M 785 920 L 825 920" stroke="#0277bd" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    
+    <circle cx="860" cy="920" r="35" fill="#4fc3f7" stroke="#0277bd" stroke-width="2"/>
+    <text x="860" y="915" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">
+      KPI
+    </text>
+    <text x="860" y="930" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">
+      測定
+    </text>
+    
+    <path d="M 895 920 L 935 920" stroke="#0277bd" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    
+    <circle cx="970" cy="920" r="35" fill="#29b6f6" stroke="#0277bd" stroke-width="2"/>
+    <text x="970" y="915" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">
+      改善
+    </text>
+    <text x="970" y="930" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">
+      実施
+    </text>
+    
+    <path d="M 1005 920 L 1045 920" stroke="#0277bd" stroke-width="2" fill="none" marker-end="url(#arrowhead2)"/>
+    
+    <circle cx="1080" cy="920" r="35" fill="#039be5" stroke="#0277bd" stroke-width="2"/>
+    <text x="1080" y="915" font-family="Arial, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#fff">
+      展開
+    </text>
+    <text x="1080" y="930" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#fff">
+      拡大
+    </text>
+  </g>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#0277bd"/>
+    </marker>
+  </defs>
+</svg>
