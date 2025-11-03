@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: bold 24px sans-serif; fill: #1a1a1a; }
+      .heading { font: bold 16px sans-serif; fill: #2c3e50; }
+      .text { font: 13px sans-serif; fill: #333; }
+      .label { font: 12px sans-serif; fill: #666; }
+      .arrow { stroke: #3498db; stroke-width: 2; fill: none; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#3498db" />
+    </marker>
+  </defs>
+
+  <!-- タイトル -->
+  <text x="400" y="30" class="title" text-anchor="middle">プロンプト設計からワークフロー設計へ</text>
+
+  <!-- プロンプト設計 -->
+  <g>
+    <rect x="50" y="60" width="300" height="220" fill="#fff" stroke="#e74c3c" stroke-width="2" rx="8"/>
+    <text x="200" y="85" class="heading" text-anchor="middle" fill="#e74c3c">プロンプト設計の限界</text>
+    
+    <text x="70" y="110" class="text">❌ 品質のばらつき</text>
+    <text x="85" y="130" class="label">人によって結果が異なる</text>
+    
+    <text x="70" y="155" class="text">❌ ブラックボックス化</text>
+    <text x="85" y="175" class="label">経験や勘に依存</text>
+    
+    <text x="70" y="200" class="text">❌ 再現性の欠如</text>
+    <text x="85" y="220" class="label">同じ結果が保証されない</text>
+    
+    <text x="70" y="245" class="text">❌ 説明責任の難しさ</text>
+    <text x="85" y="265" class="label">なぜこの結果か説明できない</text>
+  </g>
+
+  <!-- 矢印 -->
+  <path d="M 200 290 L 200 320 L 600 320 L 600 290" class="arrow"/>
+  <text x="400" y="315" class="heading" text-anchor="middle" fill="#3498db">パラダイムシフト</text>
+
+  <!-- ワークフロー設計 -->
+  <g>
+    <rect x="450" y="60" width="300" height="220" fill="#fff" stroke="#27ae60" stroke-width="2" rx="8"/>
+    <text x="600" y="85" class="heading" text-anchor="middle" fill="#27ae60">ワークフロー設計の優位性</text>
+    
+    <text x="470" y="110" class="text">✅ 標準化された品質</text>
+    <text x="485" y="130" class="label">誰が使っても同じ成果</text>
+    
+    <text x="470" y="155" class="text">✅ プロセスの仕組み化</text>
+    <text x="485" y="175" class="label">業務全体を設計</text>
+    
+    <text x="470" y="200" class="text">✅ 再現性の確保</text>
+    <text x="485" y="220" class="label">一貫した結果を保証</text>
+    
+    <text x="470" y="245" class="text">✅ ガバナンスの実現</text>
+    <text x="485" y="265" class="label">ログ管理と追跡可能性</text>
+  </g>
+
+  <!-- 実践ポイント -->
+  <g>
+    <rect x="50" y="350" width="700" height="220" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="8"/>
+    <text x="400" y="375" class="heading" text-anchor="middle">ワークフロー設計の実践ポイント</text>
+    
+    <!-- 4つの柱 -->
+    <g>
+      <rect x="70" y="390" width="150" height="160" fill="#fff" stroke="#3498db" stroke-width="1.5" rx="5"/>
+      <text x="145" y="410" class="heading" text-anchor="middle" fill="#3498db">1. 標準化</text>
+      <text x="80" y="435" class="label">・テンプレート整備</text>
+      <text x="80" y="455" class="label">・FAQ応答</text>
+      <text x="80" y="475" class="label">・議事録作成</text>
+      <text x="80" y="495" class="label">・法務チェック</text>
+      <text x="80" y="520" class="text" font-size="11">標準化しやすい領域</text>
+      <text x="80" y="535" class="text" font-size="11">から始める</text>
+    </g>
+    
+    <g>
+      <rect x="240" y="390" width="150" height="160" fill="#fff" stroke="#9b59b6" stroke-width="1.5" rx="5"/>
+      <text x="315" y="410" class="heading" text-anchor="middle" fill="#9b59b6">2. ガバナンス</text>
+      <text x="250" y="435" class="label">・ログ管理</text>
+      <text x="250" y="455" class="label">・権限設定</text>
+      <text x="250" y="475" class="label">・追跡可能性</text>
+      <text x="250" y="495" class="label">・監査対応</text>
+      <text x="250" y="520" class="text" font-size="11">誰が何を入力したか</text>
+      <text x="250" y="535" class="text" font-size="11">を記録</text>
+    </g>
+    
+    <g>
+      <rect x="410" y="390" width="150" height="160" fill="#fff" stroke="#e67e22" stroke-width="1.5" rx="5"/>
+      <text x="485" y="410" class="heading" text-anchor="middle" fill="#e67e22">3. 拡張性</text>
+      <text x="420" y="435" class="label">・外部API連携</text>
+      <text x="420" y="455" class="label">・データソース追加</text>
+      <text x="420" y="475" class="label">・柔軟な設計</text>
+      <text x="420" y="495" class="label">・将来の拡張</text>
+      <text x="420" y="520" class="text" font-size="11">小さく始めて</text>
+      <text x="420" y="535" class="text" font-size="11">大きく育てる</text>
+    </g>
+    
+    <g>
+      <rect x="580" y="390" width="150" height="160" fill="#fff" stroke="#16a085" stroke-width="1.5" rx="5"/>
+      <text x="655" y="410" class="heading" text-anchor="middle" fill="#16a085">4. 役割分担</text>
+      <text x="590" y="435" class="label">・AIが提案</text>
+      <text x="590" y="455" class="label">・人が最終判断</text>
+      <text x="590" y="475" class="label">・責任の明確化</text>
+      <text x="590" y="495" class="label">・現場の安心感</text>
+      <text x="590" y="520" class="text" font-size="11">二段構えの</text>
+      <text x="590" y="535" class="text" font-size="11">体制が基本</text>
+    </g>
+  </g>
+</svg>
