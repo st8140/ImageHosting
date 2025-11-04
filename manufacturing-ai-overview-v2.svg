@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    製造業における生成AI活用の全体像
+  </text>
+  
+  <!-- 中央の生成AI -->
+  <circle cx="400" cy="300" r="60" fill="#4a90e2" opacity="0.9"/>
+  <text x="400" y="295" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    生成AI
+  </text>
+  <text x="400" y="315" font-size="12" text-anchor="middle" fill="white">
+    Generative AI
+  </text>
+  
+  <!-- 4つの主要領域 -->
+  
+  <!-- 1. 設計工程（左上） -->
+  <rect x="50" y="100" width="200" height="120" rx="8" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="150" y="125" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">
+    設計工程
+  </text>
+  <text x="150" y="148" font-size="12" text-anchor="middle" fill="#333">
+    • CAD図面の自動補完
+  </text>
+  <text x="150" y="168" font-size="12" text-anchor="middle" fill="#333">
+    • エラー検出支援
+  </text>
+  <text x="150" y="188" font-size="12" text-anchor="middle" fill="#333">
+    • 3Dモデル自動生成
+  </text>
+  <text x="150" y="208" font-size="11" text-anchor="middle" fill="#666" font-style="italic">
+    開発サイクル短縮
+  </text>
+  
+  <!-- 2. 生産現場（右上） -->
+  <rect x="550" y="100" width="200" height="120" rx="8" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="650" y="125" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">
+    生産現場
+  </text>
+  <text x="650" y="148" font-size="12" text-anchor="middle" fill="#333">
+    • マニュアル自動生成
+  </text>
+  <text x="650" y="168" font-size="12" text-anchor="middle" fill="#333">
+    • 音声アシスタント
+  </text>
+  <text x="650" y="188" font-size="12" text-anchor="middle" fill="#333">
+    • 異常兆候検知
+  </text>
+  <text x="650" y="208" font-size="11" text-anchor="middle" fill="#666" font-style="italic">
+    作業効率化・予防保全
+  </text>
+  
+  <!-- 3. 品質管理（左下） -->
+  <rect x="50" y="380" width="200" height="120" rx="8" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="150" y="405" font-size="16" font-weight="bold" text-anchor="middle" fill="#6a1b9a">
+    品質管理
+  </text>
+  <text x="150" y="428" font-size="12" text-anchor="middle" fill="#333">
+    • 不良パターン学習
+  </text>
+  <text x="150" y="448" font-size="12" text-anchor="middle" fill="#333">
+    • 外観検査自動化
+  </text>
+  <text x="150" y="468" font-size="12" text-anchor="middle" fill="#333">
+    • 品質報告書生成
+  </text>
+  <text x="150" y="488" font-size="11" text-anchor="middle" fill="#666" font-style="italic">
+    検査精度向上
+  </text>
+  
+  <!-- 4. サプライチェーン（右下） -->
+  <rect x="550" y="380" width="200" height="120" rx="8" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="650" y="405" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+    サプライチェーン
+  </text>
+  <text x="650" y="428" font-size="12" text-anchor="middle" fill="#333">
+    • 代替部品提案
+  </text>
+  <text x="650" y="448" font-size="12" text-anchor="middle" fill="#333">
+    • 需要予測
+  </text>
+  <text x="650" y="468" font-size="12" text-anchor="middle" fill="#333">
+    • 多言語翻訳
+  </text>
+  <text x="650" y="488" font-size="11" text-anchor="middle" fill="#666" font-style="italic">
+    在庫最適化・リスク低減
+  </text>
+  
+  <!-- 接続線 -->
+  <line x1="250" y1="160" x2="350" y2="260" stroke="#4a90e2" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="550" y1="160" x2="450" y2="260" stroke="#4a90e2" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="250" y1="440" x2="350" y2="340" stroke="#4a90e2" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="550" y1="440" x2="450" y2="340" stroke="#4a90e2" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 導入時の注意点 -->
+  <rect x="250" y="540" width="300" height="50" rx="8" fill="#ffebee" stroke="#d32f2f" stroke-width="2"/>
+  <text x="400" y="560" font-size="14" font-weight="bold" text-anchor="middle" fill="#c62828">
+    導入時の重要課題
+  </text>
+  <text x="400" y="580" font-size="11" text-anchor="middle" fill="#333">
+    セキュリティ対策 | 精度検証体制 | 現場教育
+  </text>
+</svg>
