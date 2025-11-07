@@ -1,0 +1,152 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a202c">
+    Google AI Mode：検索から行動完了へ
+  </text>
+  
+  <!-- 従来の検索 vs AI Mode -->
+  <g>
+    <!-- 従来の検索 -->
+    <rect x="50" y="70" width="320" height="180" fill="#e8eaf6" stroke="#5c6bc0" stroke-width="3" rx="10"/>
+    <text x="210" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#5c6bc0">
+      従来の検索
+    </text>
+    
+    <circle cx="120" cy="140" r="25" fill="#fff" stroke="#5c6bc0" stroke-width="2"/>
+    <text x="120" y="147" font-size="14" font-weight="bold" text-anchor="middle" fill="#5c6bc0">1</text>
+    <text x="200" y="145" font-size="13" text-anchor="start" fill="#333">情報を検索</text>
+    
+    <circle cx="120" cy="195" r="25" fill="#fff" stroke="#5c6bc0" stroke-width="2"/>
+    <text x="120" y="202" font-size="14" font-weight="bold" text-anchor="middle" fill="#5c6bc0">2</text>
+    <text x="200" y="200" font-size="13" text-anchor="start" fill="#333">結果を比較</text>
+    
+    <circle cx="120" cy="228" r="8" fill="#ccc"/>
+    <circle cx="140" cy="228" r="8" fill="#ccc"/>
+    <circle cx="160" cy="228" r="8" fill="#ccc"/>
+    
+    <text x="210" y="230" font-size="11" text-anchor="middle" fill="#666">
+      ユーザーが自分で完了
+    </text>
+    
+    <!-- AI Mode -->
+    <rect x="430" y="70" width="320" height="180" fill="#e8f5e9" stroke="#43a047" stroke-width="3" rx="10"/>
+    <text x="590" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#43a047">
+      AI Mode（新機能）
+    </text>
+    
+    <circle cx="500" cy="140" r="25" fill="#fff" stroke="#43a047" stroke-width="2"/>
+    <text x="500" y="147" font-size="14" font-weight="bold" text-anchor="middle" fill="#43a047">1</text>
+    <text x="580" y="145" font-size="13" text-anchor="start" fill="#333">情報を検索</text>
+    
+    <circle cx="500" cy="180" r="25" fill="#fff" stroke="#43a047" stroke-width="2"/>
+    <text x="500" y="187" font-size="14" font-weight="bold" text-anchor="middle" fill="#43a047">2</text>
+    <text x="580" y="185" font-size="13" text-anchor="start" fill="#333">条件で絞り込み</text>
+    
+    <circle cx="500" cy="220" r="25" fill="#fff" stroke="#43a047" stroke-width="2"/>
+    <text x="500" y="227" font-size="14" font-weight="bold" text-anchor="middle" fill="#43a047">3</text>
+    <text x="580" y="225" font-size="13" text-anchor="start" fill="#333">予約を代行</text>
+    
+    <path d="M 370 160 L 430 160" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <text x="400" y="150" font-size="12" text-anchor="middle" fill="#e91e63" font-weight="bold">
+      進化
+    </text>
+  </g>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 対応サービス -->
+  <text x="50" y="290" font-size="18" font-weight="bold" fill="#1a202c">
+    AI Modeが対応するサービス
+  </text>
+  
+  <g>
+    <!-- 飲食店 -->
+    <rect x="50" y="310" width="170" height="80" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="8"/>
+    <text x="135" y="335" font-size="14" font-weight="bold" text-anchor="middle" fill="#f57c00">
+      🍴 飲食店予約
+    </text>
+    <text x="135" y="355" font-size="11" text-anchor="middle" fill="#333">
+      リアルタイム空き状況
+    </text>
+    <text x="135" y="375" font-size="11" text-anchor="middle" fill="#333">
+      条件に合う店舗を提案
+    </text>
+    
+    <!-- イベント -->
+    <rect x="240" y="310" width="170" height="80" fill="#f3e5f5" stroke="#8e24aa" stroke-width="2" rx="8"/>
+    <text x="325" y="335" font-size="14" font-weight="bold" text-anchor="middle" fill="#8e24aa">
+      🎫 チケット購入
+    </text>
+    <text x="325" y="355" font-size="11" text-anchor="middle" fill="#333">
+      複数サイト横断検索
+    </text>
+    <text x="325" y="375" font-size="11" text-anchor="middle" fill="#333">
+      最安値を自動比較
+    </text>
+    
+    <!-- 美容・ウェルネス -->
+    <rect x="430" y="310" width="170" height="80" fill="#e1f5fe" stroke="#0288d1" stroke-width="2" rx="8"/>
+    <text x="515" y="335" font-size="14" font-weight="bold" text-anchor="middle" fill="#0288d1">
+      💆 美容サロン
+    </text>
+    <text x="515" y="355" font-size="11" text-anchor="middle" fill="#333">
+      予約可能時間を確認
+    </text>
+    <text x="515" y="375" font-size="11" text-anchor="middle" fill="#333">
+      希望条件で予約
+    </text>
+    
+    <!-- その他 -->
+    <rect x="620" y="310" width="130" height="80" fill="#fce4ec" stroke="#c2185b" stroke-width="2" rx="8"/>
+    <text x="685" y="335" font-size="14" font-weight="bold" text-anchor="middle" fill="#c2185b">
+      ✨ 拡大中
+    </text>
+    <text x="685" y="360" font-size="11" text-anchor="middle" fill="#333">
+      今後さらに
+    </text>
+    <text x="685" y="380" font-size="11" text-anchor="middle" fill="#333">
+      対応予定
+    </text>
+  </g>
+  
+  <!-- エージェント化のポイント -->
+  <text x="50" y="430" font-size="18" font-weight="bold" fill="#1a202c">
+    エージェント化の3つの特徴
+  </text>
+  
+  <g>
+    <!-- 特徴1 -->
+    <circle cx="150" cy="480" r="50" fill="#e3f2fd" stroke="#1976d2" stroke-width="3"/>
+    <text x="150" y="470" font-size="28" text-anchor="middle" fill="#1976d2">🔍</text>
+    <text x="150" y="495" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">横断検索</text>
+    
+    <!-- 特徴2 -->
+    <circle cx="400" cy="480" r="50" fill="#fff3e0" stroke="#f57c00" stroke-width="3"/>
+    <text x="400" y="470" font-size="28" text-anchor="middle" fill="#f57c00">⚙️</text>
+    <text x="400" y="495" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">条件最適化</text>
+    
+    <!-- 特徴3 -->
+    <circle cx="650" cy="480" r="50" fill="#e8f5e9" stroke="#43a047" stroke-width="3"/>
+    <text x="650" y="470" font-size="28" text-anchor="middle" fill="#43a047">✓</text>
+    <text x="650" y="495" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">行動完了</text>
+    
+    <!-- 矢印 -->
+    <path d="M 200 480 L 350 480" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <path d="M 450 480 L 600 480" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- 企業への影響 -->
+  <rect x="50" y="550" width="700" height="40" fill="#fff9c4" stroke="#f9a825" stroke-width="2" rx="8"/>
+  <text x="60" y="570" font-size="12" font-weight="bold" fill="#f57f17">💼 企業への影響:</text>
+  <text x="60" y="585" font-size="11" fill="#333">
+    SEO → AEO（Agentic Experience Optimization）へ / AIに選ばれる構造化データが重要に
+  </text>
+</svg>
