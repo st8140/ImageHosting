@@ -1,0 +1,179 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">AI推進体制の組織モデル比較</text>
+  
+  <!-- AI専門部門型 -->
+  <g>
+    <rect x="30" y="80" width="200" height="240" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" rx="8"/>
+    <text x="130" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#1565c0">AI専門部門型</text>
+    
+    <text x="130" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">メリット</text>
+    <text x="130" y="155" text-anchor="middle" font-size="10" fill="#424242">専門人材の集約</text>
+    <text x="130" y="170" text-anchor="middle" font-size="10" fill="#424242">全社統制の司令塔</text>
+    <text x="130" y="185" text-anchor="middle" font-size="10" fill="#424242">ガバナンス強化</text>
+    
+    <text x="130" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">デメリット</text>
+    <text x="130" y="230" text-anchor="middle" font-size="10" fill="#424242">人材確保困難</text>
+    <text x="130" y="245" text-anchor="middle" font-size="10" fill="#424242">コスト増大</text>
+    <text x="130" y="260" text-anchor="middle" font-size="10" fill="#424242">現場との温度差</text>
+    
+    <text x="130" y="290" text-anchor="middle" font-size="10" font-weight="bold" fill="#666">大企業向け</text>
+  </g>
+  
+  <!-- IT部門主導型 -->
+  <g>
+    <rect x="250" y="80" width="200" height="240" fill="#fff3e0" stroke="#ef6c00" stroke-width="2" rx="8"/>
+    <text x="350" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#ef6c00">IT部門主導型</text>
+    
+    <text x="350" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">メリット</text>
+    <text x="350" y="155" text-anchor="middle" font-size="10" fill="#424242">技術基盤活用</text>
+    <text x="350" y="170" text-anchor="middle" font-size="10" fill="#424242">セキュリティ重視</text>
+    <text x="350" y="185" text-anchor="middle" font-size="10" fill="#424242">システム統合容易</text>
+    
+    <text x="350" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">デメリット</text>
+    <text x="350" y="230" text-anchor="middle" font-size="10" fill="#424242">業務ニーズ把握困難</text>
+    <text x="350" y="245" text-anchor="middle" font-size="10" fill="#424242">現場との距離</text>
+    <text x="350" y="260" text-anchor="middle" font-size="10" fill="#424242">技術偏重の懸念</text>
+    
+    <text x="350" y="290" text-anchor="middle" font-size="10" font-weight="bold" fill="#666">技術重視企業向け</text>
+  </g>
+  
+  <!-- 業務部門主導型 -->
+  <g>
+    <rect x="470" y="80" width="200" height="240" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+    <text x="570" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#7b1fa2">業務部門主導型</text>
+    
+    <text x="570" y="135" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">メリット</text>
+    <text x="570" y="155" text-anchor="middle" font-size="10" fill="#424242">現場課題に直結</text>
+    <text x="570" y="170" text-anchor="middle" font-size="10" fill="#424242">導入スピード速い</text>
+    <text x="570" y="185" text-anchor="middle" font-size="10" fill="#424242">実用性高い</text>
+    
+    <text x="570" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">デメリット</text>
+    <text x="570" y="230" text-anchor="middle" font-size="10" fill="#424242">全社統制弱い</text>
+    <text x="570" y="245" text-anchor="middle" font-size="10" fill="#424242">セキュリティ懸念</text>
+    <text x="570" y="260" text-anchor="middle" font-size="10" fill="#424242">スケール困難</text>
+    
+    <text x="570" y="290" text-anchor="middle" font-size="10" font-weight="bold" fill="#666">中小企業向け</text>
+  </g>
+  
+  <!-- AI CoE型（推奨） -->
+  <g>
+    <rect x="690" y="80" width="180" height="240" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3" rx="8"/>
+    <text x="780" y="105" text-anchor="middle" font-size="15" font-weight="bold" fill="#2e7d32">AI CoE型</text>
+    <text x="780" y="120" text-anchor="middle" font-size="11" fill="#2e7d32">（推奨）</text>
+    
+    <text x="780" y="145" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">メリット</text>
+    <text x="780" y="165" text-anchor="middle" font-size="10" fill="#424242">横断組織</text>
+    <text x="780" y="180" text-anchor="middle" font-size="10" fill="#424242">ガバナンスと</text>
+    <text x="780" y="195" text-anchor="middle" font-size="10" fill="#424242">現場の両立</text>
+    
+    <text x="780" y="220" text-anchor="middle" font-size="12" font-weight="bold" fill="#424242">特徴</text>
+    <text x="780" y="240" text-anchor="middle" font-size="10" fill="#424242">ベスト</text>
+    <text x="780" y="255" text-anchor="middle" font-size="10" fill="#424242">プラクティス</text>
+    <text x="780" y="270" text-anchor="middle" font-size="10" fill="#424242">横展開</text>
+    
+    <text x="780" y="295" text-anchor="middle" font-size="10" font-weight="bold" fill="#666">多くの企業向け</text>
+  </g>
+  
+  <!-- AI部門設置の5つの課題 -->
+  <text x="450" y="360" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">AI部門設置の5つの課題</text>
+  
+  <g>
+    <rect x="50" y="380" width="160" height="90" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="6"/>
+    <text x="130" y="400" text-anchor="middle" font-size="12" font-weight="bold" fill="#c62828">①人材確保</text>
+    <text x="130" y="420" text-anchor="middle" font-size="10" fill="#424242">採用競争激化</text>
+    <text x="130" y="435" text-anchor="middle" font-size="10" fill="#424242">教育コスト増</text>
+    <text x="130" y="450" text-anchor="middle" font-size="10" fill="#424242">人件費膨張</text>
+  </g>
+  
+  <g>
+    <rect x="230" y="380" width="160" height="90" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="6"/>
+    <text x="310" y="400" text-anchor="middle" font-size="12" font-weight="bold" fill="#c62828">②現場との温度差</text>
+    <text x="310" y="420" text-anchor="middle" font-size="10" fill="#424242">浮いた存在化</text>
+    <text x="310" y="435" text-anchor="middle" font-size="10" fill="#424242">机上の空論</text>
+    <text x="310" y="450" text-anchor="middle" font-size="10" fill="#424242">協力得られず</text>
+  </g>
+  
+  <g>
+    <rect x="410" y="380" width="160" height="90" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="6"/>
+    <text x="490" y="400" text-anchor="middle" font-size="12" font-weight="bold" fill="#c62828">③役割重複</text>
+    <text x="490" y="420" text-anchor="middle" font-size="10" fill="#424242">既存部門と摩擦</text>
+    <text x="490" y="435" text-anchor="middle" font-size="10" fill="#424242">権限の曖昧さ</text>
+    <text x="490" y="450" text-anchor="middle" font-size="10" fill="#424242">社内政治化</text>
+  </g>
+  
+  <g>
+    <rect x="590" y="380" width="140" height="90" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="6"/>
+    <text x="660" y="400" text-anchor="middle" font-size="12" font-weight="bold" fill="#c62828">④サイロ化</text>
+    <text x="660" y="420" text-anchor="middle" font-size="10" fill="#424242">知見が閉鎖</text>
+    <text x="660" y="435" text-anchor="middle" font-size="10" fill="#424242">全社浸透停滞</text>
+    <text x="660" y="450" text-anchor="middle" font-size="10" fill="#424242">専門部署依存</text>
+  </g>
+  
+  <g>
+    <rect x="750" y="380" width="120" height="90" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="6"/>
+    <text x="810" y="400" text-anchor="middle" font-size="12" font-weight="bold" fill="#c62828">⑤成果遅延</text>
+    <text x="810" y="420" text-anchor="middle" font-size="10" fill="#424242">体制整備</text>
+    <text x="810" y="435" text-anchor="middle" font-size="10" fill="#424242">時間かかる</text>
+    <text x="810" y="450" text-anchor="middle" font-size="10" fill="#424242">投資対効果</text>
+  </g>
+  
+  <!-- 導入ステップ -->
+  <text x="450" y="510" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">段階的な導入ステップ</text>
+  
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#1565c0"/>
+    </marker>
+  </defs>
+  
+  <g>
+    <circle cx="120" cy="570" r="40" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+    <text x="120" y="565" text-anchor="middle" font-size="16" font-weight="bold" fill="#1565c0">1</text>
+    <text x="120" y="620" text-anchor="middle" font-size="11" fill="#424242">ニーズと</text>
+    <text x="120" y="635" text-anchor="middle" font-size="11" fill="#424242">リスク洗い出し</text>
+  </g>
+  
+  <line x1="160" y1="570" x2="220" y2="570" stroke="#1565c0" stroke-width="2" marker-end="url(#arrow2)"/>
+  
+  <g>
+    <circle cx="280" cy="570" r="40" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+    <text x="280" y="565" text-anchor="middle" font-size="16" font-weight="bold" fill="#1565c0">2</text>
+    <text x="280" y="620" text-anchor="middle" font-size="11" fill="#424242">現有リソース</text>
+    <text x="280" y="635" text-anchor="middle" font-size="11" fill="#424242">見極め</text>
+  </g>
+  
+  <line x1="320" y1="570" x2="380" y2="570" stroke="#1565c0" stroke-width="2" marker-end="url(#arrow2)"/>
+  
+  <g>
+    <circle cx="440" cy="570" r="40" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+    <text x="440" y="565" text-anchor="middle" font-size="16" font-weight="bold" fill="#1565c0">3</text>
+    <text x="440" y="620" text-anchor="middle" font-size="11" fill="#424242">担当者配置</text>
+    <text x="440" y="635" text-anchor="middle" font-size="11" fill="#424242">徐々にチーム化</text>
+  </g>
+  
+  <line x1="480" y1="570" x2="540" y2="570" stroke="#1565c0" stroke-width="2" marker-end="url(#arrow2)"/>
+  
+  <g>
+    <circle cx="600" cy="570" r="40" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+    <text x="600" y="565" text-anchor="middle" font-size="16" font-weight="bold" fill="#1565c0">4</text>
+    <text x="600" y="620" text-anchor="middle" font-size="11" fill="#424242">ルール策定</text>
+    <text x="600" y="635" text-anchor="middle" font-size="11" fill="#424242">全社教育</text>
+  </g>
+  
+  <line x1="640" y1="570" x2="700" y2="570" stroke="#1565c0" stroke-width="2" marker-end="url(#arrow2)"/>
+  
+  <g>
+    <circle cx="760" cy="570" r="40" fill="#2e7d32" stroke="#2e7d32" stroke-width="2"/>
+    <text x="760" y="565" text-anchor="middle" font-size="16" font-weight="bold" fill="white">完</text>
+    <text x="760" y="620" text-anchor="middle" font-size="11" fill="#424242">体制確立</text>
+    <text x="760" y="635" text-anchor="middle" font-size="11" fill="#424242">全社展開</text>
+  </g>
+  
+  <!-- 結論 -->
+  <rect x="100" y="660" width="700" height="30" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="4"/>
+  <text x="450" y="680" text-anchor="middle" font-size="13" font-weight="bold" fill="#424242">「部門ありき」ではなく「活用ビジョンありき」で考える</text>
+</svg>
