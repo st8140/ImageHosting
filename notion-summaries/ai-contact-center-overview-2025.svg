@@ -1,0 +1,118 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">生成AIコンタクトセンターの全体像</text>
+  
+  <!-- 従来の課題セクション -->
+  <g>
+    <rect x="30" y="70" width="220" height="140" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="8"/>
+    <text x="140" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#c62828">従来の課題</text>
+    <text x="140" y="120" text-anchor="middle" font-size="13" fill="#424242">人材不足</text>
+    <text x="140" y="145" text-anchor="middle" font-size="13" fill="#424242">コスト増加</text>
+    <text x="140" y="170" text-anchor="middle" font-size="13" fill="#424242">対応品質のばらつき</text>
+    <text x="140" y="195" text-anchor="middle" font-size="13" fill="#424242">長い待ち時間</text>
+  </g>
+  
+  <!-- 生成AIの特徴セクション -->
+  <g>
+    <rect x="290" y="70" width="220" height="140" fill="#e3f2fd" stroke="#1565c0" stroke-width="2" rx="8"/>
+    <text x="400" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#1565c0">生成AIの特徴</text>
+    <text x="400" y="120" text-anchor="middle" font-size="13" fill="#424242">文脈理解</text>
+    <text x="400" y="145" text-anchor="middle" font-size="13" fill="#424242">パーソナライズ対応</text>
+    <text x="400" y="170" text-anchor="middle" font-size="13" fill="#424242">多言語処理</text>
+    <text x="400" y="195" text-anchor="middle" font-size="13" fill="#424242">24時間365日稼働</text>
+  </g>
+  
+  <!-- 実現される効果セクション -->
+  <g>
+    <rect x="550" y="70" width="220" height="140" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+    <text x="660" y="95" text-anchor="middle" font-size="16" font-weight="bold" fill="#2e7d32">実現される効果</text>
+    <text x="660" y="120" text-anchor="middle" font-size="13" fill="#424242">即応性向上</text>
+    <text x="660" y="145" text-anchor="middle" font-size="13" fill="#424242">回答の一貫性</text>
+    <text x="660" y="170" text-anchor="middle" font-size="13" fill="#424242">業務効率化</text>
+    <text x="660" y="195" text-anchor="middle" font-size="13" fill="#424242">顧客満足度向上</text>
+  </g>
+  
+  <!-- 矢印 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+  <line x1="250" y1="140" x2="290" y2="140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="510" y1="140" x2="550" y2="140" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 主要活用シーン -->
+  <text x="400" y="250" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">主要活用シーン</text>
+  
+  <!-- AIチャットボット -->
+  <g>
+    <rect x="50" y="270" width="160" height="100" fill="#fff3e0" stroke="#ef6c00" stroke-width="2" rx="8"/>
+    <text x="130" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#ef6c00">AIチャットボット</text>
+    <text x="130" y="310" text-anchor="middle" font-size="11" fill="#424242">FAQ自動対応</text>
+    <text x="130" y="330" text-anchor="middle" font-size="11" fill="#424242">一次対応自動化</text>
+    <text x="130" y="350" text-anchor="middle" font-size="11" fill="#424242">問い合わせ削減</text>
+  </g>
+  
+  <!-- AIコールアシスタント -->
+  <g>
+    <rect x="230" y="270" width="160" height="100" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+    <text x="310" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#7b1fa2">コールアシスタント</text>
+    <text x="310" y="310" text-anchor="middle" font-size="11" fill="#424242">リアルタイム支援</text>
+    <text x="310" y="330" text-anchor="middle" font-size="11" fill="#424242">回答候補提示</text>
+    <text x="310" y="350" text-anchor="middle" font-size="11" fill="#424242">対応標準化</text>
+  </g>
+  
+  <!-- 多言語対応 -->
+  <g>
+    <rect x="410" y="270" width="160" height="100" fill="#e0f2f1" stroke="#00695c" stroke-width="2" rx="8"/>
+    <text x="490" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#00695c">多言語対応</text>
+    <text x="490" y="310" text-anchor="middle" font-size="11" fill="#424242">自然な翻訳</text>
+    <text x="490" y="330" text-anchor="middle" font-size="11" fill="#424242">グローバル展開</text>
+    <text x="490" y="350" text-anchor="middle" font-size="11" fill="#424242">海外顧客対応</text>
+  </g>
+  
+  <!-- CRM連携 -->
+  <g>
+    <rect x="590" y="270" width="160" height="100" fill="#fce4ec" stroke="#c2185b" stroke-width="2" rx="8"/>
+    <text x="670" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#c2185b">CRM連携</text>
+    <text x="670" y="310" text-anchor="middle" font-size="11" fill="#424242">履歴参照</text>
+    <text x="670" y="330" text-anchor="middle" font-size="11" fill="#424242">個別最適化</text>
+    <text x="670" y="350" text-anchor="middle" font-size="11" fill="#424242">パーソナライズ</text>
+  </g>
+  
+  <!-- 三者のメリット -->
+  <text x="400" y="410" text-anchor="middle" font-size="18" font-weight="bold" fill="#1a1a1a">三者へのメリット</text>
+  
+  <!-- 顧客メリット -->
+  <g>
+    <ellipse cx="150" cy="490" rx="110" ry="70" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+    <text x="150" y="470" text-anchor="middle" font-size="13" font-weight="bold" fill="#2e7d32">顧客</text>
+    <text x="150" y="490" text-anchor="middle" font-size="11" fill="#424242">待ち時間短縮</text>
+    <text x="150" y="505" text-anchor="middle" font-size="11" fill="#424242">一貫した対応</text>
+    <text x="150" y="520" text-anchor="middle" font-size="11" fill="#424242">24時間対応</text>
+  </g>
+  
+  <!-- 企業メリット -->
+  <g>
+    <ellipse cx="400" cy="490" rx="110" ry="70" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+    <text x="400" y="470" text-anchor="middle" font-size="13" font-weight="bold" fill="#1565c0">企業</text>
+    <text x="400" y="490" text-anchor="middle" font-size="11" fill="#424242">コスト削減</text>
+    <text x="400" y="505" text-anchor="middle" font-size="11" fill="#424242">業務効率化</text>
+    <text x="400" y="520" text-anchor="middle" font-size="11" fill="#424242">競争優位性</text>
+  </g>
+  
+  <!-- オペレーターメリット -->
+  <g>
+    <ellipse cx="650" cy="490" rx="110" ry="70" fill="#fff3e0" stroke="#ef6c00" stroke-width="2"/>
+    <text x="650" y="470" text-anchor="middle" font-size="13" font-weight="bold" fill="#ef6c00">オペレーター</text>
+    <text x="650" y="490" text-anchor="middle" font-size="11" fill="#424242">負担軽減</text>
+    <text x="650" y="505" text-anchor="middle" font-size="11" fill="#424242">高度業務集中</text>
+    <text x="650" y="520" text-anchor="middle" font-size="11" fill="#424242">学習支援</text>
+  </g>
+  
+  <!-- 注釈 -->
+  <text x="400" y="580" text-anchor="middle" font-size="12" fill="#666" font-style="italic">AIと人間の協働による「スピード・品質・体験」の三位一体向上</text>
+</svg>
