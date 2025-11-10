@@ -1,0 +1,180 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d68910;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    生成AIの著作権リスクと対策
+  </text>
+  
+  <!-- リスクの種類セクション -->
+  <text x="400" y="75" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#e74c3c">
+    ⚠️ 3つの主要リスク
+  </text>
+  
+  <!-- リスク1: 学習データ -->
+  <rect x="50" y="95" width="220" height="90" rx="8" fill="white" stroke="#e74c3c" stroke-width="2"/>
+  <text x="160" y="120" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#e74c3c">
+    学習データ利用
+  </text>
+  <text x="160" y="143" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    無断使用された著作物
+  </text>
+  <text x="160" y="160" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    を基にしたモデルの
+  </text>
+  <text x="160" y="177" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    利用リスク
+  </text>
+  
+  <!-- リスク2: 生成物の侵害 -->
+  <rect x="290" y="95" width="220" height="90" rx="8" fill="white" stroke="#e74c3c" stroke-width="2"/>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#e74c3c">
+    生成物の侵害
+  </text>
+  <text x="400" y="143" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    既存作品との類似による
+  </text>
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    著作権・商標権
+  </text>
+  <text x="400" y="177" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    侵害の可能性
+  </text>
+  
+  <!-- リスク3: 音声・キャラクター模倣 -->
+  <rect x="530" y="95" width="220" height="90" rx="8" fill="white" stroke="#e74c3c" stroke-width="2"/>
+  <text x="640" y="120" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#e74c3c">
+    音声・模倣リスク
+  </text>
+  <text x="640" y="143" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    肖像権・パブリシティ権
+  </text>
+  <text x="640" y="160" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    著作隣接権の
+  </text>
+  <text x="640" y="177" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    侵害リスク
+  </text>
+  
+  <!-- 最新事例セクション -->
+  <rect x="50" y="210" width="700" height="155" rx="10" fill="#fff3cd" stroke="#f39c12" stroke-width="2"/>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#856404">
+    📰 注目すべき最新事例（2025年）
+  </text>
+  
+  <text x="70" y="260" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">
+    • Anthropic：著者団体と15億ドル和解
+  </text>
+  <text x="70" y="280" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">
+    • Warner Bros：Midjourneyを提訴（キャラクター無断生成）
+  </text>
+  <text x="70" y="300" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">
+    • Disney：Character.AIに警告（キャラクター模倣）
+  </text>
+  <text x="70" y="320" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">
+    • 声優26名：無断生成AI音声利用への抗議活動
+  </text>
+  <text x="70" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#856404">
+    • 東映アニメーション：AI導入計画の発表と訂正
+  </text>
+  
+  <!-- ガイドラインセクション -->
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#3498db">
+    ✓ 企業が取るべき4つのガイドライン
+  </text>
+  
+  <!-- ガイドライン1 -->
+  <rect x="50" y="410" width="160" height="110" rx="8" fill="white" stroke="#3498db" stroke-width="2"/>
+  <text x="130" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3498db">
+    1. 利用ポリシー
+  </text>
+  <text x="130" y="455" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    社内で明文化
+  </text>
+  <text x="130" y="473" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    業務範囲と
+  </text>
+  <text x="130" y="491" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    利用範囲を規定
+  </text>
+  
+  <!-- ガイドライン2 -->
+  <rect x="225" y="410" width="160" height="110" rx="8" fill="white" stroke="#3498db" stroke-width="2"/>
+  <text x="305" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3498db">
+    2. 契約確認
+  </text>
+  <text x="305" y="455" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    学習データの
+  </text>
+  <text x="305" y="473" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    出所と商用利用
+  </text>
+  <text x="305" y="491" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    許可の確認
+  </text>
+  
+  <!-- ガイドライン3 -->
+  <rect x="400" y="410" width="160" height="110" rx="8" fill="white" stroke="#3498db" stroke-width="2"/>
+  <text x="480" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3498db">
+    3. ツール選定
+  </text>
+  <text x="480" y="455" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    著作権対応や
+  </text>
+  <text x="480" y="473" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    透明性を基準に
+  </text>
+  <text x="480" y="491" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    ベンダー選択
+  </text>
+  
+  <!-- ガイドライン4 -->
+  <rect x="575" y="410" width="160" height="110" rx="8" fill="white" stroke="#3498db" stroke-width="2"/>
+  <text x="655" y="435" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#3498db">
+    4. レビュー体制
+  </text>
+  <text x="655" y="455" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    法務・知財部門と
+  </text>
+  <text x="655" y="473" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    連携し成果物を
+  </text>
+  <text x="655" y="491" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    人間がチェック
+  </text>
+  
+  <!-- 企業への影響 -->
+  <rect x="50" y="545" width="700" height="130" rx="10" fill="#f8d7da" stroke="#c0392b" stroke-width="2"/>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#721c24">
+    ⚡ 企業への影響
+  </text>
+  
+  <text x="70" y="595" font-family="Arial, sans-serif" font-size="12" fill="#721c24">
+    • 社内利用でも油断禁物：外部漏洩時に法的責任を問われる可能性
+  </text>
+  <text x="70" y="615" font-family="Arial, sans-serif" font-size="12" fill="#721c24">
+    • 納品リスク：著作権侵害判明時の契約違反・損害賠償
+  </text>
+  <text x="70" y="635" font-family="Arial, sans-serif" font-size="12" fill="#721c24">
+    • 国際展開時：米国と日本で著作権法の考え方に違いあり
+  </text>
+  <text x="70" y="655" font-family="Arial, sans-serif" font-size="12" fill="#721c24">
+    • 訴訟・和解費用が企業経営に大きな影響を与える可能性
+  </text>
+</svg>
