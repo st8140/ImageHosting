@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2d3748">
+    Sora 2 の進化ポイント
+  </text>
+  
+  <!-- 中央のコアボックス -->
+  <rect x="300" y="80" width="200" height="80" rx="10" fill="url(#grad1)"/>
+  <text x="400" y="115" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+    Sora 2
+  </text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">
+    動画+音声生成AI
+  </text>
+  
+  <!-- 4つの主要機能 -->
+  <!-- 1. 映像と音声の統合 -->
+  <line x1="350" y1="160" x2="200" y2="220" stroke="#667eea" stroke-width="2"/>
+  <rect x="50" y="220" width="180" height="100" rx="8" fill="white" stroke="#667eea" stroke-width="2"/>
+  <text x="140" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#667eea">
+    映像+音声統合
+  </text>
+  <text x="140" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    リップシンク対応
+  </text>
+  <text x="140" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    効果音の自動生成
+  </text>
+  <text x="140" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    環境音との整合性
+  </text>
+  
+  <!-- 2. 物理モデルの向上 -->
+  <line x1="450" y1="160" x2="600" y2="220" stroke="#667eea" stroke-width="2"/>
+  <rect x="520" y="220" width="180" height="100" rx="8" fill="white" stroke="#667eea" stroke-width="2"/>
+  <text x="610" y="245" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#667eea">
+    物理リアリズム
+  </text>
+  <text x="610" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    浮力・重力の再現
+  </text>
+  <text x="610" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    剛体動作の忠実性
+  </text>
+  <text x="610" y="310" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    物理挙動シミュレート
+  </text>
+  
+  <!-- 3. 制御性の強化 -->
+  <line x1="350" y1="160" x2="200" y2="380" stroke="#764ba2" stroke-width="2"/>
+  <rect x="50" y="380" width="180" height="100" rx="8" fill="white" stroke="#764ba2" stroke-width="2"/>
+  <text x="140" y="405" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#764ba2">
+    制御性向上
+  </text>
+  <text x="140" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    構図の細かい指定
+  </text>
+  <text x="140" y="450" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    スタイル選択が柔軟
+  </text>
+  <text x="140" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    JSON形式で詳細指示
+  </text>
+  
+  <!-- 4. 安全性設計 -->
+  <line x1="450" y1="160" x2="600" y2="380" stroke="#764ba2" stroke-width="2"/>
+  <rect x="520" y="380" width="180" height="100" rx="8" fill="white" stroke="#764ba2" stroke-width="2"/>
+  <text x="610" y="405" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#764ba2">
+    安全性対策
+  </text>
+  <text x="610" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    顔・音声利用制限
+  </text>
+  <text x="610" y="450" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    悪用防止モデレート
+  </text>
+  <text x="610" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4a5568">
+    段階的アクセス制御
+  </text>
+  
+  <!-- 活用シーン -->
+  <rect x="250" y="520" width="300" height="60" rx="10" fill="url(#grad2)"/>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    主な活用シーン
+  </text>
+  <text x="400" y="568" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="white">
+    広告・マーケティング / SNS動画 / 教育・研修 / 企画試作
+  </text>
+</svg>
