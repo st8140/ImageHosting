@@ -1,0 +1,142 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10a37f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d8566;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6e56cf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5746af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    OpenAI Apps SDK アーキテクチャ
+  </text>
+  
+  <!-- ユーザー層 -->
+  <rect x="50" y="60" width="700" height="80" fill="#f0f9ff" stroke="#0284c7" stroke-width="2" rx="8"/>
+  <text x="400" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0369a1">
+    ユーザー (8億人超)
+  </text>
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0c4a6e">
+    自然言語での対話によるアプリ操作
+  </text>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#075985">
+    「Canvaでポスターを作って」「Zillowで物件を探して」
+  </text>
+  
+  <!-- 矢印1 -->
+  <path d="M 400 140 L 400 175" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- ChatGPT プラットフォーム層 -->
+  <rect x="50" y="180" width="700" height="120" fill="url(#grad1)" stroke="#0d8566" stroke-width="3" rx="8"/>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    ChatGPT プラットフォーム (AI OS)
+  </text>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#e8f5f1">
+    会話的インターフェース + アプリ実行環境
+  </text>
+  <text x="400" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#d1ebe3">
+    ・アプリ起動・管理  ・データ連携  ・UI表示制御
+  </text>
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#d1ebe3">
+    ・収益化機能 (Agentic Commerce Protocol)
+  </text>
+  
+  <!-- 矢印2 -->
+  <path d="M 400 300 L 400 335" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- MCP プロトコル層 -->
+  <rect x="150" y="340" width="500" height="60" fill="url(#grad2)" stroke="#5746af" stroke-width="2" rx="8"/>
+  <text x="400" y="365" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    MCP (Model Context Protocol)
+  </text>
+  <text x="400" y="385" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e5dfff">
+    AI⇔アプリ間の標準通信プロトコル (Anthropic提唱)
+  </text>
+  
+  <!-- 矢印3 -->
+  <path d="M 200 400 L 200 435" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 400 400 L 400 435" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 600 400 L 600 435" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- アプリ層 -->
+  <g id="apps">
+    <!-- Canva -->
+    <rect x="50" y="440" width="130" height="120" fill="#fff" stroke="#00c4cc" stroke-width="2" rx="6"/>
+    <text x="115" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#00c4cc">
+      Canva
+    </text>
+    <text x="115" y="485" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">
+      デザイン作成
+    </text>
+    <text x="115" y="505" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      インライン
+    </text>
+    <text x="115" y="520" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      全画面
+    </text>
+    
+    <!-- Coursera -->
+    <rect x="200" y="440" width="130" height="120" fill="#fff" stroke="#0056d2" stroke-width="2" rx="6"/>
+    <text x="265" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0056d2">
+      Coursera
+    </text>
+    <text x="265" y="485" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">
+      オンライン学習
+    </text>
+    <text x="265" y="505" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      動画再生
+    </text>
+    <text x="265" y="520" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      PIP表示
+    </text>
+    
+    <!-- Zillow -->
+    <rect x="350" y="440" width="130" height="120" fill="#fff" stroke="#006aff" stroke-width="2" rx="6"/>
+    <text x="415" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#006aff">
+      Zillow
+    </text>
+    <text x="415" y="485" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">
+      不動産検索
+    </text>
+    <text x="415" y="505" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      マップ表示
+    </text>
+    <text x="415" y="520" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      全画面
+    </text>
+    
+    <!-- その他 -->
+    <rect x="500" y="440" width="130" height="120" fill="#fff" stroke="#999" stroke-width="2" rx="6" stroke-dasharray="5,5"/>
+    <text x="565" y="465" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#666">
+      その他多数
+    </text>
+    <text x="565" y="485" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      Spotify, Figma,
+    </text>
+    <text x="565" y="500" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      Booking.com,
+    </text>
+    <text x="565" y="515" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      Expedia,
+    </text>
+    <text x="565" y="530" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888">
+      OpenTable...
+    </text>
+  </g>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+  
+  <!-- 凡例 -->
+  <text x="670" y="590" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#666">
+    PIP: Picture-in-Picture
+  </text>
+</svg>
