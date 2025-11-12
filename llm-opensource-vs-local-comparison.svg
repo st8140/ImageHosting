@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="24" font-weight="bold" fill="#1a1a1a" text-anchor="middle">オープンソースLLMとローカルLLMの違い</text>
+  
+  <!-- Left Section: オープンソースLLM -->
+  <g id="opensource-llm">
+    <!-- Box -->
+    <rect x="50" y="80" width="320" height="450" rx="10" fill="#e3f2fd" stroke="#1976d2" stroke-width="2"/>
+    
+    <!-- Title -->
+    <text x="210" y="115" font-size="18" font-weight="bold" fill="#1976d2" text-anchor="middle">オープンソースLLM</text>
+    <text x="210" y="140" font-size="14" fill="#424242" text-anchor="middle">「どのモデルを使うか」</text>
+    
+    <!-- Icon -->
+    <circle cx="210" cy="180" r="30" fill="#fff" stroke="#1976d2" stroke-width="2"/>
+    <text x="210" y="190" font-size="24" text-anchor="middle">📦</text>
+    
+    <!-- Content -->
+    <text x="70" y="240" font-size="14" font-weight="bold" fill="#424242">主な特徴:</text>
+    <text x="70" y="265" font-size="13" fill="#555">• モデル構造が公開</text>
+    <text x="70" y="285" font-size="13" fill="#555">• 誰でもダウンロード可能</text>
+    <text x="70" y="305" font-size="13" fill="#555">• 自由にカスタマイズ</text>
+    
+    <text x="70" y="340" font-size="14" font-weight="bold" fill="#424242">代表例:</text>
+    <text x="70" y="365" font-size="13" fill="#555">• Meta Llama 3</text>
+    <text x="70" y="385" font-size="13" fill="#555">• Mistral 7B</text>
+    <text x="70" y="405" font-size="13" fill="#555">• Google Gemma</text>
+    
+    <text x="70" y="440" font-size="14" font-weight="bold" fill="#1976d2">メリット:</text>
+    <text x="70" y="465" font-size="12" fill="#555">✓ 透明性が高い</text>
+    <text x="70" y="485" font-size="12" fill="#555">✓ コスト削減可能</text>
+    <text x="70" y="505" font-size="12" fill="#555">✓ 再学習・チューニング自由</text>
+  </g>
+  
+  <!-- Right Section: ローカルLLM -->
+  <g id="local-llm">
+    <!-- Box -->
+    <rect x="430" y="80" width="320" height="450" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+    
+    <!-- Title -->
+    <text x="590" y="115" font-size="18" font-weight="bold" fill="#388e3c" text-anchor="middle">ローカルLLM</text>
+    <text x="590" y="140" font-size="14" fill="#424242" text-anchor="middle">「どこで動かすか」</text>
+    
+    <!-- Icon -->
+    <circle cx="590" cy="180" r="30" fill="#fff" stroke="#388e3c" stroke-width="2"/>
+    <text x="590" y="190" font-size="24" text-anchor="middle">🖥️</text>
+    
+    <!-- Content -->
+    <text x="450" y="240" font-size="14" font-weight="bold" fill="#424242">主な特徴:</text>
+    <text x="450" y="265" font-size="13" fill="#555">• クラウドを介さない</text>
+    <text x="450" y="285" font-size="13" fill="#555">• 自社環境で実行</text>
+    <text x="450" y="305" font-size="13" fill="#555">• データが外部に出ない</text>
+    
+    <text x="450" y="340" font-size="14" font-weight="bold" fill="#424242">運用例:</text>
+    <text x="450" y="365" font-size="13" fill="#555">• 社内サーバー構築</text>
+    <text x="450" y="385" font-size="13" fill="#555">• オンプレミス環境</text>
+    <text x="450" y="405" font-size="13" fill="#555">• ノートPCでの実行</text>
+    
+    <text x="450" y="440" font-size="14" font-weight="bold" fill="#388e3c">メリット:</text>
+    <text x="450" y="465" font-size="12" fill="#555">✓ データ保護</text>
+    <text x="450" y="485" font-size="12" fill="#555">✓ 応答速度の安定</text>
+    <text x="450" y="505" font-size="12" fill="#555">✓ 情報漏洩リスク低減</text>
+  </g>
+  
+  <!-- Arrow connecting both -->
+  <path d="M 370 305 L 430 305" stroke="#ff9800" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 430 305 L 370 305" stroke="#ff9800" stroke-width="3" fill="none" marker-end="url(#arrowhead2)"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#ff9800"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="1" refY="3" orient="auto">
+      <polygon points="10 0, 0 3, 10 6" fill="#ff9800"/>
+    </marker>
+  </defs>
+  
+  <!-- Connection label -->
+  <rect x="360" y="270" width="80" height="50" rx="5" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="400" y="290" font-size="12" font-weight="bold" fill="#ff9800" text-anchor="middle">補完関係</text>
+  <text x="400" y="308" font-size="10" fill="#f57c00" text-anchor="middle">組み合わせ</text>
+  
+  <!-- Bottom note -->
+  <rect x="100" y="545" width="600" height="40" rx="5" fill="#fff9c4" stroke="#fbc02d" stroke-width="2"/>
+  <text x="400" y="567" font-size="13" font-weight="bold" fill="#f57f17" text-anchor="middle">オープンソースLLMをローカル環境で運用する = 両方の利点を活用</text>
+</svg>
