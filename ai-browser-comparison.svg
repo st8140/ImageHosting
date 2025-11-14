@@ -1,0 +1,103 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    AIブラウザ比較マップ
+  </text>
+  
+  <!-- 2軸の説明 -->
+  <g id="axes">
+    <!-- 横軸 -->
+    <line x1="100" y1="300" x2="700" y2="300" stroke="#95a5a6" stroke-width="2"/>
+    <text x="100" y="320" font-size="12" text-anchor="middle" fill="#7f8c8d">ヘルパー型</text>
+    <text x="700" y="320" font-size="12" text-anchor="middle" fill="#7f8c8d">エージェント型</text>
+    
+    <!-- 縦軸 -->
+    <line x1="400" y1="80" x2="400" y2="520" stroke="#95a5a6" stroke-width="2"/>
+    <text x="420" y="90" font-size="12" fill="#7f8c8d">高度なコンテキスト管理</text>
+    <text x="420" y="515" font-size="12" fill="#7f8c8d">シンプルなコンテキスト</text>
+  </g>
+  
+  <!-- 4つのブラウザ -->
+  <!-- Perplexity Comet -->
+  <g id="comet" transform="translate(580, 180)">
+    <circle cx="0" cy="0" r="50" fill="#e74c3c" opacity="0.2"/>
+    <circle cx="0" cy="0" r="35" fill="#e74c3c"/>
+    <text x="0" y="-5" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Comet</text>
+    <text x="0" y="10" font-size="11" text-anchor="middle" fill="white">完全無料</text>
+    <text x="0" y="70" font-size="10" text-anchor="middle" fill="#2c3e50">強力な自律性</text>
+    <text x="0" y="85" font-size="10" text-anchor="middle" fill="#2c3e50">複数LLM対応</text>
+  </g>
+  
+  <!-- Genspark -->
+  <g id="genspark" transform="translate(600, 380)">
+    <circle cx="0" cy="0" r="50" fill="#f39c12" opacity="0.2"/>
+    <circle cx="0" cy="0" r="35" fill="#f39c12"/>
+    <text x="0" y="-5" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Genspark</text>
+    <text x="0" y="10" font-size="11" text-anchor="middle" fill="white">Freemium</text>
+    <text x="0" y="70" font-size="10" text-anchor="middle" fill="#2c3e50">700+ツール連携</text>
+    <text x="0" y="85" font-size="10" text-anchor="middle" fill="#2c3e50">B2B自動化</text>
+  </g>
+  
+  <!-- ChatGPT Atlas -->
+  <g id="atlas" transform="translate(280, 380)">
+    <circle cx="0" cy="0" r="50" fill="#3498db" opacity="0.2"/>
+    <circle cx="0" cy="0" r="35" fill="#3498db"/>
+    <text x="0" y="-5" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Atlas</text>
+    <text x="0" y="10" font-size="11" text-anchor="middle" fill="white">$20/月</text>
+    <text x="0" y="70" font-size="10" text-anchor="middle" fill="#2c3e50">エコシステム統合</text>
+    <text x="0" y="85" font-size="10" text-anchor="middle" fill="#2c3e50">Browser Memories</text>
+  </g>
+  
+  <!-- Dia -->
+  <g id="dia" transform="translate(220, 180)">
+    <circle cx="0" cy="0" r="50" fill="#9b59b6" opacity="0.2"/>
+    <circle cx="0" cy="0" r="35" fill="#9b59b6"/>
+    <text x="0" y="-5" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Dia</text>
+    <text x="0" y="10" font-size="11" text-anchor="middle" fill="white">$20/月</text>
+    <text x="0" y="70" font-size="10" text-anchor="middle" fill="#2c3e50">カスタムスキル</text>
+    <text x="0" y="85" font-size="10" text-anchor="middle" fill="#2c3e50">履歴横断検索</text>
+  </g>
+  
+  <!-- トレードオフの説明 -->
+  <g id="tradeoff">
+    <rect x="50" y="540" width="700" height="50" fill="#fff" stroke="#e74c3c" stroke-width="2" rx="5"/>
+    <text x="400" y="560" font-size="12" font-weight="bold" text-anchor="middle" fill="#c0392b">
+      重要なトレードオフ
+    </text>
+    <text x="400" y="578" font-size="11" text-anchor="middle" fill="#2c3e50">
+      自律性が高い ≒ セキュリティリスクが高い（間接プロンプトインジェクション攻撃）
+    </text>
+  </g>
+  
+  <!-- 推奨ペルソナ -->
+  <g id="personas">
+    <rect x="50" y="50" width="150" height="200" fill="#ecf0f1" stroke="#3498db" stroke-width="2" rx="5"/>
+    <text x="125" y="70" font-size="12" font-weight="bold" text-anchor="middle" fill="#2c3e50">推奨ペルソナ</text>
+    
+    <text x="60" y="95" font-size="10" font-weight="bold" fill="#e74c3c">Comet:</text>
+    <text x="60" y="110" font-size="9" fill="#34495e">一般ビジネスユーザー</text>
+    
+    <text x="60" y="135" font-size="10" font-weight="bold" fill="#f39c12">Genspark:</text>
+    <text x="60" y="150" font-size="9" fill="#34495e">業務自動化担当者</text>
+    
+    <text x="60" y="175" font-size="10" font-weight="bold" fill="#3498db">Atlas:</text>
+    <text x="60" y="190" font-size="9" fill="#34495e">ChatGPT Plusユーザー</text>
+    
+    <text x="60" y="215" font-size="10" font-weight="bold" fill="#9b59b6">Dia:</text>
+    <text x="60" y="230" font-size="9" fill="#34495e">開発者・パワーユーザー</text>
+  </g>
+  
+  <!-- 矢印と注釈 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+    </marker>
+  </defs>
+  
+  <line x1="580" y1="250" x2="580" y2="280" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="620" y="270" font-size="9" fill="#c0392b">最大の</text>
+  <text x="620" y="282" font-size="9" fill="#c0392b">リスク</text>
+</svg>
