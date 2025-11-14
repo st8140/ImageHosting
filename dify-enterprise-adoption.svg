@@ -1,0 +1,163 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Difyが日本企業に選ばれる理由
+  </text>
+  
+  <!-- 従来の課題セクション -->
+  <g id="problem">
+    <rect x="50" y="60" width="700" height="100" fill="#ffe6e6" stroke="#e74c3c" stroke-width="2" rx="5"/>
+    <text x="400" y="85" font-size="18" font-weight="bold" text-anchor="middle" fill="#c0392b">
+      従来の二律背反
+    </text>
+    
+    <!-- セキュリティ重視 -->
+    <g transform="translate(100, 100)">
+      <circle cx="0" cy="0" r="25" fill="#e74c3c"/>
+      <text x="0" y="5" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+        セキュリティ
+      </text>
+      <text x="0" y="40" font-size="11" text-anchor="middle" fill="#2c3e50">
+        データ流出リスク
+      </text>
+    </g>
+    
+    <!-- VS -->
+    <text x="400" y="120" font-size="20" font-weight="bold" text-anchor="middle" fill="#7f8c8d">
+      VS
+    </text>
+    
+    <!-- 生産性重視 -->
+    <g transform="translate(700, 100)">
+      <circle cx="0" cy="0" r="25" fill="#e67e22"/>
+      <text x="0" y="5" font-size="12" font-weight="bold" text-anchor="middle" fill="white">
+        生産性
+      </text>
+      <text x="0" y="40" font-size="11" text-anchor="middle" fill="#2c3e50">
+        高度な専門技術必要
+      </text>
+    </g>
+  </g>
+  
+  <!-- 解決策: Dify -->
+  <g id="solution">
+    <rect x="250" y="190" width="300" height="80" fill="#27ae60" stroke="#229954" stroke-width="3" rx="10"/>
+    <text x="400" y="220" font-size="22" font-weight="bold" text-anchor="middle" fill="white">
+      Dify
+    </text>
+    <text x="400" y="245" font-size="14" text-anchor="middle" fill="white">
+      オープンソースAI開発プラットフォーム
+    </text>
+  </g>
+  
+  <!-- 特徴 -->
+  <g id="features">
+    <!-- 左側: セキュリティ -->
+    <g transform="translate(50, 300)">
+      <rect x="0" y="0" width="200" height="120" fill="#ecf0f1" stroke="#3498db" stroke-width="2" rx="5"/>
+      <text x="100" y="25" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+        セキュリティ確保
+      </text>
+      <text x="100" y="50" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ オンプレミス構築可能
+      </text>
+      <text x="100" y="70" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ データ完全クローズド
+      </text>
+      <text x="100" y="90" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ 自社LLM連携対応
+      </text>
+    </g>
+    
+    <!-- 中央: 生産性 -->
+    <g transform="translate(275, 300)">
+      <rect x="0" y="0" width="250" height="120" fill="#ecf0f1" stroke="#3498db" stroke-width="2" rx="5"/>
+      <text x="125" y="25" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+        高い生産性
+      </text>
+      <text x="125" y="50" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ ノーコード/ローコード開発
+      </text>
+      <text x="125" y="70" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ AI市民開発を実現
+      </text>
+      <text x="125" y="90" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ 工数削減90%以上の実績
+      </text>
+    </g>
+    
+    <!-- 右側: エージェント機能 -->
+    <g transform="translate(550, 300)">
+      <rect x="0" y="0" width="200" height="120" fill="#ecf0f1" stroke="#3498db" stroke-width="2" rx="5"/>
+      <text x="100" y="25" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+        AIエージェント
+      </text>
+      <text x="100" y="50" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ RAGを超えた自律実行
+      </text>
+      <text x="100" y="70" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ 複数ステップの自動化
+      </text>
+      <text x="100" y="90" font-size="11" text-anchor="middle" fill="#34495e">
+        ✓ 外部ツール連携
+      </text>
+    </g>
+  </g>
+  
+  <!-- 導入企業 -->
+  <g id="adopters">
+    <rect x="50" y="450" width="700" height="130" fill="#fff" stroke="#95a5a6" stroke-width="2" rx="5"/>
+    <text x="400" y="475" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+      主要導入企業
+    </text>
+    
+    <g transform="translate(100, 490)">
+      <circle cx="0" cy="0" r="15" fill="#9b59b6"/>
+      <text x="0" y="5" font-size="10" font-weight="bold" text-anchor="middle" fill="white">R</text>
+      <text x="0" y="30" font-size="11" text-anchor="middle" fill="#2c3e50">リコー</text>
+      <text x="0" y="45" font-size="9" text-anchor="middle" fill="#7f8c8d">ユーザー兼販売</text>
+    </g>
+    
+    <g transform="translate(250, 490)">
+      <circle cx="0" cy="0" r="15" fill="#e74c3c"/>
+      <text x="0" y="5" font-size="10" font-weight="bold" text-anchor="middle" fill="white">C</text>
+      <text x="0" y="30" font-size="11" text-anchor="middle" fill="#2c3e50">CTC</text>
+      <text x="0" y="45" font-size="9" text-anchor="middle" fill="#7f8c8d">3年で30億円目標</text>
+    </g>
+    
+    <g transform="translate(400, 490)">
+      <circle cx="0" cy="0" r="15" fill="#3498db"/>
+      <text x="0" y="5" font-size="10" font-weight="bold" text-anchor="middle" fill="white">N</text>
+      <text x="0" y="30" font-size="11" text-anchor="middle" fill="#2c3e50">NTTデータ</text>
+      <text x="0" y="45" font-size="9" text-anchor="middle" fill="#7f8c8d">Dify協会設立</text>
+    </g>
+    
+    <g transform="translate(550, 490)">
+      <circle cx="0" cy="0" r="15" fill="#f39c12"/>
+      <text x="0" y="5" font-size="10" font-weight="bold" text-anchor="middle" fill="white">J</text>
+      <text x="0" y="30" font-size="11" text-anchor="middle" fill="#2c3e50">JEC</text>
+      <text x="0" y="45" font-size="9" text-anchor="middle" fill="#7f8c8d">標準化推進</text>
+    </g>
+    
+    <g transform="translate(700, 490)">
+      <circle cx="0" cy="0" r="15" fill="#16a085"/>
+      <text x="0" y="5" font-size="10" font-weight="bold" text-anchor="middle" fill="white">F</text>
+      <text x="0" y="30" font-size="11" text-anchor="middle" fill="#2c3e50">FLINTERS</text>
+      <text x="0" y="45" font-size="9" text-anchor="middle" fill="#7f8c8d">工数削減96%達成</text>
+    </g>
+  </g>
+  
+  <!-- 矢印 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+    </marker>
+  </defs>
+  <line x1="400" y1="170" x2="400" y2="185" stroke="#27ae60" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="280" x2="150" y2="295" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="280" x2="400" y2="295" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="280" x2="650" y2="295" stroke="#3498db" stroke-width="2" marker-end="url(#arrowhead)"/>
+</svg>
