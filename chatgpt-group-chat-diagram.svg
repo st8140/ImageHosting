@@ -1,0 +1,114 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    ChatGPTグループチャット機能
+  </text>
+  
+  <!-- Main Feature Section -->
+  <rect x="50" y="70" width="700" height="120" fill="#4a90e2" rx="10"/>
+  <text x="400" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    複数ユーザー + AI による共同作業
+  </text>
+  <text x="400" y="140" font-size="14" text-anchor="middle" fill="white">
+    リアルタイムで議論を共有し、AIが即座に回答・整理
+  </text>
+  <text x="400" y="165" font-size="12" text-anchor="middle" fill="#e0e0e0">
+    提供地域: 日本、韓国、台湾、ニュージーランド (パイロット版)
+  </text>
+  
+  <!-- Four Benefits -->
+  <text x="400" y="220" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    企業が得られる4つのメリット
+  </text>
+  
+  <!-- Benefit 1 -->
+  <rect x="50" y="240" width="160" height="120" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2" rx="8"/>
+  <text x="130" y="270" font-size="14" font-weight="bold" text-anchor="middle" fill="#4a90e2">
+    1. 会議の効率化
+  </text>
+  <text x="130" y="295" font-size="11" text-anchor="middle" fill="#333">
+    即座に補足情報を提示
+  </text>
+  <text x="130" y="315" font-size="11" text-anchor="middle" fill="#333">
+    議事録を自動作成
+  </text>
+  <text x="130" y="335" font-size="11" text-anchor="middle" fill="#333">
+    意思決定が加速
+  </text>
+  
+  <!-- Benefit 2 -->
+  <rect x="230" y="240" width="160" height="120" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2" rx="8"/>
+  <text x="310" y="270" font-size="14" font-weight="bold" text-anchor="middle" fill="#4a90e2">
+    2. 合意形成の高速化
+  </text>
+  <text x="310" y="295" font-size="11" text-anchor="middle" fill="#333">
+    全員が同じ画面を共有
+  </text>
+  <text x="310" y="315" font-size="11" text-anchor="middle" fill="#333">
+    情報の断片化を防止
+  </text>
+  <text x="310" y="335" font-size="11" text-anchor="middle" fill="#333">
+    追加説明が不要に
+  </text>
+  
+  <!-- Benefit 3 -->
+  <rect x="410" y="240" width="160" height="120" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2" rx="8"/>
+  <text x="490" y="270" font-size="14" font-weight="bold" text-anchor="middle" fill="#4a90e2">
+    3. 属人化の防止
+  </text>
+  <text x="490" y="295" font-size="11" text-anchor="middle" fill="#333">
+    会話履歴を記録保存
+  </text>
+  <text x="490" y="315" font-size="11" text-anchor="middle" fill="#333">
+    AIが要点を整理
+  </text>
+  <text x="490" y="335" font-size="11" text-anchor="middle" fill="#333">
+    引き継ぎが容易に
+  </text>
+  
+  <!-- Benefit 4 -->
+  <rect x="590" y="240" width="160" height="120" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2" rx="8"/>
+  <text x="670" y="270" font-size="14" font-weight="bold" text-anchor="middle" fill="#4a90e2">
+    4. ナレッジ化の加速
+  </text>
+  <text x="670" y="295" font-size="11" text-anchor="middle" fill="#333">
+    タスク・リスクを抽出
+  </text>
+  <text x="670" y="315" font-size="11" text-anchor="middle" fill="#333">
+    ドキュメント化を支援
+  </text>
+  <text x="670" y="335" font-size="11" text-anchor="middle" fill="#333">
+    蓄積工数を削減
+  </text>
+  
+  <!-- Attention Points -->
+  <text x="400" y="400" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    導入時の注意点
+  </text>
+  
+  <rect x="80" y="420" width="320" height="130" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="8"/>
+  <text x="240" y="445" font-size="13" font-weight="bold" text-anchor="middle" fill="#856404">
+    運用ルールの整備が必須
+  </text>
+  <text x="90" y="470" font-size="11" fill="#856404">• アクセス権と情報持ち込み基準</text>
+  <text x="90" y="490" font-size="11" fill="#856404">• 発言ログや判断過程の扱い</text>
+  <text x="90" y="510" font-size="11" fill="#856404">• 既存ツールとの役割分担</text>
+  <text x="90" y="530" font-size="11" fill="#856404">• コンプライアンス・セキュリティ対応</text>
+  
+  <rect x="420" y="420" width="300" height="130" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="8"/>
+  <text x="570" y="445" font-size="13" font-weight="bold" text-anchor="middle" fill="#155724">
+    実用化の見通し
+  </text>
+  <text x="430" y="470" font-size="11" fill="#155724">• 2025年11月現在パイロット版</text>
+  <text x="430" y="490" font-size="11" fill="#155724">• 正式リリース時期は未発表</text>
+  <text x="430" y="510" font-size="11" fill="#155724">• 企業向けプランとの統合を示唆</text>
+  <text x="430" y="530" font-size="11" fill="#155724">• 数ヶ月〜半年での一般提供の可能性</text>
+  
+  <!-- Bottom Note -->
+  <text x="400" y="580" font-size="12" text-anchor="middle" fill="#666">
+    パイロット段階で自社業務への適合性を見極める好機
+  </text>
+</svg>
