@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285f4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34a853;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#202124">Gemini 3の革新</text>
+  <text x="400" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#5f6368">AIエージェント時代のリーダー</text>
+  
+  <!-- Center Circle - Gemini 3 -->
+  <circle cx="400" cy="250" r="80" fill="url(#grad1)" filter="url(#shadow)"/>
+  <text x="400" y="245" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">Gemini 3</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">スコア: 73</text>
+  
+  <!-- Feature 1: Performance -->
+  <g transform="translate(150, 120)">
+    <rect x="0" y="0" width="150" height="100" rx="10" fill="#4285f4" opacity="0.9" filter="url(#shadow)"/>
+    <text x="75" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">世界1位の性能</text>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">前モデル比</text>
+    <text x="75" y="75" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">+21.7%</text>
+    <text x="75" y="92" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">60→73点</text>
+  </g>
+  
+  <!-- Feature 2: Deep Think -->
+  <g transform="translate(500, 120)">
+    <rect x="0" y="0" width="150" height="100" rx="10" fill="#ea4335" opacity="0.9" filter="url(#shadow)"/>
+    <text x="75" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Deep Think</text>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">ARC-AGI-2</text>
+    <text x="75" y="75" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">45.1%</text>
+    <text x="75" y="92" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">他モデルの2倍以上</text>
+  </g>
+  
+  <!-- Feature 3: Agent -->
+  <g transform="translate(150, 380)">
+    <rect x="0" y="0" width="150" height="100" rx="10" fill="#34a853" opacity="0.9" filter="url(#shadow)"/>
+    <text x="75" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">エージェント機能</text>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Antigravity IDE</text>
+    <text x="75" y="72" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">自律的タスク実行</text>
+    <text x="75" y="90" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">Gmail/Calendar連携</text>
+  </g>
+  
+  <!-- Feature 4: Cost -->
+  <g transform="translate(500, 380)">
+    <rect x="0" y="0" width="150" height="100" rx="10" fill="#fbbc04" opacity="0.9" filter="url(#shadow)"/>
+    <text x="75" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">コスト戦略</text>
+    <text x="75" y="55" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">入力: $2/100万トークン</text>
+    <text x="75" y="72" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">出力: $12/100万トークン</text>
+    <text x="75" y="92" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">高付加価値モデル</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <line x1="320" y1="250" x2="225" y2="200" stroke="#5f6368" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="480" y1="250" x2="575" y2="200" stroke="#5f6368" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="320" y1="250" x2="225" y2="420" stroke="#5f6368" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="480" y1="250" x2="575" y2="420" stroke="#5f6368" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Bottom Stats -->
+  <g transform="translate(0, 520)">
+    <rect x="50" y="0" width="700" height="60" rx="10" fill="#e8f0fe" opacity="0.8"/>
+    <text x="400" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a73e8">主要ベンチマーク成果</text>
+    <text x="200" y="45" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#202124">AIME 2025: 100%</text>
+    <text x="400" y="45" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#202124">ScreenSpot-Pro: 72.7%</text>
+    <text x="600" y="45" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#202124">Web開発: +280pt</text>
+  </g>
+</svg>
