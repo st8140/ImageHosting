@@ -1,0 +1,89 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="450" y="35" text-anchor="middle" font-size="26" font-weight="bold" fill="#1a1a1a">
+    GPT-5.1 vs Gemini 3 徹底比較
+  </text>
+  
+  <!-- 2つのモデル概要 -->
+  <g>
+    <!-- GPT-5.1 -->
+    <rect x="40" y="60" width="390" height="130" fill="#10a37f" rx="8"/>
+    <text x="235" y="85" text-anchor="middle" font-size="20" font-weight="bold" fill="white">GPT-5.1 (OpenAI)</text>
+    <text x="55" y="110" font-size="12" fill="white">✓ 柔軟な自然言語処理</text>
+    <text x="55" y="130" font-size="12" fill="white">✓ 高品質な長文生成</text>
+    <text x="55" y="150" font-size="12" fill="white">✓ Projects/Tasksでワークフロー管理</text>
+    <text x="55" y="170" font-size="12" fill="white">✓ 企業内業務自動化に強み</text>
+    
+    <!-- Gemini 3 -->
+    <rect x="470" y="60" width="390" height="130" fill="#4285f4" rx="8"/>
+    <text x="665" y="85" text-anchor="middle" font-size="20" font-weight="bold" fill="white">Gemini 3 (Google)</text>
+    <text x="485" y="110" font-size="12" fill="white">✓ ネイティブマルチモーダル処理</text>
+    <text x="485" y="130" font-size="12" fill="white">✓ 画像・音声・動画の統合理解</text>
+    <text x="485" y="150" font-size="12" fill="white">✓ 動的レイアウト・UI生成</text>
+    <text x="485" y="170" font-size="12" fill="white">✓ Google製品との深い連携</text>
+  </g>
+  
+  <!-- 性能比較 -->
+  <text x="40" y="230" font-size="18" font-weight="bold" fill="#1a1a1a">性能比較</text>
+  
+  <g font-size="11">
+    <!-- 推論性能 -->
+    <rect x="40" y="245" width="820" height="45" fill="#fff" stroke="#ddd" stroke-width="1" rx="4"/>
+    <text x="55" y="263" font-weight="bold">推論性能</text>
+    <text x="55" y="280" fill="#10a37f">GPT-5.1: 安定性と回答精度に優れる</text>
+    <text x="455" y="280" fill="#4285f4">Gemini 3: LMArena首位の推論力</text>
+    
+    <!-- マルチモーダル -->
+    <rect x="40" y="295" width="820" height="45" fill="#fff" stroke="#ddd" stroke-width="1" rx="4"/>
+    <text x="55" y="313" font-weight="bold">マルチモーダル</text>
+    <text x="55" y="330" fill="#10a37f">GPT-5.1: 画像入力対応</text>
+    <text x="455" y="330" fill="#4285f4">Gemini 3: 動画・音声・画像の統合処理</text>
+    
+    <!-- コーディング -->
+    <rect x="40" y="345" width="820" height="45" fill="#fff" stroke="#ddd" stroke-width="1" rx="4"/>
+    <text x="55" y="363" font-weight="bold">コーディング能力</text>
+    <text x="55" y="380" fill="#10a37f">GPT-5.1: 大規模コードの構造理解力</text>
+    <text x="455" y="380" fill="#4285f4">Gemini 3: UI生成・アプリ原型作成</text>
+  </g>
+  
+  <!-- 価格比較 -->
+  <text x="40" y="425" font-size="18" font-weight="bold" fill="#1a1a1a">API価格比較（100万トークンあたり）</text>
+  
+  <g>
+    <rect x="40" y="440" width="390" height="80" fill="#e8f5e9" stroke="#10a37f" stroke-width="2" rx="5"/>
+    <text x="235" y="460" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">GPT-5.1</text>
+    <text x="55" y="480" font-size="12">入力: $1.25</text>
+    <text x="55" y="500" font-size="12">出力: $10.00</text>
+    <text x="235" y="515" text-anchor="middle" font-size="11" fill="#666">シンプルな料金体系</text>
+    
+    <rect x="470" y="440" width="390" height="80" fill="#e3f2fd" stroke="#4285f4" stroke-width="2" rx="5"/>
+    <text x="665" y="460" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">Gemini 3 Pro</text>
+    <text x="485" y="480" font-size="12">入力: $2.00 / $4.00（長）</text>
+    <text x="485" y="500" font-size="12">出力: $12.00 / $18.00（長）</text>
+    <text x="665" y="515" text-anchor="middle" font-size="11" fill="#666">高付加価値戦略</text>
+  </g>
+  
+  <!-- それぞれの強み -->
+  <text x="40" y="555" font-size="18" font-weight="bold" fill="#1a1a1a">それぞれの強み</text>
+  
+  <g font-size="11">
+    <!-- GPT-5.1の強み -->
+    <rect x="40" y="570" width="390" height="110" fill="#f1f8f4" stroke="#10a37f" stroke-width="1" rx="5"/>
+    <text x="235" y="590" text-anchor="middle" font-size="13" font-weight="bold" fill="#10a37f">GPT-5.1の強み</text>
+    <text x="55" y="610">• 長文生成と高精度な自然言語処理</text>
+    <text x="55" y="628">• Projects/Tasksによる業務管理</text>
+    <text x="55" y="646">• ChatGPT検索の高い事実性</text>
+    <text x="55" y="664">• 複雑な依頼への理解力が高い</text>
+    
+    <!-- Gemini 3の強み -->
+    <rect x="470" y="570" width="390" height="110" fill="#f0f7ff" stroke="#4285f4" stroke-width="1" rx="5"/>
+    <text x="665" y="590" text-anchor="middle" font-size="13" font-weight="bold" fill="#4285f4">Gemini 3の強み</text>
+    <text x="485" y="610">• 真のマルチモーダル処理</text>
+    <text x="485" y="628">• 動的レイアウト・UI自動生成</text>
+    <text x="485" y="646">• AI Modeで画像・表を自動生成</text>
+    <text x="485" y="664">• Gemini Agentによる高度な自動化</text>
+  </g>
+</svg>
