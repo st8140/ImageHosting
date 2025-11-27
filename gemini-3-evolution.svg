@@ -1,0 +1,106 @@
+<svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="650" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">
+    Google Gemini 3の主要進化ポイント
+  </text>
+  
+  <!-- 4つの技術進化 -->
+  <text x="50" y="75" font-size="16" font-weight="bold" fill="#4285f4">技術進化の4本柱</text>
+  
+  <!-- 1. マルチモーダル -->
+  <rect x="50" y="90" width="160" height="110" fill="#4285f4" rx="8"/>
+  <text x="130" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="white">マルチモーダル</text>
+  <text x="130" y="130" text-anchor="middle" font-size="11" fill="white">テキスト・画像・</text>
+  <text x="130" y="145" text-anchor="middle" font-size="11" fill="white">音声を同時処理</text>
+  <text x="130" y="165" text-anchor="middle" font-size="11" fill="white">📄 🖼️ 🔊</text>
+  <text x="130" y="185" text-anchor="middle" font-size="10" fill="white">統合理解力向上</text>
+  
+  <!-- 2. 視覚生成 -->
+  <rect x="230" y="90" width="160" height="110" fill="#ea4335" rx="8"/>
+  <text x="310" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="white">視覚生成能力</text>
+  <text x="310" y="130" text-anchor="middle" font-size="11" fill="white">動的UI・レイアウト</text>
+  <text x="310" y="145" text-anchor="middle" font-size="11" fill="white">自動生成</text>
+  <text x="310" y="165" text-anchor="middle" font-size="11" fill="white">📊 🎨 📱</text>
+  <text x="310" y="185" text-anchor="middle" font-size="10" fill="white">資料作成自動化</text>
+  
+  <!-- 3. 検索強化 -->
+  <rect x="410" y="90" width="160" height="110" fill="#fbbc04" rx="8"/>
+  <text x="490" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="white">検索アルゴリズム</text>
+  <text x="490" y="130" text-anchor="middle" font-size="11" fill="white">Query Fan-out</text>
+  <text x="490" y="145" text-anchor="middle" font-size="11" fill="white">技術強化</text>
+  <text x="490" y="165" text-anchor="middle" font-size="11" fill="white">🔍 🎯 📈</text>
+  <text x="490" y="185" text-anchor="middle" font-size="10" fill="white">意図推定精度向上</text>
+  
+  <!-- 4. エージェント -->
+  <rect x="590" y="90" width="160" height="110" fill="#34a853" rx="8"/>
+  <text x="670" y="110" text-anchor="middle" font-size="14" font-weight="bold" fill="white">エージェント実行</text>
+  <text x="670" y="130" text-anchor="middle" font-size="11" fill="white">複数ステップの</text>
+  <text x="670" y="145" text-anchor="middle" font-size="11" fill="white">自動タスク実行</text>
+  <text x="670" y="165" text-anchor="middle" font-size="11" fill="white">🤖 ⚙️ ✅</text>
+  <text x="670" y="185" text-anchor="middle" font-size="10" fill="white">業務自動化</text>
+  
+  <!-- Google製品群での活用 -->
+  <text x="50" y="240" font-size="16" font-weight="bold" fill="#1a1a1a">Google製品群での活用シーン</text>
+  
+  <g>
+    <!-- Geminiアプリ -->
+    <rect x="50" y="255" width="220" height="85" fill="#e8f0fe" stroke="#4285f4" stroke-width="2" rx="5"/>
+    <text x="160" y="275" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Geminiアプリ</text>
+    <text x="60" y="295" font-size="11" fill="#333">• Canvas内で資料一括生成</text>
+    <text x="60" y="310" font-size="11" fill="#333">• 動くプロトタイプ生成</text>
+    <text x="60" y="325" font-size="11" fill="#333">• 図解付き総合レポート</text>
+    
+    <!-- Gemini Labs -->
+    <rect x="290" y="255" width="220" height="85" fill="#fef7e0" stroke="#fbbc04" stroke-width="2" rx="5"/>
+    <text x="400" y="275" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">Gemini Labs</text>
+    <text x="300" y="295" font-size="11" fill="#333">• 生成インターフェース</text>
+    <text x="300" y="310" font-size="11" fill="#333">• 雑誌風レイアウト生成</text>
+    <text x="300" y="325" font-size="11" fill="#333">• デザイン性の高い成果物</text>
+    
+    <!-- AI Mode -->
+    <rect x="530" y="255" width="220" height="85" fill="#e6f4ea" stroke="#34a853" stroke-width="2" rx="5"/>
+    <text x="640" y="275" text-anchor="middle" font-size="13" font-weight="bold" fill="#1a1a1a">AI Mode（検索）</text>
+    <text x="540" y="295" font-size="11" fill="#333">• 画像・表・グリッド生成</text>
+    <text x="540" y="310" font-size="11" fill="#333">• シミュレーション表示</text>
+    <text x="540" y="325" font-size="11" fill="#333">• 検索=資料作成へ進化</text>
+  </g>
+  
+  <!-- 企業が得られる4つのメリット -->
+  <text x="50" y="375" font-size="16" font-weight="bold" fill="#1a1a1a">企業が得られる4つのメリット</text>
+  
+  <g font-size="12" fill="#333">
+    <circle cx="65" cy="397" r="20" fill="#4285f4"/>
+    <text x="65" y="403" text-anchor="middle" font-size="16" font-weight="bold" fill="white">1</text>
+    <text x="95" y="395" font-weight="bold">企画・分析資料の高速化</text>
+    <text x="95" y="410" font-size="10">資料作成時間を数時間から数分へ短縮</text>
+    
+    <circle cx="65" cy="440" r="20" fill="#ea4335"/>
+    <text x="65" y="446" text-anchor="middle" font-size="16" font-weight="bold" fill="white">2</text>
+    <text x="95" y="438" font-weight="bold">社内ナレッジ活用の深化</text>
+    <text x="95" y="453" font-size="10">異なる形式の情報を統合レポート化</text>
+    
+    <circle cx="65" cy="483" r="20" fill="#fbbc04"/>
+    <text x="65" y="489" text-anchor="middle" font-size="16" font-weight="bold" fill="white">3</text>
+    <text x="95" y="481" font-weight="bold">自動エージェントによる効率化</text>
+    <text x="95" y="496" font-size="10">メール整理・予約・タスク管理の自動化</text>
+    
+    <circle cx="65" cy="526" r="20" fill="#34a853"/>
+    <text x="65" y="532" text-anchor="middle" font-size="16" font-weight="bold" fill="white">4</text>
+    <text x="95" y="524" font-weight="bold">システム開発のスピードアップ</text>
+    <text x="95" y="539" font-size="10">少人数でも高品質な開発が可能に</text>
+  </g>
+  
+  <!-- 注意点 -->
+  <rect x="50" y="560" width="700" height="75" fill="#fff3e0" stroke="#ff9800" stroke-width="2" rx="5"/>
+  <text x="400" y="580" text-anchor="middle" font-size="14" font-weight="bold" fill="#e65100">導入時の4つの注意点</text>
+  <g font-size="10" fill="#333">
+    <text x="60" y="600">⚠️ 生成物の品質確認が必須</text>
+    <text x="250" y="600">⚠️ エージェント実行の権限管理</text>
+    <text x="440" y="600">⚠️ データガバナンス整備</text>
+    <text x="630" y="600">⚠️ コスト管理と最適化</text>
+  </g>
+  <text x="400" y="625" text-anchor="middle" font-size="9" fill="#666">※ リスク管理と運用ルールの整備が成功の鍵</text>
+</svg>
