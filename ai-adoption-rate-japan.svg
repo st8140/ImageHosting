@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">
+    世界と日本のAI導入率比較
+  </text>
+  
+  <!-- 世界平均セクション -->
+  <g>
+    <text x="100" y="100" font-size="18" font-weight="bold" fill="#2c5aa0">世界平均</text>
+    
+    <!-- AI利用企業 -->
+    <rect x="100" y="120" width="312" height="40" fill="#4a90e2" rx="5"/>
+    <text x="260" y="145" text-anchor="middle" font-size="16" font-weight="bold" fill="white">78%</text>
+    <text x="420" y="145" font-size="14" fill="#333">AI利用企業</text>
+  </g>
+  
+  <!-- 日本セクション -->
+  <g>
+    <text x="100" y="200" font-size="18" font-weight="bold" fill="#c62828">日本</text>
+    
+    <!-- AI利用企業 -->
+    <rect x="100" y="220" width="204" height="40" fill="#ef5350" rx="5"/>
+    <text x="202" y="245" text-anchor="middle" font-size="16" font-weight="bold" fill="white">51%</text>
+    <text x="310" y="245" font-size="14" fill="#333">AI利用企業</text>
+    
+    <!-- 活用方針策定企業 -->
+    <rect x="100" y="270" width="171" height="40" fill="#ff8a80" rx="5"/>
+    <text x="185" y="295" text-anchor="middle" font-size="16" font-weight="bold" fill="white">42.7%</text>
+    <text x="280" y="295" font-size="14" fill="#333">活用方針策定済み</text>
+  </g>
+  
+  <!-- 主要国比較 -->
+  <text x="100" y="350" font-size="18" font-weight="bold" fill="#1a1a1a">主要国の活用方針策定率</text>
+  
+  <g>
+    <!-- アメリカ -->
+    <text x="100" y="380" font-size="14" fill="#333">🇺🇸 アメリカ</text>
+    <rect x="200" y="365" width="360" height="25" fill="#4caf50" rx="3"/>
+    <text x="380" y="383" text-anchor="middle" font-size="13" font-weight="bold" fill="white">90%以上</text>
+    
+    <!-- 中国 -->
+    <text x="100" y="415" font-size="14" fill="#333">🇨🇳 中国</text>
+    <rect x="200" y="400" width="360" height="25" fill="#4caf50" rx="3"/>
+    <text x="380" y="418" text-anchor="middle" font-size="13" font-weight="bold" fill="white">90%以上</text>
+    
+    <!-- ドイツ -->
+    <text x="100" y="450" font-size="14" fill="#333">🇩🇪 ドイツ</text>
+    <rect x="200" y="435" width="360" height="25" fill="#4caf50" rx="3"/>
+    <text x="380" y="453" text-anchor="middle" font-size="13" font-weight="bold" fill="white">90%以上</text>
+    
+    <!-- 日本 -->
+    <text x="100" y="485" font-size="14" fill="#333">🇯🇵 日本</text>
+    <rect x="200" y="470" width="171" height="25" fill="#ef5350" rx="3"/>
+    <text x="285" y="488" text-anchor="middle" font-size="13" font-weight="bold" fill="white">42.7%</text>
+  </g>
+  
+  <!-- 遅れの5つの理由 -->
+  <text x="100" y="540" font-size="16" font-weight="bold" fill="#1a1a1a">日本企業でAI導入が遅れる5つの理由</text>
+  
+  <g font-size="12" fill="#555">
+    <text x="110" y="560">① AI人材の不足</text>
+    <text x="240" y="560">② ユースケース不明確</text>
+    <text x="400" y="560">③ ROI不透明</text>
+    <text x="110" y="580">④ セキュリティへの不安</text>
+    <text x="280" y="580">⑤ 組織文化と意思決定の遅さ</text>
+  </g>
+</svg>
