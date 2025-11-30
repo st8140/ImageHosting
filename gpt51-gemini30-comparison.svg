@@ -1,0 +1,120 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GPT-5.1 vs Gemini 3.0 戦略比較
+  </text>
+  
+  <!-- OpenAI側 (左) -->
+  <g id="openai-section">
+    <rect x="40" y="80" width="340" height="480" fill="#74aa9c" rx="10" opacity="0.15"/>
+    
+    <!-- OpenAIロゴエリア -->
+    <circle cx="210" cy="120" r="30" fill="#10a37f"/>
+    <text x="210" y="128" font-size="20" font-weight="bold" text-anchor="middle" fill="white">GPT</text>
+    <text x="210" y="165" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">GPT-5.1</text>
+    
+    <!-- 戦略: ユーティリティ -->
+    <text x="210" y="200" font-size="14" font-weight="bold" text-anchor="middle" fill="#10a37f">「信頼できる同僚」</text>
+    
+    <!-- 特徴リスト -->
+    <g transform="translate(60, 220)">
+      <!-- 適応型推論 -->
+      <circle cx="5" cy="5" r="4" fill="#10a37f"/>
+      <text x="20" y="10" font-size="13" fill="#1a1a1a">適応型推論</text>
+      <text x="20" y="26" font-size="11" fill="#666">(タスクに応じて思考を最適化)</text>
+      
+      <!-- 価格 -->
+      <circle cx="5" cy="55" r="4" fill="#10a37f"/>
+      <text x="20" y="60" font-size="13" font-weight="bold" fill="#1a1a1a">$1.25/100万トークン</text>
+      <text x="20" y="76" font-size="11" fill="#666">(競合比60%オフ)</text>
+      
+      <!-- ターゲット -->
+      <circle cx="5" cy="105" r="4" fill="#10a37f"/>
+      <text x="20" y="110" font-size="13" fill="#1a1a1a">日常業務の自動化</text>
+      <text x="20" y="126" font-size="11" fill="#666">・顧客対応</text>
+      <text x="20" y="140" font-size="11" fill="#666">・既存システム保守</text>
+      
+      <!-- UX -->
+      <circle cx="5" cy="165" r="4" fill="#10a37f"/>
+      <text x="20" y="170" font-size="13" fill="#1a1a1a">会話の質重視</text>
+      <text x="20" y="186" font-size="11" fill="#666">・温かみと親しみやすさ</text>
+      <text x="20" y="200" font-size="11" fill="#666">・スーパーコンパニオン</text>
+      
+      <!-- 開発 -->
+      <circle cx="5" cy="225" r="4" fill="#10a37f"/>
+      <text x="20" y="230" font-size="13" fill="#1a1a1a">Codex-Max</text>
+      <text x="20" y="246" font-size="11" fill="#666">・既存コード保守に強い</text>
+      <text x="20" y="260" font-size="11" fill="#666">・apply_patchツール</text>
+    </g>
+  </g>
+  
+  <!-- Google側 (右) -->
+  <g id="google-section">
+    <rect x="420" y="80" width="340" height="480" fill="#4285f4" rx="10" opacity="0.15"/>
+    
+    <!-- Googleロゴエリア -->
+    <circle cx="590" cy="120" r="30" fill="#4285f4"/>
+    <text x="590" y="128" font-size="18" font-weight="bold" text-anchor="middle" fill="white">GEM</text>
+    <text x="590" y="165" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Gemini 3.0</text>
+    
+    <!-- 戦略: プレミアム -->
+    <text x="590" y="200" font-size="14" font-weight="bold" text-anchor="middle" fill="#4285f4">「天才科学者」</text>
+    
+    <!-- 特徴リスト -->
+    <g transform="translate(440, 220)">
+      <!-- 並列思考 -->
+      <circle cx="5" cy="5" r="4" fill="#4285f4"/>
+      <text x="20" y="10" font-size="13" fill="#1a1a1a">並列思考 (Deep Think)</text>
+      <text x="20" y="26" font-size="11" fill="#666">(複数の思考ルートを同時検証)</text>
+      
+      <!-- 価格 -->
+      <circle cx="5" cy="55" r="4" fill="#4285f4"/>
+      <text x="20" y="60" font-size="13" font-weight="bold" fill="#1a1a1a">プレミアム価格</text>
+      <text x="20" y="76" font-size="11" fill="#666">(GPT-5.1の約2倍)</text>
+      
+      <!-- ターゲット -->
+      <circle cx="5" cy="105" r="4" fill="#4285f4"/>
+      <text x="20" y="110" font-size="13" fill="#1a1a1a">高付加価値創造</text>
+      <text x="20" y="126" font-size="11" fill="#666">・科学的研究開発</text>
+      <text x="20" y="140" font-size="11" fill="#666">・複雑なデータ分析</text>
+      
+      <!-- UX -->
+      <circle cx="5" cy="165" r="4" fill="#4285f4"/>
+      <text x="20" y="170" font-size="13" fill="#1a1a1a">ジェネレーティブUI</text>
+      <text x="20" y="186" font-size="11" fill="#666">・インタラクティブなUI生成</text>
+      <text x="20" y="200" font-size="11" fill="#666">・地図、グラフ、アプリ生成</text>
+      
+      <!-- 開発 -->
+      <circle cx="5" cy="225" r="4" fill="#4285f4"/>
+      <text x="20" y="230" font-size="13" fill="#1a1a1a">Vibe Coding</text>
+      <text x="20" y="246" font-size="11" fill="#666">・ゼロからの開発に強い</text>
+      <text x="20" y="260" font-size="11" fill="#666">・競技プログラミングで優位</text>
+    </g>
+  </g>
+  
+  <!-- 中央の対比矢印 -->
+  <line x1="385" y1="320" x2="415" y1="320" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="415" y1="320" x2="385" y1="320" stroke="#666" stroke-width="2" marker-start="url(#arrowhead2)"/>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 結論エリア -->
+  <rect x="40" y="520" width="720" height="60" fill="#fff3cd" rx="5" stroke="#ffc107" stroke-width="2"/>
+  <text x="400" y="545" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    選択基準: 日常業務の効率化 → GPT-5.1 | 革新的な創造・R&D → Gemini 3.0
+  </text>
+  <text x="400" y="565" font-size="12" text-anchor="middle" fill="#666">
+    「汎用最強モデル」は終焉。目的別選択の時代へ
+  </text>
+</svg>
