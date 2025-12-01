@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">SharePoint AI検索の仕組み</text>
+  
+  <!-- SharePoint Online -->
+  <rect x="50" y="80" width="180" height="100" fill="#0078d4" stroke="#005a9e" stroke-width="2" rx="5"/>
+  <text x="140" y="115" font-size="16" font-weight="bold" fill="white" text-anchor="middle">SharePoint Online</text>
+  <text x="140" y="140" font-size="12" fill="white" text-anchor="middle">文書・資料</text>
+  <text x="140" y="160" font-size="12" fill="white" text-anchor="middle">社内ナレッジ</text>
+  
+  <!-- 矢印1: SharePoint → Azure AI Search -->
+  <path d="M 230 130 L 290 130" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="260" y="120" font-size="11" fill="#34495e" text-anchor="middle">インデックス化</text>
+  
+  <!-- Azure AI Search -->
+  <rect x="290" y="80" width="180" height="100" fill="#00a4ef" stroke="#0078d4" stroke-width="2" rx="5"/>
+  <text x="380" y="115" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Azure AI Search</text>
+  <text x="380" y="140" font-size="12" fill="white" text-anchor="middle">ベクトル化</text>
+  <text x="380" y="160" font-size="12" fill="white" text-anchor="middle">類似度検索</text>
+  
+  <!-- 矢印2: Azure AI Search → Azure OpenAI -->
+  <path d="M 380 180 L 380 240" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="420" y="210" font-size="11" fill="#34495e">検索結果</text>
+  
+  <!-- Azure OpenAI -->
+  <rect x="290" y="240" width="180" height="100" fill="#10a37f" stroke="#0d8c6c" stroke-width="2" rx="5"/>
+  <text x="380" y="275" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Azure OpenAI</text>
+  <text x="380" y="300" font-size="12" fill="white" text-anchor="middle">RAG処理</text>
+  <text x="380" y="320" font-size="12" fill="white" text-anchor="middle">回答生成</text>
+  
+  <!-- ユーザー -->
+  <circle cx="140" cy="290" r="40" fill="#95a5a6" stroke="#7f8c8d" stroke-width="2"/>
+  <text x="140" y="300" font-size="14" font-weight="bold" fill="white" text-anchor="middle">ユーザー</text>
+  
+  <!-- 矢印3: ユーザー → Azure OpenAI -->
+  <path d="M 180 290 L 290 290" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="235" y="280" font-size="11" fill="#34495e" text-anchor="middle">自然言語で質問</text>
+  
+  <!-- 矢印4: Azure OpenAI → ユーザー -->
+  <path d="M 290 300 L 180 300" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="235" y="320" font-size="11" fill="#34495e" text-anchor="middle">回答+引用元</text>
+  
+  <!-- セキュリティ機能 -->
+  <rect x="530" y="80" width="220" height="260" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2" rx="5"/>
+  <text x="640" y="110" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">セキュリティ・統制機能</text>
+  
+  <rect x="550" y="130" width="180" height="30" fill="#3498db" stroke="#2980b9" stroke-width="1" rx="3"/>
+  <text x="640" y="150" font-size="12" fill="white" text-anchor="middle">権限制御・SSO連携</text>
+  
+  <rect x="550" y="170" width="180" height="30" fill="#e74c3c" stroke="#c0392b" stroke-width="1" rx="3"/>
+  <text x="640" y="190" font-size="12" fill="white" text-anchor="middle">ブロックキーワード</text>
+  
+  <rect x="550" y="210" width="180" height="30" fill="#f39c12" stroke="#d68910" stroke-width="1" rx="3"/>
+  <text x="640" y="230" font-size="12" fill="white" text-anchor="middle">チャット禁止ユーザー</text>
+  
+  <rect x="550" y="250" width="180" height="30" fill="#9b59b6" stroke="#8e44ad" stroke-width="1" rx="3"/>
+  <text x="640" y="270" font-size="12" fill="white" text-anchor="middle">監査ログ</text>
+  
+  <rect x="550" y="290" width="180" height="30" fill="#16a085" stroke="#138d75" stroke-width="1" rx="3"/>
+  <text x="640" y="310" font-size="12" fill="white" text-anchor="middle">学習データ不使用保証</text>
+  
+  <!-- 主要メリット -->
+  <rect x="50" y="400" width="700" height="170" fill="white" stroke="#95a5a6" stroke-width="2" rx="5"/>
+  <text x="400" y="430" font-size="18" font-weight="bold" fill="#2c3e50" text-anchor="middle">主要メリット</text>
+  
+  <!-- メリット1 -->
+  <circle cx="120" cy="470" r="8" fill="#27ae60"/>
+  <text x="140" y="475" font-size="13" fill="#2c3e50">ユーザーライセンス追加不要（従量課金制）</text>
+  
+  <!-- メリット2 -->
+  <circle cx="120" cy="500" r="8" fill="#27ae60"/>
+  <text x="140" y="505" font-size="13" fill="#2c3e50">自然言語による横断検索が可能</text>
+  
+  <!-- メリット3 -->
+  <circle cx="120" cy="530" r="8" fill="#27ae60"/>
+  <text x="140" y="535" font-size="13" fill="#2c3e50">Copilotより低コストでスモールスタート可能</text>
+  
+  <!-- メリット4 -->
+  <circle cx="420" cy="470" r="8" fill="#27ae60"/>
+  <text x="440" y="475" font-size="13" fill="#2c3e50">既存のSharePoint権限体系をそのまま活用</text>
+  
+  <!-- メリット5 -->
+  <circle cx="420" cy="500" r="8" fill="#27ae60"/>
+  <text x="440" y="505" font-size="13" fill="#2c3e50">段階的なAI導入が可能（PoC→本番展開）</text>
+  
+  <!-- メリット6 -->
+  <circle cx="420" cy="530" r="8" fill="#27ae60"/>
+  <text x="440" y="535" font-size="13" fill="#2c3e50">エンタープライズグレードのセキュリティ</text>
+  
+  <!-- 矢印マーカー定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#34495e"/>
+    </marker>
+  </defs>
+</svg>
