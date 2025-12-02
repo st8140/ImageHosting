@@ -1,0 +1,145 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    SharePoint AI検索ソリューション比較
+  </text>
+  <text x="400" y="58" font-size="13" text-anchor="middle" fill="#666">
+    Custom RAG vs Microsoft 365 Copilot
+  </text>
+  
+  <!-- 左側: Custom RAG -->
+  <rect x="40" y="90" width="330" height="560" fill="#0078d4" rx="10"/>
+  <text x="205" y="120" font-size="19" font-weight="bold" text-anchor="middle" fill="white">
+    Custom RAG
+  </text>
+  <text x="205" y="140" font-size="12" text-anchor="middle" fill="#b3d9ff">
+    Azure AI Search + Azure OpenAI
+  </text>
+  
+  <!-- Custom RAG の特徴 -->
+  <g transform="translate(60, 160)">
+    <!-- アーキテクチャ -->
+    <rect x="0" y="0" width="290" height="90" fill="#005a9e" rx="5"/>
+    <text x="10" y="20" font-size="13" font-weight="bold" fill="white">アーキテクチャ構成</text>
+    <text x="10" y="38" font-size="11" fill="#b3d9ff">• SharePoint + MySQL + 外部API統合</text>
+    <text x="10" y="54" font-size="11" fill="#b3d9ff">• ベクトル検索 + キーワード検索</text>
+    <text x="10" y="70" font-size="11" fill="#b3d9ff">• GPT-4o等のモデル選択可能</text>
+    <text x="10" y="86" font-size="11" fill="#b3d9ff">• 完全カスタマイズ可能</text>
+    
+    <!-- カスタマイズ性 -->
+    <rect x="0" y="105" width="290" height="70" fill="#005a9e" rx="5"/>
+    <text x="10" y="125" font-size="13" font-weight="bold" fill="white">柔軟性 ★★★</text>
+    <text x="10" y="143" font-size="11" fill="#b3d9ff">• チャンクサイズ調整可能</text>
+    <text x="10" y="159" font-size="11" fill="#b3d9ff">• プロンプト完全制御</text>
+    <text x="10" y="175" font-size="11" fill="#b3d9ff">• UI/UX自由設計</text>
+    
+    <!-- コスト -->
+    <rect x="0" y="190" width="290" height="85" fill="#005a9e" rx="5"/>
+    <text x="10" y="210" font-size="13" font-weight="bold" fill="white">コスト ★★★</text>
+    <text x="10" y="228" font-size="11" fill="#b3d9ff">• 月額10〜20万円から</text>
+    <text x="10" y="244" font-size="11" fill="#b3d9ff">• Azure従量課金</text>
+    <text x="10" y="260" font-size="11" fill="#b3d9ff">• 利用者数に依存しない</text>
+    <text x="10" y="276" font-size="11" fill="#b3d9ff">• 部門限定利用に最適</text>
+    
+    <!-- セキュリティ -->
+    <rect x="0" y="290" width="290" height="55" fill="#005a9e" rx="5"/>
+    <text x="10" y="310" font-size="13" font-weight="bold" fill="white">セキュリティ</text>
+    <text x="10" y="328" font-size="11" fill="#b3d9ff">• ACL複製・トリミング自前実装</text>
+    <text x="10" y="344" font-size="11" fill="#b3d9ff">• 権限フィルタ設定必要</text>
+    
+    <!-- 導入 -->
+    <rect x="0" y="360" width="290" height="70" fill="#005a9e" rx="5"/>
+    <text x="10" y="380" font-size="13" font-weight="bold" fill="white">導入・運用</text>
+    <text x="10" y="398" font-size="11" fill="#b3d9ff">• 構築期間: 数週間〜</text>
+    <text x="10" y="414" font-size="11" fill="#b3d9ff">• 技術リソース必要</text>
+    <text x="10" y="430" font-size="11" fill="#b3d9ff">• 運用体制の確立が必要</text>
+  </g>
+  
+  <!-- 適用ケース -->
+  <rect x="60" y="605" width="290" height="30" fill="#003d66" rx="5"/>
+  <text x="205" y="625" font-size="11" text-anchor="middle" fill="white">
+    特定ドメイン・外部統合・高精度検索
+  </text>
+  
+  <!-- 右側: Microsoft 365 Copilot -->
+  <rect x="430" y="90" width="330" height="560" fill="#7fba00" rx="10"/>
+  <text x="595" y="120" font-size="19" font-weight="bold" text-anchor="middle" fill="white">
+    Microsoft 365 Copilot
+  </text>
+  <text x="595" y="140" font-size="12" text-anchor="middle" fill="#e5f5cc">
+    即導入可能なAIアシスタント
+  </text>
+  
+  <!-- M365 Copilot の特徴 -->
+  <g transform="translate(450, 160)">
+    <!-- アーキテクチャ -->
+    <rect x="0" y="0" width="290" height="90" fill="#5c8a00" rx="5"/>
+    <text x="10" y="20" font-size="13" font-weight="bold" fill="white">アーキテクチャ構成</text>
+    <text x="10" y="38" font-size="11" fill="#e5f5cc">• Microsoft 365内に限定</text>
+    <text x="10" y="54" font-size="11" fill="#e5f5cc">• Teams、Outlook、SharePoint</text>
+    <text x="10" y="70" font-size="11" fill="#e5f5cc">• ブラックボックス</text>
+    <text x="10" y="86" font-size="11" fill="#e5f5cc">• Microsoft管理</text>
+    
+    <!-- カスタマイズ性 -->
+    <rect x="0" y="105" width="290" height="70" fill="#5c8a00" rx="5"/>
+    <text x="10" y="125" font-size="13" font-weight="bold" fill="white">柔軟性 ★</text>
+    <text x="10" y="143" font-size="11" fill="#e5f5cc">• カスタマイズ不可</text>
+    <text x="10" y="159" font-size="11" fill="#e5f5cc">• UIはTeams/Office固定</text>
+    <text x="10" y="175" font-size="11" fill="#e5f5cc">• M365エコシステム内完結</text>
+    
+    <!-- コスト -->
+    <rect x="0" y="190" width="290" height="85" fill="#5c8a00" rx="5"/>
+    <text x="10" y="210" font-size="13" font-weight="bold" fill="white">コスト ★</text>
+    <text x="10" y="228" font-size="11" fill="#e5f5cc">• 月額4,500円/ユーザー</text>
+    <text x="10" y="244" font-size="11" fill="#e5f5cc">• 年間54,000円/ユーザー</text>
+    <text x="10" y="260" font-size="11" fill="#e5f5cc">• 1,000名で年5,400万円</text>
+    <text x="10" y="276" font-size="11" fill="#e5f5cc">• 全社導入でコスト高</text>
+    
+    <!-- セキュリティ -->
+    <rect x="0" y="290" width="290" height="55" fill="#5c8a00" rx="5"/>
+    <text x="10" y="310" font-size="13" font-weight="bold" fill="white">セキュリティ ★★★</text>
+    <text x="10" y="328" font-size="11" fill="#e5f5cc">• M365権限を自動継承</text>
+    <text x="10" y="344" font-size="11" fill="#e5f5cc">• 追加設定不要</text>
+    
+    <!-- 導入 -->
+    <rect x="0" y="360" width="290" height="70" fill="#5c8a00" rx="5"/>
+    <text x="10" y="380" font-size="13" font-weight="bold" fill="white">導入・運用 ★★★</text>
+    <text x="10" y="398" font-size="11" fill="#e5f5cc">• 即座に利用開始</text>
+    <text x="10" y="414" font-size="11" fill="#e5f5cc">• 運用リソース不要</text>
+    <text x="10" y="430" font-size="11" fill="#e5f5cc">• Microsoft管理</text>
+  </g>
+  
+  <!-- 適用ケース -->
+  <rect x="450" y="605" width="290" height="30" fill="#3d5a00" rx="5"/>
+  <text x="595" y="625" font-size="11" text-anchor="middle" fill="white">
+    全社業務効率化・即時導入・M365完結
+  </text>
+  
+  <!-- 中央の選択基準 -->
+  <g transform="translate(370, 320)">
+    <circle cx="30" cy="30" r="28" fill="#f59e0b" stroke="white" stroke-width="3"/>
+    <text x="30" y="27" font-size="12" font-weight="bold" text-anchor="middle" fill="white">選択</text>
+    <text x="30" y="40" font-size="12" font-weight="bold" text-anchor="middle" fill="white">基準</text>
+    
+    <line x1="-25" y1="30" x2="5" y2="30" stroke="#475569" stroke-width="2" marker-end="url(#arrowLeft)"/>
+    <line x1="55" y1="30" x2="85" y2="30" stroke="#475569" stroke-width="2" marker-end="url(#arrowRight)"/>
+  </g>
+  
+  <!-- 矢印マーカー -->
+  <defs>
+    <marker id="arrowLeft" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="10,5 0,10 0,0" fill="#475569"/>
+    </marker>
+    <marker id="arrowRight" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0,5 10,10 10,0" fill="#475569"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部の注釈 -->
+  <text x="400" y="675" font-size="11" text-anchor="middle" fill="#666">
+    用途・予算・技術リソースに応じた選択が重要
+  </text>
+</svg>
