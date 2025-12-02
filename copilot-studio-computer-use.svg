@@ -1,0 +1,90 @@
+<svg viewBox="0 0 800 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="650" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Copilot Studio「Computer Use」機能
+  </text>
+  <text x="400" y="58" font-size="13" text-anchor="middle" fill="#666">
+    APIの壁を超えた業務自動化の新時代
+  </text>
+  
+  <!-- 中央の核心部分 -->
+  <circle cx="400" cy="160" r="70" fill="#0078d4" stroke="#005a9e" stroke-width="3"/>
+  <text x="400" y="150" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Computer Use</text>
+  <text x="400" y="170" font-size="12" text-anchor="middle" fill="#b3d9ff">AIエージェントが</text>
+  <text x="400" y="186" font-size="12" text-anchor="middle" fill="#b3d9ff">画面操作を実行</text>
+  
+  <!-- 革新性 -->
+  <g transform="translate(60, 270)">
+    <rect x="0" y="0" width="300" height="130" fill="#0078d4" rx="8"/>
+    <text x="150" y="25" font-size="15" font-weight="bold" text-anchor="middle" fill="white">革新性</text>
+    <line x1="20" y1="35" x2="280" y2="35" stroke="#b3d9ff" stroke-width="1"/>
+    
+    <text x="15" y="55" font-size="12" fill="#b3d9ff">従来:</text>
+    <text x="15" y="72" font-size="11" fill="#e0e0e0">• API必須で連携範囲が限定</text>
+    <text x="15" y="88" font-size="11" fill="#e0e0e0">• レガシーシステムは対象外</text>
+    
+    <text x="15" y="108" font-size="12" fill="#b3d9ff">Computer Use:</text>
+    <text x="15" y="125" font-size="11" fill="white" font-weight="bold">• API不要でどんなアプリでも操作可能</text>
+  </g>
+  
+  <!-- 具体的な活用例 -->
+  <g transform="translate(440, 270)">
+    <rect x="0" y="0" width="300" height="130" fill="#7fba00" rx="8"/>
+    <text x="150" y="25" font-size="15" font-weight="bold" text-anchor="middle" fill="white">具体的な活用例</text>
+    <line x1="20" y1="35" x2="280" y2="35" stroke="#d4e8a8" stroke-width="1"/>
+    
+    <circle cx="20" cy="50" r="4" fill="white"/>
+    <text x="30" y="54" font-size="11" fill="white">経理: 請求書PDF→会計システム自動転記</text>
+    
+    <circle cx="20" cy="70" r="4" fill="white"/>
+    <text x="30" y="74" font-size="11" fill="white">市場調査: Webサイト巡回・データ収集</text>
+    
+    <circle cx="20" cy="90" r="4" fill="white"/>
+    <text x="30" y="94" font-size="11" fill="white">データ入力: 画面認識→フィールド自動入力</text>
+    
+    <circle cx="20" cy="110" r="4" fill="white"/>
+    <text x="30" y="114" font-size="11" fill="white">UI変化にも柔軟対応</text>
+  </g>
+  
+  <!-- 他社との違い -->
+  <g transform="translate(60, 420)">
+    <rect x="0" y="0" width="300" height="120" fill="#ff6b35" rx="8"/>
+    <text x="150" y="25" font-size="15" font-weight="bold" text-anchor="middle" fill="white">他社との違い</text>
+    <line x1="20" y1="35" x2="280" y2="35" stroke="#ffd4c4" stroke-width="1"/>
+    
+    <text x="15" y="55" font-size="11" fill="white">✓ Microsoft 365/Power Platformとの親和性</text>
+    <text x="15" y="72" font-size="11" fill="white">✓ エンタープライズセキュリティ標準装備</text>
+    <text x="15" y="89" font-size="11" fill="white">✓ 行動範囲を自由に設計可能</text>
+    <text x="15" y="106" font-size="11" fill="white">✓ 業務自動化プラットフォームとして設計</text>
+  </g>
+  
+  <!-- 注意点と課題 -->
+  <g transform="translate(440, 420)">
+    <rect x="0" y="0" width="300" height="120" fill="#e63946" rx="8"/>
+    <text x="150" y="25" font-size="15" font-weight="bold" text-anchor="middle" fill="white">注意点と課題</text>
+    <line x1="20" y1="35" x2="280" y2="35" stroke="#ffb3ba" stroke-width="1"/>
+    
+    <text x="15" y="55" font-size="11" fill="white">⚠ UI大幅変更時の認識精度</text>
+    <text x="15" y="72" font-size="11" fill="white">⚠ 操作ログの監査体制整備</text>
+    <text x="15" y="89" font-size="11" fill="white">⚠ 誤操作・不正操作リスク管理</text>
+    <text x="15" y="106" font-size="11" fill="white">⚠ 現場の心理的抵抗への対応</text>
+  </g>
+  
+  <!-- 接続線 -->
+  <line x1="400" y1="230" x2="210" y2="270" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="400" y1="230" x2="590" y2="270" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="210" y1="400" x2="210" y2="420" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="590" y1="400" x2="590" y2="420" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 底部メッセージ -->
+  <rect x="150" y="565" width="500" height="60" fill="#f0f0f0" rx="8" stroke="#d0d0d0" stroke-width="2"/>
+  <text x="400" y="590" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    AIと人間の協働による新しい働き方へ
+  </text>
+  <text x="400" y="610" font-size="11" text-anchor="middle" fill="#666">
+    技術・制度・意識変革の三位一体で実現する業務自動化
+  </text>
+</svg>
