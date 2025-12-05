@@ -1,0 +1,139 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fef3f2"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-size="22" font-weight="bold" fill="#c2410c">
+    Macaron - パーソナルAIエージェント
+  </text>
+  
+  <!-- Central Concept -->
+  <g transform="translate(300, 70)">
+    <circle cx="100" cy="80" r="70" fill="#fed7aa" stroke="#ea580c" stroke-width="3"/>
+    <text x="100" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#9a3412">生活の</text>
+    <text x="100" y="90" text-anchor="middle" font-size="16" font-weight="bold" fill="#9a3412">パートナーAI</text>
+  </g>
+  
+  <!-- Key Features -->
+  <g transform="translate(50, 190)">
+    <!-- Feature 1: Memory -->
+    <g>
+      <rect width="220" height="110" fill="#fff7ed" stroke="#fb923c" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="18" fill="#fb923c"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18" fill="white">🧠</text>
+      <text x="60" y="30" font-size="14" font-weight="bold" fill="#9a3412">記憶機能</text>
+      <text x="15" y="55" font-size="11" fill="#1a1a1a">
+        <tspan x="15" dy="0">✓ 好み・習慣を記憶</tspan>
+        <tspan x="15" dy="15">✓ 会話履歴を保持</tspan>
+        <tspan x="15" dy="15">✓「前に言ったよね？」が通じる</tspan>
+      </text>
+    </g>
+    
+    <!-- Feature 2: App Generation -->
+    <g transform="translate(260, 0)">
+      <rect width="220" height="110" fill="#fff7ed" stroke="#fb923c" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="18" fill="#fb923c"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18" fill="white">⚡</text>
+      <text x="60" y="30" font-size="14" font-weight="bold" fill="#9a3412">アプリ自動生成</text>
+      <text x="15" y="55" font-size="11" fill="#1a1a1a">
+        <tspan x="15" dy="0">✓ 会話からアプリ作成</tspan>
+        <tspan x="15" dy="15">✓ ダウンロード不要</tspan>
+        <tspan x="15" dy="15">✓ あなた専用にカスタマイズ</tspan>
+      </text>
+    </g>
+    
+    <!-- Feature 3: Privacy -->
+    <g transform="translate(530, 0)">
+      <rect width="220" height="110" fill="#fff7ed" stroke="#fb923c" stroke-width="2" rx="10"/>
+      <circle cx="30" cy="30" r="18" fill="#fb923c"/>
+      <text x="30" y="36" text-anchor="middle" font-size="18" fill="white">🔒</text>
+      <text x="60" y="30" font-size="14" font-weight="bold" fill="#9a3412">プライバシー配慮</text>
+      <text x="15" y="55" font-size="11" fill="#1a1a1a">
+        <tspan x="15" dy="0">✓「忘れて」で即削除</tspan>
+        <tspan x="15" dy="15">✓ 機能ごとに情報制限</tspan>
+        <tspan x="15" dy="15">✓ オフライン処理予定</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Use Cases -->
+  <g transform="translate(50, 330)">
+    <text x="0" y="0" font-size="16" font-weight="bold" fill="#c2410c">生活シーン別活用例</text>
+    
+    <!-- Use Case 1 -->
+    <g transform="translate(0, 20)">
+      <rect width="230" height="85" fill="white" stroke="#fb923c" stroke-width="1.5" rx="8"/>
+      <text x="10" y="20" font-size="13" font-weight="bold" fill="#ea580c">🍽️ 食事管理</text>
+      <text x="10" y="40" font-size="11" fill="#1a1a1a">
+        <tspan x="10" dy="0">写真を撮るだけで</tspan>
+        <tspan x="10" dy="15">カロリー・栄養素を自動計算</tspan>
+        <tspan x="10" dy="15">→ 食事管理アプリを自動生成</tspan>
+      </text>
+    </g>
+    
+    <!-- Use Case 2 -->
+    <g transform="translate(250, 20)">
+      <rect width="230" height="85" fill="white" stroke="#fb923c" stroke-width="1.5" rx="8"/>
+      <text x="10" y="20" font-size="13" font-weight="bold" fill="#ea580c">✈️ 旅行計画</text>
+      <text x="10" y="40" font-size="11" fill="#1a1a1a">
+        <tspan x="10" dy="0">あなたの好みを記憶した</tspan>
+        <tspan x="10" dy="15">高精度なプラン提案</tspan>
+        <tspan x="10" dy="15">→ 地図付き旅程表を生成</tspan>
+      </text>
+    </g>
+    
+    <!-- Use Case 3 -->
+    <g transform="translate(500, 20)">
+      <rect width="230" height="85" fill="white" stroke="#fb923c" stroke-width="1.5" rx="8"/>
+      <text x="10" y="20" font-size="13" font-weight="bold" fill="#ea580c">💰 お金の管理</text>
+      <text x="10" y="40" font-size="11" fill="#1a1a1a">
+        <tspan x="10" dy="0">家計簿・株式・投資情報を</tspan>
+        <tspan x="10" dy="15">専用ダッシュボードで一元管理</tspan>
+        <tspan x="10" dy="15">→ 毎朝自動で状況通知</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Pricing -->
+  <g transform="translate(50, 460)">
+    <text x="0" y="0" font-size="16" font-weight="bold" fill="#c2410c">料金プラン</text>
+    
+    <g transform="translate(0, 20)">
+      <rect width="230" height="90" fill="#fef3f2" stroke="#fb923c" stroke-width="1.5" rx="8"/>
+      <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#ea580c">無料プラン</text>
+      <text x="115" y="38" text-anchor="middle" font-size="12" fill="#9a3412">$0</text>
+      <text x="10" y="58" font-size="10" fill="#1a1a1a">
+        <tspan x="10" dy="0">・基本チャット機能</tspan>
+        <tspan x="10" dy="14">・簡単なアプリ生成</tspan>
+        <tspan x="10" dy="14">・お試し利用に最適</tspan>
+      </text>
+    </g>
+    
+    <g transform="translate(250, 20)">
+      <rect width="230" height="90" fill="#fef3f2" stroke="#fb923c" stroke-width="1.5" rx="8"/>
+      <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#ea580c">コイン課金</text>
+      <text x="115" y="38" text-anchor="middle" font-size="12" fill="#9a3412">$3.99~ / 10コイン</text>
+      <text x="10" y="58" font-size="10" fill="#1a1a1a">
+        <tspan x="10" dy="0">・必要な時だけ購入</tspan>
+        <tspan x="10" dy="14">・高度なアプリ生成</tspan>
+        <tspan x="10" dy="14">・ライトユーザー向け</tspan>
+      </text>
+    </g>
+    
+    <g transform="translate(500, 20)">
+      <rect width="230" height="90" fill="#fed7aa" stroke="#ea580c" stroke-width="2" rx="8"/>
+      <text x="115" y="20" text-anchor="middle" font-size="13" font-weight="bold" fill="#7c2d12">Classic（推奨）</text>
+      <text x="115" y="38" text-anchor="middle" font-size="12" fill="#9a3412">$18.99 / 月</text>
+      <text x="10" y="58" font-size="10" fill="#1a1a1a">
+        <tspan x="10" dy="0">・アプリ生成無制限</tspan>
+        <tspan x="10" dy="14">・優先処理で高速応答</tspan>
+        <tspan x="10" dy="14">・ヘビーユーザー向け</tspan>
+      </text>
+    </g>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="400" y="585" text-anchor="middle" font-size="12" fill="#9a3412">
+    日本語対応 ✓  |  仕事用AIではなく「生活用AI」として設計
+  </text>
+</svg>
