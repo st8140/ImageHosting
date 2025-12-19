@@ -1,0 +1,86 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    世界のAI規制動向と企業対応
+  </text>
+  
+  <!-- Three Regions -->
+  <!-- USA -->
+  <g>
+    <rect x="50" y="80" width="220" height="180" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="8"/>
+    <text x="160" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">米国</text>
+    <text x="160" y="140" font-size="14" text-anchor="middle" fill="#333">誤情報対策の要求</text>
+    <text x="60" y="170" font-size="12" fill="#555">
+      <tspan x="60" dy="0">・AI企業への改善要請</tspan>
+      <tspan x="60" dy="20">・幻覚問題への懸念</tspan>
+      <tspan x="60" dy="20">・説明責任の明確化</tspan>
+      <tspan x="60" dy="20">・高リスク領域での影響</tspan>
+    </text>
+  </g>
+  
+  <!-- EU -->
+  <g>
+    <rect x="290" y="80" width="220" height="180" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="8"/>
+    <text x="400" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="#388e3c">EU</text>
+    <text x="400" y="140" font-size="14" text-anchor="middle" fill="#333">反トラスト調査</text>
+    <text x="300" y="170" font-size="12" fill="#555">
+      <tspan x="300" dy="0">・GoogleのAI検索調査</tspan>
+      <tspan x="300" dy="20">・情報源の透明性</tspan>
+      <tspan x="300" dy="20">・市場競争への影響</tspan>
+      <tspan x="300" dy="20">・AI Act制定済み</tspan>
+    </text>
+  </g>
+  
+  <!-- India -->
+  <g>
+    <rect x="530" y="80" width="220" height="180" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="8"/>
+    <text x="640" y="110" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57c00">インド</text>
+    <text x="640" y="140" font-size="14" text-anchor="middle" fill="#333">著作権保護</text>
+    <text x="540" y="170" font-size="12" fill="#555">
+      <tspan x="540" dy="0">・学習データへの課金</tspan>
+      <tspan x="540" dy="20">・ライセンス料制度</tspan>
+      <tspan x="540" dy="20">・クリエイター保護</tspan>
+      <tspan x="540" dy="20">・コスト増加の可能性</tspan>
+    </text>
+  </g>
+  
+  <!-- Common Themes -->
+  <g>
+    <rect x="100" y="300" width="600" height="100" fill="#fff9c4" stroke="#f9a825" stroke-width="2" rx="8"/>
+    <text x="400" y="325" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">共通する規制の方向性</text>
+    <text x="400" y="355" font-size="13" text-anchor="middle" fill="#555">
+      <tspan x="400" dy="0">誤情報・誤回答への対策 ｜ 情報源の透明性 ｜ 著作権データの適切な扱い</tspan>
+      <tspan x="400" dy="25">→ AIの品質担保と説明可能性の確保</tspan>
+    </text>
+  </g>
+  
+  <!-- Japanese Companies Actions -->
+  <g>
+    <rect x="50" y="430" width="700" height="150" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+    <text x="400" y="460" font-size="18" font-weight="bold" text-anchor="middle" fill="#7b1fa2">日本企業が取り組むべきポイント</text>
+    <g font-size="12" fill="#333">
+      <text x="70" y="490">1. AIリスク評価の実施</text>
+      <text x="70" y="510">2. AI出力の検証体制構築</text>
+      <text x="70" y="530">3. 情報源・データ管理の強化</text>
+      <text x="420" y="490">4. 法務・コンプライアンス連携</text>
+      <text x="420" y="510">5. ベンダー選定基準の見直し</text>
+      <text x="420" y="530">6. 長期的コスト計画の再検討</text>
+    </g>
+  </g>
+  
+  <!-- Arrows -->
+  <path d="M 160 260 L 160 300" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 400 260 L 400 300" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 640 260 L 640 300" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 400 400 L 400 430" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
