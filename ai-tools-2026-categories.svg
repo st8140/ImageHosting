@@ -1,0 +1,102 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    2026年 企業が注目すべきAIツール18選
+  </text>
+  
+  <!-- Category 1: AI Agent -->
+  <g>
+    <rect x="30" y="70" width="270" height="100" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="6"/>
+    <text x="165" y="95" font-size="15" font-weight="bold" text-anchor="middle" fill="#1976d2">①AIエージェント・業務自動化</text>
+    <text x="40" y="120" font-size="11" fill="#333">
+      <tspan x="40" dy="0">・Langflow - AIフロー可視化</tspan>
+      <tspan x="40" dy="16">・n8n - ワークフロー自動化</tspan>
+      <tspan x="40" dy="16">・Microsoft Autogen - マルチエージェント</tspan>
+    </text>
+  </g>
+  
+  <!-- Category 2: AI Search -->
+  <g>
+    <rect x="320" y="70" width="270" height="100" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="6"/>
+    <text x="455" y="95" font-size="15" font-weight="bold" text-anchor="middle" fill="#388e3c">②AI検索・ナレッジ管理</text>
+    <text x="330" y="120" font-size="11" fill="#333">
+      <tspan x="330" dy="0">・ChatGPT Enterprise (Atlas)</tspan>
+      <tspan x="330" dy="16">・Perplexity Enterprise (Comet)</tspan>
+      <tspan x="330" dy="16">・Genspark Business Search</tspan>
+    </text>
+  </g>
+  
+  <!-- Category 3: AI Coding -->
+  <g>
+    <rect x="610" y="70" width="270" height="100" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="6"/>
+    <text x="745" y="95" font-size="15" font-weight="bold" text-anchor="middle" fill="#f57c00">③AIコーディング・開発支援</text>
+    <text x="620" y="120" font-size="11" fill="#333">
+      <tspan x="620" dy="0">・Claude Opus 4.5 + Sonnet 4.5</tspan>
+      <tspan x="620" dy="16">・GitHub Copilot Enterprise</tspan>
+      <tspan x="620" dy="16">・AWS Q Developer / Q Apps</tspan>
+    </text>
+  </g>
+  
+  <!-- Category 4: Multimodal -->
+  <g>
+    <rect x="30" y="200" width="270" height="100" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="6"/>
+    <text x="165" y="225" font-size="15" font-weight="bold" text-anchor="middle" fill="#7b1fa2">④マルチモーダル生成</text>
+    <text x="40" y="250" font-size="11" fill="#333">
+      <tspan x="40" dy="0">・SkyReels V2 - 動画生成</tspan>
+      <tspan x="40" dy="16">・Runway Gen-3 - 映像品質AI</tspan>
+      <tspan x="40" dy="16">・BananaImg AI - 高速画像生成</tspan>
+    </text>
+  </g>
+  
+  <!-- Category 5: Local LLM -->
+  <g>
+    <rect x="320" y="200" width="270" height="100" fill="#fce4ec" stroke="#c2185b" stroke-width="2" rx="6"/>
+    <text x="455" y="225" font-size="15" font-weight="bold" text-anchor="middle" fill="#c2185b">⑤ローカルLLM・プライベートAI</text>
+    <text x="330" y="250" font-size="11" fill="#333">
+      <tspan x="330" dy="0">・Ollama - ローカル実行基盤</tspan>
+      <tspan x="330" dy="16">・LM Studio - GUI管理ツール</tspan>
+      <tspan x="330" dy="16">・PrivateGPT Enterprise - 完全閉域</tspan>
+    </text>
+  </g>
+  
+  <!-- Category 6: RAG -->
+  <g>
+    <rect x="610" y="200" width="270" height="100" fill="#e0f2f1" stroke="#00897b" stroke-width="2" rx="6"/>
+    <text x="745" y="225" font-size="15" font-weight="bold" text-anchor="middle" fill="#00897b">⑥AI統合基盤・RAG連携</text>
+    <text x="620" y="250" font-size="11" fill="#333">
+      <tspan x="620" dy="0">・LlamaIndex - RAG構築ライブラリ</tspan>
+      <tspan x="620" dy="16">・Pinecone - ベクターDB</tspan>
+      <tspan x="620" dy="16">・Weaviate - オープンソースDB</tspan>
+    </text>
+  </g>
+  
+  <!-- Key Trends -->
+  <g>
+    <rect x="60" y="340" width="780" height="140" fill="#fff9c4" stroke="#f9a825" stroke-width="2" rx="8"/>
+    <text x="450" y="370" font-size="17" font-weight="bold" text-anchor="middle" fill="#333">2026年のAI活用トレンド</text>
+    
+    <g font-size="12" fill="#555">
+      <text x="80" y="400">• AIが業務支援から「基盤技術」へ進化</text>
+      <text x="80" y="423">• AIエージェントの協調動作による複雑業務の自動化</text>
+      <text x="80" y="446">• データセキュリティ重視でローカルLLM需要が急増</text>
+      <text x="80" y="469">• RAG検索とナレッジ管理が企業DXの中核に</text>
+    </g>
+  </g>
+  
+  <!-- Implementation Points -->
+  <g>
+    <rect x="60" y="510" width="780" height="170" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="8"/>
+    <text x="450" y="540" font-size="17" font-weight="bold" text-anchor="middle" fill="#1976d2">企業導入のポイント</text>
+    
+    <g font-size="12" fill="#333">
+      <text x="80" y="570">戦略的統合: 個別ツール評価ではなく、AI基盤全体の設計が重要</text>
+      <text x="80" y="593">セキュリティ優先: データ保護とガバナンス体制を最優先に構築</text>
+      <text x="80" y="616">段階的導入: PoCから全社展開まで計画的に進める</text>
+      <text x="80" y="639">人材育成: AI活用スキルを持つ人材の育成が競争力の鍵</text>
+      <text x="80" y="662">コスト最適化: クラウドとローカルLLMを組み合わせたハイブリッド運用</text>
+    </g>
+  </g>
+</svg>
