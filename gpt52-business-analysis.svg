@@ -1,0 +1,86 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GPT-5.2：会話AIから分析エンジンへの進化
+  </text>
+  
+  <!-- Two-sided evaluation -->
+  <g>
+    <rect x="50" y="70" width="380" height="160" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="8"/>
+    <text x="240" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="#c62828">「思ったより普通」の評価</text>
+    <text x="240" y="125" font-size="12" text-anchor="middle" fill="#555">日常会話・簡単な調べもの</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="70" y="155">• 日常会話では差を感じにくい</text>
+      <text x="70" y="175">• 簡単な文章生成は従来と同等</text>
+      <text x="70" y="195">• 即答が必要な場面では遅い</text>
+      <text x="70" y="215">• 過剰に構造化された出力</text>
+    </g>
+  </g>
+  
+  <g>
+    <rect x="470" y="70" width="380" height="160" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="8"/>
+    <text x="660" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">「革命的」の評価</text>
+    <text x="660" y="125" font-size="12" text-anchor="middle" fill="#555">分析・開発・業務自動化</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="490" y="155">• 2時間以上考え続ける能力</text>
+      <text x="490" y="175">• 複雑な前提条件を踏まえた分析</text>
+      <text x="490" y="195">• コード生成・業務自律実行</text>
+      <text x="490" y="215">• 途中で迷子にならない思考</text>
+    </g>
+  </g>
+  
+  <!-- Key characteristics -->
+  <g>
+    <rect x="50" y="260" width="800" height="170" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="8"/>
+    <text x="450" y="290" font-size="17" font-weight="bold" text-anchor="middle" fill="#1976d2">GPT-5.2の主要特徴</text>
+    
+    <g font-size="12" fill="#333">
+      <text x="70" y="320" font-weight="bold">アナリストとしての能力:</text>
+      <text x="70" y="340">• 中間推論を積み重ね、結論に至る粘り強さ</text>
+      <text x="70" y="360">• 前提を理解し、根拠を積み上げる思考</text>
+      
+      <text x="70" y="390" font-weight="bold">ベンチマーク成績:</text>
+      <text x="70" y="410">• GDPval: 70.9%（44職種の知識業務でプロ超え）</text>
+      <text x="70" y="430">• SWE-Bench Pro: 55.6%（ソフトウェアエンジニアリング）</text>
+    </g>
+  </g>
+  
+  <!-- Business value -->
+  <g>
+    <rect x="50" y="460" width="380" height="215" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="8"/>
+    <text x="240" y="490" font-size="15" font-weight="bold" text-anchor="middle" fill="#f57c00">ビジネスでの真価</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="70" y="520">✓ 処理速度3分の1に短縮</text>
+      <text x="70" y="540">✓ 財務・ライフサイエンス等で実務レベル</text>
+      <text x="70" y="560">✓ 単一プロンプトで3Dエンジン構築</text>
+      <text x="70" y="580">✓ 全体構造を保持した論理設計</text>
+      <text x="70" y="600">✓ 2時間自律的にP/L分析継続</text>
+      <text x="70" y="620">✓ エージェントとして業務を任せられる</text>
+      <text x="70" y="640">✓ AI導入が実験から業務基盤へ</text>
+    </g>
+  </g>
+  
+  <!-- Usage recommendations -->
+  <g>
+    <rect x="470" y="460" width="380" height="215" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+    <text x="660" y="490" font-size="15" font-weight="bold" text-anchor="middle" fill="#7b1fa2">適切な使い分け</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="490" y="520" font-weight="bold">GPT-5.2に向く業務:</text>
+      <text x="490" y="540">• 長時間の思考が必要な分析</text>
+      <text x="490" y="560">• 複雑な前提条件を踏まえた設計</text>
+      <text x="490" y="580">• 業務プロセスの自律実行</text>
+      <text x="490" y="600">• 高度なコード生成・検証</text>
+      
+      <text x="490" y="630" font-weight="bold">不向きな用途:</text>
+      <text x="490" y="650">• 即答が必要な場面</text>
+      <text x="490" y="670">• 柔らかいコミュニケーション</text>
+    </g>
+  </g>
+</svg>
