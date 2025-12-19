@@ -1,0 +1,83 @@
+<svg viewBox="0 0 900 650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="650" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    DeepSeek 3.2シリーズ：革新的なAIモデルの全貌
+  </text>
+  
+  <!-- Model Comparison -->
+  <g>
+    <!-- DeepSeek 3.2 -->
+    <rect x="50" y="70" width="380" height="200" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="8"/>
+    <text x="240" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">DeepSeek 3.2</text>
+    <text x="240" y="125" font-size="13" text-anchor="middle" fill="#555">バランス型・日常業務向け</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="70" y="155">✓ GPT-5クラスの性能</text>
+      <text x="70" y="175">✓ Thinking in Tool-Use対応</text>
+      <text x="70" y="195">✓ エージェント運用に最適</text>
+      <text x="70" y="215">✓ App/Web/API全対応</text>
+      <text x="70" y="235">✓ トークン効率が良い</text>
+      <text x="70" y="255">✓ $1/M入力 $2/M出力</text>
+    </g>
+  </g>
+  
+  <!-- DeepSeek 3.2 Speciale -->
+  <g>
+    <rect x="470" y="70" width="380" height="200" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="8"/>
+    <text x="660" y="100" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57c00">DeepSeek 3.2 Speciale</text>
+    <text x="660" y="125" font-size="13" text-anchor="middle" fill="#555">推論特化型・研究レベル</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="490" y="155">✓ Gemini 3.0 Proクラス</text>
+      <text x="490" y="175">✓ 数学・アルゴリズム最強</text>
+      <text x="490" y="195">✓ IMO/ICPC金メダル級</text>
+      <text x="490" y="215">✓ API限定（期間限定）</text>
+      <text x="490" y="235">✓ ツール利用不可</text>
+      <text x="490" y="255">✓ $1/M入力 $2/M出力</text>
+    </g>
+  </g>
+  
+  <!-- Thinking in Tool-Use -->
+  <g>
+    <rect x="50" y="300" width="800" height="150" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="8"/>
+    <text x="450" y="330" font-size="17" font-weight="bold" text-anchor="middle" fill="#388e3c">Thinking in Tool-Use の革新</text>
+    
+    <g font-size="12" fill="#333">
+      <text x="70" y="360" font-weight="bold">従来の方式:</text>
+      <text x="70" y="380">推論 → ツール呼び出し → 推論（思考が分断される）</text>
+      
+      <text x="70" y="410" font-weight="bold">DeepSeek 3.2の新方式:</text>
+      <text x="70" y="430">推論とツール利用を統合（シームレスな思考プロセス）</text>
+    </g>
+  </g>
+  
+  <!-- Benefits -->
+  <g>
+    <rect x="50" y="480" width="380" height="145" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="8"/>
+    <text x="240" y="510" font-size="15" font-weight="bold" text-anchor="middle" fill="#7b1fa2">主なメリット</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="70" y="535">• 複数ツールを跨ぐワークフローを自然に処理</text>
+      <text x="70" y="555">• 状況に応じた検索・計算を自動選択</text>
+      <text x="70" y="575">• マルチステップ推論の精度向上</text>
+      <text x="70" y="595">• 1,800+環境、85,000+タスクで学習</text>
+    </g>
+  </g>
+  
+  <!-- Use Cases -->
+  <g>
+    <rect x="470" y="480" width="380" height="145" fill="#fff9c4" stroke="#f9a825" stroke-width="2" rx="8"/>
+    <text x="660" y="510" font-size="15" font-weight="bold" text-anchor="middle" fill="#f57c00">企業ユースケース</text>
+    
+    <g font-size="11" fill="#333">
+      <text x="490" y="535" font-weight="bold">DeepSeek 3.2:</text>
+      <text x="490" y="553">FAQ自動回答、業務フロー自動化、文章生成</text>
+      
+      <text x="490" y="578" font-weight="bold">Speciale:</text>
+      <text x="490" y="596">数理最適化、アルゴリズム検証、設計最適化</text>
+    </g>
+  </g>
+</svg>
