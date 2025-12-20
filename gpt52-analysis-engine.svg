@@ -1,0 +1,114 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GPT-5.2: ビジネス分析エンジンとしての真価
+  </text>
+  
+  <!-- 評価の二極化 -->
+  <g transform="translate(50, 80)">
+    <rect width="320" height="100" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+    <text x="160" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      評価の二極化
+    </text>
+    <text x="160" y="55" font-size="13" text-anchor="middle" fill="#424242">
+      日常会話: 地味な進化
+    </text>
+    <text x="160" y="80" font-size="13" text-anchor="middle" fill="#424242">
+      分析・開発: 別次元の性能
+    </text>
+  </g>
+  
+  <g transform="translate(430, 80)">
+    <rect width="320" height="100" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="10"/>
+    <text x="160" y="30" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">
+      2時間働き続けるAI
+    </text>
+    <text x="160" y="55" font-size="13" text-anchor="middle" fill="#424242">
+      長時間の自律的思考
+    </text>
+    <text x="160" y="80" font-size="13" text-anchor="middle" fill="#424242">
+      途中で迷子にならない
+    </text>
+  </g>
+  
+  <!-- 中央: 主要な強み -->
+  <g transform="translate(200, 220)">
+    <rect width="400" height="160" fill="#e8f5e9" stroke="#388e3c" stroke-width="3" rx="15"/>
+    <text x="200" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+      GPT-5.2の主要な強み
+    </text>
+    
+    <!-- ベンチマーク性能 -->
+    <circle cx="80" cy="80" r="8" fill="#4caf50"/>
+    <text x="100" y="85" font-size="14" fill="#1b5e20">
+      ベンチマーク最高水準
+    </text>
+    
+    <!-- 分析力 -->
+    <circle cx="80" cy="110" r="8" fill="#4caf50"/>
+    <text x="100" y="115" font-size="14" fill="#1b5e20">
+      真剣なアナリスト級の思考
+    </text>
+    
+    <!-- コーディング -->
+    <circle cx="80" cy="140" r="8" fill="#4caf50"/>
+    <text x="100" y="145" font-size="14" fill="#1b5e20">
+      複雑なコード生成の飛躍
+    </text>
+  </g>
+  
+  <!-- 下部: 適用分野と課題 -->
+  <g transform="translate(50, 420)">
+    <rect width="320" height="140" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="10"/>
+    <text x="160" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#6a1b9a">
+      得意分野
+    </text>
+    <text x="20" y="55" font-size="13" fill="#4a148c">
+      ✓ 複雑な分析・検証
+    </text>
+    <text x="20" y="78" font-size="13" fill="#4a148c">
+      ✓ ソフトウェア開発
+    </text>
+    <text x="20" y="101" font-size="13" fill="#4a148c">
+      ✓ 財務・専門分野
+    </text>
+    <text x="20" y="124" font-size="13" fill="#4a148c">
+      ✓ プロトタイピング
+    </text>
+  </g>
+  
+  <g transform="translate(430, 420)">
+    <rect width="320" height="140" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="10"/>
+    <text x="160" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#b71c1c">
+      注意点
+    </text>
+    <text x="20" y="55" font-size="13" fill="#c62828">
+      × 応答速度が遅い
+    </text>
+    <text x="20" y="78" font-size="13" fill="#c62828">
+      × 出力が過剰に構造化
+    </text>
+    <text x="20" y="101" font-size="13" fill="#c62828">
+      × 柔らかい会話には不向き
+    </text>
+    <text x="20" y="124" font-size="13" fill="#c62828">
+      × 創造性ではなく分析特化
+    </text>
+  </g>
+  
+  <!-- 矢印: 方向性を示す -->
+  <path d="M 400 190 L 400 210" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 結論 -->
+  <text x="400" y="585" font-size="14" font-style="italic" text-anchor="middle" fill="#555">
+    用途特化型の高性能モデル: 重たい仕事を任せる覚悟が鍵
+  </text>
+</svg>
