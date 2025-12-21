@@ -1,0 +1,127 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Gemini Deep Research: リサーチAIの新時代
+  </text>
+  
+  <!-- 中央コンセプト -->
+  <g transform="translate(250, 80)">
+    <rect width="300" height="80" fill="#4285f4" stroke="#1967d2" stroke-width="3" rx="15"/>
+    <text x="150" y="30" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+      人間が検索しない時代へ
+    </text>
+    <text x="150" y="55" font-size="14" text-anchor="middle" fill="white">
+      AIが調べ尽くす自律型リサーチ
+    </text>
+  </g>
+  
+  <!-- 左側: 主要機能 -->
+  <g transform="translate(50, 200)">
+    <rect width="330" height="180" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="10"/>
+    <text x="165" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">
+      主要機能
+    </text>
+    
+    <circle cx="30" cy="60" r="8" fill="#4caf50"/>
+    <text x="50" y="65" font-size="13" fill="#1b5e20">
+      長時間の自律的調査と統合
+    </text>
+    
+    <circle cx="30" cy="90" r="8" fill="#4caf50"/>
+    <text x="50" y="95" font-size="13" fill="#1b5e20">
+      調査計画の立案と実行
+    </text>
+    
+    <circle cx="30" cy="120" r="8" fill="#4caf50"/>
+    <text x="50" y="125" font-size="13" fill="#1b5e20">
+      知識の抜けを自動検知
+    </text>
+    
+    <circle cx="30" cy="150" r="8" fill="#4caf50"/>
+    <text x="50" y="155" font-size="13" fill="#1b5e20">
+      ハルシネーション抑制設計
+    </text>
+  </g>
+  
+  <!-- 右側: 性能評価 -->
+  <g transform="translate(420, 200)">
+    <rect width="330" height="180" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="10"/>
+    <text x="165" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">
+      性能とベンチマーク
+    </text>
+    
+    <text x="20" y="55" font-size="13" fill="#424242">
+      • DeepSearchQA: 最先端スコア
+    </text>
+    <text x="20" y="80" font-size="13" fill="#424242">
+      • Humanity's Last Exam: 高評価
+    </text>
+    <text x="20" y="105" font-size="13" fill="#424242">
+      • 思考時間に比例して精度向上
+    </text>
+    <text x="20" y="130" font-size="13" fill="#424242">
+      • 因果連鎖型タスクで強み発揮
+    </text>
+    <text x="20" y="155" font-size="13" fill="#424242">
+      • Gemini 3 Proベース高事実性
+    </text>
+  </g>
+  
+  <!-- 下部: 実務活用 -->
+  <g transform="translate(50, 410)">
+    <rect width="330" height="140" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="10"/>
+    <text x="165" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#6a1b9a">
+      実務での活用領域
+    </text>
+    
+    <text x="20" y="55" font-size="13" fill="#4a148c">
+      ✓ 金融デューデリジェンス
+    </text>
+    <text x="20" y="78" font-size="13" fill="#4a148c">
+      ✓ 創薬・バイオテック研究
+    </text>
+    <text x="20" y="101" font-size="13" fill="#4a148c">
+      ✓ 市場調査・競合分析
+    </text>
+    <text x="20" y="124" font-size="13" fill="#4a148c">
+      ✓ 規制リスク調査
+    </text>
+  </g>
+  
+  <!-- 右下: API統合 -->
+  <g transform="translate(420, 410)">
+    <rect width="330" height="140" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+    <text x="165" y="25" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">
+      開発者向け機能
+    </text>
+    
+    <text x="20" y="55" font-size="13" fill="#0d47a1">
+      • Interactions API提供
+    </text>
+    <text x="20" y="78" font-size="13" fill="#0d47a1">
+      • PDF/CSV/Web統合可能
+    </text>
+    <text x="20" y="101" font-size="13" fill="#0d47a1">
+      • JSON出力対応
+    </text>
+    <text x="20" y="124" font-size="13" fill="#0d47a1">
+      • 業務システム接続容易
+    </text>
+  </g>
+  
+  <!-- 矢印 -->
+  <path d="M 400 170 L 400 190" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <polygon points="0 0, 10 5, 0 10" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- フッター -->
+  <text x="400" y="585" font-size="14" font-style="italic" text-anchor="middle" fill="#555">
+    リサーチ能力のインフラ化: AIが調べ、人間が判断する時代
+  </text>
+</svg>
