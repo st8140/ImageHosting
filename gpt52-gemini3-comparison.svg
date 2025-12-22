@@ -1,0 +1,136 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GPT-5.2 vs Gemini 3
+  </text>
+  
+  <!-- Left side: GPT-5.2 -->
+  <g id="gpt52">
+    <!-- Box -->
+    <rect x="30" y="80" width="340" height="480" fill="#10a37f" rx="10" opacity="0.1"/>
+    <rect x="30" y="80" width="340" height="60" fill="#10a37f" rx="10"/>
+    <text x="200" y="118" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      GPT-5.2 (ChatGPT)
+    </text>
+    
+    <!-- Features -->
+    <g id="gpt-features">
+      <!-- Feature 1 -->
+      <circle cx="60" cy="170" r="8" fill="#10a37f"/>
+      <text x="80" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">
+        自然な文章表現
+      </text>
+      <text x="80" y="195" font-family="Arial, sans-serif" font-size="12" fill="#666">
+        流れが自然で読みやすい
+      </text>
+      
+      <!-- Feature 2 -->
+      <circle cx="60" cy="230" r="8" fill="#10a37f"/>
+      <text x="80" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">
+        会話が続けやすい
+      </text>
+      <text x="80" y="255" font-family="Arial, sans-serif" font-size="12" fill="#666">
+        追加質問にも柔軟に対応
+      </text>
+      
+      <!-- Feature 3 -->
+      <circle cx="60" cy="290" r="8" fill="#10a37f"/>
+      <text x="80" y="295" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">
+        回答の安定性
+      </text>
+      <text x="80" y="315" font-family="Arial, sans-serif" font-size="12" fill="#666">
+        話題がぶれにくい
+      </text>
+      
+      <!-- Use cases -->
+      <rect x="50" y="350" width="300" height="180" fill="white" rx="8" stroke="#10a37f" stroke-width="2"/>
+      <text x="200" y="375" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+        向いている用途
+      </text>
+      <text x="70" y="405" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • 文章作成・企画立案
+      </text>
+      <text x="70" y="430" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • アイデア出し・創作
+      </text>
+      <text x="70" y="455" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • 対話を通じた思考整理
+      </text>
+      <text x="70" y="480" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • メール文・説明文作成
+      </text>
+      <text x="70" y="505" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • ニュアンス表現が重要な場面
+      </text>
+    </g>
+  </g>
+  
+  <!-- Right side: Gemini 3 -->
+  <g id="gemini3">
+    <!-- Box -->
+    <rect x="430" y="80" width="340" height="480" fill="#4285f4" rx="10" opacity="0.1"/>
+    <rect x="430" y="80" width="340" height="60" fill="#4285f4" rx="10"/>
+    <text x="600" y="118" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="white">
+      Gemini 3
+    </text>
+    
+    <!-- Features -->
+    <g id="gemini-features">
+      <!-- Feature 1 -->
+      <circle cx="460" cy="170" r="8" fill="#4285f4"/>
+      <text x="480" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">
+        情報整理力
+      </text>
+      <text x="480" y="195" font-family="Arial, sans-serif" font-size="12" fill="#666">
+        要点を簡潔にまとめる
+      </text>
+      
+      <!-- Feature 2 -->
+      <circle cx="460" cy="230" r="8" fill="#4285f4"/>
+      <text x="480" y="235" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">
+        効率的な調べもの
+      </text>
+      <text x="480" y="255" font-family="Arial, sans-serif" font-size="12" fill="#666">
+        事実確認に強い
+      </text>
+      
+      <!-- Feature 3 -->
+      <circle cx="460" cy="290" r="8" fill="#4285f4"/>
+      <text x="480" y="295" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">
+        Google連携
+      </text>
+      <text x="480" y="315" font-family="Arial, sans-serif" font-size="12" fill="#666">
+        各種サービスと統合
+      </text>
+      
+      <!-- Use cases -->
+      <rect x="450" y="350" width="300" height="180" fill="white" rx="8" stroke="#4285f4" stroke-width="2"/>
+      <text x="600" y="375" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+        向いている用途
+      </text>
+      <text x="470" y="405" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • 情報収集・調べもの
+      </text>
+      <text x="470" y="430" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • 要点整理・事実確認
+      </text>
+      <text x="470" y="455" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • 全体像の把握
+      </text>
+      <text x="470" y="480" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • Googleサービス活用
+      </text>
+      <text x="470" y="505" font-family="Arial, sans-serif" font-size="13" fill="#333">
+        • 実務寄りのタスク
+      </text>
+    </g>
+  </g>
+  
+  <!-- Bottom note -->
+  <text x="400" y="575" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+    ※どちらも有料プランでより快適に利用可能
+  </text>
+</svg>
