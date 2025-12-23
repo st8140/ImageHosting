@@ -1,0 +1,139 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GPT Image-1.5：Image Arenaで高評価
+  </text>
+  
+  <!-- Trophy icon -->
+  <circle cx="400" cy="75" r="25" fill="#FFD700" opacity="0.2"/>
+  <text x="400" y="85" font-family="Arial, sans-serif" font-size="30" text-anchor="middle">🏆</text>
+  
+  <!-- Main result -->
+  <rect x="100" y="110" width="600" height="80" fill="#10a37f" rx="10" opacity="0.1"/>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#10a37f">
+    Image Arena評価結果
+  </text>
+  <text x="400" y="170" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
+    GPT Image-1.5がGoogleのNano Banana Proを上回る
+  </text>
+  
+  <!-- Three key strengths -->
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GPT Image-1.5の3つの強み
+  </text>
+  
+  <!-- Strength 1 -->
+  <rect x="40" y="240" width="220" height="150" fill="white" rx="8" stroke="#10a37f" stroke-width="2"/>
+  <circle cx="150" cy="270" r="18" fill="#10a37f"/>
+  <text x="150" y="278" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">1</text>
+  <text x="150" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    指示理解の正確さ
+  </text>
+  <text x="150" y="330" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    文章条件を
+  </text>
+  <text x="150" y="347" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    細かく反映
+  </text>
+  <text x="150" y="370" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    アバウトな指示でも
+  </text>
+  <text x="150" y="385" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    イメージに近づく
+  </text>
+  
+  <!-- Strength 2 -->
+  <rect x="290" y="240" width="220" height="150" fill="white" rx="8" stroke="#10a37f" stroke-width="2"/>
+  <circle cx="400" cy="270" r="18" fill="#10a37f"/>
+  <text x="400" y="278" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">2</text>
+  <text x="400" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    構図の安定性
+  </text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    全体バランスが
+  </text>
+  <text x="400" y="347" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    崩れにくい
+  </text>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    複数回生成しても
+  </text>
+  <text x="400" y="385" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    品質が安定
+  </text>
+  
+  <!-- Strength 3 -->
+  <rect x="540" y="240" width="220" height="150" fill="white" rx="8" stroke="#10a37f" stroke-width="2"/>
+  <circle cx="650" cy="270" r="18" fill="#10a37f"/>
+  <text x="650" y="278" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">3</text>
+  <text x="650" y="305" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    統合的な利用
+  </text>
+  <text x="650" y="330" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    テキスト生成と
+  </text>
+  <text x="650" y="347" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#555">
+    画像生成を一体化
+  </text>
+  <text x="650" y="370" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    ChatGPTから
+  </text>
+  <text x="650" y="385" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    シームレス利用
+  </text>
+  
+  <!-- Comparison section -->
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    vs Nano Banana Pro
+  </text>
+  
+  <!-- Left: GPT Image-1.5 -->
+  <rect x="60" y="440" width="320" height="130" fill="#d4f4dd" rx="8" stroke="#10a37f" stroke-width="2"/>
+  <text x="220" y="465" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#10a37f">
+    GPT Image-1.5
+  </text>
+  <text x="80" y="488" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    ✓ 安定した品質・再現性
+  </text>
+  <text x="80" y="508" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    ✓ 指示理解が正確
+  </text>
+  <text x="80" y="528" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    ✓ ChatGPT/API対応
+  </text>
+  <text x="80" y="548" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    ✓ 業務用途に最適
+  </text>
+  <text x="220" y="565" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#10a37f" font-style="italic">
+    記事・資料作成向け
+  </text>
+  
+  <!-- Right: Nano Banana Pro -->
+  <rect x="420" y="440" width="320" height="130" fill="#fff3cd" rx="8" stroke="#f39c12" stroke-width="2"/>
+  <text x="580" y="465" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#f39c12">
+    Nano Banana Pro
+  </text>
+  <text x="440" y="488" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • 表現力が高い
+  </text>
+  <text x="440" y="508" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • クリエイティブ重視
+  </text>
+  <text x="440" y="528" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • 出力にばらつきあり
+  </text>
+  <text x="440" y="548" font-family="Arial, sans-serif" font-size="11" fill="#333">
+    • 提供形態が限定的
+  </text>
+  <text x="580" y="565" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#f39c12" font-style="italic">
+    独創的な制作向け
+  </text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="590" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#666">
+    Image Arena = 画像生成AIの性能を横断的に評価する比較プラットフォーム
+  </text>
+</svg>
