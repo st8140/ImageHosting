@@ -1,0 +1,149 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    GPT-5.1 → GPT-5.2 アップデート内容
+  </text>
+  
+  <!-- Arrow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#10a37f" />
+    </marker>
+  </defs>
+  
+  <!-- Left box: GPT-5.1 -->
+  <rect x="50" y="80" width="280" height="180" fill="#e8e8e8" rx="10" stroke="#999" stroke-width="2"/>
+  <text x="190" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">
+    GPT-5.1
+  </text>
+  <text x="70" y="140" font-family="Arial, sans-serif" font-size="13" fill="#555">
+    • 基本機能は充実
+  </text>
+  <text x="70" y="165" font-family="Arial, sans-serif" font-size="13" fill="#555">
+    • 時々話題がずれる
+  </text>
+  <text x="70" y="190" font-family="Arial, sans-serif" font-size="13" fill="#555">
+    • 回りくどい表現あり
+  </text>
+  <text x="70" y="215" font-family="Arial, sans-serif" font-size="13" fill="#555">
+    • 指示から外れることも
+  </text>
+  <text x="70" y="240" font-family="Arial, sans-serif" font-size="13" fill="#555">
+    • 機能は十分
+  </text>
+  
+  <!-- Arrow -->
+  <line x1="330" y1="170" x2="450" y2="170" stroke="#10a37f" stroke-width="4" marker-end="url(#arrowhead)"/>
+  <text x="390" y="160" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#10a37f">
+    品質改善
+  </text>
+  
+  <!-- Right box: GPT-5.2 -->
+  <rect x="470" y="80" width="280" height="180" fill="#d4f4dd" rx="10" stroke="#10a37f" stroke-width="2"/>
+  <text x="610" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#10a37f">
+    GPT-5.2
+  </text>
+  <text x="490" y="140" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    ✓ 機能は同じまま
+  </text>
+  <text x="490" y="165" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    ✓ 会話の安定感UP
+  </text>
+  <text x="490" y="190" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    ✓ 文章が読みやすく
+  </text>
+  <text x="490" y="215" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    ✓ 指示を守る力強化
+  </text>
+  <text x="490" y="240" font-family="Arial, sans-serif" font-size="13" fill="#333">
+    ✓ 削除された機能なし
+  </text>
+  
+  <!-- Three main improvements -->
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    主な3つの改善点
+  </text>
+  
+  <!-- Improvement 1 -->
+  <rect x="50" y="320" width="220" height="240" fill="white" rx="8" stroke="#10a37f" stroke-width="2"/>
+  <circle cx="160" cy="350" r="20" fill="#10a37f"/>
+  <text x="160" y="358" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    1
+  </text>
+  <text x="160" y="390" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    会話の安定感向上
+  </text>
+  <text x="160" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    話題がずれにくく
+  </text>
+  <text x="160" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    前提を忘れない
+  </text>
+  <text x="160" y="460" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    やり取りが
+  </text>
+  <text x="160" y="480" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    スムーズに続く
+  </text>
+  <text x="160" y="520" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    長い会話で効果大
+  </text>
+  
+  <!-- Improvement 2 -->
+  <rect x="290" y="320" width="220" height="240" fill="white" rx="8" stroke="#10a37f" stroke-width="2"/>
+  <circle cx="400" cy="350" r="20" fill="#10a37f"/>
+  <text x="400" y="358" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    2
+  </text>
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    文章が整いやすい
+  </text>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    読みやすい文章に
+  </text>
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    自然な表現
+  </text>
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    結論が明確
+  </text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    手直しが減る
+  </text>
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    文章作成で実感
+  </text>
+  
+  <!-- Improvement 3 -->
+  <rect x="530" y="320" width="220" height="240" fill="white" rx="8" stroke="#10a37f" stroke-width="2"/>
+  <circle cx="640" cy="350" r="20" fill="#10a37f"/>
+  <text x="640" y="358" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">
+    3
+  </text>
+  <text x="640" y="390" font-family="Arial, sans-serif" font-size="15" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    指示を守る力強化
+  </text>
+  <text x="640" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    条件指定に強い
+  </text>
+  <text x="640" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    意図から外れない
+  </text>
+  <text x="640" y="460" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    細かい要望にも
+  </text>
+  <text x="640" y="480" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    しっかり対応
+  </text>
+  <text x="640" y="520" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="#10a37f" font-weight="bold">
+    初心者でも安心
+  </text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="585" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+    新機能追加なし・削除機能なし｜実用重視の品質改善アップデート
+  </text>
+</svg>
