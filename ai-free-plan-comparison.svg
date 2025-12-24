@@ -1,0 +1,128 @@
+<svg viewBox="0 0 1000 650" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff8e1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffe0b2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="650" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="500" y="35" font-size="28" font-weight="bold" text-anchor="middle" fill="#e65100">生成AI無料プラン比較</text>
+  <text x="500" y="60" font-size="14" text-anchor="middle" fill="#424242">ChatGPT・Gemini・Claude</text>
+  
+  <!-- Column Headers -->
+  <rect x="40" y="85" width="200" height="50" fill="#ff6f00" rx="8"/>
+  <text x="140" y="115" font-size="16" font-weight="bold" text-anchor="middle" fill="#fff">比較項目</text>
+  
+  <rect x="260" y="85" width="220" height="50" fill="#4caf50" rx="8"/>
+  <text x="370" y="115" font-size="16" font-weight="bold" text-anchor="middle" fill="#fff">ChatGPT</text>
+  
+  <rect x="500" y="85" width="220" height="50" fill="#2196f3" rx="8"/>
+  <text x="610" y="115" font-size="16" font-weight="bold" text-anchor="middle" fill="#fff">Gemini</text>
+  
+  <rect x="740" y="85" width="220" height="50" fill="#9c27b0" rx="8"/>
+  <text x="850" y="115" font-size="16" font-weight="bold" text-anchor="middle" fill="#fff">Claude</text>
+  
+  <!-- Row 1: Model -->
+  <rect x="40" y="145" width="200" height="45" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="55" y="172" font-size="13" font-weight="bold" fill="#424242">使用モデル</text>
+  
+  <rect x="260" y="145" width="220" height="45" fill="#e8f5e9"/>
+  <text x="370" y="172" font-size="12" text-anchor="middle" fill="#424242">標準モデルのみ</text>
+  
+  <rect x="500" y="145" width="220" height="45" fill="#e3f2fd"/>
+  <text x="610" y="172" font-size="12" text-anchor="middle" fill="#424242">標準モデルのみ</text>
+  
+  <rect x="740" y="145" width="220" height="45" fill="#f3e5f5"/>
+  <text x="850" y="172" font-size="12" text-anchor="middle" fill="#424242">標準モデルのみ</text>
+  
+  <!-- Row 2: Usage Limits -->
+  <rect x="40" y="195" width="200" height="55" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="55" y="217" font-size="13" font-weight="bold" fill="#424242">利用回数制限</text>
+  
+  <rect x="260" y="195" width="220" height="55" fill="#e8f5e9"/>
+  <text x="370" y="217" font-size="11" text-anchor="middle" fill="#424242">混雑時に制限</text>
+  <text x="370" y="235" font-size="11" text-anchor="middle" fill="#666">使い始めは快適</text>
+  
+  <rect x="500" y="195" width="220" height="55" fill="#e3f2fd"/>
+  <text x="610" y="217" font-size="11" text-anchor="middle" fill="#424242">比較的ゆるい</text>
+  <text x="610" y="235" font-size="11" text-anchor="middle" fill="#666">長時間OK</text>
+  
+  <rect x="740" y="195" width="220" height="55" fill="#f3e5f5"/>
+  <text x="850" y="217" font-size="11" text-anchor="middle" fill="#424242">1日の回数が少ない</text>
+  <text x="850" y="235" font-size="11" text-anchor="middle" fill="#666">数回で待ち時間</text>
+  
+  <!-- Row 3: Long Text -->
+  <rect x="40" y="255" width="200" height="55" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="55" y="277" font-size="13" font-weight="bold" fill="#424242">長文処理</text>
+  
+  <rect x="260" y="255" width="220" height="55" fill="#e8f5e9"/>
+  <text x="370" y="277" font-size="11" text-anchor="middle" fill="#424242">要約されやすい</text>
+  <text x="370" y="295" font-size="11" text-anchor="middle" fill="#666">短文向き</text>
+  
+  <rect x="500" y="255" width="220" height="55" fill="#e3f2fd"/>
+  <text x="610" y="277" font-size="11" text-anchor="middle" fill="#424242">精度低下しやすい</text>
+  <text x="610" y="295" font-size="11" text-anchor="middle" fill="#666">要点重視</text>
+  
+  <rect x="740" y="255" width="220" height="55" fill="#f3e5f5"/>
+  <text x="850" y="277" font-size="11" text-anchor="middle" fill="#424242">比較的強い</text>
+  <text x="850" y="295" font-size="11" text-anchor="middle" fill="#666">回数制限あり</text>
+  
+  <!-- Row 4: File Analysis -->
+  <rect x="40" y="315" width="200" height="45" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="55" y="342" font-size="13" font-weight="bold" fill="#424242">ファイル解析</text>
+  
+  <rect x="260" y="315" width="220" height="45" fill="#e8f5e9"/>
+  <text x="370" y="342" font-size="12" text-anchor="middle" fill="#d32f2f">利用不可</text>
+  
+  <rect x="500" y="315" width="220" height="45" fill="#e3f2fd"/>
+  <text x="610" y="342" font-size="12" text-anchor="middle" fill="#d32f2f">基本不可</text>
+  
+  <rect x="740" y="315" width="220" height="45" fill="#f3e5f5"/>
+  <text x="850" y="342" font-size="12" text-anchor="middle" fill="#d32f2f">基本不可</text>
+  
+  <!-- Row 5: Context -->
+  <rect x="40" y="365" width="200" height="55" fill="#fff" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="55" y="387" font-size="13" font-weight="bold" fill="#424242">文脈保持</text>
+  
+  <rect x="260" y="365" width="220" height="55" fill="#e8f5e9"/>
+  <text x="370" y="387" font-size="11" text-anchor="middle" fill="#424242">長時間は不可</text>
+  <text x="370" y="405" font-size="11" text-anchor="middle" fill="#666">短期的OK</text>
+  
+  <rect x="500" y="365" width="220" height="55" fill="#e3f2fd"/>
+  <text x="610" y="387" font-size="11" text-anchor="middle" fill="#424242">途切れやすい</text>
+  <text x="610" y="405" font-size="11" text-anchor="middle" fill="#666">情報収集向き</text>
+  
+  <rect x="740" y="365" width="220" height="55" fill="#f3e5f5"/>
+  <text x="850" y="387" font-size="11" text-anchor="middle" fill="#424242">比較的得意</text>
+  <text x="850" y="405" font-size="11" text-anchor="middle" fill="#666">会話が続く</text>
+  
+  <!-- Bottom Summary -->
+  <rect x="40" y="435" width="920" height="80" rx="10" fill="#fff" stroke="#ff6f00" stroke-width="2"/>
+  <text x="500" y="460" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">向いている用途</text>
+  
+  <text x="370" y="485" font-size="12" text-anchor="middle" fill="#424242">個人の試用・</text>
+  <text x="370" y="502" font-size="12" text-anchor="middle" fill="#424242">軽い作業向き</text>
+  
+  <text x="610" y="485" font-size="12" text-anchor="middle" fill="#424242">調べもの・</text>
+  <text x="610" y="502" font-size="12" text-anchor="middle" fill="#424242">概要把握向き</text>
+  
+  <text x="850" y="485" font-size="12" text-anchor="middle" fill="#424242">短時間集中・</text>
+  <text x="850" y="502" font-size="12" text-anchor="middle" fill="#424242">文章作成向き</text>
+  
+  <!-- Pricing Note -->
+  <rect x="40" y="530" width="920" height="95" rx="10" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+  <text x="500" y="555" font-size="16" font-weight="bold" text-anchor="middle" fill="#e65100">有料プラン料金（月額）</text>
+  
+  <circle cx="270" cy="585" r="4" fill="#4caf50"/>
+  <text x="280" y="590" font-size="13" fill="#424242">ChatGPT Plus: 約2,900円 / Pro: 約29,000円</text>
+  
+  <circle cx="270" cy="605" r="4" fill="#2196f3"/>
+  <text x="280" y="610" font-size="13" fill="#424242">Gemini Advanced: 約2,900円</text>
+  
+  <circle cx="575" cy="585" r="4" fill="#9c27b0"/>
+  <text x="585" y="590" font-size="13" fill="#424242">Claude Pro: 約2,900円</text>
+</svg>
