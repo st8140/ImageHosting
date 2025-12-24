@@ -1,0 +1,90 @@
+<svg viewBox="0 0 900 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f3e5f5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e1bee7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="700" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-size="26" font-weight="bold" text-anchor="middle" fill="#4a148c">Gemini Enterprise vs Gemini for Google Workspace</text>
+  
+  <!-- Left: Gemini for Workspace -->
+  <rect x="40" y="70" width="380" height="600" rx="15" fill="#fff" stroke="#7b1fa2" stroke-width="3"/>
+  <rect x="40" y="70" width="380" height="60" rx="15" fill="#7b1fa2"/>
+  <text x="230" y="107" font-size="20" font-weight="bold" text-anchor="middle" fill="#fff">Gemini for Workspace</text>
+  
+  <!-- Workspace Icon -->
+  <circle cx="230" cy="170" r="30" fill="#e1bee7"/>
+  <text x="230" y="180" font-size="30" text-anchor="middle" fill="#4a148c">📝</text>
+  
+  <!-- Workspace Features -->
+  <text x="230" y="230" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">位置づけ</text>
+  <text x="230" y="255" font-size="13" text-anchor="middle" fill="#424242">業務支援AIアシスタント</text>
+  
+  <text x="230" y="290" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">主な用途</text>
+  <text x="60" y="315" font-size="12" fill="#424242">• メール・文書作成</text>
+  <text x="60" y="335" font-size="12" fill="#424242">• 要約・アイデア出し</text>
+  <text x="60" y="355" font-size="12" fill="#424242">• 個人/チーム単位の利用</text>
+  
+  <text x="230" y="390" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">対象範囲</text>
+  <rect x="60" y="400" width="340" height="30" fill="#f3e5f5" rx="5"/>
+  <text x="230" y="420" font-size="13" text-anchor="middle" fill="#424242">Workspaceアプリ内</text>
+  
+  <text x="230" y="460" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">セキュリティ</text>
+  <text x="60" y="485" font-size="12" fill="#424242">• Workspace標準機能</text>
+  <text x="60" y="505" font-size="12" fill="#424242">• 細かい制御は限定的</text>
+  
+  <text x="230" y="540" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">導入規模</text>
+  <rect x="60" y="550" width="340" height="30" fill="#e1bee7" rx="5"/>
+  <text x="230" y="570" font-size="13" text-anchor="middle" fill="#424242">少人数・部門単位OK</text>
+  
+  <text x="230" y="610" font-size="16" font-weight="bold" text-anchor="middle" fill="#4a148c">向いている企業</text>
+  <text x="60" y="635" font-size="12" fill="#424242">✓ AI活用を試したい</text>
+  <text x="60" y="655" font-size="12" fill="#424242">✓ 導入ハードルを低く</text>
+  
+  <!-- Right: Gemini Enterprise -->
+  <rect x="480" y="70" width="380" height="600" rx="15" fill="#fff" stroke="#1565c0" stroke-width="3"/>
+  <rect x="480" y="70" width="380" height="60" rx="15" fill="#1565c0"/>
+  <text x="670" y="107" font-size="20" font-weight="bold" text-anchor="middle" fill="#fff">Gemini Enterprise</text>
+  
+  <!-- Enterprise Icon -->
+  <circle cx="670" cy="170" r="30" fill="#bbdefb"/>
+  <text x="670" y="180" font-size="30" text-anchor="middle" fill="#1565c0">🏢</text>
+  
+  <!-- Enterprise Features -->
+  <text x="670" y="230" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">位置づけ</text>
+  <text x="670" y="255" font-size="13" text-anchor="middle" fill="#424242">業務基盤としてのAI</text>
+  
+  <text x="670" y="290" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">主な用途</text>
+  <text x="500" y="315" font-size="12" fill="#424242">• 業務プロセスへの組み込み</text>
+  <text x="500" y="335" font-size="12" fill="#424242">• 判断支援・データ活用</text>
+  <text x="500" y="355" font-size="12" fill="#424242">• 部門横断の活用</text>
+  
+  <text x="670" y="390" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">対象範囲</text>
+  <rect x="500" y="400" width="340" height="30" fill="#e3f2fd" rx="5"/>
+  <text x="670" y="420" font-size="13" text-anchor="middle" fill="#424242">社内データ・業務全体</text>
+  
+  <text x="670" y="460" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">セキュリティ</text>
+  <text x="500" y="485" font-size="12" fill="#424242">• 高度な管理機能</text>
+  <text x="500" y="505" font-size="12" fill="#424242">• 詳細な権限・ログ管理</text>
+  
+  <text x="670" y="540" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">導入規模</text>
+  <rect x="500" y="550" width="340" height="30" fill="#bbdefb" rx="5"/>
+  <text x="670" y="570" font-size="13" text-anchor="middle" fill="#424242">全社導入を想定</text>
+  
+  <text x="670" y="610" font-size="16" font-weight="bold" text-anchor="middle" fill="#1565c0">向いている企業</text>
+  <text x="500" y="635" font-size="12" fill="#424242">✓ AIを業務の中核に</text>
+  <text x="500" y="655" font-size="12" fill="#424242">✓ 高度なデータ活用</text>
+  
+  <!-- Comparison Arrow -->
+  <path d="M 420 380 L 480 380" stroke="#424242" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#424242" />
+    </marker>
+  </defs>
+</svg>
