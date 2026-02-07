@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .title { font: bold 24px sans-serif; fill: #2c3e50; }
+      .heading { font: bold 18px sans-serif; fill: #34495e; }
+      .text { font: 14px sans-serif; fill: #34495e; }
+      .box { fill: #ecf0f1; stroke: #3498db; stroke-width: 2; }
+      .opensource-box { fill: #d5f4e6; stroke: #27ae60; stroke-width: 2; }
+      .google-box { fill: #e8f4fd; stroke: #3498db; stroke-width: 2; }
+      .feature-box { fill: #fff3cd; stroke: #ffc107; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" text-anchor="middle" class="title">Qwen-Image-2512:企業向け画像生成AI</text>
+  
+  <!-- 3つの強化ポイント -->
+  <text x="400" y="60" text-anchor="middle" class="heading">3つの強化ポイント</text>
+  
+  <rect x="40" y="75" width="230" height="110" rx="8" class="feature-box"/>
+  <text x="155" y="95" text-anchor="middle" class="text" font-weight="bold">1. 人物・環境表現</text>
+  <text x="155" y="115" text-anchor="middle" class="text" font-size="12">・自然な表情と質感</text>
+  <text x="155" y="132" text-anchor="middle" class="text" font-size="12">・年齢感の正確性</text>
+  <text x="155" y="149" text-anchor="middle" class="text" font-size="12">・背景との整合性</text>
+  <text x="155" y="170" text-anchor="middle" class="text" font-size="11" fill="#856404">→研修・教育用途に最適</text>
+  
+  <rect x="285" y="75" width="230" height="110" rx="8" class="feature-box"/>
+  <text x="400" y="95" text-anchor="middle" class="text" font-weight="bold">2. テクスチャ・素材感</text>
+  <text x="400" y="115" text-anchor="middle" class="text" font-size="12">・自然な質感表現</text>
+  <text x="400" y="132" text-anchor="middle" class="text" font-size="12">・AIっぽさの軽減</text>
+  <text x="400" y="149" text-anchor="middle" class="text" font-size="12">・修正コストの削減</text>
+  <text x="400" y="170" text-anchor="middle" class="text" font-size="11" fill="#856404">→EC・商品画像に活用</text>
+  
+  <rect x="530" y="75" width="230" height="110" rx="8" class="feature-box"/>
+  <text x="645" y="95" text-anchor="middle" class="text" font-weight="bold">3. 文字・レイアウト</text>
+  <text x="645" y="115" text-anchor="middle" class="text" font-size="12">・文字の正確な描画</text>
+  <text x="645" y="132" text-anchor="middle" class="text" font-size="12">・スペルミス防止</text>
+  <text x="645" y="149" text-anchor="middle" class="text" font-size="12">・構造化された画像</text>
+  <text x="645" y="170" text-anchor="middle" class="text" font-size="11" fill="#856404">→資料・スライド生成</text>
+  
+  <!-- Google vs Qwen比較 -->
+  <text x="400" y="220" text-anchor="middle" class="heading">Googleモデル vs Qwen-Image-2512</text>
+  
+  <!-- Googleモデル -->
+  <g>
+    <rect x="50" y="240" width="330" height="320" rx="10" class="google-box"/>
+    <text x="215" y="265" text-anchor="middle" class="heading" font-size="16">Googleモデル</text>
+    
+    <text x="70" y="290" class="text" font-size="13" font-weight="bold">提供形態</text>
+    <text x="70" y="308" class="text" font-size="12">クローズド（API中心）</text>
+    
+    <text x="70" y="330" class="text" font-size="13" font-weight="bold">実行環境</text>
+    <text x="70" y="348" class="text" font-size="12">Google Cloud前提</text>
+    
+    <text x="70" y="370" class="text" font-size="13" font-weight="bold">コスト</text>
+    <text x="70" y="388" class="text" font-size="12">利用量課金</text>
+    
+    <text x="70" y="410" class="text" font-size="13" font-weight="bold">カスタマイズ</text>
+    <text x="70" y="428" class="text" font-size="12">限定的</text>
+    
+    <text x="70" y="450" class="text" font-size="13" font-weight="bold">データ主権</text>
+    <text x="70" y="468" class="text" font-size="12">Googleに依存</text>
+    
+    <rect x="60" y="485" width="310" height="60" rx="5" fill="#fff" stroke="#3498db" stroke-width="1"/>
+    <text x="215" y="505" text-anchor="middle" class="text" font-size="11" font-weight="bold">✓ 向いている企業</text>
+    <text x="215" y="520" text-anchor="middle" class="text" font-size="10">Google基盤を使用</text>
+    <text x="215" y="533" text-anchor="middle" class="text" font-size="10">即効性・統合性重視</text>
+  </g>
+  
+  <!-- Qwen-Image-2512 -->
+  <g>
+    <rect x="420" y="240" width="330" height="320" rx="10" class="opensource-box"/>
+    <text x="585" y="265" text-anchor="middle" class="heading" font-size="16">Qwen-Image-2512</text>
+    
+    <text x="440" y="290" class="text" font-size="13" font-weight="bold">提供形態</text>
+    <text x="440" y="308" class="text" font-size="12">オープンソース+API</text>
+    
+    <text x="440" y="330" class="text" font-size="13" font-weight="bold">実行環境</text>
+    <text x="440" y="348" class="text" font-size="12">オンプレ/クラウド自由</text>
+    
+    <text x="440" y="370" class="text" font-size="13" font-weight="bold">コスト</text>
+    <text x="440" y="388" class="text" font-size="12">自前運用可能</text>
+    
+    <text x="440" y="410" class="text" font-size="13" font-weight="bold">カスタマイズ</text>
+    <text x="440" y="428" class="text" font-size="12">高い（学習・調整可）</text>
+    
+    <text x="440" y="450" class="text" font-size="13" font-weight="bold">データ主権</text>
+    <text x="440" y="468" class="text" font-size="12">企業側で完全管理</text>
+    
+    <rect x="430" y="485" width="310" height="60" rx="5" fill="#fff" stroke="#27ae60" stroke-width="1"/>
+    <text x="585" y="505" text-anchor="middle" class="text" font-size="11" font-weight="bold">✓ 向いている企業</text>
+    <text x="585" y="520" text-anchor="middle" class="text" font-size="10">AI基盤の主導権確保</text>
+    <text x="585" y="533" text-anchor="middle" class="text" font-size="10">データ外部流出回避</text>
+  </g>
+  
+  <!-- Bottom message -->
+  <rect x="100" y="570" width="600" height="25" rx="5" fill="#27ae60"/>
+  <text x="400" y="588" text-anchor="middle" class="text" fill="white" font-size="13" font-weight="bold">オープンソースは妥協ではなく戦略:企業は最適な選択ができる時代に</text>
+</svg>
