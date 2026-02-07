@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .title { font: bold 22px sans-serif; fill: #2c3e50; }
+      .heading { font: bold 16px sans-serif; fill: #34495e; }
+      .text { font: 13px sans-serif; fill: #34495e; }
+      .risk-box { fill: #fee; stroke: #e74c3c; stroke-width: 2; }
+      .solution-box { fill: #e8f4fd; stroke: #3498db; stroke-width: 2; }
+      .timeline-box { fill: #fff3cd; stroke: #ffc107; stroke-width: 2; }
+    </style>
+  </defs>
+  
+  <!-- タイトル -->
+  <text x="400" y="25" text-anchor="middle" class="title">AIセキュリティ:シャドーAIとエージェントリスク</text>
+  
+  <!-- シャドーAIリスク -->
+  <g>
+    <rect x="30" y="45" width="360" height="180" rx="8" class="risk-box"/>
+    <text x="210" y="65" text-anchor="middle" class="heading">シャドーAIのリスク</text>
+    
+    <text x="50" y="88" class="text" font-size="12" font-weight="bold">⚠ 問題の本質</text>
+    <text x="50" y="105" class="text" font-size="11">・企業が許可していないAI利用が常態化</text>
+    <text x="50" y="120" class="text" font-size="11">・未管理の個人アカウントでデータ流出</text>
+    <text x="50" y="135" class="text" font-size="11">・発見が遅れやすく、禁止しても効果薄</text>
+    
+    <text x="50" y="158" class="text" font-size="12" font-weight="bold">⚠ 主なリスク</text>
+    <text x="50" y="175" class="text" font-size="11">・機密情報の意図しない流出</text>
+    <text x="50" y="190" class="text" font-size="11">・データポリシー違反の増加</text>
+    <text x="50" y="205" class="text" font-size="11">・コンプライアンス問題の発生</text>
+  </g>
+  
+  <!-- AIエージェントリスク -->
+  <g>
+    <rect x="410" y="45" width="360" height="180" rx="8" class="risk-box"/>
+    <text x="590" y="65" text-anchor="middle" class="heading">AIエージェントのリスク</text>
+    
+    <text x="430" y="88" class="text" font-size="12" font-weight="bold">⚠ 新たな脅威</text>
+    <text x="430" y="105" class="text" font-size="11">・人の監督なしでツール同士が連携</text>
+    <text x="430" y="120" class="text" font-size="11">・過剰な権限により被害拡大</text>
+    <text x="430" y="135" class="text" font-size="11">・影響範囲が一気に広がる</text>
+    
+    <text x="430" y="158" class="text" font-size="12" font-weight="bold">⚠ 攻撃パターン</text>
+    <text x="430" y="175" class="text" font-size="11">1. プロンプト注入で不正指示実行</text>
+    <text x="430" y="190" class="text" font-size="11">2. AI出力を信じて下流で実行</text>
+    <text x="430" y="205" class="text" font-size="11">3. 過剰権限で横展開が発生</text>
+  </g>
+  
+  <!-- 対策の方針 -->
+  <g>
+    <rect x="30" y="240" width="740" height="140" rx="8" class="solution-box"/>
+    <text x="400" y="263" text-anchor="middle" class="heading">対策の基本方針:ブロックより可視化と統制</text>
+    
+    <g>
+      <circle cx="120" cy="295" r="5" fill="#3498db"/>
+      <text x="135" y="300" class="text" font-size="12" font-weight="bold">1. 利用の可視化</text>
+      <text x="135" y="316" class="text" font-size="11">DLP/CASBで入力とアップロードを観測</text>
+      <text x="135" y="330" class="text" font-size="11">どの部署がどのAIを使うか把握</text>
+    </g>
+    
+    <g>
+      <circle cx="320" cy="295" r="5" fill="#3498db"/>
+      <text x="335" y="300" class="text" font-size="12" font-weight="bold">2. 公式ルート整備</text>
+      <text x="335" y="316" class="text" font-size="11">社内で使えるAIを用意しSSO誘導</text>
+      <text x="335" y="330" class="text" font-size="11">禁止だけでなく便利な選択肢を提供</text>
+    </g>
+    
+    <g>
+      <circle cx="520" cy="295" r="5" fill="#3498db"/>
+      <text x="535" y="300" class="text" font-size="12" font-weight="bold">3. 明確なルール</text>
+      <text x="535" y="316" class="text" font-size="11">入力禁止データの具体例リスト</text>
+      <text x="535" y="330" class="text" font-size="11">抽象的でなく判断基準付き</text>
+    </g>
+    
+    <g>
+      <circle cx="120" cy="350" r="5" fill="#3498db"/>
+      <text x="135" y="355" class="text" font-size="12" font-weight="bold">4. 最小権限原則</text>
+      <text x="135" y="370" class="text" font-size="11">エージェントは読取中心から開始</text>
+    </g>
+    
+    <g>
+      <circle cx="320" cy="350" r="5" fill="#3498db"/>
+      <text x="335" y="355" class="text" font-size="12" font-weight="bold">5. 承認フロー</text>
+      <text x="335" y="370" class="text" font-size="11">重要操作(支払/送信/削除等)必須</text>
+    </g>
+    
+    <g>
+      <circle cx="520" cy="350" r="5" fill="#3498db"/>
+      <text x="535" y="355" class="text" font-size="12" font-weight="bold">6. 出力検証</text>
+      <text x="535" y="370" class="text" font-size="11">AI出力をそのまま実行しない</text>
+    </g>
+  </g>
+  
+  <!-- 実装タイムライン -->
+  <g>
+    <text x="400" y="408" text-anchor="middle" class="heading">実装タイムライン</text>
+    
+    <!-- 30日以内 -->
+    <rect x="30" y="420" width="360" height="160" rx="8" class="timeline-box"/>
+    <text x="210" y="440" text-anchor="middle" class="text" font-size="14" font-weight="bold">まず30日でやること</text>
+    
+    <text x="50" y="465" class="text" font-size="12">✓ 生成AI利用の可視化開始</text>
+    <text x="60" y="480" class="text" font-size="11">入力とアップロードの観測を設定</text>
+    
+    <text x="50" y="502" class="text" font-size="12">✓ 公式ルートの決定</text>
+    <text x="60" y="517" class="text" font-size="11">SSO+ログ取得を前提に選定</text>
+    
+    <text x="50" y="539" class="text" font-size="12">✓ 禁止データリスト作成</text>
+    <text x="60" y="554" class="text" font-size="11">現場が迷わない具体例を整備</text>
+    
+    <!-- 90日以内 -->
+    <rect x="410" y="420" width="360" height="160" rx="8" class="timeline-box"/>
+    <text x="590" y="440" text-anchor="middle" class="text" font-size="14" font-weight="bold">次の90日でやること</text>
+    
+    <text x="430" y="465" class="text" font-size="12">✓ エージェント最小権限化</text>
+    <text x="440" y="480" class="text" font-size="11">読取中心から段階的に拡大</text>
+    
+    <text x="430" y="502" class="text" font-size="12">✓ 承認フロー必須化</text>
+    <text x="440" y="517" class="text" font-size="11">重要操作に承認工程を導入</text>
+    
+    <text x="430" y="539" class="text" font-size="12">✓ 出力取扱ルール策定</text>
+    <text x="440" y="554" class="text" font-size="11">検証工程とフィルタ設計</text>
+  </g>
+</svg>
