@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620">
+  <!-- 背景 -->
+  <rect width="800" height="620" fill="#f5f7fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="30" font-size="20" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    経理部門のAI活用7つの事例
+  </text>
+  <text x="400" y="52" font-size="12" text-anchor="middle" fill="#666">
+    判断ではなく、整理と下書きに使う
+  </text>
+  
+  <!-- 7つのボックス（3-2-2のレイアウト） -->
+  <!-- 上段3つ -->
+  <!-- 1. 請求書要約 -->
+  <rect x="30" y="75" width="230" height="140" fill="#fff" stroke="#4a90e2" stroke-width="2" rx="6"/>
+  <circle cx="145" cy="95" r="14" fill="#4a90e2"/>
+  <text x="145" y="100" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+  <text x="145" y="122" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    請求書・領収書要約
+  </text>
+  <g transform="translate(45, 135)">
+    <text x="0" y="0" font-size="10" fill="#666">必要項目の抽出</text>
+    <text x="0" y="16" font-size="10" fill="#666">要点の整理</text>
+    <text x="0" y="32" font-size="10" fill="#666">確認工数の削減</text>
+    <text x="0" y="50" font-size="9" font-weight="bold" fill="#4a90e2">→ 確認が速くなる</text>
+  </g>
+  
+  <!-- 2. 仕訳のたたき台 -->
+  <rect x="285" y="75" width="230" height="140" fill="#fff" stroke="#50c878" stroke-width="2" rx="6"/>
+  <circle cx="400" cy="95" r="14" fill="#50c878"/>
+  <text x="400" y="100" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+  <text x="400" y="122" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    仕訳のたたき台作成
+  </text>
+  <g transform="translate(300, 135)">
+    <text x="0" y="0" font-size="10" fill="#666">候補の整理</text>
+    <text x="0" y="16" font-size="10" fill="#666">判断ポイントの抽出</text>
+    <text x="0" y="32" font-size="10" fill="#666">根拠の明示</text>
+    <text x="0" y="50" font-size="9" font-weight="bold" fill="#50c878">→ 往復が減る</text>
+  </g>
+  
+  <!-- 3. 差し戻しテンプレ化 -->
+  <rect x="540" y="75" width="230" height="140" fill="#fff" stroke="#ff9500" stroke-width="2" rx="6"/>
+  <circle cx="655" cy="95" r="14" fill="#ff9500"/>
+  <text x="655" y="100" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+  <text x="655" y="122" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    経費精算差し戻し
+  </text>
+  <g transform="translate(555, 135)">
+    <text x="0" y="0" font-size="10" fill="#666">不備の分類</text>
+    <text x="0" y="16" font-size="10" fill="#666">文面のテンプレ化</text>
+    <text x="0" y="32" font-size="10" fill="#666">手戻りの削減</text>
+    <text x="0" y="50" font-size="9" font-weight="bold" fill="#ff9500">→ 作成時間短縮</text>
+  </g>
+  
+  <!-- 中段2つ -->
+  <!-- 4. メール下書き -->
+  <rect x="95" y="235" width="230" height="140" fill="#fff" stroke="#9b59b6" stroke-width="2" rx="6"/>
+  <circle cx="210" cy="255" r="14" fill="#9b59b6"/>
+  <text x="210" y="260" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+  <text x="210" y="282" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    取引先対応メール
+  </text>
+  <g transform="translate(110, 295)">
+    <text x="0" y="0" font-size="10" fill="#666">文面の下書き</text>
+    <text x="0" y="16" font-size="10" fill="#666">確認事項の漏れ防止</text>
+    <text x="0" y="32" font-size="10" fill="#666">丁寧さの維持</text>
+    <text x="0" y="50" font-size="9" font-weight="bold" fill="#9b59b6">→ 品質維持で高速化</text>
+  </g>
+  
+  <!-- 5. 月次レポート -->
+  <rect x="348" y="235" width="230" height="140" fill="#fff" stroke="#e74c3c" stroke-width="2" rx="6"/>
+  <circle cx="463" cy="255" r="14" fill="#e74c3c"/>
+  <text x="463" y="260" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">5</text>
+  <text x="463" y="282" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    月次レポート文章
+  </text>
+  <g transform="translate(363, 295)">
+    <text x="0" y="0" font-size="10" fill="#666">要因の整理</text>
+    <text x="0" y="16" font-size="10" fill="#666">論点の抽出</text>
+    <text x="0" y="32" font-size="10" fill="#666">文章の骨格作成</text>
+    <text x="0" y="50" font-size="9" font-weight="bold" fill="#e74c3c">→ 根拠確認に集中</text>
+  </g>
+  
+  <!-- 下段2つ -->
+  <!-- 6. 監査対応 -->
+  <rect x="158" y="395" width="230" height="140" fill="#fff" stroke="#2ecc71" stroke-width="2" rx="6"/>
+  <circle cx="273" cy="415" r="14" fill="#2ecc71"/>
+  <text x="273" y="420" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">6</text>
+  <text x="273" y="442" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    監査対応想定問答
+  </text>
+  <g transform="translate(173, 455)">
+    <text x="0" y="0" font-size="10" fill="#666">想定質問の整理</text>
+    <text x="0" y="16" font-size="10" fill="#666">根拠の当たり先明示</text>
+    <text x="0" y="32" font-size="10" fill="#666">属人化の解消</text>
+    <text x="0" y="50" font-size="9" font-weight="bold" fill="#2ecc71">→ 対応スピード向上</text>
+  </g>
+  
+  <!-- 7. ナレッジ共有 -->
+  <rect x="412" y="395" width="230" height="140" fill="#fff" stroke="#f39c12" stroke-width="2" rx="6"/>
+  <circle cx="527" cy="415" r="14" fill="#f39c12"/>
+  <text x="527" y="420" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">7</text>
+  <text x="527" y="442" font-size="13" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    運用ナレッジ整備
+  </text>
+  <g transform="translate(427, 455)">
+    <text x="0" y="0" font-size="10" fill="#666">FAQ化</text>
+    <text x="0" y="16" font-size="10" fill="#666">検索可能な形で蓄積</text>
+    <text x="0" y="32" font-size="10" fill="#666">問い合わせ削減</text>
+    <text x="0" y="50" font-size="9" font-weight="bold" fill="#f39c12">→ 自己解決を促進</text>
+  </g>
+  
+  <!-- 下部の重要原則 -->
+  <rect x="50" y="555" width="700" height="55" fill="#e8f4f8" stroke="#4a90e2" stroke-width="1" rx="5"/>
+  <text x="400" y="575" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    AI活用の鉄則
+  </text>
+  <text x="400" y="593" font-size="11" text-anchor="middle" fill="#333">
+    AIの役割は「判断」ではなく「整理と下書き」に固定
+  </text>
+  <text x="400" y="607" font-size="10" text-anchor="middle" fill="#666">
+    最終確認は必ず人が行う → 品質を保ったままスピードアップ
+  </text>
+</svg>
