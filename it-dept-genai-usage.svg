@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f5f7fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    情報システム部門の生成AI活用4つの領域
+  </text>
+  <text x="400" y="60" font-size="13" text-anchor="middle" fill="#666">
+    セキュリティと現場利用の両立を実現
+  </text>
+  
+  <!-- 4つのボックス -->
+  <!-- 左上：利用ルール整備 -->
+  <rect x="50" y="90" width="340" height="220" fill="#fff" stroke="#4a90e2" stroke-width="2" rx="8"/>
+  <circle cx="220" cy="120" r="18" fill="#4a90e2"/>
+  <text x="220" y="126" font-size="18" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+  <text x="220" y="155" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    利用ルール・ガイドライン整備
+  </text>
+  
+  <g transform="translate(70, 175)">
+    <text x="0" y="0" font-size="13" font-weight="bold" fill="#333">課題</text>
+    <text x="0" y="20" font-size="11" fill="#666">判断基準が不明確、属人化</text>
+    
+    <text x="0" y="50" font-size="13" font-weight="bold" fill="#333">解決策</text>
+    <text x="0" y="70" font-size="11" fill="#666">利用シーンごとのリスク整理</text>
+    <text x="0" y="88" font-size="11" fill="#666">「入力OK/NG」の基準言語化</text>
+    
+    <text x="0" y="115" font-size="13" font-weight="bold" fill="#333">成果</text>
+    <text x="0" y="135" font-size="11" fill="#666">現場が安心して利用可能に</text>
+  </g>
+  
+  <!-- 右上：社内データ環境設計 -->
+  <rect x="410" y="90" width="340" height="220" fill="#fff" stroke="#50c878" stroke-width="2" rx="8"/>
+  <circle cx="580" cy="120" r="18" fill="#50c878"/>
+  <text x="580" y="126" font-size="18" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+  <text x="580" y="155" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    社内データ環境の設計
+  </text>
+  
+  <g transform="translate(430, 175)">
+    <text x="0" y="0" font-size="13" font-weight="bold" fill="#333">課題</text>
+    <text x="0" y="20" font-size="11" fill="#666">社外に出せないデータの扱い</text>
+    
+    <text x="0" y="50" font-size="13" font-weight="bold" fill="#333">解決策</text>
+    <text x="0" y="70" font-size="11" fill="#666">クラウド型とローカル型の使い分け</text>
+    <text x="0" y="88" font-size="11" fill="#666">データの性質に応じた環境選択</text>
+    
+    <text x="0" y="115" font-size="13" font-weight="bold" fill="#333">成果</text>
+    <text x="0" y="135" font-size="11" fill="#666">セキュリティ確保+業務改善継続</text>
+  </g>
+  
+  <!-- 左下：アカウント・コスト管理 -->
+  <rect x="50" y="330" width="340" height="220" fill="#fff" stroke="#ff9500" stroke-width="2" rx="8"/>
+  <circle cx="220" cy="360" r="18" fill="#ff9500"/>
+  <text x="220" y="366" font-size="18" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+  <text x="220" y="395" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    アカウント・コスト管理
+  </text>
+  
+  <g transform="translate(70, 415)">
+    <text x="0" y="0" font-size="13" font-weight="bold" fill="#333">課題</text>
+    <text x="0" y="20" font-size="11" fill="#666">利用状況・コストの全体把握困難</text>
+    
+    <text x="0" y="50" font-size="13" font-weight="bold" fill="#333">解決策</text>
+    <text x="0" y="70" font-size="11" fill="#666">利用状況の可視化仕組み構築</text>
+    <text x="0" y="88" font-size="11" fill="#666">定期的な傾向確認と調整</text>
+    
+    <text x="0" y="115" font-size="13" font-weight="bold" fill="#333">成果</text>
+    <text x="0" y="135" font-size="11" fill="#666">コスト最適化、説明責任の確保</text>
+  </g>
+  
+  <!-- 右下：問い合わせ対応 -->
+  <rect x="410" y="330" width="340" height="220" fill="#fff" stroke="#9b59b6" stroke-width="2" rx="8"/>
+  <circle cx="580" cy="360" r="18" fill="#9b59b6"/>
+  <text x="580" y="366" font-size="18" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+  <text x="580" y="395" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    問い合わせ対応の効率化
+  </text>
+  
+  <g transform="translate(430, 415)">
+    <text x="0" y="0" font-size="13" font-weight="bold" fill="#333">課題</text>
+    <text x="0" y="20" font-size="11" fill="#666">同様の問い合わせが繰り返し発生</text>
+    
+    <text x="0" y="50" font-size="13" font-weight="bold" fill="#333">解決策</text>
+    <text x="0" y="70" font-size="11" fill="#666">過去の対応をFAQ化</text>
+    <text x="0" y="88" font-size="11" fill="#666">ナレッジ管理で自己解決を促進</text>
+    
+    <text x="0" y="115" font-size="13" font-weight="bold" fill="#333">成果</text>
+    <text x="0" y="135" font-size="11" fill="#666">対応工数削減、品質の安定化</text>
+  </g>
+  
+  <!-- 下部の重要ポイント -->
+  <rect x="50" y="560" width="700" height="30" fill="#e8f4f8" stroke="#4a90e2" stroke-width="1" rx="5"/>
+  <text x="400" y="581" font-size="12" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    重要：一律制限ではなく、業務内容に応じた適切な使い分けを設計
+  </text>
+</svg>
