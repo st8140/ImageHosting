@@ -1,0 +1,119 @@
+<svg viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="700" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="35" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">カスタマーサポート部門での生成AI活用</text>
+  
+  <!-- 中央：課題 -->
+  <g>
+    <rect x="250" y="60" width="300" height="100" fill="#ff6b6b" rx="8"/>
+    <text x="400" y="85" font-size="16" font-weight="bold" text-anchor="middle" fill="white">カスタマーサポートの課題</text>
+    <line x1="280" y1="95" x2="520" y2="95" stroke="white" stroke-width="1"/>
+    <text x="400" y="115" font-size="11" text-anchor="middle" fill="white">対応の属人化・回答品質のばらつき</text>
+    <text x="400" y="133" font-size="11" text-anchor="middle" fill="white">ナレッジ更新の遅れ・定型作業の負担</text>
+    <text x="400" y="151" font-size="11" text-anchor="middle" fill="white">チャネル増加による分類困難</text>
+  </g>
+  
+  <!-- 4つの活用領域 -->
+  <!-- 1. 返信文ドラフト -->
+  <g>
+    <rect x="40" y="200" width="170" height="220" fill="#4ecdc4" rx="8"/>
+    <text x="125" y="225" font-size="14" font-weight="bold" text-anchor="middle" fill="white">① 返信文ドラフト</text>
+    <line x1="60" y1="235" x2="190" y2="235" stroke="white" stroke-width="1"/>
+    <text x="125" y="255" font-size="11" text-anchor="middle" fill="white">✓ 問い合わせ要点化</text>
+    <text x="125" y="275" font-size="11" text-anchor="middle" fill="white">✓ 確認事項の抽出</text>
+    <text x="125" y="295" font-size="11" text-anchor="middle" fill="white">✓ テンプレ適用</text>
+    <text x="125" y="315" font-size="11" text-anchor="middle" fill="white">✓ トーン調整</text>
+    
+    <rect x="50" y="330" width="150" height="75" fill="#a8e6cf" rx="6"/>
+    <text x="125" y="350" font-size="10" font-weight="bold" text-anchor="middle" fill="#1a1a1a">効果</text>
+    <text x="125" y="368" font-size="10" text-anchor="middle" fill="#1a1a1a">対応スピード向上</text>
+    <text x="125" y="384" font-size="10" text-anchor="middle" fill="#1a1a1a">新人ベテラン差縮小</text>
+    <text x="125" y="400" font-size="10" text-anchor="middle" fill="#1a1a1a">品質の安定化</text>
+  </g>
+  
+  <!-- 2. チケット分類 -->
+  <g>
+    <rect x="230" y="200" width="170" height="220" fill="#95e1d3" rx="8"/>
+    <text x="315" y="225" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">② チケット分類</text>
+    <line x1="250" y1="235" x2="380" y2="235" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="315" y="255" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ 要素抽出</text>
+    <text x="315" y="275" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ カテゴリ分類</text>
+    <text x="315" y="295" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ タグ付け自動化</text>
+    <text x="315" y="315" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ 優先度判定</text>
+    
+    <rect x="240" y="330" width="150" height="75" fill="#d5f4e6" rx="6"/>
+    <text x="315" y="350" font-size="10" font-weight="bold" text-anchor="middle" fill="#1a1a1a">効果</text>
+    <text x="315" y="368" font-size="10" text-anchor="middle" fill="#1a1a1a">初動ボトルネック解消</text>
+    <text x="315" y="384" font-size="10" text-anchor="middle" fill="#1a1a1a">重要案件の優先化</text>
+    <text x="315" y="400" font-size="10" text-anchor="middle" fill="#1a1a1a">属人化の抑制</text>
+  </g>
+  
+  <!-- 3. FAQナレッジ整備 -->
+  <g>
+    <rect x="420" y="200" width="170" height="220" fill="#ffd93d" rx="8"/>
+    <text x="505" y="225" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">③ FAQ整備</text>
+    <line x1="440" y1="235" x2="570" y2="235" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="505" y="255" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ 頻出テーマ抽出</text>
+    <text x="505" y="275" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ 質問文の統一</text>
+    <text x="505" y="295" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ 回答文ドラフト</text>
+    <text x="505" y="315" font-size="11" text-anchor="middle" fill="#1a1a1a">✓ 手順の明確化</text>
+    
+    <rect x="430" y="330" width="150" height="75" fill="#fff4b3" rx="6"/>
+    <text x="505" y="350" font-size="10" font-weight="bold" text-anchor="middle" fill="#1a1a1a">効果</text>
+    <text x="505" y="368" font-size="10" text-anchor="middle" fill="#1a1a1a">ナレッジ更新加速</text>
+    <text x="505" y="384" font-size="10" text-anchor="middle" fill="#1a1a1a">同一問合せ削減</text>
+    <text x="505" y="400" font-size="10" text-anchor="middle" fill="#1a1a1a">検索精度向上</text>
+  </g>
+  
+  <!-- 4. VOC分析 -->
+  <g>
+    <rect x="610" y="200" width="170" height="220" fill="#a29bfe" rx="8"/>
+    <text x="695" y="225" font-size="14" font-weight="bold" text-anchor="middle" fill="white">④ VOC分析</text>
+    <line x1="630" y1="235" x2="760" y2="235" stroke="white" stroke-width="1"/>
+    <text x="695" y="255" font-size="11" text-anchor="middle" fill="white">✓ カテゴリ別整理</text>
+    <text x="695" y="275" font-size="11" text-anchor="middle" fill="white">✓ 不満・要望抽出</text>
+    <text x="695" y="295" font-size="11" text-anchor="middle" fill="white">✓ インパクト要約</text>
+    <text x="695" y="315" font-size="11" text-anchor="middle" fill="white">✓ 改善案整理</text>
+    
+    <rect x="620" y="330" width="150" height="75" fill="#dfe6e9" rx="6"/>
+    <text x="695" y="350" font-size="10" font-weight="bold" text-anchor="middle" fill="#1a1a1a">効果</text>
+    <text x="695" y="368" font-size="10" text-anchor="middle" fill="#1a1a1a">品質レビュー効率化</text>
+    <text x="695" y="384" font-size="10" text-anchor="middle" fill="#1a1a1a">改善テーマ発見</text>
+    <text x="695" y="400" font-size="10" text-anchor="middle" fill="#1a1a1a">事業へのフィードバック</text>
+  </g>
+  
+  <!-- 活用ツール -->
+  <g>
+    <rect x="50" y="450" width="700" height="110" fill="#6c5ce7" rx="8"/>
+    <text x="400" y="475" font-size="16" font-weight="bold" text-anchor="middle" fill="white">活用ツールと連携</text>
+    
+    <!-- ツール1 -->
+    <rect x="70" y="490" width="200" height="55" fill="#a29bfe" rx="6"/>
+    <text x="170" y="510" font-size="12" font-weight="bold" text-anchor="middle" fill="white">ChatGPT/Gemini</text>
+    <text x="170" y="528" font-size="10" text-anchor="middle" fill="white">ドラフト作成・分類</text>
+    <text x="170" y="542" font-size="10" text-anchor="middle" fill="white">要約・改善案生成</text>
+    
+    <!-- ツール2 -->
+    <rect x="300" y="490" width="200" height="55" fill="#a29bfe" rx="6"/>
+    <text x="400" y="510" font-size="12" font-weight="bold" text-anchor="middle" fill="white">ヘルプデスクツール</text>
+    <text x="400" y="528" font-size="10" text-anchor="middle" fill="white">チケット管理</text>
+    <text x="400" y="542" font-size="10" text-anchor="middle" fill="white">承認フロー</text>
+    
+    <!-- ツール3 -->
+    <rect x="530" y="490" width="200" height="55" fill="#a29bfe" rx="6"/>
+    <text x="630" y="510" font-size="12" font-weight="bold" text-anchor="middle" fill="white">ナレッジ・BIツール</text>
+    <text x="630" y="528" font-size="10" text-anchor="middle" fill="white">FAQ公開・検索分析</text>
+    <text x="630" y="542" font-size="10" text-anchor="middle" fill="white">傾向可視化</text>
+  </g>
+  
+  <!-- 成果 -->
+  <g>
+    <rect x="150" y="590" width="500" height="90" fill="#55efc4" rx="8"/>
+    <text x="400" y="615" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">期待される成果</text>
+    <line x1="180" y1="625" x2="620" y2="625" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="400" y="645" font-size="12" text-anchor="middle" fill="#1a1a1a">対応品質と生産性の同時向上</text>
+    <text x="400" y="663" font-size="12" text-anchor="middle" fill="#1a1a1a">対応窓口 → 顧客体験・改善の中核部門へ進化</text>
+  </g>
+</svg>
