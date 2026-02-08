@@ -1,0 +1,82 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">非同意ディープフェイク問題と企業対策</text>
+  
+  <!-- 問題の定義 -->
+  <g>
+    <rect x="50" y="70" width="200" height="120" fill="#ff6b6b" rx="8"/>
+    <text x="150" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="white">問題とは？</text>
+    <text x="150" y="125" font-size="12" text-anchor="middle" fill="white">本人の同意なく</text>
+    <text x="150" y="145" font-size="12" text-anchor="middle" fill="white">実在人物の画像・動画</text>
+    <text x="150" y="165" font-size="12" text-anchor="middle" fill="white">を生成AI で作成</text>
+  </g>
+  
+  <!-- 深刻化の背景 -->
+  <g>
+    <rect x="300" y="70" width="200" height="120" fill="#4ecdc4" rx="8"/>
+    <text x="400" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="white">深刻化の背景</text>
+    <text x="400" y="125" font-size="12" text-anchor="middle" fill="white">・生成AIの利用障壁低下</text>
+    <text x="400" y="145" font-size="12" text-anchor="middle" fill="white">・SNSでの急速な拡散</text>
+    <text x="400" y="165" font-size="12" text-anchor="middle" fill="white">・削除困難な不可逆性</text>
+  </g>
+  
+  <!-- 規制動向 -->
+  <g>
+    <rect x="550" y="70" width="200" height="120" fill="#95e1d3" rx="8"/>
+    <text x="650" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">規制当局の動き</text>
+    <text x="650" y="125" font-size="12" text-anchor="middle" fill="#1a1a1a">米カリフォルニア州</text>
+    <text x="650" y="145" font-size="12" text-anchor="middle" fill="#1a1a1a">xAIに是正要求</text>
+    <text x="650" y="165" font-size="11" text-anchor="middle" fill="#1a1a1a">プラットフォーム側の責任</text>
+  </g>
+  
+  <!-- 企業リスク -->
+  <g>
+    <rect x="100" y="230" width="280" height="140" fill="#ffd93d" rx="8"/>
+    <text x="240" y="260" font-size="16" font-weight="bold" text-anchor="middle" fill="#1a1a1a">企業にとってのリスク</text>
+    <line x1="130" y1="275" x2="350" y2="275" stroke="#1a1a1a" stroke-width="1"/>
+    <text x="240" y="295" font-size="12" text-anchor="middle" fill="#1a1a1a">✓ 社内利用でも発生しうる</text>
+    <text x="240" y="315" font-size="12" text-anchor="middle" fill="#1a1a1a">✓ 法務リスク（訴訟・賠償）</text>
+    <text x="240" y="335" font-size="12" text-anchor="middle" fill="#1a1a1a">✓ 信頼低下・ブランド毀損</text>
+    <text x="240" y="355" font-size="12" text-anchor="middle" fill="#1a1a1a">✓ SNS拡散による炎上</text>
+  </g>
+  
+  <!-- 情シスの課題 -->
+  <g>
+    <rect x="420" y="230" width="330" height="140" fill="#fa8072" rx="8"/>
+    <text x="585" y="260" font-size="16" font-weight="bold" text-anchor="middle" fill="white">情シスが直面する3つの課題</text>
+    <line x1="450" y1="275" x2="720" y2="275" stroke="white" stroke-width="1"/>
+    <text x="585" y="295" font-size="12" text-anchor="middle" fill="white">1. シャドーAIの増加</text>
+    <text x="585" y="315" font-size="12" text-anchor="middle" fill="white">2. 利用ルールの曖昧さ</text>
+    <text x="585" y="335" font-size="12" text-anchor="middle" fill="white">3. インシデント初動体制の未整備</text>
+  </g>
+  
+  <!-- 対策 -->
+  <g>
+    <rect x="50" y="410" width="700" height="170" fill="#6c5ce7" rx="8"/>
+    <text x="400" y="440" font-size="18" font-weight="bold" text-anchor="middle" fill="white">企業が今すぐ整えるべき対策</text>
+    
+    <!-- 対策1 -->
+    <rect x="70" y="460" width="200" height="100" fill="#a29bfe" rx="6"/>
+    <text x="170" y="485" font-size="14" font-weight="bold" text-anchor="middle" fill="white">1. 利用規程の明文化</text>
+    <text x="170" y="505" font-size="11" text-anchor="middle" fill="white">実在人物扱いのルール化</text>
+    <text x="170" y="525" font-size="11" text-anchor="middle" fill="white">業務/私用の線引き</text>
+    <text x="170" y="545" font-size="11" text-anchor="middle" fill="white">具体的NG例の提示</text>
+    
+    <!-- 対策2 -->
+    <rect x="300" y="460" width="200" height="100" fill="#a29bfe" rx="6"/>
+    <text x="400" y="485" font-size="14" font-weight="bold" text-anchor="middle" fill="white">2. 技術的・組織的統制</text>
+    <text x="400" y="505" font-size="11" text-anchor="middle" fill="white">利用ツールの限定</text>
+    <text x="400" y="525" font-size="11" text-anchor="middle" fill="white">ログ管理・監査</text>
+    <text x="400" y="545" font-size="11" text-anchor="middle" fill="white">部門間連携体制</text>
+    
+    <!-- 対策3 -->
+    <rect x="530" y="460" width="200" height="100" fill="#a29bfe" rx="6"/>
+    <text x="630" y="485" font-size="14" font-weight="bold" text-anchor="middle" fill="white">3. インシデント対応</text>
+    <text x="630" y="505" font-size="11" text-anchor="middle" fill="white">報告フローの確立</text>
+    <text x="630" y="525" font-size="11" text-anchor="middle" fill="white">部門連携の事前決定</text>
+    <text x="630" y="545" font-size="11" text-anchor="middle" fill="white">削除要請手順の整備</text>
+  </g>
+</svg>
