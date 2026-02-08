@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    マーケティング部門の生成AI活用マップ
+  </text>
+  
+  <!-- Central Hub -->
+  <circle cx="400" cy="300" r="60" fill="#4285f4" opacity="0.9"/>
+  <text x="400" y="295" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    ChatGPT/
+  </text>
+  <text x="400" y="315" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+    Gemini
+  </text>
+  
+  <!-- Use Case 1: Creative Production (Top Left) -->
+  <rect x="40" y="80" width="200" height="120" rx="10" fill="#34a853" opacity="0.85"/>
+  <text x="140" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    クリエイティブ制作
+  </text>
+  <text x="140" y="130" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 訴求軸の整理
+  </text>
+  <text x="140" y="148" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • コピー案大量生成
+  </text>
+  <text x="140" y="166" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 構成案作成
+  </text>
+  <text x="140" y="184" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    → 制作スピード向上
+  </text>
+  
+  <!-- Connection line 1 -->
+  <line x1="240" y1="140" x2="350" y2="270" stroke="#34a853" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Use Case 2: SNS Management (Top Right) -->
+  <rect x="560" y="80" width="200" height="120" rx="10" fill="#fbbc04" opacity="0.85"/>
+  <text x="660" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    SNS運用
+  </text>
+  <text x="660" y="130" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 投稿案複数パターン
+  </text>
+  <text x="660" y="148" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • トーン統一
+  </text>
+  <text x="660" y="166" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 炎上リスク回避
+  </text>
+  <text x="660" y="184" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    → 継続的な運用実現
+  </text>
+  
+  <!-- Connection line 2 -->
+  <line x1="560" y1="140" x2="450" y2="270" stroke="#fbbc04" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Use Case 3: Email & LP (Left) -->
+  <rect x="40" y="270" width="200" height="120" rx="10" fill="#ea4335" opacity="0.85"/>
+  <text x="140" y="295" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    メルマガ・LP改善
+  </text>
+  <text x="140" y="320" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 件名・本文案生成
+  </text>
+  <text x="140" y="338" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • セグメント別訴求
+  </text>
+  <text x="140" y="356" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • LP構成見直し
+  </text>
+  <text x="140" y="374" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    → CVR改善
+  </text>
+  
+  <!-- Connection line 3 -->
+  <line x1="240" y1="330" x2="340" y2="300" stroke="#ea4335" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Use Case 4: Ad Management (Right) -->
+  <rect x="560" y="270" width="200" height="120" rx="10" fill="#9334e6" opacity="0.85"/>
+  <text x="660" y="295" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    広告運用
+  </text>
+  <text x="660" y="320" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 広告文バリエーション
+  </text>
+  <text x="660" y="338" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 訴求軸別テスト設計
+  </text>
+  <text x="660" y="356" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 媒体別表現調整
+  </text>
+  <text x="660" y="374" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    → CPA改善
+  </text>
+  
+  <!-- Connection line 4 -->
+  <line x1="560" y1="330" x2="460" y2="300" stroke="#9334e6" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Use Case 5: Reporting (Bottom) -->
+  <rect x="300" y="460" width="200" height="120" rx="10" fill="#00897b" opacity="0.85"/>
+  <text x="400" y="485" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">
+    レポーティング・分析
+  </text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 指標変化の要約
+  </text>
+  <text x="400" y="528" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 要因仮説の整理
+  </text>
+  <text x="400" y="546" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    • 次アクション提案
+  </text>
+  <text x="400" y="564" font-family="Arial, sans-serif" font-size="11" text-anchor="middle" fill="white">
+    → 意思決定スピード向上
+  </text>
+  
+  <!-- Connection line 5 -->
+  <line x1="400" y1="460" x2="400" y2="360" stroke="#00897b" stroke-width="2" opacity="0.6"/>
+</svg>
