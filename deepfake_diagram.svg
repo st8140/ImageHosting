@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">
+    非同意ディープフェイク問題と企業対応
+  </text>
+  
+  <!-- 規制当局の視点 -->
+  <rect x="50" y="80" width="300" height="220" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+  <text x="200" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#856404">規制当局が重視するポイント</text>
+  
+  <text x="70" y="145" font-size="14" fill="#333">✓ 事前のリスク評価</text>
+  <text x="70" y="170" font-size="14" fill="#333">✓ 技術的な安全対策の実装</text>
+  <text x="70" y="195" font-size="14" fill="#333">✓ 継続的な改善プロセス</text>
+  <text x="70" y="220" font-size="14" fill="#333">✓ 利用規約だけでは不十分</text>
+  <text x="70" y="245" font-size="14" fill="#333">✓ 悪用の迅速な検知と対応</text>
+  <text x="70" y="270" font-size="13" fill="#856404" font-style="italic">※利用者任せにしない姿勢</text>
+  
+  <!-- 企業でのリスク -->
+  <rect x="450" y="80" width="300" height="220" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="10"/>
+  <text x="600" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#721c24">企業で起こり得るリスク</text>
+  
+  <text x="470" y="145" font-size="14" fill="#333">• 資料作成での無意識な生成</text>
+  <text x="470" y="170" font-size="14" fill="#333">• 外注・委託先経由の問題</text>
+  <text x="470" y="195" font-size="14" fill="#333">• 個人判断での無管理利用</text>
+  <text x="470" y="220" font-size="14" fill="#333">• 社外流出による信頼低下</text>
+  <text x="470" y="245" font-size="14" fill="#333">• 法的リスクへの発展</text>
+  <text x="470" y="270" font-size="13" fill="#721c24" font-style="italic">※善意でも事故につながる</text>
+  
+  <!-- 矢印 -->
+  <path d="M 350 190 L 450 190" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="400" y="180" text-anchor="middle" font-size="12" fill="#666">影響</text>
+  
+  <!-- 対策の枠組み -->
+  <rect x="50" y="330" width="700" height="240" fill="#ffffff" stroke="#17a2b8" stroke-width="3" rx="10"/>
+  <text x="400" y="360" text-anchor="middle" font-size="20" font-weight="bold" fill="#0c5460">
+    情シスが整えるべき対策の枠組み
+  </text>
+  
+  <!-- 4つの対策領域 -->
+  <g>
+    <rect x="70" y="385" width="150" height="160" fill="#d1ecf1" stroke="#17a2b8" stroke-width="1" rx="5"/>
+    <text x="145" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c5460">ルール設計</text>
+    <text x="80" y="435" font-size="12" fill="#333">・利用範囲の定義</text>
+    <text x="80" y="455" font-size="12" fill="#333">・人物画像の扱い</text>
+    <text x="80" y="475" font-size="12" fill="#333">・ツール選定基準</text>
+    <text x="80" y="495" font-size="12" fill="#333">・社内ガイドライン</text>
+    <text x="80" y="515" font-size="12" fill="#333">・教育プログラム</text>
+  </g>
+  
+  <g>
+    <rect x="235" y="385" width="150" height="160" fill="#d1ecf1" stroke="#17a2b8" stroke-width="1" rx="5"/>
+    <text x="310" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c5460">技術的対策</text>
+    <text x="245" y="435" font-size="12" fill="#333">・入力データ制限</text>
+    <text x="245" y="455" font-size="12" fill="#333">・ログ・証跡確保</text>
+    <text x="245" y="475" font-size="12" fill="#333">・承認フロー</text>
+    <text x="245" y="495" font-size="12" fill="#333">・権限管理</text>
+    <text x="245" y="515" font-size="12" fill="#333">・検知の仕組み</text>
+  </g>
+  
+  <g>
+    <rect x="400" y="385" width="150" height="160" fill="#d1ecf1" stroke="#17a2b8" stroke-width="1" rx="5"/>
+    <text x="475" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c5460">運用体制</text>
+    <text x="410" y="435" font-size="12" fill="#333">・責任者の明確化</text>
+    <text x="410" y="455" font-size="12" fill="#333">・報告ルート</text>
+    <text x="410" y="475" font-size="12" fill="#333">・インシデント対応</text>
+    <text x="410" y="495" font-size="12" fill="#333">・定期的な見直し</text>
+    <text x="410" y="515" font-size="12" fill="#333">・外注先管理</text>
+  </g>
+  
+  <g>
+    <rect x="565" y="385" width="160" height="160" fill="#d1ecf1" stroke="#17a2b8" stroke-width="1" rx="5"/>
+    <text x="645" y="410" text-anchor="middle" font-size="14" font-weight="bold" fill="#0c5460">継続的改善</text>
+    <text x="575" y="435" font-size="12" fill="#333">・利用実態の把握</text>
+    <text x="575" y="455" font-size="12" fill="#333">・新リスクの評価</text>
+    <text x="575" y="475" font-size="12" fill="#333">・ルールの更新</text>
+    <text x="575" y="495" font-size="12" fill="#333">・事故からの学習</text>
+    <text x="575" y="515" font-size="12" fill="#333">・AI進化への対応</text>
+  </g>
+  
+  <!-- 矢印マーカーの定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
