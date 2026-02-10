@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <!-- Background -->
+  <rect width="800" height="1000" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    Microsoft Maia200：AI推論特化チップ
+  </text>
+  
+  <!-- Section 1: Core Features -->
+  <g transform="translate(50, 80)">
+    <rect width="700" height="140" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      Maia200の特徴
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 推論処理に特化した設計（学習用ではない）
+    </text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 汎用GPU依存からの脱却
+    </text>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • クラウド基盤への組み込みによる推論コスト削減
+    </text>
+  </g>
+  
+  <!-- Section 2: Why Inference Focus -->
+  <g transform="translate(50, 250)">
+    <rect width="700" height="180" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57c00">
+      なぜ推論特化が重視されるか
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 企業利用：学習より推論の比重が圧倒的に高い
+    </text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 業務系AI：社内FAQ、問い合わせ対応、検索補助、文章要約
+    </text>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 24時間稼働前提：利用者増加で推論コストが積み重なる
+    </text>
+    <text x="30" y="135" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 連続的処理：わずかなコスト差が全体で大きな差に
+    </text>
+  </g>
+  
+  <!-- Section 3: Cloud Provider Comparison -->
+  <g transform="translate(50, 460)">
+    <rect width="700" height="140" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      クラウド事業者との比較
+    </text>
+    
+    <text x="30" y="65" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      <tspan font-weight="bold">Amazon / Google：</tspan> 自社サービスへの最適化
+    </text>
+    <text x="30" y="90" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      <tspan font-weight="bold">Microsoft：</tspan> 業務アプリ・社内システム組み込みを重視
+    </text>
+    <text x="30" y="115" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      → 現場まで含めた全体最適を狙う
+    </text>
+  </g>
+  
+  <!-- Section 4: Impact on Enterprises -->
+  <g transform="translate(50, 630)">
+    <rect width="700" height="180" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#388e3c">
+      企業への影響
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      <tspan font-weight="bold">メリット：</tspan>
+    </text>
+    <text x="50" y="85" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      • 同じ処理を低コスト・安定的に実行
+    </text>
+    <text x="50" y="107" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      • AI活用の全社展開が容易に（実験から業務基盤へ）
+    </text>
+    <text x="30" y="135" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      <tspan font-weight="bold">注意点：</tspan>
+    </text>
+    <text x="50" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      • 利用設計とモニタリングの重要性が高まる
+    </text>
+  </g>
+  
+  <!-- Section 5: What IT Should Consider -->
+  <g transform="translate(50, 840)">
+    <rect width="700" height="140" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#c62828">
+      情シスが検討すべきポイント
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      ① 生成AIの対象業務と利用範囲を明確化
+    </text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      ② クラウド依存しすぎない設計（移行の自由度確保）
+    </text>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      ③ ログ管理・利用状況の可視化（コスト管理・ガバナンス）
+    </text>
+  </g>
+</svg>
