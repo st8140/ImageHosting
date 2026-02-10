@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">
+    生成AIハルシネーションの構造
+  </text>
+  
+  <!-- 原因セクション -->
+  <rect x="50" y="80" width="220" height="160" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+  <text x="160" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#856404">原因</text>
+  
+  <text x="70" y="140" font-size="14" fill="#333">・確率的な文章生成</text>
+  <text x="70" y="165" font-size="14" fill="#333">・学習データの限界</text>
+  <text x="70" y="190" font-size="14" fill="#333">・事実検証機能なし</text>
+  <text x="70" y="215" font-size="14" fill="#333">・完全防止は不可能</text>
+  
+  <!-- 影響セクション -->
+  <rect x="290" y="80" width="220" height="160" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="10"/>
+  <text x="400" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#721c24">企業への影響</text>
+  
+  <text x="310" y="140" font-size="14" fill="#333">・誤情報の拡散</text>
+  <text x="310" y="165" font-size="14" fill="#333">・誤った意思決定</text>
+  <text x="310" y="190" font-size="14" fill="#333">・信頼性の低下</text>
+  <text x="310" y="215" font-size="14" fill="#333">・対外トラブル</text>
+  
+  <!-- 対策セクション -->
+  <rect x="530" y="80" width="220" height="160" fill="#d1ecf1" stroke="#17a2b8" stroke-width="2" rx="10"/>
+  <text x="640" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c5460">対策</text>
+  
+  <text x="550" y="140" font-size="14" fill="#333">・利用ルールの整備</text>
+  <text x="550" y="165" font-size="14" fill="#333">・用途の切り分け</text>
+  <text x="550" y="190" font-size="14" fill="#333">・人による確認工程</text>
+  <text x="550" y="215" font-size="14" fill="#333">・事故対応フロー</text>
+  
+  <!-- 矢印 -->
+  <path d="M 270 160 L 290 160" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 510 160 L 530 160" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- リスク例のセクション -->
+  <rect x="50" y="280" width="700" height="280" fill="#ffffff" stroke="#6c757d" stroke-width="2" rx="10"/>
+  <text x="400" y="310" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">
+    企業で起きやすい事故パターン
+  </text>
+  
+  <!-- 3つのケース -->
+  <g>
+    <circle cx="140" cy="380" r="40" fill="#f8d7da" stroke="#dc3545" stroke-width="2"/>
+    <text x="140" y="370" text-anchor="middle" font-size="12" font-weight="bold" fill="#721c24">社内資料</text>
+    <text x="140" y="390" text-anchor="middle" font-size="12" fill="#721c24">誤情報混入</text>
+    
+    <text x="140" y="440" text-anchor="middle" font-size="11" fill="#555">存在しない数値や</text>
+    <text x="140" y="455" text-anchor="middle" font-size="11" fill="#555">制度が記載される</text>
+  </g>
+  
+  <g>
+    <circle cx="400" cy="380" r="40" fill="#f8d7da" stroke="#dc3545" stroke-width="2"/>
+    <text x="400" y="370" text-anchor="middle" font-size="12" font-weight="bold" fill="#721c24">意思決定</text>
+    <text x="400" y="390" text-anchor="middle" font-size="12" fill="#721c24">への影響</text>
+    
+    <text x="400" y="440" text-anchor="middle" font-size="11" fill="#555">誤った前提で</text>
+    <text x="400" y="455" text-anchor="middle" font-size="11" fill="#555">判断が行われる</text>
+  </g>
+  
+  <g>
+    <circle cx="660" cy="380" r="40" fill="#f8d7da" stroke="#dc3545" stroke-width="2"/>
+    <text x="660" y="370" text-anchor="middle" font-size="12" font-weight="bold" fill="#721c24">事後発覚</text>
+    <text x="660" y="390" text-anchor="middle" font-size="12" fill="#721c24">パターン</text>
+    
+    <text x="660" y="440" text-anchor="middle" font-size="11" fill="#555">外部指摘で</text>
+    <text x="660" y="455" text-anchor="middle" font-size="11" fill="#555">問題が表面化</text>
+  </g>
+  
+  <!-- 重要なメッセージ -->
+  <rect x="100" y="490" width="600" height="50" fill="#d4edda" stroke="#28a745" stroke-width="2" rx="5"/>
+  <text x="400" y="515" text-anchor="middle" font-size="14" font-weight="bold" fill="#155724">
+    重要: ハルシネーションは完全防止不可能
+  </text>
+  <text x="400" y="535" text-anchor="middle" font-size="12" fill="#155724">
+    「起きる前提」で利用ルールを設計し、人による確認工程を組み込む
+  </text>
+  
+  <!-- 矢印マーカーの定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
