@@ -1,117 +1,118 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100">
-  <!-- Background -->
-  <rect width="800" height="1100" fill="#f8f9fa"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <style>
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; fill: #1a1a1a; }
+      .subtitle { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #2c3e50; }
+      .text { font-family: Arial, sans-serif; font-size: 14px; fill: #34495e; }
+      .small-text { font-family: Arial, sans-serif; font-size: 12px; fill: #555; }
+      .header-bg { fill: #3498db; }
+      .section-bg { fill: #ecf0f1; stroke: #bdc3c7; stroke-width: 2; }
+      .highlight-bg { fill: #e8f4f8; stroke: #3498db; stroke-width: 2; }
+      .feature-bg { fill: #fff; stroke: #95a5a6; stroke-width: 1.5; }
+    </style>
+  </defs>
   
-  <!-- Title -->
-  <text x="400" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
-    Qwen3-Coder-Next：80B/3B超疎MoE高速コーディングAI
+  <!-- タイトル -->
+  <rect class="header-bg" x="0" y="0" width="1200" height="70" rx="8"/>
+  <text class="title" x="600" y="45" text-anchor="middle" fill="white">
+    Qwen3-Coder-Next: 80B/3B 超疎MoEで実現する高速コーディングAI
   </text>
   
-  <!-- Section 1: Overview -->
-  <g transform="translate(50, 80)">
-    <rect width="700" height="120" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
-    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">
-      基本概要
-    </text>
-    
-    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • Apache 2.0オープンソースの"vibe coding"向けモデル
-    </text>
-    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • リポジトリ全体を扱い、複数ファイル修正、エージェント的開発
-    </text>
+  <!-- 中央コア：超疎MoE -->
+  <g transform="translate(600, 150)">
+    <rect class="highlight-bg" x="-180" y="-50" width="360" height="100" rx="8"/>
+    <text class="subtitle" x="0" y="-20" text-anchor="middle">超疎Mixture-of-Experts</text>
+    <text class="text" x="0" y="10" text-anchor="middle">総パラメータ: 80B</text>
+    <text class="text" x="0" y="35" text-anchor="middle" font-weight="bold" fill="#e74c3c">アクティブ: わずか3B (軽量級)</text>
   </g>
   
-  <!-- Section 2: 80B/3B MoE -->
-  <g transform="translate(50, 230)">
-    <rect width="700" height="160" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="10"/>
-    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57c00">
-      超疎MoE（80B総/3Bアクティブ）
-    </text>
+  <!-- 左列：性能とコスト -->
+  <g transform="translate(50, 300)">
+    <rect class="section-bg" x="0" y="0" width="280" height="180" rx="6"/>
+    <text class="subtitle" x="140" y="25" text-anchor="middle">性能とコスト効率</text>
     
-    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 巨大モデル相当の表現力を軽量モデル級の計算量で実現
-    </text>
-    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 推論コスト抑制、同時実行性向上、オンプレ現実性
-    </text>
-    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • リポジトリタスクで理論上10倍のスループット向上
-    </text>
-    <text x="30" y="135" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 反復型開発ループの速度重視
-    </text>
+    <text class="text" x="15" y="55">✓ 大規模モデル級の表現力</text>
+    <text class="text" x="15" y="80">✓ 推論コスト: 軽量級</text>
+    <text class="text" x="15" y="105">✓ スループット: 10倍向上</text>
+    <text class="text" x="15" y="130">✓ オンプレ/専用環境対応</text>
+    <text class="text" x="15" y="155">✓ Apache 2.0ライセンス</text>
   </g>
   
-  <!-- Section 3: 262k Long Context -->
-  <g transform="translate(50, 420)">
-    <rect width="700" height="140" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="10"/>
-    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
-      262k長文脈高速化
-    </text>
+  <!-- 中央列：長文脈処理 -->
+  <g transform="translate(370, 300)">
+    <rect class="section-bg" x="0" y="0" width="280" height="180" rx="6"/>
+    <text class="subtitle" x="140" y="25" text-anchor="middle">262k長文脈高速化</text>
     
-    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • Gated DeltaNet×Gated Attentionハイブリッド
-    </text>
-    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 線形計算量でメモリ壁を回避
-    </text>
-    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • Best-Fit Packing（BFP）で長文脈学習の品質担保
-    </text>
+    <rect class="feature-bg" x="15" y="40" width="250" height="35" rx="4"/>
+    <text class="text" x="140" y="63" text-anchor="middle">Gated DeltaNet (線形計算量)</text>
+    
+    <rect class="feature-bg" x="15" y="85" width="250" height="35" rx="4"/>
+    <text class="text" x="140" y="108" text-anchor="middle">Gated Attention (効率的注意)</text>
+    
+    <rect class="feature-bg" x="15" y="130" width="250" height="35" rx="4"/>
+    <text class="text" x="140" y="153" text-anchor="middle">BFP学習 (品質担保)</text>
   </g>
   
-  <!-- Section 4: Agent-First Learning -->
-  <g transform="translate(50, 590)">
-    <rect width="700" height="180" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="10"/>
-    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#388e3c">
-      エージェントファースト学習
-    </text>
+  <!-- 右列：エージェント学習 -->
+  <g transform="translate(690, 300)">
+    <rect class="section-bg" x="0" y="0" width="280" height="180" rx="6"/>
+    <text class="subtitle" x="140" y="25" text-anchor="middle">エージェントファースト学習</text>
     
-    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 800k検証可能タスク（実行環境で成否判定）
-    </text>
-    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • MegaFlowで閉ループ強化：ロールアウト→評価→後処理
-    </text>
-    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 「それっぽいコード」から「テストを通すまで粘るAI」へ
-    </text>
-    <text x="30" y="135" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 失敗からの復帰、依存解決、エラー原因切り分け
-    </text>
+    <text class="text" x="15" y="55">✓ 800k検証可能タスク</text>
+    <text class="text" x="15" y="80">✓ 実行環境での検証</text>
+    <text class="text" x="15" y="105">✓ MegaFlow閉ループ強化</text>
+    <text class="text" x="15" y="130">✓ 失敗からの復帰能力</text>
+    <text class="text" x="15" y="155">✓ テスト通過まで粘る</text>
   </g>
   
-  <!-- Section 5: Practical Features -->
-  <g transform="translate(50, 800)">
-    <rect width="700" height="140" fill="#fff9c4" stroke="#f57f17" stroke-width="2" rx="10"/>
-    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57f17">
-      実運用機能
-    </text>
+  <!-- 下部：実運用機能 -->
+  <g transform="translate(50, 520)">
+    <rect class="section-bg" x="0" y="0" width="920" height="120" rx="6"/>
+    <text class="subtitle" x="460" y="25" text-anchor="middle">実運用機能</text>
     
-    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 370言語対応（従来92から拡大）
-    </text>
-    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • XMLツール呼び出し（エスケープ地獄回避）
-    </text>
-    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • 600Bトークン規模のリポジトリ級中間学習
-    </text>
+    <g transform="translate(30, 45)">
+      <circle cx="0" cy="0" r="4" fill="#3498db"/>
+      <text class="text" x="15" y="5">370言語対応 (92→370に拡大)</text>
+    </g>
+    
+    <g transform="translate(250, 45)">
+      <circle cx="0" cy="0" r="4" fill="#3498db"/>
+      <text class="text" x="15" y="5">XMLツール呼び出し (エスケープ回避)</text>
+    </g>
+    
+    <g transform="translate(530, 45)">
+      <circle cx="0" cy="0" r="4" fill="#3498db"/>
+      <text class="text" x="15" y="5">リポジトリレベル学習 (600Bトークン)</text>
+    </g>
+    
+    <g transform="translate(30, 75)">
+      <circle cx="0" cy="0" r="4" fill="#3498db"/>
+      <text class="text" x="15" y="5">専門家モデル蒸留 (Web/UX領域別)</text>
+    </g>
+    
+    <g transform="translate(340, 75)">
+      <circle cx="0" cy="0" r="4" fill="#3498db"/>
+      <text class="text" x="15" y="5">クロスファイル依存理解</text>
+    </g>
   </g>
   
-  <!-- Section 6: Benchmarks -->
-  <g transform="translate(50, 970)">
-    <rect width="700" height="100" fill="#ffebee" stroke="#c62828" stroke-width="2" rx="10"/>
-    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#c62828">
-      ベンチマーク実績
-    </text>
+  <!-- 下部：ベンチマーク -->
+  <g transform="translate(50, 670)">
+    <rect class="section-bg" x="0" y="0" width="450" height="110" rx="6"/>
+    <text class="subtitle" x="225" y="25" text-anchor="middle">ベンチマーク結果</text>
     
-    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • SWE-Bench Verified 70.6%（DeepSeek-V3.2上回る）
-    </text>
-    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
-      • SecCodeBench 61.2%（Claude-Opus-4.5上回る）
-    </text>
+    <text class="text" x="20" y="55">SWE-Bench Verified: 70.6%</text>
+    <text class="small-text" x="35" y="75" fill="#7f8c8d">(DeepSeek-V3.2: 70.2%, GLM-4.7: 74.2%)</text>
+    <text class="text" x="20" y="95">SecCodeBench: 61.2% (Claude Opus 4.5: 52.5%)</text>
+  </g>
+  
+  <!-- 下部：B2B評価ポイント -->
+  <g transform="translate(520, 670)">
+    <rect class="highlight-bg" x="0" y="0" width="450" height="110" rx="6"/>
+    <text class="subtitle" x="225" y="25" text-anchor="middle">B2B導入の評価ポイント</text>
+    
+    <text class="text" x="20" y="55">✓ 性能/コスト比率 (性能/円、性能/秒)</text>
+    <text class="text" x="20" y="75">✓ 反復の速さ (CI/テスト統合)</text>
+    <text class="text" x="20" y="95">✓ 監査・セキュリティ・データ境界</text>
   </g>
 </svg>
