@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 950">
+  <!-- Background -->
+  <rect width="800" height="950" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">
+    OpenAI Agentic Coding：複数エージェント並列開発
+  </text>
+  
+  <!-- Section 1: What is Agentic Coding -->
+  <g transform="translate(50, 80)">
+    <rect width="700" height="140" fill="#e3f2fd" stroke="#1976d2" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1976d2">
+      Agentic Codingとは
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 複数AIエージェントに役割を与え、開発作業を分担
+    </text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 調査、設計補助、実装、テスト準備を並列で進行
+    </text>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 「対話型」から「工程の一部を任せる存在」へ
+    </text>
+  </g>
+  
+  <!-- Section 2: macOS New App Features -->
+  <g transform="translate(50, 250)">
+    <rect width="700" height="200" fill="#fff3e0" stroke="#f57c00" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#f57c00">
+      macOS新アプリの特徴
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 複数エージェントを同時に走らせる設計
+    </text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • バックグラウンドで動作：席を外している間に処理
+    </text>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • キュー形式で結果を整理：振り返りやすい
+    </text>
+    <text x="30" y="135" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • エージェントの役割・振る舞いを切り替え可能
+    </text>
+    <text x="30" y="160" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 作業の司令塔：エージェントに仕事を割り振り管理
+    </text>
+  </g>
+  
+  <!-- Section 3: Impact on Development Process -->
+  <g transform="translate(50, 480)">
+    <rect width="700" height="240" fill="#e8f5e9" stroke="#388e3c" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#388e3c">
+      開発現場への影響
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      <tspan font-weight="bold">開発前後の見えにくい作業に効果：</tspan>
+    </text>
+    <text x="50" y="85" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      • 仕様整理、技術調査、ドキュメント整理を並列処理
+    </text>
+    <text x="50" y="107" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      • 既存コードの構造把握を自動化
+    </text>
+    <text x="30" y="135" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      <tspan font-weight="bold">実装フェーズ：</tspan>
+    </text>
+    <text x="50" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      • ボイラープレート生成、既存パターン沿いの実装案
+    </text>
+    <text x="50" y="182" font-family="Arial, sans-serif" font-size="14" fill="#333">
+      • 人は設計判断に集中、手戻り削減
+    </text>
+    <text x="30" y="210" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      <tspan font-weight="bold">テスト・レビュー：</tspan> テストケース案、影響範囲洗い出し
+    </text>
+  </g>
+  
+  <!-- Section 4: Position in Development -->
+  <g transform="translate(50, 750)">
+    <rect width="700" height="160" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" rx="10"/>
+    <text x="350" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#7b1fa2">
+      現場での位置づけ
+    </text>
+    
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 「一人の開発者の置き換え」ではない
+    </text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 「複数の作業者を束ねるアシスタント」に近い
+    </text>
+    <text x="30" y="110" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 人の判断を前提にした下支え役として機能
+    </text>
+    <text x="30" y="135" font-family="Arial, sans-serif" font-size="15" fill="#333">
+      • 開発スピード向上 + 品質の安定に寄与
+    </text>
+  </g>
+</svg>
