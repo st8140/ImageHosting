@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">
+    ClaudeのMCP：業務アプリ連携の構造
+  </text>
+  
+  <!-- 従来のチャット型AI -->
+  <rect x="50" y="80" width="320" height="200" fill="#fff3cd" stroke="#ffc107" stroke-width="2" rx="10"/>
+  <text x="210" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#856404">従来のチャット型AI</text>
+  
+  <circle cx="210" cy="170" r="40" fill="#ffc107" stroke="#856404" stroke-width="2"/>
+  <text x="210" y="178" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">Claude</text>
+  
+  <text x="70" y="235" font-size="13" fill="#333">❌ 業務ツールと分断</text>
+  <text x="70" y="255" font-size="13" fill="#333">❌ 説明の手間が必要</text>
+  <text x="70" y="275" font-size="13" fill="#333">❌ 属人化しやすい</text>
+  
+  <!-- 矢印 -->
+  <path d="M 370 180 L 430 180" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="400" y="170" text-anchor="middle" font-size="14" font-weight="bold" fill="#28a745">MCP</text>
+  
+  <!-- MCP連携後 -->
+  <rect x="430" y="80" width="320" height="200" fill="#d1ecf1" stroke="#17a2b8" stroke-width="2" rx="10"/>
+  <text x="590" y="110" text-anchor="middle" font-size="18" font-weight="bold" fill="#0c5460">MCP連携後</text>
+  
+  <circle cx="590" cy="170" r="40" fill="#17a2b8" stroke="#0c5460" stroke-width="2"/>
+  <text x="590" y="178" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">Claude</text>
+  
+  <text x="450" y="235" font-size="13" fill="#333">✓ 業務フローに組み込み</text>
+  <text x="450" y="255" font-size="13" fill="#333">✓ 文脈を理解した支援</text>
+  <text x="450" y="275" font-size="13" fill="#333">✓ 標準化が可能</text>
+  
+  <!-- MCPの役割 -->
+  <rect x="50" y="310" width="700" height="120" fill="#ffffff" stroke="#6c757d" stroke-width="2" rx="10"/>
+  <text x="400" y="340" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">
+    MCPの役割
+  </text>
+  
+  <text x="70" y="370" font-size="14" fill="#333">• 業務アプリとの接続を標準化する共通プロトコル</text>
+  <text x="70" y="395" font-size="14" fill="#333">• Slack、Figma、Canvaなど既存ツールとClaudeを直接連携</text>
+  <text x="70" y="420" font-size="14" fill="#333">• どの情報をAIに共有するか制御可能（ガバナンス）</text>
+  
+  <!-- 情シスの管理ポイント -->
+  <rect x="50" y="460" width="700" height="120" fill="#f8d7da" stroke="#dc3545" stroke-width="2" rx="10"/>
+  <text x="400" y="490" text-anchor="middle" font-size="18" font-weight="bold" fill="#721c24">
+    情シスが注意すべき管理ポイント
+  </text>
+  
+  <g>
+    <rect x="70" y="505" width="160" height="60" fill="#ffffff" stroke="#dc3545" stroke-width="1" rx="5"/>
+    <text x="150" y="525" text-anchor="middle" font-size="12" font-weight="bold" fill="#721c24">情報制御</text>
+    <text x="80" y="545" font-size="11" fill="#333">どのデータを</text>
+    <text x="80" y="560" font-size="11" fill="#333">AIに渡すか</text>
+  </g>
+  
+  <g>
+    <rect x="250" y="505" width="160" height="60" fill="#ffffff" stroke="#dc3545" stroke-width="1" rx="5"/>
+    <text x="330" y="525" text-anchor="middle" font-size="12" font-weight="bold" fill="#721c24">権限管理</text>
+    <text x="260" y="545" font-size="11" fill="#333">役割に応じた</text>
+    <text x="260" y="560" font-size="11" fill="#333">段階的許可</text>
+  </g>
+  
+  <g>
+    <rect x="430" y="505" width="160" height="60" fill="#ffffff" stroke="#dc3545" stroke-width="1" rx="5"/>
+    <text x="510" y="525" text-anchor="middle" font-size="12" font-weight="bold" fill="#721c24">ログ・監査</text>
+    <text x="440" y="545" font-size="11" fill="#333">連携と処理の</text>
+    <text x="440" y="560" font-size="11" fill="#333">追跡可能性</text>
+  </g>
+  
+  <g>
+    <rect x="610" y="505" width="120" height="60" fill="#ffffff" stroke="#dc3545" stroke-width="1" rx="5"/>
+    <text x="670" y="525" text-anchor="middle" font-size="12" font-weight="bold" fill="#721c24">設計前提</text>
+    <text x="620" y="545" font-size="11" fill="#333">管理と制御を</text>
+    <text x="620" y="560" font-size="11" fill="#333">前提に設計</text>
+  </g>
+  
+  <!-- 矢印マーカーの定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
