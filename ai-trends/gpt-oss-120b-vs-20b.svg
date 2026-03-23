@@ -1,0 +1,90 @@
+<svg width="100%" viewBox="0 0 680 460" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>text { font-family: sans-serif; }</style>
+  </defs>
+
+  <text x="340" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">GPT-OSS 120B vs 20B : 企業向けオープンLLM比較</text>
+
+  <rect x="48" y="46" width="200" height="32" rx="6" fill="#534AB7"/>
+  <text x="148" y="67" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">GPT-OSS-120B</text>
+
+  <rect x="268" y="46" width="144" height="32" rx="6" fill="#888780"/>
+  <text x="340" y="67" text-anchor="middle" font-size="12" fill="#fff">比較項目</text>
+
+  <rect x="432" y="46" width="200" height="32" rx="6" fill="#0F6E56"/>
+  <text x="532" y="67" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">GPT-OSS-20B</text>
+
+  <!-- Row 1 -->
+  <rect x="48" y="88" width="200" height="42" rx="4" fill="#EEEDFE"/>
+  <text x="148" y="105" text-anchor="middle" font-size="13" font-weight="500" fill="#26215C">約120Bパラメータ</text>
+  <text x="148" y="122" text-anchor="middle" font-size="11" fill="#534AB7">FP16:240GB / 量子化:120GB</text>
+
+  <rect x="268" y="88" width="144" height="42" rx="4" fill="#F1EFE8"/>
+  <text x="340" y="105" text-anchor="middle" font-size="11" fill="#555">パラメータ</text>
+  <text x="340" y="122" text-anchor="middle" font-size="11" fill="#555">VRAM要件</text>
+
+  <rect x="432" y="88" width="200" height="42" rx="4" fill="#E1F5EE"/>
+  <text x="532" y="105" text-anchor="middle" font-size="13" font-weight="500" fill="#04342C">約20Bパラメータ</text>
+  <text x="532" y="122" text-anchor="middle" font-size="11" fill="#0F6E56">FP16:40GB / 量子化:20GB</text>
+
+  <!-- Row 2 -->
+  <rect x="48" y="140" width="200" height="42" rx="4" fill="#EEEDFE"/>
+  <text x="148" y="157" text-anchor="middle" font-size="13" font-weight="500" fill="#26215C">A100 x4 / H100複数枚</text>
+  <text x="148" y="174" text-anchor="middle" font-size="11" fill="#534AB7">大規模クラスター必須</text>
+
+  <rect x="268" y="140" width="144" height="42" rx="4" fill="#F1EFE8"/>
+  <text x="340" y="157" text-anchor="middle" font-size="11" fill="#555">推奨GPU</text>
+  <text x="340" y="174" text-anchor="middle" font-size="11" fill="#555">インフラ規模</text>
+
+  <rect x="432" y="140" width="200" height="42" rx="4" fill="#E1F5EE"/>
+  <text x="532" y="157" text-anchor="middle" font-size="13" font-weight="500" fill="#04342C">L40S / RTX6000 x1枚</text>
+  <text x="532" y="174" text-anchor="middle" font-size="11" fill="#0F6E56">小規模オンプレ対応</text>
+
+  <!-- Row 3 -->
+  <rect x="48" y="192" width="200" height="42" rx="4" fill="#EEEDFE"/>
+  <text x="148" y="209" text-anchor="middle" font-size="13" font-weight="500" fill="#26215C">1,500万〜4,000万円</text>
+  <text x="148" y="226" text-anchor="middle" font-size="11" fill="#534AB7">年間電力・保守数百万円+</text>
+
+  <rect x="268" y="192" width="144" height="42" rx="4" fill="#F1EFE8"/>
+  <text x="340" y="209" text-anchor="middle" font-size="11" fill="#555">初期投資</text>
+  <text x="340" y="226" text-anchor="middle" font-size="11" fill="#555">（サーバー）</text>
+
+  <rect x="432" y="192" width="200" height="42" rx="4" fill="#E1F5EE"/>
+  <text x="532" y="209" text-anchor="middle" font-size="13" font-weight="500" fill="#04342C">150万〜500万円</text>
+  <text x="532" y="226" text-anchor="middle" font-size="11" fill="#0F6E56">PoCに現実的な水準</text>
+
+  <!-- Row 4 -->
+  <rect x="48" y="244" width="200" height="42" rx="4" fill="#EEEDFE"/>
+  <text x="148" y="261" text-anchor="middle" font-size="13" font-weight="500" fill="#26215C">エージェント基盤・高度分析</text>
+  <text x="148" y="278" text-anchor="middle" font-size="11" fill="#534AB7">契約書レビュー・多段階推論</text>
+
+  <rect x="268" y="244" width="144" height="42" rx="4" fill="#F1EFE8"/>
+  <text x="340" y="261" text-anchor="middle" font-size="11" fill="#555">主用途</text>
+  <text x="340" y="278" text-anchor="middle" font-size="11" fill="#555">得意分野</text>
+
+  <rect x="432" y="244" width="200" height="42" rx="4" fill="#E1F5EE"/>
+  <text x="532" y="261" text-anchor="middle" font-size="13" font-weight="500" fill="#04342C">社内FAQ・文書生成</text>
+  <text x="532" y="278" text-anchor="middle" font-size="11" fill="#0F6E56">議事録要約・部門RAG</text>
+
+  <!-- Row 5 -->
+  <rect x="48" y="296" width="200" height="42" rx="4" fill="#EEEDFE"/>
+  <text x="148" y="313" text-anchor="middle" font-size="13" font-weight="500" fill="#26215C">年間API課金数千万円規模</text>
+  <text x="148" y="330" text-anchor="middle" font-size="11" fill="#534AB7">全社AI基盤・閉域網高度分析</text>
+
+  <rect x="268" y="296" width="144" height="42" rx="4" fill="#F1EFE8"/>
+  <text x="340" y="313" text-anchor="middle" font-size="11" fill="#555">向いている</text>
+  <text x="340" y="330" text-anchor="middle" font-size="11" fill="#555">企業タイプ</text>
+
+  <rect x="432" y="296" width="200" height="42" rx="4" fill="#E1F5EE"/>
+  <text x="532" y="313" text-anchor="middle" font-size="13" font-weight="500" fill="#04342C">まず社内LLMを試したい</text>
+  <text x="532" y="330" text-anchor="middle" font-size="11" fill="#0F6E56">予算を抑えてAPI依存を削減</text>
+
+  <!-- 推奨戦略 -->
+  <rect x="48" y="352" width="584" height="56" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="0.8"/>
+  <text x="340" y="372" text-anchor="middle" font-size="13" font-weight="600" fill="#633806">推奨：二段構え戦略</text>
+  <text x="340" y="390" text-anchor="middle" font-size="12" fill="#854F0B">まず 20B でスモールスタート → 用途拡大・コスト効果確認後に 120B へ拡張</text>
+  <text x="340" y="406" text-anchor="middle" font-size="11" fill="#854F0B">オープンLLM = APIの代替ではなく、自社AI基盤という発想へ</text>
+
+  <line x1="250" y1="88" x2="250" y2="338" stroke="#C5C3BD" stroke-width="0.5"/>
+  <line x1="430" y1="88" x2="430" y2="338" stroke="#C5C3BD" stroke-width="0.5"/>
+</svg>
