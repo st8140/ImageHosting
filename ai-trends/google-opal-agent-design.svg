@@ -1,0 +1,85 @@
+<svg width="100%" viewBox="0 0 680 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <style>
+      text { font-family: sans-serif; fill: #1a1a1a; }
+      .th { font-size: 14px; font-weight: 500; fill: #1a1a1a; }
+      .ts { font-size: 12px; fill: #555; }
+      .label-w { fill: #fff; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="340" y="36" text-anchor="middle" font-size="16" font-weight="600" fill="#1a1a1a">Google Opal に学ぶ：企業向けAIエージェント設計の新定石</text>
+
+  <!-- ── ゴール入力 ── -->
+  <rect x="270" y="60" width="140" height="44" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8"/>
+  <text class="th" x="340" y="87" text-anchor="middle" dominant-baseline="central">ゴール・制約の入力</text>
+
+  <!-- 矢印 ゴール→オーケストレーション -->
+  <line x1="340" y1="104" x2="340" y2="132" stroke="#555" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- ── オーケストレーション層 ── -->
+  <rect x="160" y="132" width="360" height="52" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1"/>
+  <text class="th" x="340" y="153" text-anchor="middle" dominant-baseline="central">オーケストレーション層（Opal agent step）</text>
+  <text class="ts" x="340" y="173" text-anchor="middle" dominant-baseline="central">意図 → 計画 → 実行 → 対話 → 修正</text>
+
+  <!-- 矢印 オーケストレーション→3要素 -->
+  <line x1="235" y1="184" x2="155" y2="228" stroke="#7F77DD" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="340" y1="184" x2="340" y2="228" stroke="#7F77DD" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="445" y1="184" x2="525" y2="228" stroke="#7F77DD" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- ── 3要素 ── -->
+  <!-- 動的ルーティング -->
+  <rect x="48" y="228" width="172" height="60" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.8"/>
+  <text class="th" x="134" y="251" text-anchor="middle" dominant-baseline="central">動的ルーティング</text>
+  <text class="ts" x="134" y="271" text-anchor="middle" dominant-baseline="central">自然言語で条件を定義</text>
+
+  <!-- 永続メモリ -->
+  <rect x="254" y="228" width="172" height="60" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8"/>
+  <text class="th" x="340" y="251" text-anchor="middle" dominant-baseline="central">永続メモリ</text>
+  <text class="ts" x="340" y="271" text-anchor="middle" dominant-baseline="central">セッション横断・マルチユーザー</text>
+
+  <!-- Human-in-the-loop -->
+  <rect x="460" y="228" width="172" height="60" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.8"/>
+  <text class="th" x="546" y="251" text-anchor="middle" dominant-baseline="central">Human-in-the-loop</text>
+  <text class="ts" x="546" y="271" text-anchor="middle" dominant-baseline="central">不確実性に応じた動的介入</text>
+
+  <!-- ── 統制設計セクション ── -->
+  <rect x="48" y="316" width="584" height="80" rx="10" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.8" stroke-dasharray="5 3"/>
+  <text class="th" x="340" y="338" text-anchor="middle" dominant-baseline="central">統制設計（レールを外す際の必須要件）</text>
+  <text class="ts" x="145" y="360" text-anchor="middle">ツールのホワイトリスト化</text>
+  <text class="ts" x="340" y="360" text-anchor="middle">データ境界・アクセス制御</text>
+  <text class="ts" x="535" y="360" text-anchor="middle">行動ログ・監査設計</text>
+  <text class="ts" x="145" y="378" text-anchor="middle">失敗時フォールバック</text>
+  <text class="ts" x="340" y="378" text-anchor="middle">コスト上限・アラート</text>
+  <text class="ts" x="535" y="378" text-anchor="middle">直しやすい設計</text>
+
+  <!-- 矢印 3要素→統制 -->
+  <line x1="134" y1="288" x2="160" y2="316" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="340" y1="288" x2="340" y2="316" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="546" y1="288" x2="520" y2="316" stroke="#999" stroke-width="1" marker-end="url(#arrow)"/>
+
+  <!-- ── 役割分担 ── -->
+  <rect x="48" y="424" width="272" height="68" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.8"/>
+  <text class="th" x="184" y="446" text-anchor="middle" dominant-baseline="central">業務部門が担う</text>
+  <text class="ts" x="184" y="465" text-anchor="middle">ルーティング条件・ゴール定義</text>
+  <text class="ts" x="184" y="481" text-anchor="middle">例外方針・成果物フォーマット</text>
+
+  <rect x="360" y="424" width="272" height="68" rx="8" fill="#F1EFE8" stroke="#5F5E5A" stroke-width="0.8"/>
+  <text class="th" x="496" y="446" text-anchor="middle" dominant-baseline="central">IT・エンジニアが担う</text>
+  <text class="ts" x="496" y="465" text-anchor="middle">データ接続・権限・監査ログ</text>
+  <text class="ts" x="496" y="481" text-anchor="middle">モデル選定・コスト上限</text>
+
+  <line x1="184" y1="408" x2="184" y2="424" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+  <line x1="496" y1="408" x2="496" y2="424" stroke="#888" stroke-width="1" marker-end="url(#arrow)"/>
+  <rect x="136" y="396" width="96" height="20" rx="4" fill="#D3D1C7"/>
+  <text class="ts" x="184" y="410" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">開発の民主化</text>
+  <rect x="448" y="396" width="96" height="20" rx="4" fill="#D3D1C7"/>
+  <text class="ts" x="496" y="410" text-anchor="middle" dominant-baseline="central" fill="#2C2C2A">ガバナンス強化</text>
+
+  <line x1="320" y1="460" x2="360" y2="460" stroke="#888" stroke-width="1" stroke-dasharray="4 2"/>
+  <text class="ts" x="340" y="455" text-anchor="middle">役割分担</text>
+</svg>
