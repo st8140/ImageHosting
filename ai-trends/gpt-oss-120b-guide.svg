@@ -1,0 +1,93 @@
+<svg width="100%" viewBox="0 0 680 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>text { font-family: sans-serif; }</style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="340" y="28" text-anchor="middle" font-size="15" font-weight="700" fill="#1a1a1a">GPT-OSS-120B：企業がAIを「持つ」時代への入口</text>
+
+  <!-- ── LLMサイズ階層 ── -->
+  <text x="340" y="56" text-anchor="middle" font-size="12" fill="#555">パラメータ規模と位置づけ</text>
+
+  <!-- 7B〜13B -->
+  <rect x="48" y="66" width="140" height="38" rx="6" fill="#D3D1C7" stroke="#888780" stroke-width="0.5"/>
+  <text x="118" y="84" text-anchor="middle" font-size="12" font-weight="500" fill="#2C2C2A">7B〜13B</text>
+  <text x="118" y="98" text-anchor="middle" font-size="11" fill="#444441">軽量・エッジ向け</text>
+
+  <!-- 70B -->
+  <rect x="200" y="66" width="140" height="38" rx="6" fill="#B4B2A9" stroke="#5F5E5A" stroke-width="0.5"/>
+  <text x="270" y="84" text-anchor="middle" font-size="12" font-weight="500" fill="#2C2C2A">70B</text>
+  <text x="270" y="98" text-anchor="middle" font-size="11" fill="#2C2C2A">実用上位モデル</text>
+
+  <!-- 120B ★ -->
+  <rect x="352" y="58" width="152" height="52" rx="8" fill="#534AB7" stroke="#3C3489" stroke-width="1"/>
+  <text x="428" y="78" text-anchor="middle" font-size="13" font-weight="600" fill="#fff">120B ★</text>
+  <text x="428" y="96" text-anchor="middle" font-size="11" fill="#CECBF6">企業本格導入クラス</text>
+
+  <!-- 300B+ -->
+  <rect x="516" y="66" width="116" height="38" rx="6" fill="#888780" stroke="#5F5E5A" stroke-width="0.5"/>
+  <text x="574" y="84" text-anchor="middle" font-size="12" font-weight="500" fill="#fff">300B+</text>
+  <text x="574" y="98" text-anchor="middle" font-size="11" fill="#D3D1C7">フロンティア級</text>
+
+  <!-- ── 3大メリット ── -->
+  <text x="340" y="134" text-anchor="middle" font-size="12" fill="#555">GPT-OSS-120B 導入の3大メリット</text>
+
+  <!-- メリット①機密 -->
+  <rect x="48" y="144" width="180" height="68" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8"/>
+  <text x="138" y="165" text-anchor="middle" font-size="13" font-weight="600" fill="#04342C">① 機密データ保護</text>
+  <text x="138" y="183" text-anchor="middle" font-size="11" fill="#0F6E56">クローズド環境で運用</text>
+  <text x="138" y="200" text-anchor="middle" font-size="11" fill="#0F6E56">設計・顧客・契約情報が外に出ない</text>
+
+  <!-- メリット②ベンダーロックイン -->
+  <rect x="250" y="144" width="180" height="68" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.8"/>
+  <text x="340" y="165" text-anchor="middle" font-size="13" font-weight="600" fill="#26215C">② ベンダー依存回避</text>
+  <text x="340" y="183" text-anchor="middle" font-size="11" fill="#534AB7">モデルを自社資産として保有</text>
+  <text x="340" y="200" text-anchor="middle" font-size="11" fill="#534AB7">価格改定・仕様変更リスク排除</text>
+
+  <!-- メリット③RAG -->
+  <rect x="452" y="144" width="180" height="68" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.8"/>
+  <text x="542" y="165" text-anchor="middle" font-size="13" font-weight="600" fill="#412402">③ RAGとの親和性</text>
+  <text x="542" y="183" text-anchor="middle" font-size="11" fill="#854F0B">社内文書・SharePoint連携</text>
+  <text x="542" y="200" text-anchor="middle" font-size="11" fill="#854F0B">社内FAQ・ナレッジ活用</text>
+
+  <!-- ── インフラ要件 ── -->
+  <rect x="48" y="232" width="584" height="56" rx="8" fill="#F1EFE8" stroke="#888780" stroke-width="0.5"/>
+  <text x="340" y="252" text-anchor="middle" font-size="12" font-weight="600" fill="#2C2C2A">必要インフラ（120B フル精度運用）</text>
+  <text x="175" y="272" text-anchor="middle" font-size="11" fill="#444441">GPU: A100 80GB × 4〜8枚</text>
+  <text x="340" y="272" text-anchor="middle" font-size="11" fill="#444441">VRAM: 320GB以上</text>
+  <text x="506" y="272" text-anchor="middle" font-size="11" fill="#444441">初期投資: 3,000万〜6,000万円</text>
+
+  <!-- ── 向いている業種 ── -->
+  <text x="340" y="314" text-anchor="middle" font-size="12" fill="#555">特に適している業種</text>
+
+  <rect x="48" y="322" width="128" height="52" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="112" y="342" text-anchor="middle" font-size="12" font-weight="500" fill="#042C53">製造業</text>
+  <text x="112" y="358" text-anchor="middle" font-size="11" fill="#185FA5">設計書・仕様書分析</text>
+  <text x="112" y="372" text-anchor="middle" font-size="11" fill="#185FA5">技術文書生成</text>
+
+  <rect x="188" y="322" width="128" height="52" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="252" y="342" text-anchor="middle" font-size="12" font-weight="500" fill="#042C53">金融業</text>
+  <text x="252" y="358" text-anchor="middle" font-size="11" fill="#185FA5">契約書分析</text>
+  <text x="252" y="372" text-anchor="middle" font-size="11" fill="#185FA5">リスク文書処理</text>
+
+  <rect x="328" y="322" width="128" height="52" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="392" y="342" text-anchor="middle" font-size="12" font-weight="500" fill="#042C53">医療</text>
+  <text x="392" y="358" text-anchor="middle" font-size="11" fill="#185FA5">症例データ要約</text>
+  <text x="392" y="372" text-anchor="middle" font-size="11" fill="#185FA5">研究支援</text>
+
+  <rect x="468" y="322" width="164" height="52" rx="6" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="550" y="342" text-anchor="middle" font-size="12" font-weight="500" fill="#042C53">研究機関</text>
+  <text x="550" y="358" text-anchor="middle" font-size="11" fill="#185FA5">論文生成支援</text>
+  <text x="550" y="372" text-anchor="middle" font-size="11" fill="#185FA5">データ分析補助</text>
+
+  <!-- ── 導入判断 ── -->
+  <rect x="48" y="392" width="584" height="56" rx="8" fill="#FCEBEB" stroke="#A32D2D" stroke-width="0.8" stroke-dasharray="5 3"/>
+  <text x="340" y="412" text-anchor="middle" font-size="12" font-weight="600" fill="#501313">導入前チェック：以下が当てはまるか？</text>
+  <text x="175" y="432" text-anchor="middle" font-size="11" fill="#791F1F">機密性が高いデータを扱う</text>
+  <text x="340" y="432" text-anchor="middle" font-size="11" fill="#791F1F">長期的にAIを中核に据える計画</text>
+  <text x="510" y="432" text-anchor="middle" font-size="11" fill="#791F1F">コスト構造を自社で握りたい</text>
+  <text x="340" y="446" text-anchor="middle" font-size="10" fill="#A32D2D">→ 3つ揃えばGPT-OSS-120Bは有力な選択肢</text>
+</svg>
